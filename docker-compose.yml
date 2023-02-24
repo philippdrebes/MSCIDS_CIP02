@@ -1,0 +1,11 @@
+version: '3'
+services:
+        notebook:
+          image: jupyter/datascience-notebook:${ARG_TAG}
+          container_name: 'notebook'
+          extra_hosts:
+            - "host.docker.internal:host-gateway" 
+          volumes:
+            - ./:/home/jovyan/work
+          ports:
+            - 8888:8888
