@@ -1,7 +1,7 @@
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
+
 from extractors.BaseExtractor import BaseExtractor
+import extractors.Selenium
 
 
 class KomootExtractor(BaseExtractor):
@@ -13,12 +13,8 @@ class KomootExtractor(BaseExtractor):
 
     def extract(self):
         super().extract()
-        option = webdriver.ChromeOptions()
 
-        option.binary_location = r'/Applications/Brave Browser.app/Contents/MacOS/Brave Browser'
-        driverService = Service('/opt/homebrew/bin/chromedriver')
-
-        driver = webdriver.Chrome(service=driverService, options=option)
+        driver = extractors.Selenium.initialize_new_instance()
 
         driver.get("https://search.dreb.es/?q=ping")
         pong = driver.find_element(By.XPATH, '/html/body/pre')
