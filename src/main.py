@@ -1,8 +1,11 @@
+from extractors import SeleniumUtil
 from extractors.KomootExtractor import KomootExtractor
 
 
 def main():
-    komoot = KomootExtractor()
+    driver = Selenium.initialize_new_instance()
+
+    komoot = KomootExtractor(driver)
     komoot.extract()
 
 

@@ -1,3 +1,6 @@
 mypy
 pandas
 selenium
+bs4
+types-beautifulsoup4
+pdoc3
