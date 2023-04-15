@@ -26,32 +26,35 @@
 <summary>
 <span>Expand source code</span>
 </summary>
-<pre><code class="python">from selenium.webdriver.chrome.webdriver import WebDriver
+<pre><code class="python">import logging
+
+from selenium.common import NoSuchElementException, ElementNotInteractableException
+from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
+
+from src.extractors import SeleniumUtil
 
 
 class KomootExtractor:
     &#34;&#34;&#34;
-    A class used to represent an Animal
-
-    ...
+    A class used to extract data from Komoot.com
 
     Attributes
     ----------
-    says_str : str
-        a formatted string to print out what the animal says
-    name : str
-        the name of the animal
-    sound : str
-        the sound that the animal makes
-    num_legs : int
-        the number of legs the animal has (default 4)
+    base_url : str
+        a url string used as the base url for all other urls
+    discover_url : str
+        A combination of the base_url and the discover url
+    regions_url : str
+        A combination of the base_url and the regions url
+    tours_url : str
+        A combination of the base_url and the tours url
 
     Methods
     -------
-    says(sound=None)
-        Prints the animals name and what sound it makes
+    extract()
+        Extracts all relevant data from the Komoot website.
     &#34;&#34;&#34;
 
     base_url = &#39;https://www.komoot.com&#39;
@@ -63,7 +66,7 @@ class KomootExtractor:
         &#39;discover&#39;: {
             &#39;filter_btn&#39;: &#39;//*[@id=&#34;pageMountNode&#34;]/div/div[3]/div[2]/div/div/main/section[1]/div[2]/div/div[1]/div/div/button[1]&#39;,
             &#39;filter_country_ch_lbl&#39;: &#39;//*[@id=&#34;pageMountNode&#34;]/div/div[3]/div[2]/div/div/main/section[1]/div[2]/div/div[2]/div/div[2]/div/div[13]/label&#39;,
-            &#39;next_page_btn&#39;: &#39;//*[@id=&#34;pageMountNode&#34;]/div/div[3]/div[2]/div/div/main/section[1]/div[2]/div/div[3]/div[3]/button&#39;,
+            &#39;next_page_btn&#39;: &#39;/html/body/div[1]/div/div[3]/div[2]/div/div/main/section[1]/div[2]/div/div[4]/div[3]/button&#39;,
         },
         &#39;region&#39;: {
             &#39;tour_title_attr&#39;: &#39;data-test-id=&#34;tour_title&#34;&#39;,
@@ -76,76 +79,107 @@ class KomootExtractor:
             &#39;speed_lbl&#39;: &#39;//*[@id=&#34;pageMountNode&#34;]/div/div[3]/div[2]/div/div/div/div/div[1]/div/div/div/div[2]/div/div[2]/div/div[4]/div/div/div[2]/div/div/span&#39;,
             &#39;elevation_up_lbl&#39;: &#39;//*[@id=&#34;pageMountNode&#34;]/div/div[3]/div[2]/div/div/div/div/div[1]/div/div/div/div[2]/div/div[2]/div/div[5]/div/div/div[2]/span&#39;,
             &#39;elevation_down_lbl&#39;: &#39;//*[@id=&#34;pageMountNode&#34;]/div/div[3]/div[2]/div/div/div/div/div[1]/div/div/div/div[2]/div/div[2]/div/div[6]/div/div/div[2]/span&#39;,
+        },
+        &#39;cookie_banner&#39;: {
+            &#39;accept_btn&#39;: &#39;//*[@id=&#34;gdpr_banner_portal&#34;]/div/div/div/div[2]/div/div[1]/button&#39;,
+            &#39;decline_btn&#39;: &#39;//*[@id=&#34;gdpr_banner_portal&#34;]/div/div/div/div[2]/div/div[3]/button&#39;
         }
     }
 
-    def __init__(self, driver: WebDriver):
+    def __init__(self, driver: WebDriver) -&gt; None:
         &#34;&#34;&#34;
         Parameters
         ----------
-        name : str
-            The name of the animal
-        sound : str
-            The sound the animal makes
-        num_legs : int, optional
-            The number of legs the animal (default is 4)
+        driver : WebDriver
+            The Selenium WebDriver used to interact with the browser
         &#34;&#34;&#34;
         self.driver = driver
+        self.logger = logging.getLogger(__name__)
 
-    def extract(self):
-        &#34;&#34;&#34;Prints what the animals name is and what sound it makes.
+    def extract(self) -&gt; None:
+        &#34;&#34;&#34;Extracts all relevant data from the Komoot website.&#34;&#34;&#34;
 
-        If the argument `sound` isn&#39;t passed in, the default Animal
-        sound is used.
+        self.logger.info(&#39;Starting Komoot extraction...&#39;)
+        self.extract_ch_regions()
 
-        Parameters
-        ----------
-        sound : str, optional
-            The sound the animal makes (default is None)
-
-        Raises
-        ------
-        NotImplementedError
-            If no sound is set for the animal or passed in as a
-            parameter.
-        &#34;&#34;&#34;
-
-        print(&#39;Starting Komoot extraction&#39;)
-        self.driver.get(&#34;https://search.dreb.es/?q=ping&#34;)
-        pong = self.driver.find_element(By.XPATH, &#39;/html/body/pre&#39;)
-
-        print(pong.text)
-
-        self.extract_regions()
-
-    def extract_regions(self):
-        &#34;&#34;&#34;Prints what the animals name is and what sound it makes.
-
-        If the argument `sound` isn&#39;t passed in, the default Animal
-        sound is used.
-
-        Parameters
-        ----------
-        sound : str, optional
-            The sound the animal makes (default is None)
+    def extract_ch_regions(self) -&gt; None:
+        &#34;&#34;&#34;Extracts all regions from the Komoot discover page.
 
         Raises
         ------
         NotImplementedError
-            If no sound is set for the animal or passed in as a
-            parameter.  
+            If no region is passed in
         &#34;&#34;&#34;
+
+        self.logger.info(&#39;Extracting all regions in Switzerland...&#39;)
 
         self.driver.get(self.discover_url)
+        self.handle_cookie_banner()
 
         # Filter region to Switzerland
+        self.logger.debug(&#39;Filter region to Switzerland...&#39;)
+        # SeleniumUtil.scroll_to_position(self.driver, 250)
         self.driver.find_element(By.XPATH, self.page_objects[&#39;discover&#39;][&#39;filter_btn&#39;]).click()
         self.driver.find_element(By.XPATH, self.page_objects[&#39;discover&#39;][&#39;filter_country_ch_lbl&#39;]).click()
 
         # Get all regions
-        page_source = self.driver.page_source
+        while True:
+            self.extract_region_page()
 
-        soup = BeautifulSoup(page_source, &#39;lxml&#39;)</code></pre>
+            # Check if there is a next page button
+            try:
+                SeleniumUtil.scroll_to_position(self.driver, 900)
+                self.driver.find_element(By.XPATH, self.page_objects[&#39;discover&#39;][&#39;next_page_btn&#39;]).click()
+            except ElementNotInteractableException:
+                self.logger.info(&#39;No more pages to extract.&#39;)
+                break
+            except Exception:
+                self.logger.error(&#39;Could not extract page.&#39;)
+                break
+
+    def extract_region_page(self) -&gt; None:
+        &#34;&#34;&#34;Extracts all regions from a discover page.
+
+        Raises
+        ------
+        Exception
+            If the current url does not contain the discover url
+        &#34;&#34;&#34;
+
+        # if current url does not contain the discover url
+        # then we are not on a discover page
+        # and should raise an exception
+        if self.discover_url not in self.driver.current_url:
+            err = &#39;Could not extract regions from a discover page, as current url is not a discover page.&#39;
+            self.logger.error(err)
+            raise Exception(err)
+
+        page_source = self.driver.page_source
+        soup = BeautifulSoup(page_source, &#39;lxml&#39;)
+
+    def handle_cookie_banner(self, accept: bool = False) -&gt; None:
+        &#34;&#34;&#34;Handles the cookie banner if it appears.
+
+        Parameters
+        ----------
+        accept : bool
+            If true, the accept button will be clicked. If false, the decline button will be clicked.
+            default: False
+        &#34;&#34;&#34;
+
+        btn = self.page_objects[&#39;cookie_banner&#39;][&#39;decline_btn&#39;]
+        if accept:
+            btn = self.page_objects[&#39;cookie_banner&#39;][&#39;accept_btn&#39;]
+
+        self.logger.info(&#39;Searching for and handling cookie banner...&#39;)
+
+        self.driver.implicitly_wait(20)  # Wait for the cookie banner to appear
+
+        try:
+            self.driver.find_element(By.XPATH, btn).click()
+            self.logger.info(&#39;Cookies {}&#39;.format(&#39;accepted&#39; if accept else &#39;declined&#39;))
+        except:
+            self.logger.info(&#39;No cookie banner could be found&#39;)</code></pre>
 </details>
 </section>
 <section>
@@ -162,30 +196,25 @@ class KomootExtractor:
 <span>(</span><span>driver: selenium.webdriver.chrome.webdriver.WebDriver)</span>
 </code></dt>
 <dd>
-<div class="desc"><p>A class used to represent an Animal</p>
-<p>&hellip;</p>
+<div class="desc"><p>A class used to extract data from Komoot.com</p>
 <h2 id="attributes">Attributes</h2>
 <dl>
-<dt><strong><code>says_str</code></strong> :&ensp;<code>str</code></dt>
-<dd>a formatted string to print out what the animal says</dd>
-<dt><strong><code>name</code></strong> :&ensp;<code>str</code></dt>
-<dd>the name of the animal</dd>
-<dt><strong><code>sound</code></strong> :&ensp;<code>str</code></dt>
-<dd>the sound that the animal makes</dd>
-<dt><strong><code>num_legs</code></strong> :&ensp;<code>int</code></dt>
-<dd>the number of legs the animal has (default 4)</dd>
+<dt><strong><code>base_url</code></strong> :&ensp;<code>str</code></dt>
+<dd>a url string used as the base url for all other urls</dd>
+<dt><strong><code>discover_url</code></strong> :&ensp;<code>str</code></dt>
+<dd>A combination of the base_url and the discover url</dd>
+<dt><strong><code>regions_url</code></strong> :&ensp;<code>str</code></dt>
+<dd>A combination of the base_url and the regions url</dd>
+<dt><strong><code>tours_url</code></strong> :&ensp;<code>str</code></dt>
+<dd>A combination of the base_url and the tours url</dd>
 </dl>
 <h2 id="methods">Methods</h2>
-<p>says(sound=None)
-Prints the animals name and what sound it makes</p>
+<p>extract()
+Extracts all relevant data from the Komoot website.</p>
 <h2 id="parameters">Parameters</h2>
 <dl>
-<dt><strong><code>name</code></strong> :&ensp;<code>str</code></dt>
-<dd>The name of the animal</dd>
-<dt><strong><code>sound</code></strong> :&ensp;<code>str</code></dt>
-<dd>The sound the animal makes</dd>
-<dt><strong><code>num_legs</code></strong> :&ensp;<code>int</code>, optional</dt>
-<dd>The number of legs the animal (default is 4)</dd>
+<dt><strong><code>driver</code></strong> :&ensp;<code>WebDriver</code></dt>
+<dd>The Selenium WebDriver used to interact with the browser</dd>
 </dl></div>
 <details class="source">
 <summary>
@@ -193,25 +222,23 @@ Prints the animals name and what sound it makes</p>
 </summary>
 <pre><code class="python">class KomootExtractor:
     &#34;&#34;&#34;
-    A class used to represent an Animal
-
-    ...
+    A class used to extract data from Komoot.com
 
     Attributes
     ----------
-    says_str : str
-        a formatted string to print out what the animal says
-    name : str
-        the name of the animal
-    sound : str
-        the sound that the animal makes
-    num_legs : int
-        the number of legs the animal has (default 4)
+    base_url : str
+        a url string used as the base url for all other urls
+    discover_url : str
+        A combination of the base_url and the discover url
+    regions_url : str
+        A combination of the base_url and the regions url
+    tours_url : str
+        A combination of the base_url and the tours url
 
     Methods
     -------
-    says(sound=None)
-        Prints the animals name and what sound it makes
+    extract()
+        Extracts all relevant data from the Komoot website.
     &#34;&#34;&#34;
 
     base_url = &#39;https://www.komoot.com&#39;
@@ -223,7 +250,7 @@ Prints the animals name and what sound it makes</p>
         &#39;discover&#39;: {
             &#39;filter_btn&#39;: &#39;//*[@id=&#34;pageMountNode&#34;]/div/div[3]/div[2]/div/div/main/section[1]/div[2]/div/div[1]/div/div/button[1]&#39;,
             &#39;filter_country_ch_lbl&#39;: &#39;//*[@id=&#34;pageMountNode&#34;]/div/div[3]/div[2]/div/div/main/section[1]/div[2]/div/div[2]/div/div[2]/div/div[13]/label&#39;,
-            &#39;next_page_btn&#39;: &#39;//*[@id=&#34;pageMountNode&#34;]/div/div[3]/div[2]/div/div/main/section[1]/div[2]/div/div[3]/div[3]/button&#39;,
+            &#39;next_page_btn&#39;: &#39;/html/body/div[1]/div/div[3]/div[2]/div/div/main/section[1]/div[2]/div/div[4]/div[3]/button&#39;,
         },
         &#39;region&#39;: {
             &#39;tour_title_attr&#39;: &#39;data-test-id=&#34;tour_title&#34;&#39;,
@@ -236,76 +263,107 @@ Prints the animals name and what sound it makes</p>
             &#39;speed_lbl&#39;: &#39;//*[@id=&#34;pageMountNode&#34;]/div/div[3]/div[2]/div/div/div/div/div[1]/div/div/div/div[2]/div/div[2]/div/div[4]/div/div/div[2]/div/div/span&#39;,
             &#39;elevation_up_lbl&#39;: &#39;//*[@id=&#34;pageMountNode&#34;]/div/div[3]/div[2]/div/div/div/div/div[1]/div/div/div/div[2]/div/div[2]/div/div[5]/div/div/div[2]/span&#39;,
             &#39;elevation_down_lbl&#39;: &#39;//*[@id=&#34;pageMountNode&#34;]/div/div[3]/div[2]/div/div/div/div/div[1]/div/div/div/div[2]/div/div[2]/div/div[6]/div/div/div[2]/span&#39;,
+        },
+        &#39;cookie_banner&#39;: {
+            &#39;accept_btn&#39;: &#39;//*[@id=&#34;gdpr_banner_portal&#34;]/div/div/div/div[2]/div/div[1]/button&#39;,
+            &#39;decline_btn&#39;: &#39;//*[@id=&#34;gdpr_banner_portal&#34;]/div/div/div/div[2]/div/div[3]/button&#39;
         }
     }
 
-    def __init__(self, driver: WebDriver):
+    def __init__(self, driver: WebDriver) -&gt; None:
         &#34;&#34;&#34;
         Parameters
         ----------
-        name : str
-            The name of the animal
-        sound : str
-            The sound the animal makes
-        num_legs : int, optional
-            The number of legs the animal (default is 4)
+        driver : WebDriver
+            The Selenium WebDriver used to interact with the browser
         &#34;&#34;&#34;
         self.driver = driver
+        self.logger = logging.getLogger(__name__)
 
-    def extract(self):
-        &#34;&#34;&#34;Prints what the animals name is and what sound it makes.
+    def extract(self) -&gt; None:
+        &#34;&#34;&#34;Extracts all relevant data from the Komoot website.&#34;&#34;&#34;
 
-        If the argument `sound` isn&#39;t passed in, the default Animal
-        sound is used.
+        self.logger.info(&#39;Starting Komoot extraction...&#39;)
+        self.extract_ch_regions()
 
-        Parameters
-        ----------
-        sound : str, optional
-            The sound the animal makes (default is None)
-
-        Raises
-        ------
-        NotImplementedError
-            If no sound is set for the animal or passed in as a
-            parameter.
-        &#34;&#34;&#34;
-
-        print(&#39;Starting Komoot extraction&#39;)
-        self.driver.get(&#34;https://search.dreb.es/?q=ping&#34;)
-        pong = self.driver.find_element(By.XPATH, &#39;/html/body/pre&#39;)
-
-        print(pong.text)
-
-        self.extract_regions()
-
-    def extract_regions(self):
-        &#34;&#34;&#34;Prints what the animals name is and what sound it makes.
-
-        If the argument `sound` isn&#39;t passed in, the default Animal
-        sound is used.
-
-        Parameters
-        ----------
-        sound : str, optional
-            The sound the animal makes (default is None)
+    def extract_ch_regions(self) -&gt; None:
+        &#34;&#34;&#34;Extracts all regions from the Komoot discover page.
 
         Raises
         ------
         NotImplementedError
-            If no sound is set for the animal or passed in as a
-            parameter.  
+            If no region is passed in
         &#34;&#34;&#34;
+
+        self.logger.info(&#39;Extracting all regions in Switzerland...&#39;)
 
         self.driver.get(self.discover_url)
+        self.handle_cookie_banner()
 
         # Filter region to Switzerland
+        self.logger.debug(&#39;Filter region to Switzerland...&#39;)
+        # SeleniumUtil.scroll_to_position(self.driver, 250)
         self.driver.find_element(By.XPATH, self.page_objects[&#39;discover&#39;][&#39;filter_btn&#39;]).click()
         self.driver.find_element(By.XPATH, self.page_objects[&#39;discover&#39;][&#39;filter_country_ch_lbl&#39;]).click()
 
         # Get all regions
-        page_source = self.driver.page_source
+        while True:
+            self.extract_region_page()
 
-        soup = BeautifulSoup(page_source, &#39;lxml&#39;)</code></pre>
+            # Check if there is a next page button
+            try:
+                SeleniumUtil.scroll_to_position(self.driver, 900)
+                self.driver.find_element(By.XPATH, self.page_objects[&#39;discover&#39;][&#39;next_page_btn&#39;]).click()
+            except ElementNotInteractableException:
+                self.logger.info(&#39;No more pages to extract.&#39;)
+                break
+            except Exception:
+                self.logger.error(&#39;Could not extract page.&#39;)
+                break
+
+    def extract_region_page(self) -&gt; None:
+        &#34;&#34;&#34;Extracts all regions from a discover page.
+
+        Raises
+        ------
+        Exception
+            If the current url does not contain the discover url
+        &#34;&#34;&#34;
+
+        # if current url does not contain the discover url
+        # then we are not on a discover page
+        # and should raise an exception
+        if self.discover_url not in self.driver.current_url:
+            err = &#39;Could not extract regions from a discover page, as current url is not a discover page.&#39;
+            self.logger.error(err)
+            raise Exception(err)
+
+        page_source = self.driver.page_source
+        soup = BeautifulSoup(page_source, &#39;lxml&#39;)
+
+    def handle_cookie_banner(self, accept: bool = False) -&gt; None:
+        &#34;&#34;&#34;Handles the cookie banner if it appears.
+
+        Parameters
+        ----------
+        accept : bool
+            If true, the accept button will be clicked. If false, the decline button will be clicked.
+            default: False
+        &#34;&#34;&#34;
+
+        btn = self.page_objects[&#39;cookie_banner&#39;][&#39;decline_btn&#39;]
+        if accept:
+            btn = self.page_objects[&#39;cookie_banner&#39;][&#39;accept_btn&#39;]
+
+        self.logger.info(&#39;Searching for and handling cookie banner...&#39;)
+
+        self.driver.implicitly_wait(20)  # Wait for the cookie banner to appear
+
+        try:
+            self.driver.find_element(By.XPATH, btn).click()
+            self.logger.info(&#39;Cookies {}&#39;.format(&#39;accepted&#39; if accept else &#39;declined&#39;))
+        except:
+            self.logger.info(&#39;No cookie banner could be found&#39;)</code></pre>
 </details>
 <h3>Class variables</h3>
 <dl>
@@ -333,104 +391,144 @@ Prints the animals name and what sound it makes</p>
 <h3>Methods</h3>
 <dl>
 <dt id="extractors.KomootExtractor.KomootExtractor.extract"><code class="name flex">
-<span>def <span class="ident">extract</span></span>(<span>self)</span>
+<span>def <span class="ident">extract</span></span>(<span>self) ‑> None</span>
 </code></dt>
 <dd>
-<div class="desc"><p>Prints what the animals name is and what sound it makes.</p>
-<p>If the argument <code>sound</code> isn't passed in, the default Animal
-sound is used.</p>
-<h2 id="parameters">Parameters</h2>
-<dl>
-<dt><strong><code>sound</code></strong> :&ensp;<code>str</code>, optional</dt>
-<dd>The sound the animal makes (default is None)</dd>
-</dl>
-<h2 id="raises">Raises</h2>
-<dl>
-<dt><code>NotImplementedError</code></dt>
-<dd>If no sound is set for the animal or passed in as a
-parameter.</dd>
-</dl></div>
+<div class="desc"><p>Extracts all relevant data from the Komoot website.</p></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
-<pre><code class="python">def extract(self):
-    &#34;&#34;&#34;Prints what the animals name is and what sound it makes.
+<pre><code class="python">def extract(self) -&gt; None:
+    &#34;&#34;&#34;Extracts all relevant data from the Komoot website.&#34;&#34;&#34;
 
-    If the argument `sound` isn&#39;t passed in, the default Animal
-    sound is used.
-
-    Parameters
-    ----------
-    sound : str, optional
-        The sound the animal makes (default is None)
-
-    Raises
-    ------
-    NotImplementedError
-        If no sound is set for the animal or passed in as a
-        parameter.
-    &#34;&#34;&#34;
-
-    print(&#39;Starting Komoot extraction&#39;)
-    self.driver.get(&#34;https://search.dreb.es/?q=ping&#34;)
-    pong = self.driver.find_element(By.XPATH, &#39;/html/body/pre&#39;)
-
-    print(pong.text)
-
-    self.extract_regions()</code></pre>
+    self.logger.info(&#39;Starting Komoot extraction...&#39;)
+    self.extract_ch_regions()</code></pre>
 </details>
 </dd>
-<dt id="extractors.KomootExtractor.KomootExtractor.extract_regions"><code class="name flex">
-<span>def <span class="ident">extract_regions</span></span>(<span>self)</span>
+<dt id="extractors.KomootExtractor.KomootExtractor.extract_ch_regions"><code class="name flex">
+<span>def <span class="ident">extract_ch_regions</span></span>(<span>self) ‑> None</span>
 </code></dt>
 <dd>
-<div class="desc"><p>Prints what the animals name is and what sound it makes.</p>
-<p>If the argument <code>sound</code> isn't passed in, the default Animal
-sound is used.</p>
-<h2 id="parameters">Parameters</h2>
-<dl>
-<dt><strong><code>sound</code></strong> :&ensp;<code>str</code>, optional</dt>
-<dd>The sound the animal makes (default is None)</dd>
-</dl>
+<div class="desc"><p>Extracts all regions from the Komoot discover page.</p>
 <h2 id="raises">Raises</h2>
 <dl>
 <dt><code>NotImplementedError</code></dt>
-<dd>If no sound is set for the animal or passed in as a
-parameter.</dd>
+<dd>If no region is passed in</dd>
 </dl></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
-<pre><code class="python">def extract_regions(self):
-    &#34;&#34;&#34;Prints what the animals name is and what sound it makes.
-
-    If the argument `sound` isn&#39;t passed in, the default Animal
-    sound is used.
-
-    Parameters
-    ----------
-    sound : str, optional
-        The sound the animal makes (default is None)
+<pre><code class="python">def extract_ch_regions(self) -&gt; None:
+    &#34;&#34;&#34;Extracts all regions from the Komoot discover page.
 
     Raises
     ------
     NotImplementedError
-        If no sound is set for the animal or passed in as a
-        parameter.  
+        If no region is passed in
     &#34;&#34;&#34;
 
+    self.logger.info(&#39;Extracting all regions in Switzerland...&#39;)
+
     self.driver.get(self.discover_url)
+    self.handle_cookie_banner()
 
     # Filter region to Switzerland
+    self.logger.debug(&#39;Filter region to Switzerland...&#39;)
+    # SeleniumUtil.scroll_to_position(self.driver, 250)
     self.driver.find_element(By.XPATH, self.page_objects[&#39;discover&#39;][&#39;filter_btn&#39;]).click()
     self.driver.find_element(By.XPATH, self.page_objects[&#39;discover&#39;][&#39;filter_country_ch_lbl&#39;]).click()
 
     # Get all regions
-    page_source = self.driver.page_source
+    while True:
+        self.extract_region_page()
 
+        # Check if there is a next page button
+        try:
+            SeleniumUtil.scroll_to_position(self.driver, 900)
+            self.driver.find_element(By.XPATH, self.page_objects[&#39;discover&#39;][&#39;next_page_btn&#39;]).click()
+        except ElementNotInteractableException:
+            self.logger.info(&#39;No more pages to extract.&#39;)
+            break
+        except Exception:
+            self.logger.error(&#39;Could not extract page.&#39;)
+            break</code></pre>
+</details>
+</dd>
+<dt id="extractors.KomootExtractor.KomootExtractor.extract_region_page"><code class="name flex">
+<span>def <span class="ident">extract_region_page</span></span>(<span>self) ‑> None</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Extracts all regions from a discover page.</p>
+<h2 id="raises">Raises</h2>
+<dl>
+<dt><code>Exception</code></dt>
+<dd>If the current url does not contain the discover url</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def extract_region_page(self) -&gt; None:
+    &#34;&#34;&#34;Extracts all regions from a discover page.
+
+    Raises
+    ------
+    Exception
+        If the current url does not contain the discover url
+    &#34;&#34;&#34;
+
+    # if current url does not contain the discover url
+    # then we are not on a discover page
+    # and should raise an exception
+    if self.discover_url not in self.driver.current_url:
+        err = &#39;Could not extract regions from a discover page, as current url is not a discover page.&#39;
+        self.logger.error(err)
+        raise Exception(err)
+
+    page_source = self.driver.page_source
     soup = BeautifulSoup(page_source, &#39;lxml&#39;)</code></pre>
+</details>
+</dd>
+<dt id="extractors.KomootExtractor.KomootExtractor.handle_cookie_banner"><code class="name flex">
+<span>def <span class="ident">handle_cookie_banner</span></span>(<span>self, accept: bool = False) ‑> None</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Handles the cookie banner if it appears.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>accept</code></strong> :&ensp;<code>bool</code></dt>
+<dd>If true, the accept button will be clicked. If false, the decline button will be clicked.
+default: False</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def handle_cookie_banner(self, accept: bool = False) -&gt; None:
+    &#34;&#34;&#34;Handles the cookie banner if it appears.
+
+    Parameters
+    ----------
+    accept : bool
+        If true, the accept button will be clicked. If false, the decline button will be clicked.
+        default: False
+    &#34;&#34;&#34;
+
+    btn = self.page_objects[&#39;cookie_banner&#39;][&#39;decline_btn&#39;]
+    if accept:
+        btn = self.page_objects[&#39;cookie_banner&#39;][&#39;accept_btn&#39;]
+
+    self.logger.info(&#39;Searching for and handling cookie banner...&#39;)
+
+    self.driver.implicitly_wait(20)  # Wait for the cookie banner to appear
+
+    try:
+        self.driver.find_element(By.XPATH, btn).click()
+        self.logger.info(&#39;Cookies {}&#39;.format(&#39;accepted&#39; if accept else &#39;declined&#39;))
+    except:
+        self.logger.info(&#39;No cookie banner could be found&#39;)</code></pre>
 </details>
 </dd>
 </dl>
@@ -453,11 +551,13 @@ parameter.</dd>
 <ul>
 <li>
 <h4><code><a title="extractors.KomootExtractor.KomootExtractor" href="#extractors.KomootExtractor.KomootExtractor">KomootExtractor</a></code></h4>
-<ul class="two-column">
+<ul class="">
 <li><code><a title="extractors.KomootExtractor.KomootExtractor.base_url" href="#extractors.KomootExtractor.KomootExtractor.base_url">base_url</a></code></li>
 <li><code><a title="extractors.KomootExtractor.KomootExtractor.discover_url" href="#extractors.KomootExtractor.KomootExtractor.discover_url">discover_url</a></code></li>
 <li><code><a title="extractors.KomootExtractor.KomootExtractor.extract" href="#extractors.KomootExtractor.KomootExtractor.extract">extract</a></code></li>
-<li><code><a title="extractors.KomootExtractor.KomootExtractor.extract_regions" href="#extractors.KomootExtractor.KomootExtractor.extract_regions">extract_regions</a></code></li>
+<li><code><a title="extractors.KomootExtractor.KomootExtractor.extract_ch_regions" href="#extractors.KomootExtractor.KomootExtractor.extract_ch_regions">extract_ch_regions</a></code></li>
+<li><code><a title="extractors.KomootExtractor.KomootExtractor.extract_region_page" href="#extractors.KomootExtractor.KomootExtractor.extract_region_page">extract_region_page</a></code></li>
+<li><code><a title="extractors.KomootExtractor.KomootExtractor.handle_cookie_banner" href="#extractors.KomootExtractor.KomootExtractor.handle_cookie_banner">handle_cookie_banner</a></code></li>
 <li><code><a title="extractors.KomootExtractor.KomootExtractor.page_objects" href="#extractors.KomootExtractor.KomootExtractor.page_objects">page_objects</a></code></li>
 <li><code><a title="extractors.KomootExtractor.KomootExtractor.regions_url" href="#extractors.KomootExtractor.KomootExtractor.regions_url">regions_url</a></code></li>
 <li><code><a title="extractors.KomootExtractor.KomootExtractor.tours_url" href="#extractors.KomootExtractor.KomootExtractor.tours_url">tours_url</a></code></li>

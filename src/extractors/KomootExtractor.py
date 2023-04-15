@@ -1,5 +1,6 @@
 import logging
 
+from selenium.common import NoSuchElementException, ElementNotInteractableException
 from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
@@ -37,7 +38,7 @@ class KomootExtractor:
         'discover': {
             'filter_btn': '//*[@id="pageMountNode"]/div/div[3]/div[2]/div/div/main/section[1]/div[2]/div/div[1]/div/div/button[1]',
             'filter_country_ch_lbl': '//*[@id="pageMountNode"]/div/div[3]/div[2]/div/div/main/section[1]/div[2]/div/div[2]/div/div[2]/div/div[13]/label',
-            'next_page_btn': '//*[@id="pageMountNode"]/div/div[3]/div[2]/div/div/main/section[1]/div[2]/div/div[3]/div[3]/button',
+            'next_page_btn': '/html/body/div[1]/div/div[3]/div[2]/div/div/main/section[1]/div[2]/div/div[4]/div[3]/button',
         },
         'region': {
             'tour_title_attr': 'data-test-id="tour_title"',
@@ -94,8 +95,38 @@ class KomootExtractor:
         self.driver.find_element(By.XPATH, self.page_objects['discover']['filter_country_ch_lbl']).click()
 
         # Get all regions
-        page_source = self.driver.page_source
+        while True:
+            self.extract_region_page()
 
+            # Check if there is a next page button
+            try:
+                SeleniumUtil.scroll_to_position(self.driver, 900)
+                self.driver.find_element(By.XPATH, self.page_objects['discover']['next_page_btn']).click()
+            except ElementNotInteractableException:
+                self.logger.info('No more pages to extract.')
+                break
+            except Exception:
+                self.logger.error('Could not extract page.')
+                break
+
+    def extract_region_page(self) -> None:
+        """Extracts all regions from a discover page.
+
+        Raises
+        ------
+        Exception
+            If the current url does not contain the discover url
+        """
+
+        # if current url does not contain the discover url
+        # then we are not on a discover page
+        # and should raise an exception
+        if self.discover_url not in self.driver.current_url:
+            err = 'Could not extract regions from a discover page, as current url is not a discover page.'
+            self.logger.error(err)
+            raise Exception(err)
+
+        page_source = self.driver.page_source
         soup = BeautifulSoup(page_source, 'lxml')
 
     def handle_cookie_banner(self, accept: bool = False) -> None:
@@ -120,4 +151,4 @@ class KomootExtractor:
             self.driver.find_element(By.XPATH, btn).click()
             self.logger.info('Cookies {}'.format('accepted' if accept else 'declined'))
         except:
-            self.logger.info('No cookie banner could found')
+            self.logger.info('No cookie banner could be found')
