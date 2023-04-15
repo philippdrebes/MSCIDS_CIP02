@@ -1,6 +1,6 @@
 import logging
 
-from selenium.common import NoSuchElementException, ElementNotInteractableException
+from selenium.common import ElementNotInteractableException
 from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup

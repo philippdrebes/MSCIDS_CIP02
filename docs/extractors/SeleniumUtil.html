@@ -38,6 +38,15 @@ logger = logging.getLogger(__name__)
 
 
 def initialize_new_instance() -&gt; WebDriver:
+    &#34;&#34;&#34;Initializes a new instance of the Chrome WebDriver.
+    If the platform is macOS, the Brave browser is used instead of Chrome.
+    Also, it is assumed that the chromedriver was installed via Homebrew.
+
+    Returns
+    -------
+    WebDriver
+        The initialized WebDriver
+    &#34;&#34;&#34;
     logger.info(&#39;Initializing new instance of Chrome&#39;)
     plt = platform.system()
     if plt == &#39;Darwin&#39;:
@@ -57,11 +66,29 @@ def initialize_new_instance() -&gt; WebDriver:
 
 
 def scroll_to_bottom(driver: WebDriver) -&gt; None:
+    &#34;&#34;&#34;Scrolls to the bottom of the page.
+
+    Parameters
+    ----------
+    driver : WebDriver
+        The Selenium WebDriver used to interact with the browser
+    &#34;&#34;&#34;
     scroll_to_position(driver, &#39;document.body.scrollHeight&#39;)
     logger.debug(&#39;Scrolled to bottom of page&#39;)
 
 
 def scroll_to_position(driver: WebDriver, position: Union[int, str]) -&gt; None:
+    &#34;&#34;&#34;Scrolls to the given position.
+
+    Parameters
+    ----------
+    driver : WebDriver
+        The Selenium WebDriver used to interact with the browser
+    position : int or str
+        The position to scroll to.
+        If int, the position in pixels.
+        If str, for example &#39;document.body.scrollHeight&#39;.
+    &#34;&#34;&#34;
     driver.execute_script(f&#34;window.scrollTo(0, {position});&#34;)
     logger.debug(&#39;Scrolled to position %s&#39;, position)</code></pre>
 </details>
@@ -77,12 +104,28 @@ def scroll_to_position(driver: WebDriver, position: Union[int, str]) -&gt; None:
 <span>def <span class="ident">initialize_new_instance</span></span>(<span>) ‑> selenium.webdriver.chrome.webdriver.WebDriver</span>
 </code></dt>
 <dd>
-<div class="desc"></div>
+<div class="desc"><p>Initializes a new instance of the Chrome WebDriver.
+If the platform is macOS, the Brave browser is used instead of Chrome.
+Also, it is assumed that the chromedriver was installed via Homebrew.</p>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>WebDriver</code></dt>
+<dd>The initialized WebDriver</dd>
+</dl></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
 <pre><code class="python">def initialize_new_instance() -&gt; WebDriver:
+    &#34;&#34;&#34;Initializes a new instance of the Chrome WebDriver.
+    If the platform is macOS, the Brave browser is used instead of Chrome.
+    Also, it is assumed that the chromedriver was installed via Homebrew.
+
+    Returns
+    -------
+    WebDriver
+        The initialized WebDriver
+    &#34;&#34;&#34;
     logger.info(&#39;Initializing new instance of Chrome&#39;)
     plt = platform.system()
     if plt == &#39;Darwin&#39;:
@@ -105,12 +148,24 @@ def scroll_to_position(driver: WebDriver, position: Union[int, str]) -&gt; None:
 <span>def <span class="ident">scroll_to_bottom</span></span>(<span>driver: selenium.webdriver.chrome.webdriver.WebDriver) ‑> None</span>
 </code></dt>
 <dd>
-<div class="desc"></div>
+<div class="desc"><p>Scrolls to the bottom of the page.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>driver</code></strong> :&ensp;<code>WebDriver</code></dt>
+<dd>The Selenium WebDriver used to interact with the browser</dd>
+</dl></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
 <pre><code class="python">def scroll_to_bottom(driver: WebDriver) -&gt; None:
+    &#34;&#34;&#34;Scrolls to the bottom of the page.
+
+    Parameters
+    ----------
+    driver : WebDriver
+        The Selenium WebDriver used to interact with the browser
+    &#34;&#34;&#34;
     scroll_to_position(driver, &#39;document.body.scrollHeight&#39;)
     logger.debug(&#39;Scrolled to bottom of page&#39;)</code></pre>
 </details>
@@ -119,12 +174,32 @@ def scroll_to_position(driver: WebDriver, position: Union[int, str]) -&gt; None:
 <span>def <span class="ident">scroll_to_position</span></span>(<span>driver: selenium.webdriver.chrome.webdriver.WebDriver, position: Union[int, str]) ‑> None</span>
 </code></dt>
 <dd>
-<div class="desc"></div>
+<div class="desc"><p>Scrolls to the given position.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>driver</code></strong> :&ensp;<code>WebDriver</code></dt>
+<dd>The Selenium WebDriver used to interact with the browser</dd>
+<dt><strong><code>position</code></strong> :&ensp;<code>int</code> or <code>str</code></dt>
+<dd>The position to scroll to.
+If int, the position in pixels.
+If str, for example 'document.body.scrollHeight'.</dd>
+</dl></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
 <pre><code class="python">def scroll_to_position(driver: WebDriver, position: Union[int, str]) -&gt; None:
+    &#34;&#34;&#34;Scrolls to the given position.
+
+    Parameters
+    ----------
+    driver : WebDriver
+        The Selenium WebDriver used to interact with the browser
+    position : int or str
+        The position to scroll to.
+        If int, the position in pixels.
+        If str, for example &#39;document.body.scrollHeight&#39;.
+    &#34;&#34;&#34;
     driver.execute_script(f&#34;window.scrollTo(0, {position});&#34;)
     logger.debug(&#39;Scrolled to position %s&#39;, position)</code></pre>
 </details>
