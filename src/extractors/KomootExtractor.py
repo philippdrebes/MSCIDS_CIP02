@@ -1,6 +1,10 @@
+import logging
+
 from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
+
+from src.extractors import SeleniumUtil
 
 
 class KomootExtractor:
@@ -46,10 +50,14 @@ class KomootExtractor:
             'speed_lbl': '//*[@id="pageMountNode"]/div/div[3]/div[2]/div/div/div/div/div[1]/div/div/div/div[2]/div/div[2]/div/div[4]/div/div/div[2]/div/div/span',
             'elevation_up_lbl': '//*[@id="pageMountNode"]/div/div[3]/div[2]/div/div/div/div/div[1]/div/div/div/div[2]/div/div[2]/div/div[5]/div/div/div[2]/span',
             'elevation_down_lbl': '//*[@id="pageMountNode"]/div/div[3]/div[2]/div/div/div/div/div[1]/div/div/div/div[2]/div/div[2]/div/div[6]/div/div/div[2]/span',
+        },
+        'cookie_banner': {
+            'accept_btn': '//*[@id="gdpr_banner_portal"]/div/div/div/div[2]/div/div[1]/button',
+            'decline_btn': '//*[@id="gdpr_banner_portal"]/div/div/div/div[2]/div/div[3]/button'
         }
     }
 
-    def __init__(self, driver: WebDriver):
+    def __init__(self, driver: WebDriver) -> None:
         """
         Parameters
         ----------
@@ -57,19 +65,15 @@ class KomootExtractor:
             The Selenium WebDriver used to interact with the browser
         """
         self.driver = driver
+        self.logger = logging.getLogger(__name__)
 
-    def extract(self):
+    def extract(self) -> None:
         """Extracts all relevant data from the Komoot website."""
 
-        print('Starting Komoot extraction')
-        self.driver.get("https://search.dreb.es/?q=ping")
-        pong = self.driver.find_element(By.XPATH, '/html/body/pre')
-
-        print(pong.text)
-
+        self.logger.info('Starting Komoot extraction...')
         self.extract_ch_regions()
 
-    def extract_ch_regions(self):
+    def extract_ch_regions(self) -> None:
         """Extracts all regions from the Komoot discover page.
 
         Raises
@@ -78,9 +82,14 @@ class KomootExtractor:
             If no region is passed in
         """
 
+        self.logger.info('Extracting all regions in Switzerland...')
+
         self.driver.get(self.discover_url)
+        self.handle_cookie_banner()
 
         # Filter region to Switzerland
+        self.logger.debug('Filter region to Switzerland...')
+        # SeleniumUtil.scroll_to_position(self.driver, 250)
         self.driver.find_element(By.XPATH, self.page_objects['discover']['filter_btn']).click()
         self.driver.find_element(By.XPATH, self.page_objects['discover']['filter_country_ch_lbl']).click()
 
@@ -88,3 +97,27 @@ class KomootExtractor:
         page_source = self.driver.page_source
 
         soup = BeautifulSoup(page_source, 'lxml')
+
+    def handle_cookie_banner(self, accept: bool = False) -> None:
+        """Handles the cookie banner if it appears.
+
+        Parameters
+        ----------
+        accept : bool
+            If true, the accept button will be clicked. If false, the decline button will be clicked.
+            default: False
+        """
+
+        btn = self.page_objects['cookie_banner']['decline_btn']
+        if accept:
+            btn = self.page_objects['cookie_banner']['accept_btn']
+
+        self.logger.info('Searching for and handling cookie banner...')
+
+        self.driver.implicitly_wait(20)  # Wait for the cookie banner to appear
+
+        try:
+            self.driver.find_element(By.XPATH, btn).click()
+            self.logger.info('Cookies {}'.format('accepted' if accept else 'declined'))
+        except:
+            self.logger.info('No cookie banner could found')

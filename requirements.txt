@@ -3,4 +3,5 @@ pandas
 selenium
 bs4
 types-beautifulsoup4
+lxml
 pdoc3
