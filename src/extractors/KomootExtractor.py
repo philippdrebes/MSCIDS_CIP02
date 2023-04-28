@@ -1,12 +1,13 @@
 import logging
 from itertools import islice
 from time import sleep
+from types import NoneType
 
 import pandas as pd
 from typing import Dict, List
 
 from bs4 import BeautifulSoup
-from selenium.common import ElementNotInteractableException
+from selenium.common import ElementNotInteractableException, NoSuchElementException
 from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium.webdriver.common.by import By
 
@@ -40,6 +41,8 @@ class KomootExtractor:
     region_url = base_url + '/guide'
     route_url = base_url + '/smarttour'
     output_path = './extractors/output/komoot_stage_1.csv'
+    max_retries = 3
+    retry_wait_seconds = 5
 
     page_objects = {
         'discover': {
@@ -85,17 +88,32 @@ class KomootExtractor:
         self.logger.info('Starting Komoot extraction...')
         regions = self.extract_ch_regions()
 
-        routes: List[KomootRoute] = []
+        existing = [(KomootRoute(
+            row.link,
+            row.title,
+            row.difficulty,
+            row.distance,
+            row.elevation_up,
+            row.elevation_down,
+            row.duration,
+            row.speed,
+        )) for index, row in pd.read_csv(self.output_path).iterrows()]
+
+        routes: List[KomootRoute] = existing
 
         # split regions dictionary into chunks of 10
         for chunk in self.chunks(regions, 10):
             for region in chunk:
                 for route in self.extract_routes_from_region(region, chunk[region]):
-                    routes.append(self.extract_route(route))
-                    sleep(5)  # Sleep 5 seconds to avoid getting rate limited
+
+                    # check if route is already in existing routes by comparing the link
+                    if route not in [r.link for r in routes]:
+                        routes.append(self.extract_route(route))
+                        sleep(5)  # Sleep 5 seconds to avoid getting rate limited
+
             self.logger.info('Saving current state...')
             self.save(routes)  # Save routes after each chunk to avoid losing data
-            sleep(120)  # Sleep 120 seconds to avoid getting rate limited
+            sleep(120)  # Sleep for 120 seconds to avoid getting rate limited
 
         self.logger.info('Finished Komoot extraction.')
 
@@ -216,13 +234,16 @@ class KomootExtractor:
         self.logger.info('Extracted {} routes from region: {}'.format(len(routes), region))
         return routes
 
-    def extract_route(self, url: str) -> KomootRoute:
+    def extract_route(self, url: str, retry_count: int = 0) -> KomootRoute:
         """Extracts all relevant data from a tour page.
 
         Parameters
         ----------
         url : str
             The url of the tour page
+        retry_count : int (optional)
+            The number of retries
+            default: 0
 
         Raises
         ------
@@ -239,20 +260,34 @@ class KomootExtractor:
 
         self.logger.info('Extracting data from tour: {}'.format(url))
 
-        self.driver.get(url)
+        try:
+            self.driver.get(url)
 
-        title = self.driver.find_element(By.XPATH, self.page_objects['tour']['title_lbl']).text.strip()
-        difficulty = self.driver.find_element(By.XPATH, self.page_objects['tour']['difficulty_lbl']).text.strip()
-        distance = self.driver.find_element(By.XPATH, self.page_objects['tour']['distance_lbl']).text.strip()
-        elevation_up = self.driver.find_element(By.XPATH, self.page_objects['tour']['elevation_up_lbl']).text.strip()
-        elevation_down = self.driver.find_element(By.XPATH,
-                                                  self.page_objects['tour']['elevation_down_lbl']).text.strip()
-        duration = self.driver.find_element(By.XPATH, self.page_objects['tour']['duration_lbl']).text.strip()
-        speed = self.driver.find_element(By.XPATH, self.page_objects['tour']['speed_lbl']).text.strip()
+            title = self.driver.find_element(By.XPATH, self.page_objects['tour']['title_lbl']).text.strip()
+            difficulty = self.driver.find_element(By.XPATH, self.page_objects['tour']['difficulty_lbl']).text.strip()
+            distance = self.driver.find_element(By.XPATH, self.page_objects['tour']['distance_lbl']).text.strip()
+            elevation_up = self.driver.find_element(By.XPATH,
+                                                    self.page_objects['tour']['elevation_up_lbl']).text.strip()
+            elevation_down = self.driver.find_element(By.XPATH,
+                                                      self.page_objects['tour']['elevation_down_lbl']).text.strip()
+            duration = self.driver.find_element(By.XPATH, self.page_objects['tour']['duration_lbl']).text.strip()
+            speed = self.driver.find_element(By.XPATH, self.page_objects['tour']['speed_lbl']).text.strip()
 
-        self.logger.info('Extracted data from tour: {} -> {}'.format(title, url))
+            self.logger.info('Extracted data from tour: {} -> {}'.format(title, url))
 
-        return KomootRoute(url, title, difficulty, distance, elevation_up, elevation_down, duration, speed)
+            return KomootRoute(url, title, difficulty, distance, elevation_up, elevation_down, duration, speed)
+        except Exception as e:
+            self.logger.error('Could not extract data from tour: {}'.format(url))
+            self.logger.error(e)
+            if retry_count < self.max_retries:
+                wait_seconds = self.retry_wait_seconds ** (retry_count + 1)
+
+                self.logger.info('Retrying in {} seconds...'.format(wait_seconds))
+                sleep(wait_seconds)
+                return self.extract_route(url, retry_count + 1)
+            else:
+                self.logger.info('Max retries exceeded. Skipping...')
+                return None
 
     def handle_cookie_banner(self, accept: bool = False) -> None:
         """Handles the cookie banner if it appears.
