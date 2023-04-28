@@ -1,0 +1,1 @@
+# https://mariadb.com/resources/blog/using-sqlalchemy-with-mariadb-connector-python-part-1/
