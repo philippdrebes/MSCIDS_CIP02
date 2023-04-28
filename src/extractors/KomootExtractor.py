@@ -1,4 +1,7 @@
 import logging
+from time import sleep
+
+import pandas as pd
 from typing import Dict, List
 
 from bs4 import BeautifulSoup
@@ -7,6 +10,7 @@ from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium.webdriver.common.by import By
 
 from src.extractors import SeleniumUtil
+from src.model.Komoot.Route import KomootRoute
 
 
 class KomootExtractor:
@@ -19,7 +23,7 @@ class KomootExtractor:
         a url string used as the base url for all other urls
     discover_url : str
         A combination of the base_url and the discover url
-    regions_url : str
+    region_url : str
         A combination of the base_url and the regions url
     tours_url : str
         A combination of the base_url and the tours url
@@ -32,8 +36,9 @@ class KomootExtractor:
 
     base_url = 'https://www.komoot.com'
     discover_url = base_url + '/discover/hiking-trails'
-    regions_url = base_url + '/guide'
-    tours_url = base_url + '/discover/hiking-trails/germany/bavaria'
+    region_url = base_url + '/guide'
+    route_url = base_url + '/smarttour'
+    output_path = 'output/komoot_stage_1.csv'
 
     page_objects = {
         'discover': {
@@ -79,10 +84,18 @@ class KomootExtractor:
         self.logger.info('Starting Komoot extraction...')
         regions = self.extract_ch_regions()
 
+        routes: List[KomootRoute] = []
+
         for region in regions:
-            self.extract_routes_from_region(region, regions[region])
+            for route in self.extract_routes_from_region(region, regions[region]):
+                routes.append(self.extract_route(route))
+                sleep(5)  # Sleep 5 seconds to avoid getting rate limited
 
         self.logger.info('Finished Komoot extraction.')
+
+        self.logger.info('Saving Komoot data...')
+        self.save(routes)
+        self.logger.info('Saved Komoot data.')
 
     def extract_ch_regions(self) -> Dict[str, str]:
         """Extracts all regions from the Komoot discover page. """
@@ -128,8 +141,7 @@ class KomootExtractor:
         """
 
         # if current url does not contain the discover url
-        # then we are not on a discover page
-        # and should raise an exception
+        # then we are not on a discover page and should raise an exception
         if self.discover_url not in self.driver.current_url:
             err = 'Could not extract regions from a discover page, as current url is not a discover page.'
             self.logger.error(err)
@@ -174,10 +186,9 @@ class KomootExtractor:
             If the current url does not contain the region url
         """
 
-        # if current url does not contain the discover url
-        # then we are not on a discover page
-        # and should raise an exception
-        if self.regions_url not in url:
+        # if current url does not contain the region url
+        # then we are not on a region page and should raise an exception
+        if self.region_url not in url:
             err = 'Could not extract routes from a region page, as current url is not a region page.'
             self.logger.error(err)
             raise Exception(err)
@@ -198,6 +209,44 @@ class KomootExtractor:
 
         self.logger.info('Extracted {} routes from region: {}'.format(len(routes), region))
         return routes
+
+    def extract_route(self, url: str) -> KomootRoute:
+        """Extracts all relevant data from a tour page.
+
+        Parameters
+        ----------
+        url : str
+            The url of the tour page
+
+        Raises
+        ------
+        Exception
+            If the current url does not contain the route url
+        """
+
+        # if current url does not contain the route url
+        # then we are not on a route page and should raise an exception
+        if self.route_url not in url:
+            err = 'Could not extract routes from a region page, as current url is not a region page.'
+            self.logger.error(err)
+            raise Exception(err)
+
+        self.logger.info('Extracting data from tour: {}'.format(url))
+
+        self.driver.get(url)
+
+        title = self.driver.find_element(By.XPATH, self.page_objects['tour']['title_lbl']).text.strip()
+        difficulty = self.driver.find_element(By.XPATH, self.page_objects['tour']['difficulty_lbl']).text.strip()
+        distance = self.driver.find_element(By.XPATH, self.page_objects['tour']['distance_lbl']).text.strip()
+        elevation_up = self.driver.find_element(By.XPATH, self.page_objects['tour']['elevation_up_lbl']).text.strip()
+        elevation_down = self.driver.find_element(By.XPATH,
+                                                  self.page_objects['tour']['elevation_down_lbl']).text.strip()
+        duration = self.driver.find_element(By.XPATH, self.page_objects['tour']['duration_lbl']).text.strip()
+        speed = self.driver.find_element(By.XPATH, self.page_objects['tour']['speed_lbl']).text.strip()
+
+        self.logger.info('Extracted data from tour: {} -> {}'.format(title, url))
+
+        return KomootRoute(url, title, difficulty, distance, elevation_up, elevation_down, duration, speed)
 
     def handle_cookie_banner(self, accept: bool = False) -> None:
         """Handles the cookie banner if it appears.
@@ -220,3 +269,19 @@ class KomootExtractor:
             self.logger.info('Cookies {}'.format('accepted' if accept else 'declined'))
         except:
             self.logger.info('No cookie banner could be found')
+
+    def save(self, routes: List[KomootRoute]) -> None:
+        """Saves the given routes to a csv file.
+
+        Parameters
+        ----------
+        routes : List[KomootRoute]
+            The routes to save
+        """
+
+        self.logger.info('Saving {} routes to csv file...'.format(len(routes)))
+
+        df = pd.DataFrame([x.as_dict() for x in routes])
+        df.to_csv(self.output_path, index=False)
+
+        self.logger.info('Saved {} routes to csv file.'.format(len(routes)))
