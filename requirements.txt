@@ -6,3 +6,4 @@ types-beautifulsoup4
 lxml
 pdoc3
 mariadb
+keyring

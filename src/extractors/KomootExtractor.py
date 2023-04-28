@@ -1,4 +1,5 @@
 import logging
+from itertools import islice
 from time import sleep
 
 import pandas as pd
@@ -38,7 +39,7 @@ class KomootExtractor:
     discover_url = base_url + '/discover/hiking-trails'
     region_url = base_url + '/guide'
     route_url = base_url + '/smarttour'
-    output_path = 'output/komoot_stage_1.csv'
+    output_path = './extractors/output/komoot_stage_1.csv'
 
     page_objects = {
         'discover': {
@@ -86,10 +87,15 @@ class KomootExtractor:
 
         routes: List[KomootRoute] = []
 
-        for region in regions:
-            for route in self.extract_routes_from_region(region, regions[region]):
-                routes.append(self.extract_route(route))
-                sleep(5)  # Sleep 5 seconds to avoid getting rate limited
+        # split regions dictionary into chunks of 10
+        for chunk in self.chunks(regions, 10):
+            for region in chunk:
+                for route in self.extract_routes_from_region(region, chunk[region]):
+                    routes.append(self.extract_route(route))
+                    sleep(5)  # Sleep 5 seconds to avoid getting rate limited
+            self.logger.info('Saving current state...')
+            self.save(routes)  # Save routes after each chunk to avoid losing data
+            sleep(120)  # Sleep 120 seconds to avoid getting rate limited
 
         self.logger.info('Finished Komoot extraction.')
 
@@ -285,3 +291,20 @@ class KomootExtractor:
         df.to_csv(self.output_path, index=False)
 
         self.logger.info('Saved {} routes to csv file.'.format(len(routes)))
+
+    @staticmethod
+    def chunks(data: Dict, size: int = 10):
+        """Yield successive n-sized chunks from data.
+
+        Parameters
+        ----------
+        data : Dict
+            The data to split
+        size : int
+            The size of each chunk
+            default: 10
+        """
+
+        it = iter(data)
+        for i in range(0, len(data), size):
+            yield {k: data[k] for k in islice(it, size)}
