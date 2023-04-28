@@ -1,9 +1,10 @@
 import logging
+from typing import Dict, List
 
+from bs4 import BeautifulSoup
 from selenium.common import ElementNotInteractableException
 from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium.webdriver.common.by import By
-from bs4 import BeautifulSoup
 
 from src.extractors import SeleniumUtil
 
@@ -31,17 +32,20 @@ class KomootExtractor:
 
     base_url = 'https://www.komoot.com'
     discover_url = base_url + '/discover/hiking-trails'
-    regions_url = base_url + '/discover/hiking-trails/germany'
+    regions_url = base_url + '/guide'
     tours_url = base_url + '/discover/hiking-trails/germany/bavaria'
 
     page_objects = {
         'discover': {
             'filter_btn': '//*[@id="pageMountNode"]/div/div[3]/div[2]/div/div/main/section[1]/div[2]/div/div[1]/div/div/button[1]',
+            'filter_close_btn': '//*[@id="pageMountNode"]/div/div[3]/div[2]/div/div/main/section[1]/div[2]/div/div[2]/div/div[3]/div[2]/button/span',
             'filter_country_ch_lbl': '//*[@id="pageMountNode"]/div/div[3]/div[2]/div/div/main/section[1]/div[2]/div/div[2]/div/div[2]/div/div[13]/label',
-            'next_page_btn': '/html/body/div[1]/div/div[3]/div[2]/div/div/main/section[1]/div[2]/div/div[4]/div[3]/button',
+            'next_page_btn': '//*[@id="pageMountNode"]/div/div[3]/div[2]/div/div/main/section[1]/div[2]/div/div[3]/div[3]/button',
+            'first_region_div': '//*[@id="pageMountNode"]/div/div[3]/div[2]/div/div/main/section[1]/div[2]/div/div[2]/div/div[1]/div/div[3]/a'
         },
         'region': {
             'tour_title_attr': 'data-test-id="tour_title"',
+            'tours_list': '#pageMountNode > div > div.tw-bg-beige-light > div.u-bg-desk-column > div > section > div > div > div > div.tw-w-full.lg\:tw-w-3\/5 > div > div > div:nth-child(2) > div > div:nth-child(2) > ul',
         },
         'tour': {
             'title_lbl': '//*[@id="title"]/div[2]/h1',
@@ -66,22 +70,22 @@ class KomootExtractor:
             The Selenium WebDriver used to interact with the browser
         """
         self.driver = driver
+        self.driver.implicitly_wait(15)
         self.logger = logging.getLogger(__name__)
 
     def extract(self) -> None:
         """Extracts all relevant data from the Komoot website."""
 
         self.logger.info('Starting Komoot extraction...')
-        self.extract_ch_regions()
+        regions = self.extract_ch_regions()
 
-    def extract_ch_regions(self) -> None:
-        """Extracts all regions from the Komoot discover page.
+        for region in regions:
+            self.extract_routes_from_region(region, regions[region])
 
-        Raises
-        ------
-        NotImplementedError
-            If no region is passed in
-        """
+        self.logger.info('Finished Komoot extraction.')
+
+    def extract_ch_regions(self) -> Dict[str, str]:
+        """Extracts all regions from the Komoot discover page. """
 
         self.logger.info('Extracting all regions in Switzerland...')
 
@@ -90,17 +94,19 @@ class KomootExtractor:
 
         # Filter region to Switzerland
         self.logger.debug('Filter region to Switzerland...')
-        # SeleniumUtil.scroll_to_position(self.driver, 250)
         self.driver.find_element(By.XPATH, self.page_objects['discover']['filter_btn']).click()
         self.driver.find_element(By.XPATH, self.page_objects['discover']['filter_country_ch_lbl']).click()
+        self.driver.find_element(By.XPATH, self.page_objects['discover']['filter_close_btn']).click()
+
+        regions = {}
 
         # Get all regions
         while True:
-            self.extract_region_page()
+            regions = regions | self.extract_region_page()
 
             # Check if there is a next page button
             try:
-                SeleniumUtil.scroll_to_position(self.driver, 900)
+                SeleniumUtil.scroll_to_position(self.driver, 1500)
                 self.driver.find_element(By.XPATH, self.page_objects['discover']['next_page_btn']).click()
             except ElementNotInteractableException:
                 self.logger.info('No more pages to extract.')
@@ -109,7 +115,10 @@ class KomootExtractor:
                 self.logger.error('Could not extract page.')
                 break
 
-    def extract_region_page(self) -> None:
+        self.logger.info('Extracted {} regions.'.format(len(regions)))
+        return regions
+
+    def extract_region_page(self) -> Dict[str, str]:
         """Extracts all regions from a discover page.
 
         Raises
@@ -126,8 +135,69 @@ class KomootExtractor:
             self.logger.error(err)
             raise Exception(err)
 
+        regions = {}
+
+        self.logger.info('Extracting page: {}'.format(self.driver.current_url))
+
+        # Wait for the regions to appear
+        el = self.driver.find_element(By.XPATH, self.page_objects['discover']['first_region_div'])
+
         page_source = self.driver.page_source
         soup = BeautifulSoup(page_source, 'lxml')
+
+        box = soup.findAll('div', attrs={
+            'class': 'js-href-box c-element-preview c-element-preview tw-overflow-hidden c-element-preview--middle'})
+        for b in box:
+            link = b.find_next('a', attrs={
+                'class': 'tw-text-xl sm:tw-text-2xl tw-max-w-full tw-font-bold u-text-shadow tw-text-white tw-mb-0'})
+            url = self.base_url + link.attrs['href']
+            name = link.text.strip()
+
+            self.logger.info('Extracted region: {} -> {}'.format(name, url))
+            regions[name] = url
+
+        return regions
+
+    def extract_routes_from_region(self, region: str, url: str) -> List[str]:
+        """Extracts all routes from a region page.
+
+        Parameters
+        ----------
+        region : str
+            The name of the region
+        url : str
+            The url of the region page
+
+        Raises
+        ------
+        Exception
+            If the current url does not contain the region url
+        """
+
+        # if current url does not contain the discover url
+        # then we are not on a discover page
+        # and should raise an exception
+        if self.regions_url not in url:
+            err = 'Could not extract routes from a region page, as current url is not a region page.'
+            self.logger.error(err)
+            raise Exception(err)
+
+        self.logger.info('Extracting routes from region: {} -> {}'.format(region, url))
+
+        routes = []
+
+        self.driver.get(url)
+
+        page_source = self.driver.page_source
+        soup = BeautifulSoup(page_source, 'lxml')
+
+        for item in soup.select_one(self.page_objects['region']['tours_list']):
+            link = item.find_next('a')
+            self.logger.info('Extracted route: {}'.format(link.attrs['href']))
+            routes.append(link.attrs['href'])
+
+        self.logger.info('Extracted {} routes from region: {}'.format(len(routes), region))
+        return routes
 
     def handle_cookie_banner(self, accept: bool = False) -> None:
         """Handles the cookie banner if it appears.
@@ -144,8 +214,6 @@ class KomootExtractor:
             btn = self.page_objects['cookie_banner']['accept_btn']
 
         self.logger.info('Searching for and handling cookie banner...')
-
-        self.driver.implicitly_wait(20)  # Wait for the cookie banner to appear
 
         try:
             self.driver.find_element(By.XPATH, btn).click()
