@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Haarnadelkurve ca 1730 m  Obergestelen</name>
+    <desc>Vom Parkplatz in der Haarnadelkurve auf 1730 m folgt man weiter der Fahrstrasse bis zur Verzweigung P 1801 Von dort links ostwrts auf Wegspuren in wenigen Minuten zum Ski und Ferienhaus Obergestelen</desc>
+    <trkseg>
+      <trkpt lat="46.59338353025102" lon="7.436402540363998">
+      </trkpt>
+      <trkpt lat="46.59336753025227" lon="7.436254540374887">
+      </trkpt>
+      <trkpt lat="46.5931635302533" lon="7.435856540363639">
+      </trkpt>
+      <trkpt lat="46.5930395302543" lon="7.435690540372144">
+      </trkpt>
+      <trkpt lat="46.591508530255666" lon="7.434188540367366">
+      </trkpt>
+      <trkpt lat="46.59125553025549" lon="7.433862540363824">
+      </trkpt>
+      <trkpt lat="46.59010553025605" lon="7.432975540354045">
+      </trkpt>
+      <trkpt lat="46.58968853026207" lon="7.432525540347921">
+      </trkpt>
+      <trkpt lat="46.58819353026306" lon="7.431393540348377">
+      </trkpt>
+      <trkpt lat="46.587648530259024" lon="7.43091854033871">
+      </trkpt>
+      <trkpt lat="46.58694253026106" lon="7.43067554033224">
+      </trkpt>
+      <trkpt lat="46.58650353026074" lon="7.430747540332406">
+      </trkpt>
+      <trkpt lat="46.5863576430095" lon="7.431183552091296">
+      </trkpt>
+      <trkpt lat="46.586212431511534" lon="7.432247541485987">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Rifugio Maria Luisa CAI  Lago Nero</name>
+    <desc>Vom Rifugio Maria Luisa auf dem Strsschen zum Lago Castel Westseitig an diesem entlang zu einer Gelndeschwelle und linkshaltend bis oberhalb der Alpe Ghighel Auf dem markierten Weg weiter bis zum Rio Scelp Nun im Zickzack etwas steiler und weiter rechts als in der Landeskarte eingezeichnet an einem Wasserfall vorbei zur winzigen Staumauer beim Ausfluss des Lago Nero</desc>
+    <trkseg>
+      <trkpt lat="46.43450470807927" lon="8.428180580035031">
+      </trkpt>
+      <trkpt lat="46.434584500626585" lon="8.428934128819776">
+      </trkpt>
+      <trkpt lat="46.43481356395023" lon="8.430003997148319">
+      </trkpt>
+      <trkpt lat="46.43428954352309" lon="8.430465453863588">
+      </trkpt>
+      <trkpt lat="46.432923024695846" lon="8.430565384541357">
+      </trkpt>
+      <trkpt lat="46.43246349229743" lon="8.431059226895723">
+      </trkpt>
+      <trkpt lat="46.432407156354905" lon="8.432562323722932">
+      </trkpt>
+      <trkpt lat="46.431645592494334" lon="8.43292439937947">
+      </trkpt>
+      <trkpt lat="46.43157533399087" lon="8.433550255801528">
+      </trkpt>
+      <trkpt lat="46.43118688216891" lon="8.433323243658446">
+      </trkpt>
+      <trkpt lat="46.430781503130596" lon="8.432563770795769">
+      </trkpt>
+      <trkpt lat="46.430151185958415" lon="8.432834561881952">
+      </trkpt>
+      <trkpt lat="46.429698242808506" lon="8.432575153439814">
+      </trkpt>
+      <trkpt lat="46.42926647751381" lon="8.431849052028499">
+      </trkpt>
+      <trkpt lat="46.425481420806896" lon="8.42972161884021">
+      </trkpt>
+      <trkpt lat="46.423008200426025" lon="8.42891150697292">
+      </trkpt>
+      <trkpt lat="46.42107044966939" lon="8.429522682228745">
+      </trkpt>
+      <trkpt lat="46.42011698422567" lon="8.429299738288451">
+      </trkpt>
+      <trkpt lat="46.419723523280574" lon="8.430057451700225">
+      </trkpt>
+      <trkpt lat="46.41957292173878" lon="8.43102512701634">
+      </trkpt>
+      <trkpt lat="46.4192651726876" lon="8.431342105929204">
+      </trkpt>
+      <trkpt lat="46.418579890727884" lon="8.430594609652903">
+      </trkpt>
+      <trkpt lat="46.41806988147437" lon="8.430790814739119">
+      </trkpt>
+      <trkpt lat="46.417345402815165" lon="8.429895637083282">
+      </trkpt>
+      <trkpt lat="46.41626960722356" lon="8.42967046808362">
+      </trkpt>
+      <trkpt lat="46.41424292609572" lon="8.431191714652062">
+      </trkpt>
+      <trkpt lat="46.413375155589506" lon="8.432792604998223">
+      </trkpt>
+      <trkpt lat="46.412508517264314" lon="8.434159344469604">
+      </trkpt>
+      <trkpt lat="46.41157669298192" lon="8.436082821834251">
+      </trkpt>
+      <trkpt lat="46.410324396928424" lon="8.437412453089697">
+      </trkpt>
+      <trkpt lat="46.40928547549957" lon="8.437598830099184">
+      </trkpt>
+      <trkpt lat="46.40913714748168" lon="8.438301020689497">
+      </trkpt>
+      <trkpt lat="46.40892452357056" lon="8.438342024356102">
+      </trkpt>
+      <trkpt lat="46.408666295207354" lon="8.438646106795026">
+      </trkpt>
+      <trkpt lat="46.40840000725055" lon="8.43917308099542">
+      </trkpt>
+      <trkpt lat="46.40811112734599" lon="8.439370699123286">
+      </trkpt>
+      <trkpt lat="46.40808424678024" lon="8.438679066898157">
+      </trkpt>
+      <trkpt lat="46.40766896211866" lon="8.438238789810935">
+      </trkpt>
+      <trkpt lat="46.407220708094876" lon="8.43775918938489">
+      </trkpt>
+      <trkpt lat="46.40729089712926" lon="8.43756751582515">
+      </trkpt>
+      <trkpt lat="46.40649078135833" lon="8.436899477291576">
+      </trkpt>
+      <trkpt lat="46.40587891138372" lon="8.436536044543612">
+      </trkpt>
+      <trkpt lat="46.405605558969036" lon="8.436460306202372">
+      </trkpt>
+      <trkpt lat="46.40537170898848" lon="8.437927896169416">
+      </trkpt>
+      <trkpt lat="46.4054529618851" lon="8.438684009946815">
+      </trkpt>
+      <trkpt lat="46.40484294600094" lon="8.438634194980596">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

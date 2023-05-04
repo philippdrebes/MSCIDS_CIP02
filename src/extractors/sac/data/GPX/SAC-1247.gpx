@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Tschentenalp  Wegverzweigung P 2123</name>
+    <desc>Von der Tschentenalp auf den nahen Schwandflspitz und auf gutem Wanderweg weiter bis zur Wegverzweigung P 2124 auf dem Sdostgrat</desc>
+    <trkseg>
+      <trkpt lat="46.49883952942643" lon="7.54554653895193">
+      </trkpt>
+      <trkpt lat="46.49840352943067" lon="7.545334538945092">
+      </trkpt>
+      <trkpt lat="46.498328529427596" lon="7.545186538952323">
+      </trkpt>
+      <trkpt lat="46.49815452943208" lon="7.544573538954522">
+      </trkpt>
+      <trkpt lat="46.49804352943086" lon="7.544325538951157">
+      </trkpt>
+      <trkpt lat="46.49775252943471" lon="7.544002538956525">
+      </trkpt>
+      <trkpt lat="46.4975775294365" lon="7.543748538955946">
+      </trkpt>
+      <trkpt lat="46.497471529435416" lon="7.54369253895669">
+      </trkpt>
+      <trkpt lat="46.497440529437306" lon="7.543579538953654">
+      </trkpt>
+      <trkpt lat="46.49737052943628" lon="7.543527538945942">
+      </trkpt>
+      <trkpt lat="46.49743252943052" lon="7.543507538950976">
+      </trkpt>
+      <trkpt lat="46.49757052943389" lon="7.543467538958241">
+      </trkpt>
+      <trkpt lat="46.497395529436794" lon="7.543290538946411">
+      </trkpt>
+      <trkpt lat="46.497551529433885" lon="7.543232538957385">
+      </trkpt>
+      <trkpt lat="46.497243529438386" lon="7.543017538951429">
+      </trkpt>
+      <trkpt lat="46.49744752943257" lon="7.5429625389498325">
+      </trkpt>
+      <trkpt lat="46.49720152943209" lon="7.542848538951874">
+      </trkpt>
+      <trkpt lat="46.497025529435454" lon="7.542814538947271">
+      </trkpt>
+      <trkpt lat="46.4970365294351" lon="7.5427115389503685">
+      </trkpt>
+      <trkpt lat="46.49730052944116" lon="7.542488538955016">
+      </trkpt>
+      <trkpt lat="46.4973365294406" lon="7.5419765389641045">
+      </trkpt>
+      <trkpt lat="46.49739052944662" lon="7.5416685389598666">
+      </trkpt>
+      <trkpt lat="46.49756052944889" lon="7.541135538969576">
+      </trkpt>
+      <trkpt lat="46.49814652944999" lon="7.539995538980423">
+      </trkpt>
+      <trkpt lat="46.498264529456016" lon="7.539838538981749">
+      </trkpt>
+      <trkpt lat="46.49867252945923" lon="7.538971538981817">
+      </trkpt>
+      <trkpt lat="46.49880952945954" lon="7.538581538982375">
+      </trkpt>
+      <trkpt lat="46.49888852946417" lon="7.538042538994231">
+      </trkpt>
+      <trkpt lat="46.4989515294678" lon="7.5379745389924135">
+      </trkpt>
+      <trkpt lat="46.49898852946532" lon="7.537843538997238">
+      </trkpt>
+      <trkpt lat="46.49915852947161" lon="7.537540538997778">
+      </trkpt>
+      <trkpt lat="46.499235529469516" lon="7.537209539005344">
+      </trkpt>
+      <trkpt lat="46.49943252947113" lon="7.5366985390039885">
+      </trkpt>
+      <trkpt lat="46.499493529477604" lon="7.536359539009091">
+      </trkpt>
+      <trkpt lat="46.499577529478074" lon="7.536090539010756">
+      </trkpt>
+      <trkpt lat="46.499787529479185" lon="7.53573453901312">
+      </trkpt>
+      <trkpt lat="46.5007035294835" lon="7.534809539020479">
+      </trkpt>
+      <trkpt lat="46.50100152948612" lon="7.534458539032267">
+      </trkpt>
+      <trkpt lat="46.5013975294918" lon="7.533797539037499">
+      </trkpt>
+      <trkpt lat="46.501689529500936" lon="7.533117539040741">
+      </trkpt>
+      <trkpt lat="46.50185552950331" lon="7.532887539047089">
+      </trkpt>
+      <trkpt lat="46.50197552949889" lon="7.532732539050312">
+      </trkpt>
+      <trkpt lat="46.50197552949889" lon="7.532732539050312">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

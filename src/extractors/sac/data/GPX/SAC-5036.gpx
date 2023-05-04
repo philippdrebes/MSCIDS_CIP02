@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Capanna del Forno CAS  Monte Rosso</name>
+    <desc>Die Markierungen fhren zunchst zur sdlich der Fornohtte gelegenen Ebene hinunter ca 2500 m von wo der erste Aufstieg beginnt Mithilfe von 400 Meter Stahlketten durchschreitet man auf Gras und Felsbndern diagonal die Westflanke des Monte Rosso Richtung Sdosten Der Weg ist gelegentlich exponiert aber berall gut abgesichert und gewhrt grandiose Tiefblicke auf den Vadrec del Forno
+Man erreicht schliesslich eine begrnte Schulter Abzweigung zum Passo Vazzeda ca 2840 m Hier befindet man sich frontal gegenber der spektakulren Cima di RossoNordwand Nun biegt man links ab und erklimmt den grasdurchzogenen Grat unterhalb von P 2987 Von diesem leiten die Markierungsstangen in die Sdwestflanke und schliesslich zum Sdgrat des Monte Rosso Nach kurzer leichter Kraxelei erreicht man den Gipfel 3088 m</desc>
+    <trkseg>
+      <trkpt lat="46.32301556279718" lon="9.717881107010358">
+      </trkpt>
+      <trkpt lat="46.322580187982474" lon="9.717603048753102">
+      </trkpt>
+      <trkpt lat="46.32246851976822" lon="9.717338571859688">
+      </trkpt>
+      <trkpt lat="46.32252001086898" lon="9.71701599031222">
+      </trkpt>
+      <trkpt lat="46.3223255858629" lon="9.716838972076923">
+      </trkpt>
+      <trkpt lat="46.322037846005394" lon="9.716826906382328">
+      </trkpt>
+      <trkpt lat="46.32180264051072" lon="9.716440348947536">
+      </trkpt>
+      <trkpt lat="46.32172798168302" lon="9.716125471968946">
+      </trkpt>
+      <trkpt lat="46.321769318285156" lon="9.715412784380248">
+      </trkpt>
+      <trkpt lat="46.32070699822625" lon="9.714536958435607">
+      </trkpt>
+      <trkpt lat="46.32050749151177" lon="9.714164904995943">
+      </trkpt>
+      <trkpt lat="46.32049576951941" lon="9.713852674485318">
+      </trkpt>
+      <trkpt lat="46.3203706658549" lon="9.713808468243853">
+      </trkpt>
+      <trkpt lat="46.32033887228428" lon="9.713599311116464">
+      </trkpt>
+      <trkpt lat="46.32042292943143" lon="9.713446961189524">
+      </trkpt>
+      <trkpt lat="46.320184637199226" lon="9.713282101544161">
+      </trkpt>
+      <trkpt lat="46.32007758538211" lon="9.713296419510627">
+      </trkpt>
+      <trkpt lat="46.32051526130777" lon="9.712697893620016">
+      </trkpt>
+      <trkpt lat="46.32056863555513" lon="9.7124658855331">
+      </trkpt>
+      <trkpt lat="46.32085025193872" lon="9.712334790034616">
+      </trkpt>
+      <trkpt lat="46.32094486342813" lon="9.712104942965237">
+      </trkpt>
+      <trkpt lat="46.32136083633955" lon="9.712005445212725">
+      </trkpt>
+      <trkpt lat="46.321959904699995" lon="9.711303101080592">
+      </trkpt>
+      <trkpt lat="46.322214544070896" lon="9.711170867847267">
+      </trkpt>
+      <trkpt lat="46.322492899167976" lon="9.710753853877211">
+      </trkpt>
+      <trkpt lat="46.32300009239878" lon="9.710593209122205">
+      </trkpt>
+      <trkpt lat="46.323352985111235" lon="9.710049404611233">
+      </trkpt>
+      <trkpt lat="46.32392272223949" lon="9.709462697244131">
+      </trkpt>
+      <trkpt lat="46.32516242291329" lon="9.709124808442983">
+      </trkpt>
+      <trkpt lat="46.32538239380365" lon="9.70892615702675">
+      </trkpt>
+      <trkpt lat="46.3257220032292" lon="9.709044272194802">
+      </trkpt>
+      <trkpt lat="46.325841501189146" lon="9.708919362227805">
+      </trkpt>
+      <trkpt lat="46.32616599044314" lon="9.708893951169122">
+      </trkpt>
+      <trkpt lat="46.326268805953205" lon="9.708703390228013">
+      </trkpt>
+      <trkpt lat="46.32620924641967" lon="9.708532025125962">
+      </trkpt>
+      <trkpt lat="46.326545590429895" lon="9.708364210660056">
+      </trkpt>
+      <trkpt lat="46.32697251661917" lon="9.708615879832957">
+      </trkpt>
+      <trkpt lat="46.327473317552226" lon="9.708325027003257">
+      </trkpt>
+      <trkpt lat="46.32741505860278" lon="9.708088759004399">
+      </trkpt>
+      <trkpt lat="46.32770958310241" lon="9.707919283194633">
+      </trkpt>
+      <trkpt lat="46.32827958211144" lon="9.708059920632294">
+      </trkpt>
+      <trkpt lat="46.328829814654085" lon="9.709343045407689">
+      </trkpt>
+      <trkpt lat="46.329587752946075" lon="9.710141214280787">
+      </trkpt>
+      <trkpt lat="46.32973175849822" lon="9.71058894142356">
+      </trkpt>
+      <trkpt lat="46.32992110924979" lon="9.710570877970024">
+      </trkpt>
+      <trkpt lat="46.330628454152034" lon="9.709405239016228">
+      </trkpt>
+      <trkpt lat="46.33072710462329" lon="9.709422354409288">
+      </trkpt>
+      <trkpt lat="46.33090525753572" lon="9.7099624579742">
+      </trkpt>
+      <trkpt lat="46.331134358546166" lon="9.7102058874726">
+      </trkpt>
+      <trkpt lat="46.33173424034007" lon="9.709453346170244">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

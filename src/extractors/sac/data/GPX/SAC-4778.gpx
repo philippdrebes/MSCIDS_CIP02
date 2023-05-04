@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Rifugio Barone  Bocchetta della Campala</name>
+    <desc>Vom Rifugio Barone 2172 m auf einem weissblauweiss markierten Pfad westwrts Der Weg gewinnt etwa 1 km lang kaum an Hhe doch sobald er den felsigen Rand des von der Bocchetta della Campala abfallenden Grabens berhrt windet er sich entschiedener empor Einige Haltebgel helfen ber die schwierigeren Passagen doch meist bewegt man sich in gutmtigem Gehgelnde Schliesslich zieht der Weg horizontal von Osten her in die Bocchetta della Campala 2322 m</desc>
+    <trkseg>
+      <trkpt lat="46.39567901943927" lon="8.749087017763145">
+      </trkpt>
+      <trkpt lat="46.395867019443784" lon="8.747033017756944">
+      </trkpt>
+      <trkpt lat="46.396232019441825" lon="8.74585201775393">
+      </trkpt>
+      <trkpt lat="46.39621401944208" lon="8.744979017751351">
+      </trkpt>
+      <trkpt lat="46.39630301944397" lon="8.74471401775557">
+      </trkpt>
+      <trkpt lat="46.396168019448254" lon="8.744499017738509">
+      </trkpt>
+      <trkpt lat="46.39606901944228" lon="8.744029017742081">
+      </trkpt>
+      <trkpt lat="46.3960650194439" lon="8.74368501773643">
+      </trkpt>
+      <trkpt lat="46.395879019443115" lon="8.743185017746756">
+      </trkpt>
+      <trkpt lat="46.3958880194457" lon="8.74283801773913">
+      </trkpt>
+      <trkpt lat="46.395803019442944" lon="8.742330017736878">
+      </trkpt>
+      <trkpt lat="46.39578901944598" lon="8.74170701773773">
+      </trkpt>
+      <trkpt lat="46.39524501944685" lon="8.739853017735946">
+      </trkpt>
+      <trkpt lat="46.3949490194428" lon="8.739221017739169">
+      </trkpt>
+      <trkpt lat="46.394877019442475" lon="8.738724017734295">
+      </trkpt>
+      <trkpt lat="46.3946950194465" lon="8.738011017740467">
+      </trkpt>
+      <trkpt lat="46.394445019446124" lon="8.737572017731589">
+      </trkpt>
+      <trkpt lat="46.39432701944557" lon="8.737248017737883">
+      </trkpt>
+      <trkpt lat="46.39433901944939" lon="8.73713901773805">
+      </trkpt>
+      <trkpt lat="46.39446601944959" lon="8.737165017735217">
+      </trkpt>
+      <trkpt lat="46.39451401944745" lon="8.73702201772942">
+      </trkpt>
+      <trkpt lat="46.39458901944923" lon="8.737080017735005">
+      </trkpt>
+      <trkpt lat="46.39465901944499" lon="8.736862017732353">
+      </trkpt>
+      <trkpt lat="46.39473401944957" lon="8.736924017737742">
+      </trkpt>
+      <trkpt lat="46.394776019445544" lon="8.736846017729277">
+      </trkpt>
+      <trkpt lat="46.394874019446696" lon="8.736962017728242">
+      </trkpt>
+      <trkpt lat="46.3949650194427" lon="8.737291017733273">
+      </trkpt>
+      <trkpt lat="46.39504001945083" lon="8.73690401773506">
+      </trkpt>
+      <trkpt lat="46.395150019445964" lon="8.7372180177341">
+      </trkpt>
+      <trkpt lat="46.3952370194489" lon="8.736428017737808">
+      </trkpt>
+      <trkpt lat="46.39513501944866" lon="8.73596701773365">
+      </trkpt>
+      <trkpt lat="46.395213019447354" lon="8.73599101772967">
+      </trkpt>
+      <trkpt lat="46.39522501944742" lon="8.7359130177298">
+      </trkpt>
+      <trkpt lat="46.39539501945225" lon="8.735875017727917">
+      </trkpt>
+      <trkpt lat="46.39546901945164" lon="8.735499017732497">
+      </trkpt>
+      <trkpt lat="46.39539601945002" lon="8.735173017732317">
+      </trkpt>
+      <trkpt lat="46.395231019448225" lon="8.734912017735422">
+      </trkpt>
+      <trkpt lat="46.395102019445105" lon="8.734394017731875">
+      </trkpt>
+      <trkpt lat="46.394968019444306" lon="8.733160017724083">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

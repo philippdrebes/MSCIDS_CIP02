@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Bergstation  Brunnihtte</name>
+    <desc>Just a few steps from the mountain station to the Brunnihtte</desc>
+    <trkseg>
+      <trkpt lat="46.84129352597301" lon="8.41126253758921">
+      </trkpt>
+      <trkpt lat="46.84116652597346" lon="8.41111653758886">
+      </trkpt>
+      <trkpt lat="46.84116652597396" lon="8.411018537589396">
+      </trkpt>
+      <trkpt lat="46.84092339550897" lon="8.410878267540104">
+      </trkpt>
+      <trkpt lat="46.840924197558664" lon="8.410675921330489">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Camona da Cavardiras CAS  Val Pintga da Cavrein</name>
+    <desc>Von der Htte 2652 m fhrt man zuerst ost dann nordwrts ins Val Cavardiras ab Durch dieses Tal und spter zum Val Pintga da Cavrein</desc>
+    <trkseg>
+      <trkpt lat="46.742480775824475" lon="8.814275969872613">
+      </trkpt>
+      <trkpt lat="46.74226083960645" lon="8.81339197678242">
+      </trkpt>
+      <trkpt lat="46.741686224782974" lon="8.812304760418616">
+      </trkpt>
+      <trkpt lat="46.741536340113306" lon="8.812550284128326">
+      </trkpt>
+      <trkpt lat="46.7414201164514" lon="8.813390340631937">
+      </trkpt>
+      <trkpt lat="46.74145716009281" lon="8.814115681863196">
+      </trkpt>
+      <trkpt lat="46.741457208210235" lon="8.814116616197074">
+      </trkpt>
+      <trkpt lat="46.741563183915524" lon="8.816192201103455">
+      </trkpt>
+      <trkpt lat="46.741790149942226" lon="8.817899899784836">
+      </trkpt>
+      <trkpt lat="46.74253399739854" lon="8.820961579089747">
+      </trkpt>
+      <trkpt lat="46.74301723301248" lon="8.822173233756324">
+      </trkpt>
+      <trkpt lat="46.74401122194701" lon="8.823069090675238">
+      </trkpt>
+      <trkpt lat="46.74477588446534" lon="8.823758288977924">
+      </trkpt>
+      <trkpt lat="46.74506879990651" lon="8.824088070545045">
+      </trkpt>
+      <trkpt lat="46.745466933487954" lon="8.825048612082261">
+      </trkpt>
+      <trkpt lat="46.74566463237907" lon="8.825525596750607">
+      </trkpt>
+      <trkpt lat="46.74592104074197" lon="8.82582644571122">
+      </trkpt>
+      <trkpt lat="46.74660971507128" lon="8.82622249492899">
+      </trkpt>
+      <trkpt lat="46.74724477152133" lon="8.827154327336727">
+      </trkpt>
+      <trkpt lat="46.74760612670053" lon="8.828513734894308">
+      </trkpt>
+      <trkpt lat="46.74799294111969" lon="8.830666060335785">
+      </trkpt>
+      <trkpt lat="46.74931151640509" lon="8.836657090482596">
+      </trkpt>
+      <trkpt lat="46.74934983674174" lon="8.837193687262122">
+      </trkpt>
+      <trkpt lat="46.74918635668515" lon="8.83954088597536">
+      </trkpt>
+      <trkpt lat="46.74930610436409" lon="8.840027342188455">
+      </trkpt>
+      <trkpt lat="46.74954590453631" lon="8.84024259001483">
+      </trkpt>
+      <trkpt lat="46.75052065071786" lon="8.840568392115035">
+      </trkpt>
+      <trkpt lat="46.750910958897606" lon="8.840957397519892">
+      </trkpt>
+      <trkpt lat="46.75275629574512" lon="8.844580811788216">
+      </trkpt>
+      <trkpt lat="46.75329180482596" lon="8.84563240106075">
+      </trkpt>
+      <trkpt lat="46.75358790771411" lon="8.846200400615777">
+      </trkpt>
+      <trkpt lat="46.75391865088579" lon="8.846834865423954">
+      </trkpt>
+      <trkpt lat="46.753965528983684" lon="8.846924792761934">
+      </trkpt>
+      <trkpt lat="46.753967608427615" lon="8.846928781984133">
+      </trkpt>
+      <trkpt lat="46.754634534742316" lon="8.848208193677014">
+      </trkpt>
+      <trkpt lat="46.75472225296338" lon="8.848408135812132">
+      </trkpt>
+      <trkpt lat="46.75520624616147" lon="8.849511359655626">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

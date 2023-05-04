@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Tte aux Chamois  Cabane des Diablerets</name>
+    <desc>Fall downhill to the hut</desc>
+    <trkseg>
+      <trkpt lat="46.33999553064548" lon="7.214800539141246">
+      </trkpt>
+      <trkpt lat="46.33973053064461" lon="7.214809539138775">
+      </trkpt>
+      <trkpt lat="46.33955553064318" lon="7.215001539136252">
+      </trkpt>
+      <trkpt lat="46.339393530642496" lon="7.215051539134513">
+      </trkpt>
+      <trkpt lat="46.3392055306421" lon="7.21501753913296">
+      </trkpt>
+      <trkpt lat="46.33909953064255" lon="7.214865539132733">
+      </trkpt>
+      <trkpt lat="46.33891653063971" lon="7.215330539128797">
+      </trkpt>
+      <trkpt lat="46.33885553063924" lon="7.215386539127961">
+      </trkpt>
+      <trkpt lat="46.33869141766224" lon="7.215388013317476">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

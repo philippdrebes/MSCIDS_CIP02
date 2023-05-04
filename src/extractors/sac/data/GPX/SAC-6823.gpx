@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Capanna Bovarina  Pass Casatscha</name>
+    <desc>Von der Capanna Bovarina in Richtung Norden bis zum Bach bei P 1964 Nun den markierten Weg verlassen und auf dem Gratrcken leicht sdlich des Baches weglos das Val dInferno hinauf zu P 2466 steigen Nun hlt man direkt auf den Pass Casatscha zu und erreicht so ab ca 2500 m die schwarzen Schieferrippen der Passregion ber das schwarze Gestein langsam hhersteigend zum Pass Casatscha 2658 m mit seiner abgeschlossenen Militrbaracke</desc>
+    <trkseg>
+      <trkpt lat="46.560219557452974" lon="8.88836933682516">
+      </trkpt>
+      <trkpt lat="46.560289842173304" lon="8.888290350552223">
+      </trkpt>
+      <trkpt lat="46.56063024364876" lon="8.888689471333176">
+      </trkpt>
+      <trkpt lat="46.560770085378756" lon="8.888729740747824">
+      </trkpt>
+      <trkpt lat="46.56091033224879" lon="8.889020458158345">
+      </trkpt>
+      <trkpt lat="46.561030427958435" lon="8.8894802039222">
+      </trkpt>
+      <trkpt lat="46.56117028925662" lon="8.889730479057608">
+      </trkpt>
+      <trkpt lat="46.56153008904703" lon="8.890089700288128">
+      </trkpt>
+      <trkpt lat="46.561629708789745" lon="8.890320638439634">
+      </trkpt>
+      <trkpt lat="46.56196966586938" lon="8.890190189825576">
+      </trkpt>
+      <trkpt lat="46.56209999707526" lon="8.89027064502438">
+      </trkpt>
+      <trkpt lat="46.56246012295948" lon="8.890040297451643">
+      </trkpt>
+      <trkpt lat="46.562589801024785" lon="8.889819419130948">
+      </trkpt>
+      <trkpt lat="46.56263987844864" lon="8.889420311101357">
+      </trkpt>
+      <trkpt lat="46.56270979796935" lon="8.889370009704283">
+      </trkpt>
+      <trkpt lat="46.56277956518049" lon="8.889190568078414">
+      </trkpt>
+      <trkpt lat="46.562870323261286" lon="8.889269961112253">
+      </trkpt>
+      <trkpt lat="46.56297021080959" lon="8.889480040070309">
+      </trkpt>
+      <trkpt lat="46.563060051513055" lon="8.889490275490052">
+      </trkpt>
+      <trkpt lat="46.563220327409304" lon="8.889409786140432">
+      </trkpt>
+      <trkpt lat="46.563440210847084" lon="8.889170450777321">
+      </trkpt>
+      <trkpt lat="46.56370986471279" lon="8.889120284942694">
+      </trkpt>
+      <trkpt lat="46.56407978899133" lon="8.889250209742347">
+      </trkpt>
+      <trkpt lat="46.564349741362825" lon="8.888400428810924">
+      </trkpt>
+      <trkpt lat="46.56454034311451" lon="8.88819943333835">
+      </trkpt>
+      <trkpt lat="46.564569867872294" lon="8.888000643932022">
+      </trkpt>
+      <trkpt lat="46.564709952680865" lon="8.88781003329159">
+      </trkpt>
+      <trkpt lat="46.56482980629463" lon="8.887300593324815">
+      </trkpt>
+      <trkpt lat="46.56492027316263" lon="8.88712039177656">
+      </trkpt>
+      <trkpt lat="46.56520004103206" lon="8.8867704588842">
+      </trkpt>
+      <trkpt lat="46.56531957895262" lon="8.88678018059325">
+      </trkpt>
+      <trkpt lat="46.565440154686826" lon="8.886920376885122">
+      </trkpt>
+      <trkpt lat="46.56559015338674" lon="8.886869604184618">
+      </trkpt>
+      <trkpt lat="46.5657698379785" lon="8.886960509131196">
+      </trkpt>
+      <trkpt lat="46.56586043994661" lon="8.886840313488772">
+      </trkpt>
+      <trkpt lat="46.56597042148972" lon="8.88654061783391">
+      </trkpt>
+      <trkpt lat="46.56605987764445" lon="8.886510399683322">
+      </trkpt>
+      <trkpt lat="46.56610058025847" lon="8.886422784019">
+      </trkpt>
+      <trkpt lat="46.566606272686066" lon="8.883871678127582">
+      </trkpt>
+      <trkpt lat="46.56692979035462" lon="8.88184660073601">
+      </trkpt>
+      <trkpt lat="46.56666625974704" lon="8.878716609826487">
+      </trkpt>
+      <trkpt lat="46.56557252417892" lon="8.870782428650982">
+      </trkpt>
+      <trkpt lat="46.56467315198996" lon="8.869182855279298">
+      </trkpt>
+      <trkpt lat="46.564964154981034" lon="8.868077852827444">
+      </trkpt>
+      <trkpt lat="46.56505569128374" lon="8.864512594765571">
+      </trkpt>
+      <trkpt lat="46.565233379718244" lon="8.862106643752597">
+      </trkpt>
+      <trkpt lat="46.56555423448413" lon="8.859327448884033">
+      </trkpt>
+      <trkpt lat="46.56613019115543" lon="8.857225408236612">
+      </trkpt>
+      <trkpt lat="46.56578025041269" lon="8.855056036955487">
+      </trkpt>
+      <trkpt lat="46.56574339124955" lon="8.853174033604454">
+      </trkpt>
+      <trkpt lat="46.56594271497835" lon="8.851397339713325">
+      </trkpt>
+      <trkpt lat="46.56638502096839" lon="8.850410961925057">
+      </trkpt>
+      <trkpt lat="46.56700606232675" lon="8.850101551056493">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

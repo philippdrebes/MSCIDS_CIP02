@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Hohsaas  Weissmieshtte</name>
+    <desc>From the top station at Hohsaas 3130 m descend the piste to the hut Job done</desc>
+    <trkseg>
+      <trkpt lat="46.13948398208286" lon="7.989215028124414">
+      </trkpt>
+      <trkpt lat="46.139760174019834" lon="7.989773807433653">
+      </trkpt>
+      <trkpt lat="46.13979301367485" lon="7.989840248857214">
+      </trkpt>
+      <trkpt lat="46.13990737316717" lon="7.990071620055881">
+      </trkpt>
+      <trkpt lat="46.139946640173406" lon="7.9900739255131725">
+      </trkpt>
+      <trkpt lat="46.140013758781116" lon="7.990117923366092">
+      </trkpt>
+      <trkpt lat="46.14017564581749" lon="7.990282097673593">
+      </trkpt>
+      <trkpt lat="46.14025318259161" lon="7.990405432570777">
+      </trkpt>
+      <trkpt lat="46.14038671423177" lon="7.99069080575016">
+      </trkpt>
+      <trkpt lat="46.140579337597366" lon="7.991260899769194">
+      </trkpt>
+      <trkpt lat="46.14072855360007" lon="7.991860726286054">
+      </trkpt>
+      <trkpt lat="46.140798032917345" lon="7.992070009230458">
+      </trkpt>
+      <trkpt lat="46.14097994970415" lon="7.992402889041858">
+      </trkpt>
+      <trkpt lat="46.141096185008976" lon="7.992561433330673">
+      </trkpt>
+      <trkpt lat="46.141225029323536" lon="7.992693964983969">
+      </trkpt>
+      <trkpt lat="46.141347310521546" lon="7.992770125759927">
+      </trkpt>
+      <trkpt lat="46.141360081495904" lon="7.992778079699158">
+      </trkpt>
+      <trkpt lat="46.14137815771748" lon="7.992784477605851">
+      </trkpt>
+      <trkpt lat="46.141455826472324" lon="7.992811966571505">
+      </trkpt>
+      <trkpt lat="46.14164227569461" lon="7.9927987660050075">
+      </trkpt>
+      <trkpt lat="46.14202129070041" lon="7.992771931038155">
+      </trkpt>
+      <trkpt lat="46.14251796817542" lon="7.992542508658376">
+      </trkpt>
+      <trkpt lat="46.142581647791985" lon="7.992513094199357">
+      </trkpt>
+      <trkpt lat="46.1430710844166" lon="7.9921921736515085">
+      </trkpt>
+      <trkpt lat="46.143894814936814" lon="7.991335896528356">
+      </trkpt>
+      <trkpt lat="46.144612743750336" lon="7.990264155813644">
+      </trkpt>
+      <trkpt lat="46.14500616665175" lon="7.989136083394756">
+      </trkpt>
+      <trkpt lat="46.145888053701356" lon="7.987006389246532">
+      </trkpt>
+      <trkpt lat="46.14650312414744" lon="7.985486095737952">
+      </trkpt>
+      <trkpt lat="46.146731823777614" lon="7.984827396082756">
+      </trkpt>
+      <trkpt lat="46.14683553829792" lon="7.984349429695878">
+      </trkpt>
+      <trkpt lat="46.1468978779287" lon="7.983813939083424">
+      </trkpt>
+      <trkpt lat="46.14691817874539" lon="7.983405123933042">
+      </trkpt>
+      <trkpt lat="46.1470275527755" lon="7.982558604280032">
+      </trkpt>
+      <trkpt lat="46.1470128740485" lon="7.982213617897907">
+      </trkpt>
+      <trkpt lat="46.14704082173655" lon="7.981522745415135">
+      </trkpt>
+      <trkpt lat="46.14701617599386" lon="7.981152682261953">
+      </trkpt>
+      <trkpt lat="46.14699946627097" lon="7.980901784413023">
+      </trkpt>
+      <trkpt lat="46.146899581048345" lon="7.980376294288366">
+      </trkpt>
+      <trkpt lat="46.14668790320006" lon="7.979913277774873">
+      </trkpt>
+      <trkpt lat="46.146579708028874" lon="7.9798579473099815">
+      </trkpt>
+      <trkpt lat="46.14596735301475" lon="7.979488288631194">
+      </trkpt>
+      <trkpt lat="46.14528921075525" lon="7.978770639217481">
+      </trkpt>
+      <trkpt lat="46.144436255314794" lon="7.978438584632662">
+      </trkpt>
+      <trkpt lat="46.144426338839345" lon="7.978429827085793">
+      </trkpt>
+      <trkpt lat="46.143761035744014" lon="7.977842310154465">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

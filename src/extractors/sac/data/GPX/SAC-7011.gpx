@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Station Eismeer  Zsenberg  Schreckhornhtte SAC</name>
+    <desc>Vom untersten Publikumsstollen der Station Eismeer 3159 m rechts durch eine Metalltre in einen steil abwrts fhrenden Tunnel mit mehreren Ausgngen die durch Schnee und Eis verstopft sein knnen Von einem der Ausgnge ostwrts ber den ersten Steilhang Eisstufen absteigen  abseilen Mit Skis linkshaltend eine erste Sraczone nrdlich passieren auf das weite Ischmeer hinunterfahren und ostwrts ber das Meer in den Gletscherkessel zu P 2381 Durch eine der Rinnen stlich an P 2315 vorbei weiter in die Mulde ca 2160 m sdlich oberhalb von Zsenberg hinunter Aufstieg ostwrts zum Band oberhalb des Felsriegels von Simelibrgli Auf ca 2180 m fhrt eine gut sichtbare Rampe durch eine weitere Felsstufe ostwrts zum nchsthher gelegenen Band Teilweise sehr abschssig bis 40 evtl Skis tragen ber die schmale Terrasse ostwrts gegen das Obers Ischmeer hinber Richtung Sdosten der Seitenmorne entlang ber kupiertes Gelnde teils auf dem Gletscher teils auf der Morne bis auf ca 2450 m aufsteigen Oberhalb der Spaltenzone den Gletscher queren und dann nordwrts im Bereich des Sommerwegs knapp 100 Hm zur Schreckhornhtte aufsteigen</desc>
+    <trkseg>
+      <trkpt lat="46.57212471218691" lon="8.010796894947749">
+      </trkpt>
+      <trkpt lat="46.57173192686356" lon="8.011989313657555">
+      </trkpt>
+      <trkpt lat="46.57158224065106" lon="8.012443716179558">
+      </trkpt>
+      <trkpt lat="46.57157362400567" lon="8.012676725957592">
+      </trkpt>
+      <trkpt lat="46.571728500406586" lon="8.013181875204062">
+      </trkpt>
+      <trkpt lat="46.57249097752069" lon="8.013513246062255">
+      </trkpt>
+      <trkpt lat="46.57305657444934" lon="8.01421518099027">
+      </trkpt>
+      <trkpt lat="46.57346710768631" lon="8.015131516898432">
+      </trkpt>
+      <trkpt lat="46.57394933128524" lon="8.01657945990001">
+      </trkpt>
+      <trkpt lat="46.57406331828992" lon="8.017317026950556">
+      </trkpt>
+      <trkpt lat="46.57331370315354" lon="8.025009139295566">
+      </trkpt>
+      <trkpt lat="46.57272539049299" lon="8.032798179809276">
+      </trkpt>
+      <trkpt lat="46.572440436607764" lon="8.036568257259363">
+      </trkpt>
+      <trkpt lat="46.572417547787076" lon="8.036871017876232">
+      </trkpt>
+      <trkpt lat="46.57226016886481" lon="8.04228010885934">
+      </trkpt>
+      <trkpt lat="46.57290056235539" lon="8.046923943960048">
+      </trkpt>
+      <trkpt lat="46.572974462021" lon="8.048991829493357">
+      </trkpt>
+      <trkpt lat="46.57284462104251" lon="8.050148060505425">
+      </trkpt>
+      <trkpt lat="46.572114265077886" lon="8.052331034708628">
+      </trkpt>
+      <trkpt lat="46.571852901507704" lon="8.05422873770593">
+      </trkpt>
+      <trkpt lat="46.57165116439286" lon="8.05898037426412">
+      </trkpt>
+      <trkpt lat="46.57168713396841" lon="8.060079903736401">
+      </trkpt>
+      <trkpt lat="46.57196948001192" lon="8.06279961323">
+      </trkpt>
+      <trkpt lat="46.57247759582149" lon="8.065634849325567">
+      </trkpt>
+      <trkpt lat="46.57296654120348" lon="8.067026311910269">
+      </trkpt>
+      <trkpt lat="46.57356567129533" lon="8.068242504123681">
+      </trkpt>
+      <trkpt lat="46.57444385432839" lon="8.069318119130005">
+      </trkpt>
+      <trkpt lat="46.57561106632288" lon="8.070241299633487">
+      </trkpt>
+      <trkpt lat="46.57644013611074" lon="8.070541381221217">
+      </trkpt>
+      <trkpt lat="46.5777238685441" lon="8.0705332402134">
+      </trkpt>
+      <trkpt lat="46.57841943944175" lon="8.071025527861574">
+      </trkpt>
+      <trkpt lat="46.579449724575554" lon="8.072374573943971">
+      </trkpt>
+      <trkpt lat="46.580319187644676" lon="8.073760842267362">
+      </trkpt>
+      <trkpt lat="46.58053556180665" lon="8.074548356539287">
+      </trkpt>
+      <trkpt lat="46.58053999927001" lon="8.076065620260033">
+      </trkpt>
+      <trkpt lat="46.58083868195788" lon="8.077817421405353">
+      </trkpt>
+      <trkpt lat="46.580844348985444" lon="8.077850660572206">
+      </trkpt>
+      <trkpt lat="46.58086576636923" lon="8.077976283399902">
+      </trkpt>
+      <trkpt lat="46.58106147493485" lon="8.07912423470086">
+      </trkpt>
+      <trkpt lat="46.58236670647382" lon="8.084404696434225">
+      </trkpt>
+      <trkpt lat="46.582463536283534" lon="8.085529980174947">
+      </trkpt>
+      <trkpt lat="46.582387249409955" lon="8.086416475435447">
+      </trkpt>
+      <trkpt lat="46.58189560979347" lon="8.08800041725966">
+      </trkpt>
+      <trkpt lat="46.580587650031624" lon="8.089885495058112">
+      </trkpt>
+      <trkpt lat="46.57878895892298" lon="8.090622082411109">
+      </trkpt>
+      <trkpt lat="46.577137510766036" lon="8.090847062819225">
+      </trkpt>
+      <trkpt lat="46.57654503081094" lon="8.091357149728891">
+      </trkpt>
+      <trkpt lat="46.576260953023564" lon="8.092348818919927">
+      </trkpt>
+      <trkpt lat="46.57624429247304" lon="8.093514298458974">
+      </trkpt>
+      <trkpt lat="46.576443848198736" lon="8.094348487405213">
+      </trkpt>
+      <trkpt lat="46.57653827546749" lon="8.09474322513774">
+      </trkpt>
+      <trkpt lat="46.57708467519181" lon="8.095698645406657">
+      </trkpt>
+      <trkpt lat="46.57775462908681" lon="8.096129756050042">
+      </trkpt>
+      <trkpt lat="46.579646344155975" lon="8.096617717616684">
+      </trkpt>
+      <trkpt lat="46.579982807933646" lon="8.096800364078236">
+      </trkpt>
+      <trkpt lat="46.581140033048456" lon="8.097428573509331">
+      </trkpt>
+      <trkpt lat="46.58171830305517" lon="8.097935108566032">
+      </trkpt>
+      <trkpt lat="46.58180256816056" lon="8.098311037333843">
+      </trkpt>
+      <trkpt lat="46.58189742510431" lon="8.098734225651839">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

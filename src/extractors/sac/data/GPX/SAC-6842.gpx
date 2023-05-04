@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Terrihtte SAC  Muot la Greina</name>
+    <desc>Von der Terrihtte via Carpet la Greina Richtung Hngebrcke nach den beiden Seelein den Hauptweg verlassen und auf dem alten Httenweg rechts ansteigen Sobald man ums Eck kommt und weit unten die Hngebrcke entdeckt steigt man weglos rechts hinauf und folgt der eigenen Nase Der NERcken des Muot la Greina ist gut gestuft und weitgehend lieblich da und dort muss man sich die Route suchen um den Felsen auszuweichen Spter legt sich das Gelnde zurck und bald darauf ist der Gipfelsteinmann erreicht</desc>
+    <trkseg>
+      <trkpt lat="46.634323188689095" lon="9.00496951158226">
+      </trkpt>
+      <trkpt lat="46.63427025409548" lon="9.005089450745498">
+      </trkpt>
+      <trkpt lat="46.634299739861156" lon="9.005300598701968">
+      </trkpt>
+      <trkpt lat="46.63409008748053" lon="9.005890130765106">
+      </trkpt>
+      <trkpt lat="46.63392025942534" lon="9.006919683641478">
+      </trkpt>
+      <trkpt lat="46.63380017506975" lon="9.006950158443892">
+      </trkpt>
+      <trkpt lat="46.63393992080113" lon="9.007190629540291">
+      </trkpt>
+      <trkpt lat="46.633989854474265" lon="9.007549967428337">
+      </trkpt>
+      <trkpt lat="46.633929848205" lon="9.007529938875408">
+      </trkpt>
+      <trkpt lat="46.633809889434026" lon="9.007290041350354">
+      </trkpt>
+      <trkpt lat="46.633719646212796" lon="9.007309626190064">
+      </trkpt>
+      <trkpt lat="46.6336496030448" lon="9.007430371232264">
+      </trkpt>
+      <trkpt lat="46.63364044617061" lon="9.008029629894489">
+      </trkpt>
+      <trkpt lat="46.63371971404732" lon="9.008479943574326">
+      </trkpt>
+      <trkpt lat="46.633700297471364" lon="9.009170335715005">
+      </trkpt>
+      <trkpt lat="46.63373027883873" lon="9.009410233738723">
+      </trkpt>
+      <trkpt lat="46.6336200473879" lon="9.009639524711181">
+      </trkpt>
+      <trkpt lat="46.63364966883123" lon="9.00984022756495">
+      </trkpt>
+      <trkpt lat="46.633599712595206" lon="9.01006996410562">
+      </trkpt>
+      <trkpt lat="46.63352020268888" lon="9.010289697573139">
+      </trkpt>
+      <trkpt lat="46.63347985699286" lon="9.010279381028724">
+      </trkpt>
+      <trkpt lat="46.633460264040316" lon="9.010460366025647">
+      </trkpt>
+      <trkpt lat="46.63328975065042" lon="9.010819820739016">
+      </trkpt>
+      <trkpt lat="46.63332968170189" lon="9.01086016697238">
+      </trkpt>
+      <trkpt lat="46.63327016078657" lon="9.01087019044331">
+      </trkpt>
+      <trkpt lat="46.63334982253015" lon="9.011030552195463">
+      </trkpt>
+      <trkpt lat="46.633290445824784" lon="9.011030130509127">
+      </trkpt>
+      <trkpt lat="46.633300208598335" lon="9.011170172279499">
+      </trkpt>
+      <trkpt lat="46.633249825631964" lon="9.01117001217638">
+      </trkpt>
+      <trkpt lat="46.63324000251357" lon="9.011229808978294">
+      </trkpt>
+      <trkpt lat="46.6332904510123" lon="9.0114206684141">
+      </trkpt>
+      <trkpt lat="46.633250061803345" lon="9.012520573564823">
+      </trkpt>
+      <trkpt lat="46.63322030739035" lon="9.012590238740827">
+      </trkpt>
+      <trkpt lat="46.633070271486055" lon="9.012639420255011">
+      </trkpt>
+      <trkpt lat="46.63294962613046" lon="9.012710355861492">
+      </trkpt>
+      <trkpt lat="46.632910104828206" lon="9.0127705930592">
+      </trkpt>
+      <trkpt lat="46.63280075759904" lon="9.011958910126053">
+      </trkpt>
+      <trkpt lat="46.63259212215684" lon="9.011430383587529">
+      </trkpt>
+      <trkpt lat="46.631440803120306" lon="9.008797731945315">
+      </trkpt>
+      <trkpt lat="46.6305570836835" lon="9.006982725582906">
+      </trkpt>
+      <trkpt lat="46.63040976349981" lon="9.006573566601897">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

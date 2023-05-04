@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Station  Cabane de la Videmanette</name>
+    <desc>La Cabane de la Videmanette est situe en direction SE de la station suprieure du tlphrique</desc>
+    <trkseg>
+      <trkpt lat="46.45963253104084" lon="7.204675540287557">
+      </trkpt>
+      <trkpt lat="46.45963253104087" lon="7.2046705402875855">
+      </trkpt>
+      <trkpt lat="46.4595815310407" lon="7.204667540287129">
+      </trkpt>
+      <trkpt lat="46.45951553104071" lon="7.204637540286668">
+      </trkpt>
+      <trkpt lat="46.45942753104042" lon="7.204636540285864">
+      </trkpt>
+      <trkpt lat="46.45935753104055" lon="7.20456454028558">
+      </trkpt>
+      <trkpt lat="46.459312531041064" lon="7.204454540285711">
+      </trkpt>
+      <trkpt lat="46.4592755310413" lon="7.204376540285759">
+      </trkpt>
+      <trkpt lat="46.459157531041775" lon="7.204211540285476">
+      </trkpt>
+      <trkpt lat="46.45905953104183" lon="7.204154540284855">
+      </trkpt>
+      <trkpt lat="46.45900553104189" lon="7.204112540284565">
+      </trkpt>
+      <trkpt lat="46.458963531041974" lon="7.204063540284429">
+      </trkpt>
+      <trkpt lat="46.45889753104206" lon="7.204012540284061">
+      </trkpt>
+      <trkpt lat="46.45885453104225" lon="7.2039545402839575">
+      </trkpt>
+      <trkpt lat="46.4588545310423" lon="7.203950540283978">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

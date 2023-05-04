@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Bergstation  Berggasthaus Brsti</name>
+    <desc>Zur einen Tre raus zur anderen rein So kurz wie fein</desc>
+    <trkseg>
+      <trkpt lat="46.84316625513454" lon="8.60704061144393">
+      </trkpt>
+      <trkpt lat="46.84313886484651" lon="8.607088273958922">
+      </trkpt>
+      <trkpt lat="46.84307614706089" lon="8.607150249947285">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

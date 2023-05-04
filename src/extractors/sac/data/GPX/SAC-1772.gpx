@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Pra Jean  Haut Crt Sud</name>
+    <desc>In Pra Jean von der Strassenbrcke ber den Seitenbach Ruisseau du Gros Mont weglos ber die Grasrippe hoch bis auf einen Fahrweg Auf dem Fahrweg in Serpentinen hoch zur Alphtte Les Invuettes Dessus 1162 m Nun auf einem in der LK nicht mehr eingezeichneten Weg schrg links haltend in die Mulde hoch durch diese hinauf zur Htte von Creux Charles ca 1320 m Weiter zu Beginn auf einem schrg nach links hochziehenden Weglein durch die teilweise bewaldete Mulde hinauf zu der prchtig im Sattel gelegenen Htte Gros Haut Crt 1556 m Auf dem Zufahrtsweg sdwrts und entlang der mit ein paar Tannen bestckten SWRippe auf den Haut Crt Sud 1643 m ohne Namen auf der LK</desc>
+    <trkseg>
+      <trkpt lat="46.60207535543731" lon="7.202922541656053">
+      </trkpt>
+      <trkpt lat="46.60223353145964" lon="7.20254454161357">
+      </trkpt>
+      <trkpt lat="46.60214014619937" lon="7.201983048546771">
+      </trkpt>
+      <trkpt lat="46.60192643284743" lon="7.201319243219716">
+      </trkpt>
+      <trkpt lat="46.601802863390006" lon="7.2010117361930055">
+      </trkpt>
+      <trkpt lat="46.601723958614116" lon="7.20068781989813">
+      </trkpt>
+      <trkpt lat="46.60168971838034" lon="7.200347493603765">
+      </trkpt>
+      <trkpt lat="46.60173363306214" lon="7.199974394775812">
+      </trkpt>
+      <trkpt lat="46.60158233664311" lon="7.199344075374702">
+      </trkpt>
+      <trkpt lat="46.60134057755258" lon="7.198722211665178">
+      </trkpt>
+      <trkpt lat="46.6010301703082" lon="7.198125577662081">
+      </trkpt>
+      <trkpt lat="46.60046071015958" lon="7.196857348180969">
+      </trkpt>
+      <trkpt lat="46.59996052108707" lon="7.195862918572411">
+      </trkpt>
+      <trkpt lat="46.59970167556424" lon="7.195290999842204">
+      </trkpt>
+      <trkpt lat="46.59944266622164" lon="7.194644337315486">
+      </trkpt>
+      <trkpt lat="46.599149358170315" lon="7.194022753369907">
+      </trkpt>
+      <trkpt lat="46.598648603912046" lon="7.192779213555449">
+      </trkpt>
+      <trkpt lat="46.59811348722086" lon="7.191535854441617">
+      </trkpt>
+      <trkpt lat="46.5979059252516" lon="7.190864076106097">
+      </trkpt>
+      <trkpt lat="46.59750829237531" lon="7.18966994861704">
+      </trkpt>
+      <trkpt lat="46.597249171491285" lon="7.189023339645903">
+      </trkpt>
+      <trkpt lat="46.59693657219494" lon="7.188322821998682">
+      </trkpt>
+      <trkpt lat="46.59646233232817" lon="7.187968883266692">
+      </trkpt>
+      <trkpt lat="46.5960233872781" lon="7.187716540661868">
+      </trkpt>
+      <trkpt lat="46.59565401861457" lon="7.1872094931378285">
+      </trkpt>
+      <trkpt lat="46.59530206983413" lon="7.186651494466996">
+      </trkpt>
+      <trkpt lat="46.59509062728794" lon="7.186194596761205">
+      </trkpt>
+      <trkpt lat="46.59473742260942" lon="7.185076980060718">
+      </trkpt>
+      <trkpt lat="46.59464854959381" lon="7.184543201115389">
+      </trkpt>
+      <trkpt lat="46.594559159395786" lon="7.183780484964249">
+      </trkpt>
+      <trkpt lat="46.59454019204097" lon="7.18314462662907">
+      </trkpt>
+      <trkpt lat="46.59446861529468" lon="7.182509018962073">
+      </trkpt>
+      <trkpt lat="46.59425669512588" lon="7.18184864436577">
+      </trkpt>
+      <trkpt lat="46.593587581090546" lon="7.180630836195819">
+      </trkpt>
+      <trkpt lat="46.59323554194293" lon="7.180047464665841">
+      </trkpt>
+      <trkpt lat="46.592859219722754" lon="7.179606584034233">
+      </trkpt>
+      <trkpt lat="46.59272282791057" lon="7.179377624451931">
+      </trkpt>
+      <trkpt lat="46.59264287929006" lon="7.1791523290112815">
+      </trkpt>
+      <trkpt lat="46.59256995652545" lon="7.178896554604452">
+      </trkpt>
+      <trkpt lat="46.592263475165026" lon="7.179072733264568">
+      </trkpt>
+      <trkpt lat="46.59214337193202" lon="7.179082590264463">
+      </trkpt>
+      <trkpt lat="46.59150178101868" lon="7.179112276054935">
+      </trkpt>
+      <trkpt lat="46.590749766163135" lon="7.178956341080473">
+      </trkpt>
+      <trkpt lat="46.59027274472194" lon="7.178799083660441">
+      </trkpt>
+      <trkpt lat="46.59007174068702" lon="7.178818054437511">
+      </trkpt>
+      <trkpt lat="46.589964021804256" lon="7.178948689136262">
+      </trkpt>
+      <trkpt lat="46.5899608756253" lon="7.179064990777229">
+      </trkpt>
+      <trkpt lat="46.589989698870056" lon="7.179202691410751">
+      </trkpt>
+      <trkpt lat="46.59007224017836" lon="7.1793053148095325">
+      </trkpt>
+      <trkpt lat="46.590421052183245" lon="7.179516379125198">
+      </trkpt>
+      <trkpt lat="46.59104552546061" lon="7.180018647246131">
+      </trkpt>
+      <trkpt lat="46.59133964053224" lon="7.180362949676741">
+      </trkpt>
+      <trkpt lat="46.59147903745029" lon="7.180551494152007">
+      </trkpt>
+      <trkpt lat="46.59162219232424" lon="7.180760787169484">
+      </trkpt>
+      <trkpt lat="46.59169726062147" lon="7.180947925351056">
+      </trkpt>
+      <trkpt lat="46.591731739240785" lon="7.181151232521679">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Konkordiahtte SAC  Konkordiaplatz</name>
+    <desc>Von der Konkordiahtte gelangt man ber die Treppenanlage hinab zum Skidepot am Konkordiaplatz ca 2720 m</desc>
+    <trkseg>
+      <trkpt lat="46.50044579158049" lon="8.053221843177896">
+      </trkpt>
+      <trkpt lat="46.50042326869134" lon="8.052984607900415">
+      </trkpt>
+      <trkpt lat="46.50046397567882" lon="8.052899072756501">
+      </trkpt>
+      <trkpt lat="46.50066573556065" lon="8.05282225708401">
+      </trkpt>
+      <trkpt lat="46.50067582990915" lon="8.052818413751881">
+      </trkpt>
+      <trkpt lat="46.50069748344996" lon="8.052810169174553">
+      </trkpt>
+      <trkpt lat="46.5007306793089" lon="8.05278082742559">
+      </trkpt>
+      <trkpt lat="46.50073346212507" lon="8.052774426088797">
+      </trkpt>
+      <trkpt lat="46.50076351737784" lon="8.05270529865386">
+      </trkpt>
+      <trkpt lat="46.50082957571461" lon="8.052270920191024">
+      </trkpt>
+      <trkpt lat="46.50075982537847" lon="8.051912563873877">
+      </trkpt>
+      <trkpt lat="46.50079388936457" lon="8.051775077707328">
+      </trkpt>
+      <trkpt lat="46.5010331401442" lon="8.051546157398668">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

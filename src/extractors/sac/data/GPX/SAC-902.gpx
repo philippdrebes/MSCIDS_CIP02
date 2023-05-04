@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>UrmibergTimpel  Egg</name>
+    <desc>From Timpel the summit station of the Urmiberg cable car wwwurmibergch Tel 041 820 14 05 hike up to the ridge and continue westward on a small road to Egg 1287 m</desc>
+    <trkseg>
+      <trkpt lat="47.01220652551753" lon="8.589971538183786">
+      </trkpt>
+      <trkpt lat="47.01206352551915" lon="8.5895815381846">
+      </trkpt>
+      <trkpt lat="47.01222352551857" lon="8.589781538184972">
+      </trkpt>
+      <trkpt lat="47.0121755255198" lon="8.589511538186006">
+      </trkpt>
+      <trkpt lat="47.01238552551906" lon="8.589775538186483">
+      </trkpt>
+      <trkpt lat="47.01236852552031" lon="8.58951753818773">
+      </trkpt>
+      <trkpt lat="47.01241352552034" lon="8.58953053818807">
+      </trkpt>
+      <trkpt lat="47.012478525519754" lon="8.589691538187795">
+      </trkpt>
+      <trkpt lat="47.01249752552066" lon="8.589517538188916">
+      </trkpt>
+      <trkpt lat="47.01329752551964" lon="8.590140538192832">
+      </trkpt>
+      <trkpt lat="47.01348452552054" lon="8.590043538195077">
+      </trkpt>
+      <trkpt lat="47.01345352552094" lon="8.589956538195267">
+      </trkpt>
+      <trkpt lat="47.01358052552219" lon="8.589779538197387">
+      </trkpt>
+      <trkpt lat="47.01357252552314" lon="8.58958753819836">
+      </trkpt>
+      <trkpt lat="47.01341052552355" lon="8.58942453819777">
+      </trkpt>
+      <trkpt lat="47.01326252552481" lon="8.589105538198146">
+      </trkpt>
+      <trkpt lat="47.01299052552919" lon="8.58810053820113">
+      </trkpt>
+      <trkpt lat="47.01281152552997" lon="8.587860538200804">
+      </trkpt>
+      <trkpt lat="47.01271152553095" lon="8.587613538201236">
+      </trkpt>
+      <trkpt lat="47.01257752553594" lon="8.586579538205637">
+      </trkpt>
+      <trkpt lat="47.012436525537915" lon="8.586115538206878">
+      </trkpt>
+      <trkpt lat="47.012228525544536" lon="8.584712538212612">
+      </trkpt>
+      <trkpt lat="47.012288525548364" lon="8.58399053821709">
+      </trkpt>
+      <trkpt lat="47.01241552555027" lon="8.583688538219894">
+      </trkpt>
+      <trkpt lat="47.01235152555255" lon="8.583209538221913">
+      </trkpt>
+      <trkpt lat="47.01235352555458" lon="8.582818538224066">
+      </trkpt>
+      <trkpt lat="47.012476525556764" lon="8.582455538227162">
+      </trkpt>
+      <trkpt lat="47.012607525562615" lon="8.581383538234189">
+      </trkpt>
+      <trkpt lat="47.01257352556426" lon="8.581043538235733">
+      </trkpt>
+      <trkpt lat="47.012753525567504" lon="8.58050553824031">
+      </trkpt>
+      <trkpt lat="47.01268852556979" lon="8.580024538242329">
+      </trkpt>
+      <trkpt lat="47.012710525572466" lon="8.57951553824529">
+      </trkpt>
+      <trkpt lat="47.012930525576316" lon="8.578873538250805">
+      </trkpt>
+      <trkpt lat="47.01298552557857" lon="8.578460538253559">
+      </trkpt>
+      <trkpt lat="47.013077525580066" lon="8.578221538255702">
+      </trkpt>
+      <trkpt lat="47.01308652558355" lon="8.577539538259494">
+      </trkpt>
+      <trkpt lat="47.01279552558743" lon="8.576645538261696">
+      </trkpt>
+      <trkpt lat="47.01252152558937" lon="8.576119538262054">
+      </trkpt>
+      <trkpt lat="47.012277525594264" lon="8.575037538265704">
+      </trkpt>
+      <trkpt lat="47.012322525594925" lon="8.574928538266708">
+      </trkpt>
+      <trkpt lat="47.012400525595126" lon="8.574931538267409">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

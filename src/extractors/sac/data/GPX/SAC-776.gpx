@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Sunnbel  Winteregghtte</name>
+    <desc>Von der Bergstation der Luftseilbahn KanderstegSunnbhl steigt man in nrdlicher Richtung entlang dem Weg zur Htte</desc>
+    <trkseg>
+      <trkpt lat="46.45793852878158" lon="7.6502695380533705">
+      </trkpt>
+      <trkpt lat="46.45797252878158" lon="7.65027953805363">
+      </trkpt>
+      <trkpt lat="46.45793652878261" lon="7.650058538054421">
+      </trkpt>
+      <trkpt lat="46.45809352878369" lon="7.649934538056469">
+      </trkpt>
+      <trkpt lat="46.45817752878384" lon="7.649948538057173">
+      </trkpt>
+      <trkpt lat="46.45828152878353" lon="7.650065538057526">
+      </trkpt>
+      <trkpt lat="46.45834535538159" lon="7.6501086116639865">
+      </trkpt>
+      <trkpt lat="46.45847677854576" lon="7.650093848515281">
+      </trkpt>
+      <trkpt lat="46.45866353466043" lon="7.6501780385071525">
+      </trkpt>
+      <trkpt lat="46.45876752878464" lon="7.650116538061697">
+      </trkpt>
+      <trkpt lat="46.458900528784724" lon="7.650180538062578">
+      </trkpt>
+      <trkpt lat="46.45911552878453" lon="7.650346538063704">
+      </trkpt>
+      <trkpt lat="46.45911752878445" lon="7.650352538063688">
+      </trkpt>
+      <trkpt lat="46.45911552878453" lon="7.650346538063704">
+      </trkpt>
+      <trkpt lat="46.45929952878428" lon="7.650487538064664">
+      </trkpt>
+      <trkpt lat="46.4594895287845" lon="7.650548538066091">
+      </trkpt>
+      <trkpt lat="46.45964052878529" lon="7.650480538067807">
+      </trkpt>
+      <trkpt lat="46.459914528787706" lon="7.650162538071899">
+      </trkpt>
+      <trkpt lat="46.46001452878874" lon="7.650000538073628">
+      </trkpt>
+      <trkpt lat="46.46037252878985" lon="7.649986538076958">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

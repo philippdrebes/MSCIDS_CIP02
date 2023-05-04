@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Sangernboden  Ladegrat</name>
+    <desc>Erstes Ziel ist der Ladegrat auf der Kantonsgrenze BernFreiburg Da der darunterliegende Muscherenwald nur von sehr flach verlaufenden Forststrassen erschlossen ist folgen wir zuerst der Strasse in den Muscherenschlund bis zum Austritt aus dem Wald sdlich von P 1092 Nun ber die Weiden oder auf der Zufahrtsstrasse weiter sdlich nach Birchera Den Spuren des alten Pfades in sdstlicher Richtung folgen auf etwa 1250 m in den steilen Wald und hinauf nach Chserli ca 1309 m Nun auf dem offenen Weidestreifen weglos aufwrts zum Ladegrat den wir durch eine Schneise sdlich eines Stalles erreichen ca 1480 m</desc>
+    <trkseg>
+      <trkpt lat="46.71241353101314" lon="7.352065541890319">
+      </trkpt>
+      <trkpt lat="46.7115545310112" lon="7.351966541882856">
+      </trkpt>
+      <trkpt lat="46.71092253101217" lon="7.351432541879673">
+      </trkpt>
+      <trkpt lat="46.71017053101204" lon="7.351041541874653">
+      </trkpt>
+      <trkpt lat="46.70871953100856" lon="7.350917541861815">
+      </trkpt>
+      <trkpt lat="46.70767753100795" lon="7.350456541854467">
+      </trkpt>
+      <trkpt lat="46.7069065310063" lon="7.3503605418477935">
+      </trkpt>
+      <trkpt lat="46.70642553100627" lon="7.350092541844674">
+      </trkpt>
+      <trkpt lat="46.70568753100503" lon="7.349920541838702">
+      </trkpt>
+      <trkpt lat="46.70502453100267" lon="7.350025541832024">
+      </trkpt>
+      <trkpt lat="46.70465053100333" lon="7.34969354183022">
+      </trkpt>
+      <trkpt lat="46.7041585310051" lon="7.34905254182887">
+      </trkpt>
+      <trkpt lat="46.70308653100321" lon="7.348831541820032">
+      </trkpt>
+      <trkpt lat="46.702323531004254" lon="7.348210541816073">
+      </trkpt>
+      <trkpt lat="46.701933531007015" lon="7.347440541816309">
+      </trkpt>
+      <trkpt lat="46.700417531006856" lon="7.3466395418062636">
+      </trkpt>
+      <trkpt lat="46.700053531006446" lon="7.346512541803531">
+      </trkpt>
+      <trkpt lat="46.69967953100496" lon="7.346595541799646">
+      </trkpt>
+      <trkpt lat="46.69917353100434" lon="7.346434541795755">
+      </trkpt>
+      <trkpt lat="46.698466106169136" lon="7.346733222329858">
+      </trkpt>
+      <trkpt lat="46.6983126351467" lon="7.346930513444476">
+      </trkpt>
+      <trkpt lat="46.69793382965968" lon="7.347863751764632">
+      </trkpt>
+      <trkpt lat="46.696962647211386" lon="7.351720070609861">
+      </trkpt>
+      <trkpt lat="46.696619096191995" lon="7.352246049224756">
+      </trkpt>
+      <trkpt lat="46.695505688865886" lon="7.353208884206615">
+      </trkpt>
+      <trkpt lat="46.69526136061738" lon="7.353525229833169">
+      </trkpt>
+      <trkpt lat="46.69508949587222" lon="7.353841457422218">
+      </trkpt>
+      <trkpt lat="46.69500835859692" lon="7.354355009921283">
+      </trkpt>
+      <trkpt lat="46.69525577921368" lon="7.355526130285972">
+      </trkpt>
+      <trkpt lat="46.69615414607962" lon="7.35734641745768">
+      </trkpt>
+      <trkpt lat="46.69658373545502" lon="7.358484455511877">
+      </trkpt>
+      <trkpt lat="46.69686638627049" lon="7.35928929444076">
+      </trkpt>
+      <trkpt lat="46.69729172970042" lon="7.3600883329115465">
+      </trkpt>
+      <trkpt lat="46.69764927654575" lon="7.360618661035791">
+      </trkpt>
+      <trkpt lat="46.69780668781422" lon="7.361048299588259">
+      </trkpt>
+      <trkpt lat="46.69791883331034" lon="7.361523603421134">
+      </trkpt>
+      <trkpt lat="46.6980707946184" lon="7.3619440767757585">
+      </trkpt>
+      <trkpt lat="46.6979659713571" lon="7.36233516927986">
+      </trkpt>
+      <trkpt lat="46.69775546066551" lon="7.362620604534627">
+      </trkpt>
+      <trkpt lat="46.69769250226007" lon="7.362942868623373">
+      </trkpt>
+      <trkpt lat="46.69766369115515" lon="7.363328411222912">
+      </trkpt>
+      <trkpt lat="46.69762509097931" lon="7.363601550007045">
+      </trkpt>
+      <trkpt lat="46.69753098221616" lon="7.36383624578921">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Rifugio Alpe di Gimela  Pass Gimela</name>
+    <desc>Vom Rifugio Alpe di Gimela fhrt ein markierter manchmal etwas zugewachsener Wanderweg ostwrts hinauf zum Pass Gimela</desc>
+    <trkseg>
+      <trkpt lat="46.37241793618683" lon="9.080786043813447">
+      </trkpt>
+      <trkpt lat="46.373160521296406" lon="9.08212852978262">
+      </trkpt>
+      <trkpt lat="46.373086521301516" lon="9.08232752977362">
+      </trkpt>
+      <trkpt lat="46.373070521293506" lon="9.08250852978104">
+      </trkpt>
+      <trkpt lat="46.373081521296854" lon="9.08257352977687">
+      </trkpt>
+      <trkpt lat="46.37311201922896" lon="9.082623018423895">
+      </trkpt>
+      <trkpt lat="46.3731790192208" lon="9.082671018420308">
+      </trkpt>
+      <trkpt lat="46.373163019226375" lon="9.082850018427052">
+      </trkpt>
+      <trkpt lat="46.37315152129355" lon="9.083053529777425">
+      </trkpt>
+      <trkpt lat="46.37322252129256" lon="9.083232529766745">
+      </trkpt>
+      <trkpt lat="46.37322452129223" lon="9.083395529773465">
+      </trkpt>
+      <trkpt lat="46.37320752128808" lon="9.083492529764184">
+      </trkpt>
+      <trkpt lat="46.37315934629521" lon="9.083485998733982">
+      </trkpt>
+      <trkpt lat="46.3730385212937" lon="9.083184529765251">
+      </trkpt>
+      <trkpt lat="46.372823521287394" lon="9.083273529770942">
+      </trkpt>
+      <trkpt lat="46.372747779327774" lon="9.083249991317516">
+      </trkpt>
+      <trkpt lat="46.37262152128954" lon="9.083072529773213">
+      </trkpt>
+      <trkpt lat="46.37253152129062" lon="9.083067529770522">
+      </trkpt>
+      <trkpt lat="46.37246252129335" lon="9.083133529765071">
+      </trkpt>
+      <trkpt lat="46.37240652129396" lon="9.083352529762058">
+      </trkpt>
+      <trkpt lat="46.37241352128778" lon="9.083423529765081">
+      </trkpt>
+      <trkpt lat="46.372595521292524" lon="9.083759529768358">
+      </trkpt>
+      <trkpt lat="46.37265252128586" lon="9.084004529767705">
+      </trkpt>
+      <trkpt lat="46.372664521282175" lon="9.084627529754181">
+      </trkpt>
+      <trkpt lat="46.372605521284086" lon="9.085154529752455">
+      </trkpt>
+      <trkpt lat="46.37284352127249" lon="9.087635529739906">
+      </trkpt>
+      <trkpt lat="46.37292952127033" lon="9.088117529741034">
+      </trkpt>
+      <trkpt lat="46.372940521262244" lon="9.088635529741826">
+      </trkpt>
+      <trkpt lat="46.37287452126053" lon="9.088693529743246">
+      </trkpt>
+      <trkpt lat="46.37289552125711" lon="9.089806529737526">
+      </trkpt>
+      <trkpt lat="46.37282852126112" lon="9.090090529732082">
+      </trkpt>
+      <trkpt lat="46.372883521258245" lon="9.090501529725035">
+      </trkpt>
+      <trkpt lat="46.37273852124878" lon="9.09120652973018">
+      </trkpt>
+      <trkpt lat="46.3726335212469" lon="9.091395529715916">
+      </trkpt>
+      <trkpt lat="46.37264252125118" lon="9.091740529724516">
+      </trkpt>
+      <trkpt lat="46.37246952124783" lon="9.092030529717473">
+      </trkpt>
+      <trkpt lat="46.3723905212425" lon="9.09230252971801">
+      </trkpt>
+      <trkpt lat="46.37221952124194" lon="9.092666529709513">
+      </trkpt>
+      <trkpt lat="46.37220352124601" lon="9.092783529714252">
+      </trkpt>
+      <trkpt lat="46.37224752124473" lon="9.092859529706155">
+      </trkpt>
+      <trkpt lat="46.3722535212385" lon="9.09303652970637">
+      </trkpt>
+      <trkpt lat="46.37221152124412" lon="9.093163529702572">
+      </trkpt>
+      <trkpt lat="46.372187521237294" lon="9.09358752970019">
+      </trkpt>
+      <trkpt lat="46.37210321843226" lon="9.09401089690935">
+      </trkpt>
+      <trkpt lat="46.37212089636159" lon="9.094066166148417">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Tte aux Chamois  Cabane des Diablerets</name>
+    <desc>Descend the ski slope from the cable car station to the hut 20secs Now enjoy a well earned beer</desc>
+    <trkseg>
+      <trkpt lat="46.34001312924677" lon="7.214688317558406">
+      </trkpt>
+      <trkpt lat="46.339845530955365" lon="7.214839539643725">
+      </trkpt>
+      <trkpt lat="46.339525956143696" lon="7.214869275364261">
+      </trkpt>
+      <trkpt lat="46.33878435762286" lon="7.215215852233463">
+      </trkpt>
+      <trkpt lat="46.338624530737654" lon="7.215371538821786">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

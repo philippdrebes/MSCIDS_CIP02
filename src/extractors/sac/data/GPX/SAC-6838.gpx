@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Rifugio Barone  Lago di Porchir</name>
+    <desc>Vom Rifugio Barone hinunter zu den Stllen von Piodoo 1951 m Beim bergseitigen Gebude beginnt eine stellenweise undeutliche Spur die westwrts zu einem Bach fhrt dann noch zwei weitere Wasserrinnen quert und im Zickzack zur Alpe di Porchir 2079 m emporfhrt Weiter auf Wegspuren Richtung Lago di Porchir 2191 m</desc>
+    <trkseg>
+      <trkpt lat="46.395700543640736" lon="8.748851377794313">
+      </trkpt>
+      <trkpt lat="46.395660211321875" lon="8.749149483532188">
+      </trkpt>
+      <trkpt lat="46.39559002507876" lon="8.749150389650895">
+      </trkpt>
+      <trkpt lat="46.395460147401884" lon="8.749100441666299">
+      </trkpt>
+      <trkpt lat="46.39536984297442" lon="8.749129469566421">
+      </trkpt>
+      <trkpt lat="46.395249622955625" lon="8.749489360519721">
+      </trkpt>
+      <trkpt lat="46.39513994928263" lon="8.749559530523932">
+      </trkpt>
+      <trkpt lat="46.39504001100688" lon="8.749410179602041">
+      </trkpt>
+      <trkpt lat="46.394959973448614" lon="8.74894012873285">
+      </trkpt>
+      <trkpt lat="46.39481973616744" lon="8.748930241828122">
+      </trkpt>
+      <trkpt lat="46.39481005980726" lon="8.748599725868283">
+      </trkpt>
+      <trkpt lat="46.394889746272234" lon="8.74801000059899">
+      </trkpt>
+      <trkpt lat="46.39484017877608" lon="8.747549790262758">
+      </trkpt>
+      <trkpt lat="46.39489969271696" lon="8.747460202557932">
+      </trkpt>
+      <trkpt lat="46.394860342495846" lon="8.747439748852232">
+      </trkpt>
+      <trkpt lat="46.39491990288927" lon="8.747190221951572">
+      </trkpt>
+      <trkpt lat="46.395130015317825" lon="8.746680355980166">
+      </trkpt>
+      <trkpt lat="46.39510024419252" lon="8.746609420694853">
+      </trkpt>
+      <trkpt lat="46.39495976677589" lon="8.746620339244895">
+      </trkpt>
+      <trkpt lat="46.3949096384079" lon="8.746520306521573">
+      </trkpt>
+      <trkpt lat="46.39483000794642" lon="8.746559998194641">
+      </trkpt>
+      <trkpt lat="46.39478998304746" lon="8.746520024067248">
+      </trkpt>
+      <trkpt lat="46.3947000835481" lon="8.746669995505343">
+      </trkpt>
+      <trkpt lat="46.394510001624944" lon="8.746769440297081">
+      </trkpt>
+      <trkpt lat="46.3940498281773" lon="8.747430608447653">
+      </trkpt>
+      <trkpt lat="46.39363984636096" lon="8.747640473257684">
+      </trkpt>
+      <trkpt lat="46.39349963450558" lon="8.747940060216155">
+      </trkpt>
+      <trkpt lat="46.39281964908543" lon="8.748469774842192">
+      </trkpt>
+      <trkpt lat="46.39283042447396" lon="8.747770485992726">
+      </trkpt>
+      <trkpt lat="46.39308957680338" lon="8.74690944750615">
+      </trkpt>
+      <trkpt lat="46.39296960741746" lon="8.746780428946069">
+      </trkpt>
+      <trkpt lat="46.39257007505907" lon="8.747020452533391">
+      </trkpt>
+      <trkpt lat="46.39240017168631" lon="8.746930539756653">
+      </trkpt>
+      <trkpt lat="46.39234105101002" lon="8.746362199513209">
+      </trkpt>
+      <trkpt lat="46.39261193029747" lon="8.745497543845042">
+      </trkpt>
+      <trkpt lat="46.39271714919849" lon="8.744173798495824">
+      </trkpt>
+      <trkpt lat="46.392567903207905" lon="8.74291414903676">
+      </trkpt>
+      <trkpt lat="46.3925342437537" lon="8.741851021317938">
+      </trkpt>
+      <trkpt lat="46.392163701888705" lon="8.741056769076451">
+      </trkpt>
+      <trkpt lat="46.391496589742374" lon="8.741095373344226">
+      </trkpt>
+      <trkpt lat="46.38974879518867" lon="8.741695738139803">
+      </trkpt>
+      <trkpt lat="46.388994102974344" lon="8.742934899942215">
+      </trkpt>
+      <trkpt lat="46.38818872085127" lon="8.742166655397012">
+      </trkpt>
+      <trkpt lat="46.38754515572678" lon="8.741722153432733">
+      </trkpt>
+      <trkpt lat="46.387055181532595" lon="8.740908208338107">
+      </trkpt>
+      <trkpt lat="46.38579596553637" lon="8.740878002739446">
+      </trkpt>
+      <trkpt lat="46.383865638939916" lon="8.741312723666631">
+      </trkpt>
+      <trkpt lat="46.37924409693611" lon="8.741690623621704">
+      </trkpt>
+      <trkpt lat="46.37780796034078" lon="8.741632759959774">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

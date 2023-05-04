@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Champry  Grand Paradis</name>
+    <desc>From Champry train station follow the main road SW for 15 km and cross the Vize at P 1045 After another crossing at P 1055 youll come to the Grand Paradis cableway Large parking area</desc>
+    <trkseg>
+      <trkpt lat="46.175101531899756" lon="6.870414539297509">
+      </trkpt>
+      <trkpt lat="46.17258653189795" lon="6.8693015392798324">
+      </trkpt>
+      <trkpt lat="46.17216453189812" lon="6.869016539277339">
+      </trkpt>
+      <trkpt lat="46.17186653189877" lon="6.868724539276006">
+      </trkpt>
+      <trkpt lat="46.17108553190202" lon="6.8676095392741825">
+      </trkpt>
+      <trkpt lat="46.16986153190533" lon="6.866232539269554">
+      </trkpt>
+      <trkpt lat="46.1693705319071" lon="6.865599539268091">
+      </trkpt>
+      <trkpt lat="46.16889653191022" lon="6.864698539268049">
+      </trkpt>
+      <trkpt lat="46.16842653191573" lon="6.863319539270319">
+      </trkpt>
+      <trkpt lat="46.168215531917426" lon="6.862866539270552">
+      </trkpt>
+      <trkpt lat="46.16786053191849" lon="6.862450539269275">
+      </trkpt>
+      <trkpt lat="46.167048531918944" lon="6.861876539264605">
+      </trkpt>
+      <trkpt lat="46.16668353192168" lon="6.861124539264849">
+      </trkpt>
+      <trkpt lat="46.16661753192171" lon="6.861077539264474">
+      </trkpt>
+      <trkpt lat="46.16651553192138" lon="6.861089539263477">
+      </trkpt>
+      <trkpt lat="46.16635053191978" lon="6.861305539260931">
+      </trkpt>
+      <trkpt lat="46.1660885319186" lon="6.861399539258108">
+      </trkpt>
+      <trkpt lat="46.16597853191858" lon="6.8613345392574">
+      </trkpt>
+      <trkpt lat="46.165761531919415" lon="6.861039539256827">
+      </trkpt>
+      <trkpt lat="46.165308531918214" lon="6.861011539252824">
+      </trkpt>
+      <trkpt lat="46.16478053191821" lon="6.86070453924946">
+      </trkpt>
+      <trkpt lat="46.16408453191551" lon="6.860834539242486">
+      </trkpt>
+      <trkpt lat="46.16360653191279" lon="6.8610965392368675">
+      </trkpt>
+      <trkpt lat="46.16323453191181" lon="6.8610765392335695">
+      </trkpt>
+      <trkpt lat="46.163596964726764" lon="6.86002138925012">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Chutloch  Ravellen</name>
+    <desc>Vom Chutloch zwei Minuten auf der Klusstrasse Richtung Oensingen bis dort wo der Ravellenweg 122 abzweigt Hier sticht man in den Wald ein und steigt links haltend hoch Blaue Striche zeigen zuverlssig die Route an Ein erster kompakter Felsaufschwung wird nordseitig umgagen anschliessend gewinnt man von Norden her den steilen Grat Die Route hlt sich ab nun meist knapp rechts der Kante also auf der Sonnenseite allerdings kann man da und dort auch nher am Grat bleiben was die Schwierigkeiten erhht Auf 550 Meter wird eine kompakte Stufe rechter Hand ber gestufte Felsen erklommen ein kurzes Fixseil als Handschlaufe Stand Juli 2021 Seil demontiert alternativ kann man auch links davon eine Verschneidung hochklettern schwieriger und ausgesetzter Anschliessend verflacht sich der Grat und wird nahezu waagrecht bleibt aber weitgehend felsig eine schn luftige Balancebung Beim Felskopf mit der Fahnenstange erreicht man den bequemen und gesicherten Wanderweg der meist die Felsen meidet  man kann aber auch konsequenter dem Grat folgen bis zu P 624</desc>
+    <trkseg>
+      <trkpt lat="47.29344202072975" lon="7.708803015149004">
+      </trkpt>
+      <trkpt lat="47.29329902072878" lon="7.708847015159337">
+      </trkpt>
+      <trkpt lat="47.29324502072492" lon="7.708881015154054">
+      </trkpt>
+      <trkpt lat="47.293175020723325" lon="7.70893401515657">
+      </trkpt>
+      <trkpt lat="47.293087020726695" lon="7.7090200151495685">
+      </trkpt>
+      <trkpt lat="47.29297302072562" lon="7.709159015153832">
+      </trkpt>
+      <trkpt lat="47.292823020729834" lon="7.709356015154436">
+      </trkpt>
+      <trkpt lat="47.29283002072947" lon="7.709381015161961">
+      </trkpt>
+      <trkpt lat="47.292831020723035" lon="7.709381015156444">
+      </trkpt>
+      <trkpt lat="47.29298931874608" lon="7.7094516485598">
+      </trkpt>
+      <trkpt lat="47.29319606656003" lon="7.709505576337427">
+      </trkpt>
+      <trkpt lat="47.29331240539505" lon="7.709757354074848">
+      </trkpt>
+      <trkpt lat="47.29341066176096" lon="7.710048702739368">
+      </trkpt>
+      <trkpt lat="47.293302294190745" lon="7.710233239900138">
+      </trkpt>
+      <trkpt lat="47.2933732862927" lon="7.710643435323817">
+      </trkpt>
+      <trkpt lat="47.293525413532535" lon="7.710974721597569">
+      </trkpt>
+      <trkpt lat="47.29364143744072" lon="7.711358708083813">
+      </trkpt>
+      <trkpt lat="47.29377740241097" lon="7.711804274695224">
+      </trkpt>
+      <trkpt lat="47.29384668572614" lon="7.7120472255011565">
+      </trkpt>
+      <trkpt lat="47.293954399893636" lon="7.712140320155776">
+      </trkpt>
+      <trkpt lat="47.29412658335743" lon="7.712606079157589">
+      </trkpt>
+      <trkpt lat="47.294241795545666" lon="7.712919515653784">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

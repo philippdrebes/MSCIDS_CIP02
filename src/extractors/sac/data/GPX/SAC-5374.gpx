@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Glaspass  Hoch Bel</name>
+    <desc>Vom Glaspass bieten sich Anfangs zwei Mglichkeiten Ein Weg fhrt kurz vor dem Pass stlich ein weiterer nach der Passhhe westlich um den Hoch Bel P 2105 herum beide sind weissrotweiss markiert Sie vereinigen sich im dahinterliegenden Rasensattel wo die weissblauweiss markierte Alpinwanderroute beginnt</desc>
+    <trkseg>
+      <trkpt lat="46.67774304776041" lon="9.35043238663881">
+      </trkpt>
+      <trkpt lat="46.67726163946012" lon="9.35035530946505">
+      </trkpt>
+      <trkpt lat="46.67682232477332" lon="9.350614167382984">
+      </trkpt>
+      <trkpt lat="46.67658205413597" lon="9.35088112972751">
+      </trkpt>
+      <trkpt lat="46.676420996745094" lon="9.35174361430489">
+      </trkpt>
+      <trkpt lat="46.67597584159145" lon="9.353647713034704">
+      </trkpt>
+      <trkpt lat="46.67565794130489" lon="9.354381503787867">
+      </trkpt>
+      <trkpt lat="46.67552893412224" lon="9.354413548916305">
+      </trkpt>
+      <trkpt lat="46.675602721217146" lon="9.354595416774378">
+      </trkpt>
+      <trkpt lat="46.67531692990062" lon="9.355476436518488">
+      </trkpt>
+      <trkpt lat="46.675150321368264" lon="9.3556526979223">
+      </trkpt>
+      <trkpt lat="46.674895465751774" lon="9.355591435529833">
+      </trkpt>
+      <trkpt lat="46.674524590726676" lon="9.355754901893567">
+      </trkpt>
+      <trkpt lat="46.67452852982839" lon="9.355538899508474">
+      </trkpt>
+      <trkpt lat="46.67395319199277" lon="9.355580400163044">
+      </trkpt>
+      <trkpt lat="46.67376375285" lon="9.355452989012703">
+      </trkpt>
+      <trkpt lat="46.673559594298595" lon="9.355524667058079">
+      </trkpt>
+      <trkpt lat="46.67294456210165" lon="9.355210850386054">
+      </trkpt>
+      <trkpt lat="46.67228710691421" lon="9.35431093217082">
+      </trkpt>
+      <trkpt lat="46.671946709955684" lon="9.354390042162889">
+      </trkpt>
+      <trkpt lat="46.67148551494163" lon="9.354139689444901">
+      </trkpt>
+      <trkpt lat="46.670983721027945" lon="9.353709353991134">
+      </trkpt>
+      <trkpt lat="46.67046637194308" lon="9.353621630094954">
+      </trkpt>
+      <trkpt lat="46.66984442204263" lon="9.353672509891075">
+      </trkpt>
+      <trkpt lat="46.6696415105354" lon="9.353756156245968">
+      </trkpt>
+      <trkpt lat="46.66954549872118" lon="9.353332501200349">
+      </trkpt>
+      <trkpt lat="46.669468176562496" lon="9.352438208137748">
+      </trkpt>
+      <trkpt lat="46.669223752070366" lon="9.35198328526581">
+      </trkpt>
+      <trkpt lat="46.66881152515688" lon="9.352188797771978">
+      </trkpt>
+      <trkpt lat="46.668743649469796" lon="9.351753129547507">
+      </trkpt>
+      <trkpt lat="46.668671127966526" lon="9.351587098234745">
+      </trkpt>
+      <trkpt lat="46.66774966177742" lon="9.351039543926516">
+      </trkpt>
+      <trkpt lat="46.667742277619844" lon="9.35103517727206">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

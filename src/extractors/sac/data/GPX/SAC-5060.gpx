@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Bergstation SeilbahnRifugio Oberto Maroli</name>
+    <desc>Von der Bergstation leicht absteigend in wenigen Minuten zum Rifugio</desc>
+    <trkseg>
+      <trkpt lat="45.99667553272386" lon="7.977271984242424">
+      </trkpt>
+      <trkpt lat="45.99661681756082" lon="7.977991774053607">
+      </trkpt>
+      <trkpt lat="45.99656078129128" lon="7.978778641757904">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

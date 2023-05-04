@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Ova Spin  Ivraina</name>
+    <desc>Bei der PostautoHaltestelle Ova Spin setzt ein markierter Bergwanderweg an Er fhrt durch geschlossenen Wald nordwrts und erreicht die Lichtung von Ivraina mit der Htte auf 2145 m</desc>
+    <trkseg>
+      <trkpt lat="46.67869201881008" lon="10.160503020225097">
+      </trkpt>
+      <trkpt lat="46.67881301881378" lon="10.160387020216668">
+      </trkpt>
+      <trkpt lat="46.6788590188136" lon="10.16059202021465">
+      </trkpt>
+      <trkpt lat="46.67897001881437" lon="10.160638020219888">
+      </trkpt>
+      <trkpt lat="46.679000018815884" lon="10.16072302022379">
+      </trkpt>
+      <trkpt lat="46.678969018811486" lon="10.161120020219077">
+      </trkpt>
+      <trkpt lat="46.67902601881479" lon="10.161224020226294">
+      </trkpt>
+      <trkpt lat="46.679672018810066" lon="10.16138602022472">
+      </trkpt>
+      <trkpt lat="46.68001501881507" lon="10.161673020226768">
+      </trkpt>
+      <trkpt lat="46.68032001881002" lon="10.161761020215637">
+      </trkpt>
+      <trkpt lat="46.68068301881055" lon="10.162130020216573">
+      </trkpt>
+      <trkpt lat="46.681096018809995" lon="10.162350020218382">
+      </trkpt>
+      <trkpt lat="46.68201601881401" lon="10.163055020219346">
+      </trkpt>
+      <trkpt lat="46.68240301881546" lon="10.163445020225257">
+      </trkpt>
+      <trkpt lat="46.68300601880934" lon="10.163497020220198">
+      </trkpt>
+      <trkpt lat="46.68335001881381" lon="10.163290020213125">
+      </trkpt>
+      <trkpt lat="46.68395101881562" lon="10.163130020206216">
+      </trkpt>
+      <trkpt lat="46.68435901881044" lon="10.162907020212907">
+      </trkpt>
+      <trkpt lat="46.68521001881301" lon="10.161490020207307">
+      </trkpt>
+      <trkpt lat="46.6862140188157" lon="10.160726020201913">
+      </trkpt>
+      <trkpt lat="46.687796018818354" lon="10.160564020209746">
+      </trkpt>
+      <trkpt lat="46.688077018820024" lon="10.160613020210318">
+      </trkpt>
+      <trkpt lat="46.688200018814804" lon="10.16071802021043">
+      </trkpt>
+      <trkpt lat="46.688559018818275" lon="10.160630020202207">
+      </trkpt>
+      <trkpt lat="46.68883501881546" lon="10.160711020199376">
+      </trkpt>
+      <trkpt lat="46.6895240188152" lon="10.160727020203122">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

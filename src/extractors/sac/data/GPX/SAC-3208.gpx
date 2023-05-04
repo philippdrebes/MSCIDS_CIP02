@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Cabane des Aiguilles Rouges  Satarma</name>
+    <desc>Fr die Abfahrt Ende Saison ist folgende Variante vorteilhaft Von oben im Tal Les Crosyes den Hang unter dem Felsriegel der Htte nach S queren Dann in den Talgrund und am rechten Hang bis Satarma 400 Meter talaufwrts von La Gouille abfahren Der rechte Hang des Tales kann auch von der Alp Remointse du Ch Blanc 2422 m erreicht werden</desc>
+    <trkseg>
+      <trkpt lat="46.05620598015852" lon="7.457415825837147">
+      </trkpt>
+      <trkpt lat="46.05731859156293" lon="7.456139496228717">
+      </trkpt>
+      <trkpt lat="46.05794363939849" lon="7.455618978542906">
+      </trkpt>
+      <trkpt lat="46.058445230341825" lon="7.455366564046717">
+      </trkpt>
+      <trkpt lat="46.05851816620843" lon="7.455357082833286">
+      </trkpt>
+      <trkpt lat="46.05941405060728" lon="7.455240616799208">
+      </trkpt>
+      <trkpt lat="46.058874070035266" lon="7.456274055012503">
+      </trkpt>
+      <trkpt lat="46.0588688862609" lon="7.456283975756963">
+      </trkpt>
+      <trkpt lat="46.05873918651619" lon="7.456726974366684">
+      </trkpt>
+      <trkpt lat="46.05873632716013" lon="7.4567367420106905">
+      </trkpt>
+      <trkpt lat="46.05868480010784" lon="7.456912736431358">
+      </trkpt>
+      <trkpt lat="46.05829911916541" lon="7.460419925568026">
+      </trkpt>
+      <trkpt lat="46.05735605081955" lon="7.461619685721798">
+      </trkpt>
+      <trkpt lat="46.056613942632495" lon="7.462034355817641">
+      </trkpt>
+      <trkpt lat="46.056513789296226" lon="7.462026643497919">
+      </trkpt>
+      <trkpt lat="46.054000376882165" lon="7.461833113385509">
+      </trkpt>
+      <trkpt lat="46.05265141912119" lon="7.461919658860595">
+      </trkpt>
+      <trkpt lat="46.04768129916246" lon="7.461537037867785">
+      </trkpt>
+      <trkpt lat="46.047207880173616" lon="7.461639857872582">
+      </trkpt>
+      <trkpt lat="46.04677077239704" lon="7.461901313486334">
+      </trkpt>
+      <trkpt lat="46.0464438748145" lon="7.462301490020516">
+      </trkpt>
+      <trkpt lat="46.04600387180728" lon="7.463123671485141">
+      </trkpt>
+      <trkpt lat="46.04612599883856" lon="7.464270003309035">
+      </trkpt>
+      <trkpt lat="46.04655831458069" lon="7.465935099154524">
+      </trkpt>
+      <trkpt lat="46.04748407809651" lon="7.4690886277839805">
+      </trkpt>
+      <trkpt lat="46.04777462322502" lon="7.47042032139214">
+      </trkpt>
+      <trkpt lat="46.04786713299794" lon="7.4713826768738265">
+      </trkpt>
+      <trkpt lat="46.04780437505559" lon="7.472833288549543">
+      </trkpt>
+      <trkpt lat="46.04663077741142" lon="7.477697240860167">
+      </trkpt>
+      <trkpt lat="46.04648499094676" lon="7.4788854908568645">
+      </trkpt>
+      <trkpt lat="46.046589509538975" lon="7.479452945742462">
+      </trkpt>
+      <trkpt lat="46.04698908225965" lon="7.4802257206050555">
+      </trkpt>
+      <trkpt lat="46.04724101236717" lon="7.481210308118796">
+      </trkpt>
+      <trkpt lat="46.04727069528668" lon="7.484967168386524">
+      </trkpt>
+      <trkpt lat="46.047561973957414" lon="7.487001767695489">
+      </trkpt>
+      <trkpt lat="46.04756871851539" lon="7.487032253964503">
+      </trkpt>
+      <trkpt lat="46.047575621085905" lon="7.487063450907771">
+      </trkpt>
+      <trkpt lat="46.047608321714065" lon="7.487165100603503">
+      </trkpt>
+      <trkpt lat="46.04763924519932" lon="7.487214687684675">
+      </trkpt>
+      <trkpt lat="46.04750470402803" lon="7.487378637697217">
+      </trkpt>
+      <trkpt lat="46.04753704231927" lon="7.487432666204392">
+      </trkpt>
+      <trkpt lat="46.04761158447542" lon="7.487662297253915">
+      </trkpt>
+      <trkpt lat="46.04768575016044" lon="7.487824798951849">
+      </trkpt>
+      <trkpt lat="46.04771761861508" lon="7.487872675579599">
+      </trkpt>
+      <trkpt lat="46.0477490174226" lon="7.487914414147032">
+      </trkpt>
+      <trkpt lat="46.04782453275522" lon="7.488075319744199">
+      </trkpt>
+      <trkpt lat="46.047915997098265" lon="7.488304274251258">
+      </trkpt>
+      <trkpt lat="46.04802871001685" lon="7.488357309750881">
+      </trkpt>
+      <trkpt lat="46.048109128769156" lon="7.488411171801246">
+      </trkpt>
+      <trkpt lat="46.04812527195674" lon="7.488444581456312">
+      </trkpt>
+      <trkpt lat="46.048137697036296" lon="7.488470317880622">
+      </trkpt>
+      <trkpt lat="46.04814021003346" lon="7.488562140837615">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

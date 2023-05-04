@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Top station  Wildstrubelhtte</name>
+    <desc>Descend from the top station of the aerial cableway 2881 m to the Glacier de la Plaine Morte Continue NW under Pointe de Vatseret then ascend W westwards to the Wisshorelcke 2851 m Contour across the SW flank of the Wisshore and down to the Wildstrubelhtte</desc>
+    <trkseg>
+      <trkpt lat="46.370259925399516" lon="7.489401305531913">
+      </trkpt>
+      <trkpt lat="46.37034626357038" lon="7.4895484619765265">
+      </trkpt>
+      <trkpt lat="46.37042098146678" lon="7.489637608923782">
+      </trkpt>
+      <trkpt lat="46.370784742845224" lon="7.489906035832456">
+      </trkpt>
+      <trkpt lat="46.371712238257345" lon="7.48986690644703">
+      </trkpt>
+      <trkpt lat="46.371716748749904" lon="7.4898667156889625">
+      </trkpt>
+      <trkpt lat="46.371916583171725" lon="7.4898582858866956">
+      </trkpt>
+      <trkpt lat="46.37292856026317" lon="7.4901039246256245">
+      </trkpt>
+      <trkpt lat="46.373669298421206" lon="7.489435269912439">
+      </trkpt>
+      <trkpt lat="46.37462722101281" lon="7.4891776650596515">
+      </trkpt>
+      <trkpt lat="46.37514927081984" lon="7.488868040933819">
+      </trkpt>
+      <trkpt lat="46.37727652795007" lon="7.486771166629305">
+      </trkpt>
+      <trkpt lat="46.3778270251777" lon="7.486095133680343">
+      </trkpt>
+      <trkpt lat="46.38012301798485" lon="7.482759779812597">
+      </trkpt>
+      <trkpt lat="46.38060741014029" lon="7.481684255068888">
+      </trkpt>
+      <trkpt lat="46.380744655973636" lon="7.4807803957982495">
+      </trkpt>
+      <trkpt lat="46.38078307294082" lon="7.479508760560553">
+      </trkpt>
+      <trkpt lat="46.38069048298054" lon="7.477866730615944">
+      </trkpt>
+      <trkpt lat="46.38061113251695" lon="7.4764598375465905">
+      </trkpt>
+      <trkpt lat="46.38045210330923" lon="7.475152051535397">
+      </trkpt>
+      <trkpt lat="46.380054886592205" lon="7.473997547101744">
+      </trkpt>
+      <trkpt lat="46.37990592783389" lon="7.472991729031392">
+      </trkpt>
+      <trkpt lat="46.379966856732594" lon="7.472630908384954">
+      </trkpt>
+      <trkpt lat="46.38007666624335" lon="7.471980598958424">
+      </trkpt>
+      <trkpt lat="46.38048633325605" lon="7.471563283521064">
+      </trkpt>
+      <trkpt lat="46.380919080672435" lon="7.471835393580446">
+      </trkpt>
+      <trkpt lat="46.381163441788004" lon="7.471815342361101">
+      </trkpt>
+      <trkpt lat="46.381383712742384" lon="7.47149614918954">
+      </trkpt>
+      <trkpt lat="46.381666333267056" lon="7.471086601122901">
+      </trkpt>
+      <trkpt lat="46.38224680363835" lon="7.470579220681762">
+      </trkpt>
+      <trkpt lat="46.38242300287186" lon="7.47021851705936">
+      </trkpt>
+      <trkpt lat="46.38270373285511" lon="7.469108140006571">
+      </trkpt>
+      <trkpt lat="46.3830123957623" lon="7.467887213136196">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

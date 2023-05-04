@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Matte  Mattestand</name>
+    <desc>From the Matte inn follow the path along the fence above Mattehubel North of Mattehubel the path continues northeastward until a small house at P 1707 On a faint path ascend a few minutes to reach Mattestand P 1759 with a small bench and a farreaching view</desc>
+    <trkseg>
+      <trkpt lat="46.68496954220037" lon="7.574878838116474">
+      </trkpt>
+      <trkpt lat="46.68506002032311" lon="7.575110015189199">
+      </trkpt>
+      <trkpt lat="46.68515002032295" lon="7.575190015185433">
+      </trkpt>
+      <trkpt lat="46.685480020322736" lon="7.575220015193435">
+      </trkpt>
+      <trkpt lat="46.68555002032632" lon="7.57499001519136">
+      </trkpt>
+      <trkpt lat="46.68562002032492" lon="7.574980015186837">
+      </trkpt>
+      <trkpt lat="46.68612002032441" lon="7.5752200151886795">
+      </trkpt>
+      <trkpt lat="46.686210020324175" lon="7.575220015193109">
+      </trkpt>
+      <trkpt lat="46.68631002032545" lon="7.57512001518471">
+      </trkpt>
+      <trkpt lat="46.68644002032416" lon="7.573840015192832">
+      </trkpt>
+      <trkpt lat="46.68644002032712" lon="7.573430015185056">
+      </trkpt>
+      <trkpt lat="46.68652002033069" lon="7.573040015189589">
+      </trkpt>
+      <trkpt lat="46.68654002032968" lon="7.5724600151859836">
+      </trkpt>
+      <trkpt lat="46.68651002032448" lon="7.572230015181288">
+      </trkpt>
+      <trkpt lat="46.68655002032538" lon="7.572230015187278">
+      </trkpt>
+      <trkpt lat="46.68691002032938" lon="7.57317001518153">
+      </trkpt>
+      <trkpt lat="46.686970020331394" lon="7.573670015191827">
+      </trkpt>
+      <trkpt lat="46.68703002032488" lon="7.573000015184798">
+      </trkpt>
+      <trkpt lat="46.686940020329594" lon="7.572390015185336">
+      </trkpt>
+      <trkpt lat="46.687130020331544" lon="7.57258001518447">
+      </trkpt>
+      <trkpt lat="46.6875500203324" lon="7.573360015183251">
+      </trkpt>
+      <trkpt lat="46.687590020324" lon="7.573470015186178">
+      </trkpt>
+      <trkpt lat="46.68753002032777" lon="7.57379001518629">
+      </trkpt>
+      <trkpt lat="46.68763002032794" lon="7.57379001518414">
+      </trkpt>
+      <trkpt lat="46.68771002032539" lon="7.573710015187567">
+      </trkpt>
+      <trkpt lat="46.6877700203247" lon="7.574090015182931">
+      </trkpt>
+      <trkpt lat="46.687880020331924" lon="7.574410015188646">
+      </trkpt>
+      <trkpt lat="46.68814002032577" lon="7.574810015183728">
+      </trkpt>
+      <trkpt lat="46.68821206482546" lon="7.575179229293238">
+      </trkpt>
+      <trkpt lat="46.68851749905974" lon="7.5754898770408134">
+      </trkpt>
+      <trkpt lat="46.68867898044315" lon="7.575856306820865">
+      </trkpt>
+      <trkpt lat="46.68879579651559" lon="7.575961180113493">
+      </trkpt>
+      <trkpt lat="46.688831919195025" lon="7.575843620847358">
+      </trkpt>
+      <trkpt lat="46.68892182705868" lon="7.575883064853153">
+      </trkpt>
+      <trkpt lat="46.689083448238826" lon="7.57613184778445">
+      </trkpt>
+      <trkpt lat="46.68942146263406" lon="7.576586242574837">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

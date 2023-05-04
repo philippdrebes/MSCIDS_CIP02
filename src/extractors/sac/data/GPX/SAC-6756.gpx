@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Schwndital  Riseten  Fridlispitz</name>
+    <desc>Vom Parkplatz zuhinterst im Schwndital hlt man rund 10 Minuten auf dem Wanderweg nordwrts verlsst diesen auf ca 1290 m und hlt weglos ungefhr dem Bachlauf entlang in nrdlicher Richtung die Weide hinauf zur Passeinsattelung der Lochegg 1536 m Nun auf der Krete oder leicht rechts davon in sdstlicher Richtung einigen alten Wegspuren folgend hinauf bis man auf ein Felsband auf rund 1690 m trifft Dieses lsst sich an einigen Stellen mit fnf sechs Kraxelschritten problemlos berwinden und schon erreicht man ber die steile Weide das erste Gipfelkreuz  und kurz darauf steht man auf dem Hauptgipfel des Riseten bei P 1735 Vom Riseten hlt man auf unterschiedlich deutlicher Wegspur auf oder leicht unterhalb des Grates gegen den Fridlispitz zu Nach P 1936 folgt die anspruchsvollste Stelle der Tour wo eine rund 20 m hohe Felswand diagonal durchstiegen wird Diese Stelle ist mit Drahtseilen gut gesichert vor allem bei Nsse ist aber Vorsicht geboten Anschliessend wird der Weg deutlicher und bald schon steht man auf dem Fridlispitz mit der tollen Aussicht ber die Linthebene</desc>
+    <trkseg>
+      <trkpt lat="47.107410019872326" lon="9.00527001784144">
+      </trkpt>
+      <trkpt lat="47.10777019276645" lon="9.005360066090201">
+      </trkpt>
+      <trkpt lat="47.10791037474192" lon="9.005240300907143">
+      </trkpt>
+      <trkpt lat="47.108219670096574" lon="9.004660322657829">
+      </trkpt>
+      <trkpt lat="47.10837024809522" lon="9.004569848766174">
+      </trkpt>
+      <trkpt lat="47.10847019003957" lon="9.004299999510724">
+      </trkpt>
+      <trkpt lat="47.10854039365779" lon="9.004429872417846">
+      </trkpt>
+      <trkpt lat="47.10862042721104" lon="9.004960626099962">
+      </trkpt>
+      <trkpt lat="47.10872008746756" lon="9.004909513329721">
+      </trkpt>
+      <trkpt lat="47.10881002272695" lon="9.005109805250159">
+      </trkpt>
+      <trkpt lat="47.10885007033655" lon="9.005669700928324">
+      </trkpt>
+      <trkpt lat="47.11001050546152" lon="9.005877601673234">
+      </trkpt>
+      <trkpt lat="47.11147582772977" lon="9.006488460590631">
+      </trkpt>
+      <trkpt lat="47.11241228089118" lon="9.007023243069584">
+      </trkpt>
+      <trkpt lat="47.112843931733316" lon="9.00736666391186">
+      </trkpt>
+      <trkpt lat="47.11418186787092" lon="9.007752459537125">
+      </trkpt>
+      <trkpt lat="47.114605151026694" lon="9.008378998505778">
+      </trkpt>
+      <trkpt lat="47.114914411005316" lon="9.009383075851979">
+      </trkpt>
+      <trkpt lat="47.11539950022431" lon="9.010160373901918">
+      </trkpt>
+      <trkpt lat="47.11631120360325" lon="9.010727482040462">
+      </trkpt>
+      <trkpt lat="47.115884242662496" lon="9.011488567059095">
+      </trkpt>
+      <trkpt lat="47.11461881083247" lon="9.012379194243211">
+      </trkpt>
+      <trkpt lat="47.11434031818759" lon="9.012678076800912">
+      </trkpt>
+      <trkpt lat="47.11420178206585" lon="9.013202474758316">
+      </trkpt>
+      <trkpt lat="47.113699587751555" lon="9.013609426560826">
+      </trkpt>
+      <trkpt lat="47.11377993297237" lon="9.013589385768977">
+      </trkpt>
+      <trkpt lat="47.113679710221994" lon="9.014599878583617">
+      </trkpt>
+      <trkpt lat="47.11369726838341" lon="9.014828386554129">
+      </trkpt>
+      <trkpt lat="47.1133641966594" lon="9.016415830257325">
+      </trkpt>
+      <trkpt lat="47.113493755846505" lon="9.016808417362515">
+      </trkpt>
+      <trkpt lat="47.1132200945635" lon="9.017475095621522">
+      </trkpt>
+      <trkpt lat="47.1130689519191" lon="9.018325926881628">
+      </trkpt>
+      <trkpt lat="47.1131403235057" lon="9.02007023827151">
+      </trkpt>
+      <trkpt lat="47.1129502068993" lon="9.02178969249936">
+      </trkpt>
+      <trkpt lat="47.112970075784425" lon="9.021980050718186">
+      </trkpt>
+      <trkpt lat="47.113109731973466" lon="9.0220303048612">
+      </trkpt>
+      <trkpt lat="47.1131203350906" lon="9.022240157601455">
+      </trkpt>
+      <trkpt lat="47.112619633035585" lon="9.025079803470915">
+      </trkpt>
+      <trkpt lat="47.11258007021061" lon="9.025729646688156">
+      </trkpt>
+      <trkpt lat="47.112440083717075" lon="9.026289534105937">
+      </trkpt>
+      <trkpt lat="47.112439879970275" lon="9.026759997495056">
+      </trkpt>
+      <trkpt lat="47.112719610825195" lon="9.026699765003105">
+      </trkpt>
+      <trkpt lat="47.112789581618415" lon="9.026779593126955">
+      </trkpt>
+      <trkpt lat="47.11284009842624" lon="9.027030165200484">
+      </trkpt>
+      <trkpt lat="47.112800118763154" lon="9.027839457560168">
+      </trkpt>
+      <trkpt lat="47.112849795027344" lon="9.028150627003624">
+      </trkpt>
+      <trkpt lat="47.11272994579301" lon="9.02848971048376">
+      </trkpt>
+      <trkpt lat="47.112729939508775" lon="9.029010260824306">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Bernerhhe  P 686</name>
+    <desc>Von der Bushaltestelle direkt in die Chrbelstrasse einbiegen und an einigen Gewerbebauten vorbei zu einem Wegweiser Dort nach links durch ein Waldstck zu einem Wohnhaus und auf dem Strsschen zum Fallenboden Hier weglos ber die Wiese schrg ansteigen und um einen Rcken zum Hof Mittler Truben Auf der Strasse weiter zur Kurve bei P 686</desc>
+    <trkseg>
+      <trkpt lat="47.042624470200586" lon="8.550917445147235">
+      </trkpt>
+      <trkpt lat="47.04202041278902" lon="8.54994031107923">
+      </trkpt>
+      <trkpt lat="47.04152976924693" lon="8.548490485088196">
+      </trkpt>
+      <trkpt lat="47.04076994045083" lon="8.548549772543739">
+      </trkpt>
+      <trkpt lat="47.04057979942477" lon="8.548490568877897">
+      </trkpt>
+      <trkpt lat="47.040410424884776" lon="8.548330468439088">
+      </trkpt>
+      <trkpt lat="47.040020388217506" lon="8.547080168163138">
+      </trkpt>
+      <trkpt lat="47.03994040136916" lon="8.546699530064863">
+      </trkpt>
+      <trkpt lat="47.03985978675742" lon="8.546570220688102">
+      </trkpt>
+      <trkpt lat="47.039700359893025" lon="8.547149878259525">
+      </trkpt>
+      <trkpt lat="47.03960034445543" lon="8.547259664025228">
+      </trkpt>
+      <trkpt lat="47.03942000730769" lon="8.547209880206502">
+      </trkpt>
+      <trkpt lat="47.03943985584563" lon="8.547669542601307">
+      </trkpt>
+      <trkpt lat="47.03942976179995" lon="8.54796936110205">
+      </trkpt>
+      <trkpt lat="47.039360191289376" lon="8.548279792351762">
+      </trkpt>
+      <trkpt lat="47.03938036147221" lon="8.548519704786443">
+      </trkpt>
+      <trkpt lat="47.03931989730115" lon="8.548539508254017">
+      </trkpt>
+      <trkpt lat="47.039209873005454" lon="8.548939898252158">
+      </trkpt>
+      <trkpt lat="47.0391202062836" lon="8.549560463707625">
+      </trkpt>
+      <trkpt lat="47.0391400264164" lon="8.550579382447804">
+      </trkpt>
+      <trkpt lat="47.03902996255275" lon="8.550890285065567">
+      </trkpt>
+      <trkpt lat="47.038699587308116" lon="8.551470322571712">
+      </trkpt>
+      <trkpt lat="47.0382699236991" lon="8.551620630771605">
+      </trkpt>
+      <trkpt lat="47.03789985696234" lon="8.551840598586583">
+      </trkpt>
+      <trkpt lat="47.036749834368855" lon="8.55169041296597">
+      </trkpt>
+      <trkpt lat="47.03618042340924" lon="8.551779917502563">
+      </trkpt>
+      <trkpt lat="47.03575027424748" lon="8.551980207231221">
+      </trkpt>
+      <trkpt lat="47.03568013891637" lon="8.552069543090594">
+      </trkpt>
+      <trkpt lat="47.03571219869121" lon="8.55210310396275">
+      </trkpt>
+      <trkpt lat="47.034829882368875" lon="8.55162031472084">
+      </trkpt>
+      <trkpt lat="47.034080033768205" lon="8.551670547089277">
+      </trkpt>
+      <trkpt lat="47.0332099687866" lon="8.551130140474324">
+      </trkpt>
+      <trkpt lat="47.03280014393456" lon="8.55044008528403">
+      </trkpt>
+      <trkpt lat="47.032769635844964" lon="8.550060518242956">
+      </trkpt>
+      <trkpt lat="47.0328104314887" lon="8.549470593116489">
+      </trkpt>
+      <trkpt lat="47.03280982876904" lon="8.549466394115198">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

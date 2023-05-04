@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>PlanFrancey  Le Molson</name>
+    <desc>Der Zustieg zum Couloir erfolgt oberhalb von P 1462 westlich von PlanFrancey wobei eine sehr steile Stufe und eine darber liegende felsige Rinne zuunterst berwunden werden mssen Diese lassen sich auch umgehen zum Beispiel ber einen Einstieg wie beim Chemin des Chamois siehe Variante So wird das NCouloir oberhalb der steilsten Stelle gewonnen 
+
+Oberhalb von Steilstufe und Engstelle weitet sich das Couloir und steigt gleichmssig etwa 4045 steil zum grasigen NWGrat auf ber den schliesslich der Gipfel des Molson erreicht wird Ohne Firnauflage ist das Gelnde im Schatten des Molson eher unangenehm und rutschig</desc>
+    <trkseg>
+      <trkpt lat="46.555746069885934" lon="7.023500590305065">
+      </trkpt>
+      <trkpt lat="46.555438532236046" lon="7.022885542062826">
+      </trkpt>
+      <trkpt lat="46.55490353223708" lon="7.022372542060339">
+      </trkpt>
+      <trkpt lat="46.55481053223668" lon="7.022410542059302">
+      </trkpt>
+      <trkpt lat="46.55479753223728" lon="7.022279542059821">
+      </trkpt>
+      <trkpt lat="46.55486653223878" lon="7.022030542061734">
+      </trkpt>
+      <trkpt lat="46.5548305322394" lon="7.021878542062083">
+      </trkpt>
+      <trkpt lat="46.554812532240405" lon="7.021680542062886">
+      </trkpt>
+      <trkpt lat="46.55482153224237" lon="7.021283542064917">
+      </trkpt>
+      <trkpt lat="46.554810532242826" lon="7.021182542065297">
+      </trkpt>
+      <trkpt lat="46.55479753224331" lon="7.021091542065623">
+      </trkpt>
+      <trkpt lat="46.55468653224503" lon="7.020684542066581">
+      </trkpt>
+      <trkpt lat="46.55467753224552" lon="7.02058954206696">
+      </trkpt>
+      <trkpt lat="46.55466953224654" lon="7.020381542067903">
+      </trkpt>
+      <trkpt lat="46.554720532250265" lon="7.019666542071866">
+      </trkpt>
+      <trkpt lat="46.5547075322521" lon="7.0193025420735236">
+      </trkpt>
+      <trkpt lat="46.554683532253186" lon="7.019065542074451">
+      </trkpt>
+      <trkpt lat="46.5545735322553" lon="7.018600542075705">
+      </trkpt>
+      <trkpt lat="46.55448353225602" lon="7.018402542075834">
+      </trkpt>
+      <trkpt lat="46.55446153225748" lon="7.018096542077125">
+      </trkpt>
+      <trkpt lat="46.55441553225854" lon="7.0178735420777905">
+      </trkpt>
+      <trkpt lat="46.554418532259" lon="7.017775542078299">
+      </trkpt>
+      <trkpt lat="46.554388532259146" lon="7.017725542078264">
+      </trkpt>
+      <trkpt lat="46.55440953225958" lon="7.017666542078744">
+      </trkpt>
+      <trkpt lat="46.55435253226123" lon="7.017294542080032">
+      </trkpt>
+      <trkpt lat="46.554289567907176" lon="7.01709664501967">
+      </trkpt>
+      <trkpt lat="46.55419337291736" lon="7.016905012860224">
+      </trkpt>
+      <trkpt lat="46.55401239661382" lon="7.016619549993837">
+      </trkpt>
+      <trkpt lat="46.55380506441362" lon="7.0165038129632675">
+      </trkpt>
+      <trkpt lat="46.553552949046356" lon="7.01644058626422">
+      </trkpt>
+      <trkpt lat="46.553336961109935" lon="7.016416196600971">
+      </trkpt>
+      <trkpt lat="46.55301268782472" lon="7.016301376965235">
+      </trkpt>
+      <trkpt lat="46.55245453267313" lon="7.016188389519915">
+      </trkpt>
+      <trkpt lat="46.551778756091046" lon="7.015893774696422">
+      </trkpt>
+      <trkpt lat="46.5513736690515" lon="7.015818712407513">
+      </trkpt>
+      <trkpt lat="46.55061094313266" lon="7.015518734407041">
+      </trkpt>
+      <trkpt lat="46.55030538576896" lon="7.015483605907347">
+      </trkpt>
+      <trkpt lat="46.55002409176779" lon="7.0155096164639605">
+      </trkpt>
+      <trkpt lat="46.549542066660024" lon="7.015691738672913">
+      </trkpt>
+      <trkpt lat="46.54932509894879" lon="7.015885500011996">
+      </trkpt>
+      <trkpt lat="46.54908986634666" lon="7.0162577444128535">
+      </trkpt>
+      <trkpt lat="46.54893014442422" lon="7.016571520944309">
+      </trkpt>
+      <trkpt lat="46.54880853224619" lon="7.017111542029522">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

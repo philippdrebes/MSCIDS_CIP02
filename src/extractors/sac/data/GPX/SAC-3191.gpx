@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Capanna Cristallina  Lago Sfundau</name>
+    <desc>Von der Capanna Cristallina auf dem Passo di Cristallina fhrt man nach Sden zum Lago Sfundau ab und umgeht den See dem Ostufer entlang zu seinem SdwestEnde</desc>
+    <trkseg>
+      <trkpt lat="46.471854981898666" lon="8.52622731786896">
+      </trkpt>
+      <trkpt lat="46.471007333341994" lon="8.526097828728313">
+      </trkpt>
+      <trkpt lat="46.47096357187773" lon="8.526091143576146">
+      </trkpt>
+      <trkpt lat="46.470580133064274" lon="8.526032569394939">
+      </trkpt>
+      <trkpt lat="46.4705244912041" lon="8.52604388565947">
+      </trkpt>
+      <trkpt lat="46.46993573019144" lon="8.526163620834899">
+      </trkpt>
+      <trkpt lat="46.46991573104527" lon="8.526181371815227">
+      </trkpt>
+      <trkpt lat="46.46978755348094" lon="8.526295144158345">
+      </trkpt>
+      <trkpt lat="46.46978607539256" lon="8.526296455633693">
+      </trkpt>
+      <trkpt lat="46.46978559992783" lon="8.526296878381057">
+      </trkpt>
+      <trkpt lat="46.469104456901846" lon="8.526901458235455">
+      </trkpt>
+      <trkpt lat="46.46902212788541" lon="8.526974531519917">
+      </trkpt>
+      <trkpt lat="46.46902164334858" lon="8.526974961885582">
+      </trkpt>
+      <trkpt lat="46.468851270564215" lon="8.527126180399046">
+      </trkpt>
+      <trkpt lat="46.46817338872398" lon="8.527418331186135">
+      </trkpt>
+      <trkpt lat="46.468143649404624" lon="8.527431147442984">
+      </trkpt>
+      <trkpt lat="46.46814268368392" lon="8.527431564228191">
+      </trkpt>
+      <trkpt lat="46.46814219856863" lon="8.527431773226532">
+      </trkpt>
+      <trkpt lat="46.468139434216106" lon="8.527432965053832">
+      </trkpt>
+      <trkpt lat="46.468106444527514" lon="8.527447182100481">
+      </trkpt>
+      <trkpt lat="46.46698576345743" lon="8.526780723990079">
+      </trkpt>
+      <trkpt lat="46.4625920153999" lon="8.524780689758952">
+      </trkpt>
+      <trkpt lat="46.46173390638176" lon="8.524390118404366">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

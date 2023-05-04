@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Balm bei Gnsberg  P 741</name>
+    <desc>Von der Bushaltestelle ins Dorf hinauf und auf der Strasse nach rechts Bei P 682 Parkplatz ab hier Fahrverbot lohnt sich ein kurzer Abstecher zur Burgruine Balmfluh Anschliessend weiter auf dem Kiesstrsschen durch die kleine Klus der Siggern zu P 741</desc>
+    <trkseg>
+      <trkpt lat="47.25322877568718" lon="7.5593159762953235">
+      </trkpt>
+      <trkpt lat="47.253260020781575" lon="7.55882001486856">
+      </trkpt>
+      <trkpt lat="47.252820020780995" lon="7.558180014867448">
+      </trkpt>
+      <trkpt lat="47.252920020774326" lon="7.557760014861999">
+      </trkpt>
+      <trkpt lat="47.2533900207827" lon="7.557210014871269">
+      </trkpt>
+      <trkpt lat="47.25492002077578" lon="7.555850014868554">
+      </trkpt>
+      <trkpt lat="47.255180020776436" lon="7.555880014863141">
+      </trkpt>
+      <trkpt lat="47.25546002077739" lon="7.556040014866783">
+      </trkpt>
+      <trkpt lat="47.256040020781796" lon="7.556630014868022">
+      </trkpt>
+      <trkpt lat="47.25631002077975" lon="7.556980014866663">
+      </trkpt>
+      <trkpt lat="47.2567400207769" lon="7.5570900148607665">
+      </trkpt>
+      <trkpt lat="47.25706002078095" lon="7.557290014864889">
+      </trkpt>
+      <trkpt lat="47.25741002077652" lon="7.557300014872885">
+      </trkpt>
+      <trkpt lat="47.25768002077767" lon="7.5571600148644595">
+      </trkpt>
+      <trkpt lat="47.25793002078345" lon="7.557210014861021">
+      </trkpt>
+      <trkpt lat="47.25824886847081" lon="7.557124171586586">
+      </trkpt>
+      <trkpt lat="47.258450020781844" lon="7.557070014870555">
+      </trkpt>
+      <trkpt lat="47.258557476575994" lon="7.557001194226376">
+      </trkpt>
+      <trkpt lat="47.25866277400226" lon="7.5567331451917275">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Wasserscheide  Nordgrat  Gantrisch</name>
+    <desc>Die Route ber den Nordgrat ist nicht schwer zu finden von der Wasserscheide geht es kurz auf der Fahrstrasse Richtung Obernnene Bei der leichten Linksbiegung vor dem Heitihubel geht es weglos auf dem zunchst noch breiten Grasrcken hinauf welcher sich dann schnell verjngt zum Nordgrat des Gantrisch Ab einer Hhe von ca 1840 m wird es steil Die zumeist deutliche Trittspur verluft meist auf oder leicht rechts des Grates Noch relativ im unteren Teil des steilen Abschnittes muss einer kleiner Felsturm direkt berklettert werden danach wird der mit wenigen kurzen felsigen Abschnitten durchsetzte Grat richtig steil  allerdings auf stets erstaunlich gut gestuftem Gras Ein kurzer felsiger Abschnitt etwa auf halber Hhe etwas nach dem kleinen Felsturm verlangt grssere Umsicht beim Klettern II Kurz vor dem Gipfel flacht der Grat dann wieder ab</desc>
+    <trkseg>
+      <trkpt lat="46.72625000380679" lon="7.441460647738356">
+      </trkpt>
+      <trkpt lat="46.726210423318925" lon="7.441489425282671">
+      </trkpt>
+      <trkpt lat="46.726079986220384" lon="7.441659477535914">
+      </trkpt>
+      <trkpt lat="46.725540242397535" lon="7.4424194725181545">
+      </trkpt>
+      <trkpt lat="46.72541969969597" lon="7.44255943434308">
+      </trkpt>
+      <trkpt lat="46.72530005158692" lon="7.442869450007182">
+      </trkpt>
+      <trkpt lat="46.724889848682174" lon="7.443200374511202">
+      </trkpt>
+      <trkpt lat="46.724750413250426" lon="7.443379574510203">
+      </trkpt>
+      <trkpt lat="46.7246802428824" lon="7.443549622023258">
+      </trkpt>
+      <trkpt lat="46.724590279665286" lon="7.443790304631104">
+      </trkpt>
+      <trkpt lat="46.72453990138401" lon="7.44388971572148">
+      </trkpt>
+      <trkpt lat="46.724189954613955" lon="7.444470477016653">
+      </trkpt>
+      <trkpt lat="46.72417016421171" lon="7.444479631805699">
+      </trkpt>
+      <trkpt lat="46.72359983090385" lon="7.44495048503906">
+      </trkpt>
+      <trkpt lat="46.72350987395885" lon="7.445000182641094">
+      </trkpt>
+      <trkpt lat="46.722880178657384" lon="7.445269578082482">
+      </trkpt>
+      <trkpt lat="46.72263009571719" lon="7.445450062053168">
+      </trkpt>
+      <trkpt lat="46.722229804327135" lon="7.445320522869361">
+      </trkpt>
+      <trkpt lat="46.72220011930738" lon="7.445320519708734">
+      </trkpt>
+      <trkpt lat="46.72217043428751" lon="7.445320516548112">
+      </trkpt>
+      <trkpt lat="46.72184028540195" lon="7.445620019565238">
+      </trkpt>
+      <trkpt lat="46.72175032758892" lon="7.445680178626342">
+      </trkpt>
+      <trkpt lat="46.721080154838695" lon="7.445880228102776">
+      </trkpt>
+      <trkpt lat="46.72063036593474" lon="7.446160087028478">
+      </trkpt>
+      <trkpt lat="46.720429756567626" lon="7.446340565541533">
+      </trkpt>
+      <trkpt lat="46.72020036151052" lon="7.446519731018829">
+      </trkpt>
+      <trkpt lat="46.720089709932914" lon="7.446640051348367">
+      </trkpt>
+      <trkpt lat="46.71970017833222" lon="7.447079479950995">
+      </trkpt>
+      <trkpt lat="46.71957962781558" lon="7.447249499556662">
+      </trkpt>
+      <trkpt lat="46.71878053050982" lon="7.448552541457871">
+      </trkpt>
+      <trkpt lat="46.7180545305335" lon="7.449055541457222">
+      </trkpt>
+      <trkpt lat="46.71761217428508" lon="7.44917186855975">
+      </trkpt>
+      <trkpt lat="46.717061649065286" lon="7.44920446840441">
+      </trkpt>
+      <trkpt lat="46.71666313083915" lon="7.449428048405627">
+      </trkpt>
+      <trkpt lat="46.71586792014761" lon="7.4495599992628785">
+      </trkpt>
+      <trkpt lat="46.71539655986642" lon="7.449535062481738">
+      </trkpt>
+      <trkpt lat="46.71494771931977" lon="7.449146545271641">
+      </trkpt>
+      <trkpt lat="46.71464101242218" lon="7.448675664025288">
+      </trkpt>
+      <trkpt lat="46.71408960204138" lon="7.44852647737628">
+      </trkpt>
+      <trkpt lat="46.713004757490204" lon="7.448411209882135">
+      </trkpt>
+      <trkpt lat="46.71262964520295" lon="7.448426842093195">
+      </trkpt>
+      <trkpt lat="46.71220954829209" lon="7.44853532002132">
+      </trkpt>
+      <trkpt lat="46.711186773007874" lon="7.448410912162222">
+      </trkpt>
+      <trkpt lat="46.71076669277" lon="7.448303607185746">
+      </trkpt>
+      <trkpt lat="46.71035109373343" lon="7.448410775314689">
+      </trkpt>
+      <trkpt lat="46.70942541686018" lon="7.4489467913259055">
+      </trkpt>
+      <trkpt lat="46.70917533862872" lon="7.4489964412412535">
+      </trkpt>
+      <trkpt lat="46.70900532828894" lon="7.448946718361235">
+      </trkpt>
+      <trkpt lat="46.708453892785464" lon="7.449103546857927">
+      </trkpt>
+      <trkpt lat="46.70810123994805" lon="7.449459177275595">
+      </trkpt>
+      <trkpt lat="46.707619021092874" lon="7.450144314326722">
+      </trkpt>
+      <trkpt lat="46.707470588836166" lon="7.450218822921478">
+      </trkpt>
+      <trkpt lat="46.70695965886428" lon="7.450078801864035">
+      </trkpt>
+      <trkpt lat="46.70663042532916" lon="7.450069584165387">
+      </trkpt>
+      <trkpt lat="46.705976428795886" lon="7.4503427541864315">
+      </trkpt>
+      <trkpt lat="46.705777613857244" lon="7.450499630997351">
+      </trkpt>
+      <trkpt lat="46.70531166238945" lon="7.450350467281962">
+      </trkpt>
+      <trkpt lat="46.70499051557216" lon="7.450438013574783">
+      </trkpt>
+      <trkpt lat="46.704769525580204" lon="7.450600466524506">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

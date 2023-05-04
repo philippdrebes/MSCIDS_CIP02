@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Bahnhof Bern  Kirchenfeldbrcke  Alpines Museum</name>
+    <desc>Aus den Tiefen der Berner Bahnhofsunterfhrung sptestens beim Baldachin mit der Tramhaltestelle ans Licht Unter den Lauben der Spitalgasse ostwrts bis zu den Einkehrmglichkeiten am Brenplatz Frisch gestrkt oder direkt weiter in die Marktgasse voraus der Zytgloggenturm Scharf rechts in die Hotelgasse wo zahlreiche Unterknfte die Mglichkeit fr eine Zweitagestour bieten Kurz vor dem Casino ffnet sich die Aussicht bei guter Witterung auf die Berner Alpen bei mssigem Wetter auf eine weitere Einkehr Ein luftiger Gang ber die Kirchenfeldbrcke nach dem Brckenkopf westwrts bis vor das Alpinen Museum Ab hier  Vorsicht Stufe das unter Einheimischen berchtigte FallenbergTrittli  mit wenig Hhenverlust linkerhand ins Las Alps siehe Einkehren und bernachten der Eintrittspforte zum Alpinen Museum Sollte das FallenbergTrittli schlechte Verhltnisse aufweisen sein bietet sich eine die versteckte schwach geneigte Rampe 10 Meter weiter westlich an</desc>
+    <trkseg>
+      <trkpt lat="46.94815485171426" lon="7.440534486609998">
+      </trkpt>
+      <trkpt lat="46.947750064665094" lon="7.440941673893238">
+      </trkpt>
+      <trkpt lat="46.94820875826435" lon="7.443542498119697">
+      </trkpt>
+      <trkpt lat="46.94817275715253" lon="7.444094182618545">
+      </trkpt>
+      <trkpt lat="46.94804677525054" lon="7.4452106791306685">
+      </trkpt>
+      <trkpt lat="46.947938736466966" lon="7.446918263462525">
+      </trkpt>
+      <trkpt lat="46.947929713589375" lon="7.447338593398071">
+      </trkpt>
+      <trkpt lat="46.947947236645284" lon="7.448073414008197">
+      </trkpt>
+      <trkpt lat="46.947506889062595" lon="7.448060970830721">
+      </trkpt>
+      <trkpt lat="46.94709310992577" lon="7.448074040641008">
+      </trkpt>
+      <trkpt lat="46.94645115886543" lon="7.448408842434406">
+      </trkpt>
+      <trkpt lat="46.945914707523336" lon="7.448520439399715">
+      </trkpt>
+      <trkpt lat="46.94515010270189" lon="7.448704197499421">
+      </trkpt>
+      <trkpt lat="46.94445745465755" lon="7.4489405008335146">
+      </trkpt>
+      <trkpt lat="46.944079650537304" lon="7.449019241437504">
+      </trkpt>
+      <trkpt lat="46.94396275832248" lon="7.448454442615634">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Schwarzwaldalp  Brochhtte</name>
+    <desc>Von der Postautohaltestelle Schwarzwaldalp im Reichenbachtal kurz der Fahrstrasse entlang talwrts dann nach links 10 Min auf dem Strsschen das oberhalb der Htte dem Hang entlang ansteigt</desc>
+    <trkseg>
+      <trkpt lat="46.67605552693483" lon="8.134106537552212">
+      </trkpt>
+      <trkpt lat="46.67615852693486" lon="8.134152537552918">
+      </trkpt>
+      <trkpt lat="46.676409526933035" lon="8.134650537552586">
+      </trkpt>
+      <trkpt lat="46.677064526929975" lon="8.135599537553583">
+      </trkpt>
+      <trkpt lat="46.677274526934575" lon="8.134804537559653">
+      </trkpt>
+      <trkpt lat="46.67737752693581" lon="8.13462053756155">
+      </trkpt>
+      <trkpt lat="46.677648526937254" lon="8.134497537564643">
+      </trkpt>
+      <trkpt lat="46.677880526937294" lon="8.134608537566193">
+      </trkpt>
+      <trkpt lat="46.678350526935816" lon="8.135150537567622">
+      </trkpt>
+      <trkpt lat="46.679013526933005" lon="8.136066537568858">
+      </trkpt>
+      <trkpt lat="46.67937852693051" lon="8.136746537568614">
+      </trkpt>
+      <trkpt lat="46.67981252692835" lon="8.137407537569091">
+      </trkpt>
+      <trkpt lat="46.68052252692604" lon="8.13824653757118">
+      </trkpt>
+      <trkpt lat="46.68062152692248" lon="8.139002537568112">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

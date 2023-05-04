@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Flelapassstrasse  Chamanna da Grialetsch</name>
+    <desc>Vom Parkplatz ca 2300 m auf der Engadiner Seite des Flelapasses nach Sden in die Mulde von Radnt und nach Westen ausholend einem Tlchen folgend zur Fuorcla Radnt 2785 m Abfahrt und Traversierung sdwrts dem Sommerweg folgend via P 2719 hinber zu P 2706 auf den Rcken sdlich des Piz Radnt ber einen steilen Hang hinab zur Fuorcla da Grialetsch 2536 m und sdostwrts ber kupiertes Gelnde zur Chamanna da Grialetsch auf dem kleinen Hgel</desc>
+    <trkseg>
+      <trkpt lat="46.74284361594481" lon="9.96542718023838">
+      </trkpt>
+      <trkpt lat="46.74243620472948" lon="9.965480433168565">
+      </trkpt>
+      <trkpt lat="46.741813342704035" lon="9.965635671475315">
+      </trkpt>
+      <trkpt lat="46.73918550501175" lon="9.966732374429528">
+      </trkpt>
+      <trkpt lat="46.738881905617035" lon="9.9667507502946">
+      </trkpt>
+      <trkpt lat="46.7385776446683" lon="9.966586801889086">
+      </trkpt>
+      <trkpt lat="46.73812639834389" lon="9.965806606884884">
+      </trkpt>
+      <trkpt lat="46.73772306951837" lon="9.964516030828463">
+      </trkpt>
+      <trkpt lat="46.73753311890956" lon="9.963169569901478">
+      </trkpt>
+      <trkpt lat="46.73744346320064" lon="9.961661476854514">
+      </trkpt>
+      <trkpt lat="46.73740751006547" lon="9.961056814338557">
+      </trkpt>
+      <trkpt lat="46.73724296507318" lon="9.96039693206667">
+      </trkpt>
+      <trkpt lat="46.736414979561495" lon="9.959875716982191">
+      </trkpt>
+      <trkpt lat="46.73517191582547" lon="9.95962846229545">
+      </trkpt>
+      <trkpt lat="46.73502867872896" lon="9.95959997203624">
+      </trkpt>
+      <trkpt lat="46.73498049390812" lon="9.959604044203857">
+      </trkpt>
+      <trkpt lat="46.73491265659048" lon="9.959609778838825">
+      </trkpt>
+      <trkpt lat="46.73394245049227" lon="9.95969178132348">
+      </trkpt>
+      <trkpt lat="46.733159329311306" lon="9.960131403648171">
+      </trkpt>
+      <trkpt lat="46.73174060705812" lon="9.961548600909849">
+      </trkpt>
+      <trkpt lat="46.73035218063492" lon="9.963536191901358">
+      </trkpt>
+      <trkpt lat="46.728337471820325" lon="9.966834057720742">
+      </trkpt>
+      <trkpt lat="46.72727311670116" lon="9.968213344236664">
+      </trkpt>
+      <trkpt lat="46.726913238621044" lon="9.968427143842712">
+      </trkpt>
+      <trkpt lat="46.72635062025967" lon="9.96841025348351">
+      </trkpt>
+      <trkpt lat="46.724658692852046" lon="9.967456649135208">
+      </trkpt>
+      <trkpt lat="46.72362160551636" lon="9.967152760502453">
+      </trkpt>
+      <trkpt lat="46.723080412575264" lon="9.967172126887434">
+      </trkpt>
+      <trkpt lat="46.722132015508386" lon="9.967565555470227">
+      </trkpt>
+      <trkpt lat="46.721603158966126" lon="9.96744211145547">
+      </trkpt>
+      <trkpt lat="46.72120043748465" lon="9.967038717051118">
+      </trkpt>
+      <trkpt lat="46.7209152024229" lon="9.966450503293403">
+      </trkpt>
+      <trkpt lat="46.720278647365696" lon="9.963782746060467">
+      </trkpt>
+      <trkpt lat="46.719933105609755" lon="9.963207310358825">
+      </trkpt>
+      <trkpt lat="46.719489480828116" lon="9.962757437042715">
+      </trkpt>
+      <trkpt lat="46.71874169824979" lon="9.962316549532478">
+      </trkpt>
+      <trkpt lat="46.71645613191974" lon="9.961461636841836">
+      </trkpt>
+      <trkpt lat="46.7146100063946" lon="9.960036886079495">
+      </trkpt>
+      <trkpt lat="46.71406958408052" lon="9.96005308529559">
+      </trkpt>
+      <trkpt lat="46.712776202792206" lon="9.960584828220755">
+      </trkpt>
+      <trkpt lat="46.71238580843309" lon="9.960587460493791">
+      </trkpt>
+      <trkpt lat="46.71221447105855" lon="9.960388985416069">
+      </trkpt>
+      <trkpt lat="46.712121218734666" lon="9.960113229236729">
+      </trkpt>
+      <trkpt lat="46.7120979868609" lon="9.960044530647803">
+      </trkpt>
+      <trkpt lat="46.71192163244504" lon="9.959523041256183">
+      </trkpt>
+      <trkpt lat="46.71153257948589" lon="9.959154111112133">
+      </trkpt>
+      <trkpt lat="46.7108815576477" lon="9.959865025263847">
+      </trkpt>
+      <trkpt lat="46.710881064525395" lon="9.959865550450553">
+      </trkpt>
+      <trkpt lat="46.71081761636205" lon="9.959934848488581">
+      </trkpt>
+      <trkpt lat="46.710158025164546" lon="9.96065509634249">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

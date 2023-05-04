@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Flelen Gruonbach  Giebel</name>
+    <desc>Von Flelen Gruonbach kurz Richtung Hauptdorf zurck und auf markiertem Weg ber den sdlichen Damm des Gruonbachs bis in die Nhe der SeilbahnTalstation Beim Kraftwerk ber den Bach 574 m und in einigen Schlaufen zum Giebel An den unteren Gebuden vorbei zieht der Weg in der Falllinie hoch bis zur SeilbahnBergstation</desc>
+    <trkseg>
+      <trkpt lat="46.915607740404894" lon="8.62523016085492">
+      </trkpt>
+      <trkpt lat="46.91527001995665" lon="8.624910017218296">
+      </trkpt>
+      <trkpt lat="46.91533001995106" lon="8.62472001722346">
+      </trkpt>
+      <trkpt lat="46.91478001995365" lon="8.624190017217567">
+      </trkpt>
+      <trkpt lat="46.91448001995603" lon="8.624650017220194">
+      </trkpt>
+      <trkpt lat="46.9138000199561" lon="8.625170017222567">
+      </trkpt>
+      <trkpt lat="46.91347001995027" lon="8.625500017216226">
+      </trkpt>
+      <trkpt lat="46.912830019955045" lon="8.62645001722724">
+      </trkpt>
+      <trkpt lat="46.912140019954435" lon="8.627800017218142">
+      </trkpt>
+      <trkpt lat="46.91200001995443" lon="8.628250017220923">
+      </trkpt>
+      <trkpt lat="46.91190001994688" lon="8.628790017224702">
+      </trkpt>
+      <trkpt lat="46.91197001994777" lon="8.629660017237128">
+      </trkpt>
+      <trkpt lat="46.91234001995101" lon="8.63000001724092">
+      </trkpt>
+      <trkpt lat="46.91252001994963" lon="8.630320017242676">
+      </trkpt>
+      <trkpt lat="46.912670019954206" lon="8.630720017237556">
+      </trkpt>
+      <trkpt lat="46.91278001995234" lon="8.6313600172387">
+      </trkpt>
+      <trkpt lat="46.91296001994639" lon="8.63135001724022">
+      </trkpt>
+      <trkpt lat="46.91306001995274" lon="8.631260017241024">
+      </trkpt>
+      <trkpt lat="46.9133500199504" lon="8.630540017242998">
+      </trkpt>
+      <trkpt lat="46.91345001995135" lon="8.630080017239688">
+      </trkpt>
+      <trkpt lat="46.913510019954614" lon="8.630240017241308">
+      </trkpt>
+      <trkpt lat="46.91356001995161" lon="8.630260017240738">
+      </trkpt>
+      <trkpt lat="46.91369001995045" lon="8.629830017224702">
+      </trkpt>
+      <trkpt lat="46.91379001995459" lon="8.62978001722515">
+      </trkpt>
+      <trkpt lat="46.914010019951334" lon="8.63006001723418">
+      </trkpt>
+      <trkpt lat="46.914300019948" lon="8.630220017243174">
+      </trkpt>
+      <trkpt lat="46.9138500199524" lon="8.630370017235766">
+      </trkpt>
+      <trkpt lat="46.91390001995226" lon="8.630490017240286">
+      </trkpt>
+      <trkpt lat="46.914160019955176" lon="8.630450017234269">
+      </trkpt>
+      <trkpt lat="46.91388001994903" lon="8.630740017235716">
+      </trkpt>
+      <trkpt lat="46.913980019950685" lon="8.630810017244114">
+      </trkpt>
+      <trkpt lat="46.9139300199483" lon="8.630890017234965">
+      </trkpt>
+      <trkpt lat="46.91397001994799" lon="8.630920017238106">
+      </trkpt>
+      <trkpt lat="46.91389001994863" lon="8.630990017246736">
+      </trkpt>
+      <trkpt lat="46.913970019950504" lon="8.631040017244045">
+      </trkpt>
+      <trkpt lat="46.91393001995187" lon="8.631110017238258">
+      </trkpt>
+      <trkpt lat="46.91423001995104" lon="8.631210017247884">
+      </trkpt>
+      <trkpt lat="46.914200019952155" lon="8.631280017236726">
+      </trkpt>
+      <trkpt lat="46.91433001995198" lon="8.63129001724477">
+      </trkpt>
+      <trkpt lat="46.914290019949696" lon="8.631360017236322">
+      </trkpt>
+      <trkpt lat="46.914640019948784" lon="8.631450017247413">
+      </trkpt>
+      <trkpt lat="46.914780019953604" lon="8.631600017242471">
+      </trkpt>
+      <trkpt lat="46.914950019950325" lon="8.631650017243178">
+      </trkpt>
+      <trkpt lat="46.9152300199517" lon="8.63185001724393">
+      </trkpt>
+      <trkpt lat="46.91546001994746" lon="8.632090017246174">
+      </trkpt>
+      <trkpt lat="46.91561001995233" lon="8.632420017240625">
+      </trkpt>
+      <trkpt lat="46.915720019955366" lon="8.632520017242413">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

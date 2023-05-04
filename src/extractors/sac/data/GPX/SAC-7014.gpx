@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Schwyz  Znggelenflue</name>
+    <desc>Vom Bahnhof Schwyz den Gleisen entlang nordwrts zu einer FussgngerUnterfhrung Durch diese auf die andere Seite der Gleise dort nach rechts und spter nach links Wegmarkierungen Durch die Hirschenstrasse links am Gasthaus Kreuz vorbei ber die Seeweren und unter die Autobahn hindurch Auf der ansteigenden Urmibergstrasse bis zum Hof Urmi dort nach rechts zum Ltzli Auf einem schwach ausgeprgten Wiesenpfad zum Stall am nrdlichen Rand der Lichtung dort waagrecht in den Wald und die undeutliche Wegspur auffinden die  sprlich mit Steinmnnchen und grnen Tupfern markiert  etwas an Hhe gewinnt und dann am Fuss eines Felsriegels ansteigend nordwrts quert Man gelangt so zum Rcken der Znggelenflue wo der Weg deutlicher wird Man folgt ihm  er ist weiterhin mit grnen mal auch roten Tupfern mit Steinmnnchen und Plastikbndeln an den Bumen markiert  zuerst etwas gar steil dann in angenehmer Steigung zwei kurze Felszonen berwindend Dabei kommt man auf ca 920 m an einem Holzunterstand vorbei Ab rund 990 m wird der Grat flacher und breiter und an P 1001 vorbei gelangt man recht gemtlich zum hchsten Punkt der Znggelenflue Etwas sdlich davon befindet sich eine Sitzbank mit schner Aussicht</desc>
+    <trkseg>
+      <trkpt lat="47.026420267418764" lon="8.632111893495292">
+      </trkpt>
+      <trkpt lat="47.027035416238235" lon="8.631783514978258">
+      </trkpt>
+      <trkpt lat="47.027621840913525" lon="8.63136239555804">
+      </trkpt>
+      <trkpt lat="47.027440011978236" lon="8.630939981349776">
+      </trkpt>
+      <trkpt lat="47.02798984499565" lon="8.630490408069122">
+      </trkpt>
+      <trkpt lat="47.02758987712375" lon="8.629589519933285">
+      </trkpt>
+      <trkpt lat="47.02762039007866" lon="8.629509943290897">
+      </trkpt>
+      <trkpt lat="47.027409813164375" lon="8.629169782567063">
+      </trkpt>
+      <trkpt lat="47.02784030540888" lon="8.628689915776285">
+      </trkpt>
+      <trkpt lat="47.02780044622071" lon="8.628629827693857">
+      </trkpt>
+      <trkpt lat="47.02743018109696" lon="8.628420323091099">
+      </trkpt>
+      <trkpt lat="47.02682011094786" lon="8.628780429913112">
+      </trkpt>
+      <trkpt lat="47.02667030338808" lon="8.62899944578168">
+      </trkpt>
+      <trkpt lat="47.02631017571425" lon="8.628940147065263">
+      </trkpt>
+      <trkpt lat="47.02613032163152" lon="8.629020355462126">
+      </trkpt>
+      <trkpt lat="47.02592023018605" lon="8.628980173049849">
+      </trkpt>
+      <trkpt lat="47.025759686495796" lon="8.629020025779921">
+      </trkpt>
+      <trkpt lat="47.02487011461837" lon="8.628659556311463">
+      </trkpt>
+      <trkpt lat="47.0239200790737" lon="8.627970186783294">
+      </trkpt>
+      <trkpt lat="47.02361034443278" lon="8.627909383933673">
+      </trkpt>
+      <trkpt lat="47.02197005408562" lon="8.625680089668583">
+      </trkpt>
+      <trkpt lat="47.021420239551105" lon="8.625260125645596">
+      </trkpt>
+      <trkpt lat="47.021470262634125" lon="8.62512047479749">
+      </trkpt>
+      <trkpt lat="47.02154995407287" lon="8.625069617408839">
+      </trkpt>
+      <trkpt lat="47.02203982926022" lon="8.625109390371604">
+      </trkpt>
+      <trkpt lat="47.02260979536593" lon="8.625320636569379">
+      </trkpt>
+      <trkpt lat="47.022989616802256" lon="8.62538955108967">
+      </trkpt>
+      <trkpt lat="47.023279860344246" lon="8.625160490612659">
+      </trkpt>
+      <trkpt lat="47.02325013566536" lon="8.624990129836974">
+      </trkpt>
+      <trkpt lat="47.02328988226489" lon="8.624800256587648">
+      </trkpt>
+      <trkpt lat="47.02358969988311" lon="8.624950278472811">
+      </trkpt>
+      <trkpt lat="47.02393967420596" lon="8.624860665962244">
+      </trkpt>
+      <trkpt lat="47.02434045592962" lon="8.624990557998675">
+      </trkpt>
+      <trkpt lat="47.02497987639483" lon="8.625009958764817">
+      </trkpt>
+      <trkpt lat="47.02507370162072" lon="8.62507123429906">
+      </trkpt>
+      <trkpt lat="47.0255419346136" lon="8.62502896492157">
+      </trkpt>
+      <trkpt lat="47.02631895559297" lon="8.624704089401487">
+      </trkpt>
+      <trkpt lat="47.0264373732707" lon="8.624561990262807">
+      </trkpt>
+      <trkpt lat="47.02636786781804" lon="8.624323644665605">
+      </trkpt>
+      <trkpt lat="47.026577176456456" lon="8.624091460141264">
+      </trkpt>
+      <trkpt lat="47.02707361388154" lon="8.623931398028269">
+      </trkpt>
+      <trkpt lat="47.02700967535863" lon="8.623153768212012">
+      </trkpt>
+      <trkpt lat="47.026676046612934" lon="8.622357033963986">
+      </trkpt>
+      <trkpt lat="47.02610734726518" lon="8.621673530933549">
+      </trkpt>
+      <trkpt lat="47.02567734846445" lon="8.620624734100906">
+      </trkpt>
+      <trkpt lat="47.02514475020224" lon="8.619928901494363">
+      </trkpt>
+      <trkpt lat="47.02448055191417" lon="8.618033028262436">
+      </trkpt>
+      <trkpt lat="47.02390026507286" lon="8.617599298576108">
+      </trkpt>
+      <trkpt lat="47.02369082017714" lon="8.617057956346793">
+      </trkpt>
+      <trkpt lat="47.02339082997524" lon="8.616485688991366">
+      </trkpt>
+      <trkpt lat="47.022851236170155" lon="8.615592446484001">
+      </trkpt>
+      <trkpt lat="47.02239699135575" lon="8.615148365236578">
+      </trkpt>
+      <trkpt lat="47.021408254761376" lon="8.613311319784794">
+      </trkpt>
+      <trkpt lat="47.02128624233691" lon="8.612927159659474">
+      </trkpt>
+      <trkpt lat="47.02097629550262" lon="8.612446806753399">
+      </trkpt>
+      <trkpt lat="47.020978172041644" lon="8.612263369749494">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

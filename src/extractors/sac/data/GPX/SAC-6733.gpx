@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Sareis  Gamsgrat</name>
+    <desc>Von der Bergstation Sareis auf einem deutlichen Weg durch Legfhren links um den Antennenhgel herum und in einen Sattel hinab Nun gegen den Gamsgrat hinauf spter etwas nach rechts queren Eine leichte Felsstufe fhrt zum Fuss einer Schuttrinne durch die man am besten entlang der linken Felsen aufsteigt  also den gelben Markierungen folgend Hier lohnt sich etwas Vorsicht vor Steinschlag falls andere Leute oder Gmsen unterwegs sind Nach einer kleinen Scharte wird das Gelnde steiler und erfordert ein paar leichte Kletterzge nun aber in recht kompaktem Gestein Rechts ansteigend gelangt man zum First des Gamsgrats</desc>
+    <trkseg>
+      <trkpt lat="47.10292035603247" lon="9.619661452363367">
+      </trkpt>
+      <trkpt lat="47.103009697178855" lon="9.619600516586646">
+      </trkpt>
+      <trkpt lat="47.103130056123554" lon="9.619659450488177">
+      </trkpt>
+      <trkpt lat="47.103720452976425" lon="9.620269947554405">
+      </trkpt>
+      <trkpt lat="47.103699690926646" lon="9.620510271108133">
+      </trkpt>
+      <trkpt lat="47.1037396991556" lon="9.620630509277275">
+      </trkpt>
+      <trkpt lat="47.103830263716205" lon="9.620599935002087">
+      </trkpt>
+      <trkpt lat="47.10392971672345" lon="9.620669881031652">
+      </trkpt>
+      <trkpt lat="47.10420962630986" lon="9.620619346774909">
+      </trkpt>
+      <trkpt lat="47.10436009754592" lon="9.620940452027531">
+      </trkpt>
+      <trkpt lat="47.1045597270663" lon="9.621089601713432">
+      </trkpt>
+      <trkpt lat="47.10482038113436" lon="9.621010608501015">
+      </trkpt>
+      <trkpt lat="47.10516042832201" lon="9.62111013111503">
+      </trkpt>
+      <trkpt lat="47.10533988282382" lon="9.621089769299504">
+      </trkpt>
+      <trkpt lat="47.105579850020206" lon="9.621199711188389">
+      </trkpt>
+      <trkpt lat="47.105619909282936" lon="9.621269875496429">
+      </trkpt>
+      <trkpt lat="47.10568951847856" lon="9.621252944133284">
+      </trkpt>
+      <trkpt lat="47.105900956099816" lon="9.621538325849997">
+      </trkpt>
+      <trkpt lat="47.10604692505064" lon="9.62195415090466">
+      </trkpt>
+      <trkpt lat="47.10625733446995" lon="9.622293530546832">
+      </trkpt>
+      <trkpt lat="47.106531433864106" lon="9.622595972556113">
+      </trkpt>
+      <trkpt lat="47.10717264367969" lon="9.622662982260243">
+      </trkpt>
+      <trkpt lat="47.10764064194807" lon="9.622232645772739">
+      </trkpt>
+      <trkpt lat="47.10779998359598" lon="9.622370940626514">
+      </trkpt>
+      <trkpt lat="47.107837679407226" lon="9.62275468887628">
+      </trkpt>
+      <trkpt lat="47.10796528790833" lon="9.623142105976838">
+      </trkpt>
+      <trkpt lat="47.10812858826092" lon="9.622877873450555">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

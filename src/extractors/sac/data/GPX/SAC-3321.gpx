@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Planurahtte SAC  Hfihtte SAC</name>
+    <desc>Von der Planurahtte in sdwestlicher Richtung ber den Hfifirn zur Htte abfahren Ab Hhenlinie 2500 den Gletscher auf der Sdseite befahren Vom Ende des Gletschers an Punkt 2344 vorbei in westlicher Richtung zur Htte</desc>
+    <trkseg>
+      <trkpt lat="46.82000023230395" lon="8.88031011806717">
+      </trkpt>
+      <trkpt lat="46.82077114490196" lon="8.881432623091902">
+      </trkpt>
+      <trkpt lat="46.82078885162693" lon="8.881427637314337">
+      </trkpt>
+      <trkpt lat="46.82099091027897" lon="8.881370733068312">
+      </trkpt>
+      <trkpt lat="46.82150549712911" lon="8.880870950145692">
+      </trkpt>
+      <trkpt lat="46.82229730214346" lon="8.879978523022558">
+      </trkpt>
+      <trkpt lat="46.82255974578677" lon="8.879464841950622">
+      </trkpt>
+      <trkpt lat="46.8229412860749" lon="8.878718035635366">
+      </trkpt>
+      <trkpt lat="46.82323404996624" lon="8.8774952369852">
+      </trkpt>
+      <trkpt lat="46.82324786366978" lon="8.87635467924482">
+      </trkpt>
+      <trkpt lat="46.82287083943548" lon="8.874185935069807">
+      </trkpt>
+      <trkpt lat="46.82252422951606" lon="8.873035473641421">
+      </trkpt>
+      <trkpt lat="46.82062985198928" lon="8.86925455220616">
+      </trkpt>
+      <trkpt lat="46.81990909206942" lon="8.867553769732284">
+      </trkpt>
+      <trkpt lat="46.81873176593627" lon="8.865758241322075">
+      </trkpt>
+      <trkpt lat="46.81835848573181" lon="8.865188981686517">
+      </trkpt>
+      <trkpt lat="46.81257466111752" lon="8.856370094016357">
+      </trkpt>
+      <trkpt lat="46.81128219168117" lon="8.854399803414871">
+      </trkpt>
+      <trkpt lat="46.80468954364428" lon="8.844049557113474">
+      </trkpt>
+      <trkpt lat="46.80413697241318" lon="8.842981185856265">
+      </trkpt>
+      <trkpt lat="46.80374838050539" lon="8.841857837660909">
+      </trkpt>
+      <trkpt lat="46.80352797270196" lon="8.840586143035258">
+      </trkpt>
+      <trkpt lat="46.80346127640969" lon="8.838735130463341">
+      </trkpt>
+      <trkpt lat="46.80375678875918" lon="8.830649810915594">
+      </trkpt>
+      <trkpt lat="46.803728125865476" lon="8.828167180127176">
+      </trkpt>
+      <trkpt lat="46.80354681000268" lon="8.827049505636177">
+      </trkpt>
+      <trkpt lat="46.80275989135835" lon="8.824402424401887">
+      </trkpt>
+      <trkpt lat="46.80239010141615" lon="8.822381637289071">
+      </trkpt>
+      <trkpt lat="46.801780152395196" lon="8.81904894325281">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

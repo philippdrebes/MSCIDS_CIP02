@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Frinvillier  Einstieg</name>
+    <desc>Vom Bahnhof zur Hauptstrasse unter der Bahnlinie hindurch Richtung Westen und kurz darauf den Pfad einschlagen der rechts ber eine Treppe abzweigt mit Fortin angeschrieben Nun auf der alten Strasse durch einen kurzen Tunnel links an der Hauptstrasse entlang und nochmals auf die alte Strasse Nach gut 50 Meter bei einem aufflligen Steinmann rechter Hand befindet sich auf 580 m der Einstieg in den Sentier des Echelles und den Sentier des Falaises</desc>
+    <trkseg>
+      <trkpt lat="47.16950594864219" lon="7.25749636954012">
+      </trkpt>
+      <trkpt lat="47.16920002087204" lon="7.258230014276737">
+      </trkpt>
+      <trkpt lat="47.16908002086901" lon="7.258230014276303">
+      </trkpt>
+      <trkpt lat="47.16927002086781" lon="7.257340014275281">
+      </trkpt>
+      <trkpt lat="47.16933002086944" lon="7.256770014276473">
+      </trkpt>
+      <trkpt lat="47.16945002087144" lon="7.256820014274983">
+      </trkpt>
+      <trkpt lat="47.169510020865836" lon="7.2567500142814065">
+      </trkpt>
+      <trkpt lat="47.169670020865475" lon="7.2564900142716064">
+      </trkpt>
+      <trkpt lat="47.16976002086778" lon="7.256190014271976">
+      </trkpt>
+      <trkpt lat="47.16980002087143" lon="7.255690014279935">
+      </trkpt>
+      <trkpt lat="47.16972002087104" lon="7.255120014278862">
+      </trkpt>
+      <trkpt lat="47.16976002086509" lon="7.255030014280285">
+      </trkpt>
+      <trkpt lat="47.16966002086622" lon="7.254470014269799">
+      </trkpt>
+      <trkpt lat="47.1696700208686" lon="7.254190014278771">
+      </trkpt>
+      <trkpt lat="47.16982002086552" lon="7.253950014272524">
+      </trkpt>
+      <trkpt lat="47.17012002087371" lon="7.253870014266462">
+      </trkpt>
+      <trkpt lat="47.170610020866775" lon="7.253870014266148">
+      </trkpt>
+      <trkpt lat="47.17086062103554" lon="7.253406289841612">
+      </trkpt>
+      <trkpt lat="47.17101002086631" lon="7.252930014264958">
+      </trkpt>
+      <trkpt lat="47.17106002087482" lon="7.252560014257566">
+      </trkpt>
+      <trkpt lat="47.17105002087469" lon="7.251490014249974">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

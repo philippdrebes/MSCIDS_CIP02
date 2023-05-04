@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Alpgschwnd  Tellenfadlcke</name>
+    <desc>From Alpgschwnd descend to P 1143 Continue horizontally on an unmarked sometimes narrow slippery path through Sulzgraben and ascend to Tellenfadlcke via Ginetendossen</desc>
+    <trkseg>
+      <trkpt lat="46.9858384464273" lon="8.268660218163863">
+      </trkpt>
+      <trkpt lat="46.98400052706608" lon="8.272186539633859">
+      </trkpt>
+      <trkpt lat="46.98404152707115" lon="8.272041539645858">
+      </trkpt>
+      <trkpt lat="46.983906527066296" lon="8.27194153964292">
+      </trkpt>
+      <trkpt lat="46.983555527068944" lon="8.272241539634846">
+      </trkpt>
+      <trkpt lat="46.98335352706803" lon="8.272311539634993">
+      </trkpt>
+      <trkpt lat="46.98313552706281" lon="8.272583539629979">
+      </trkpt>
+      <trkpt lat="46.98300052706172" lon="8.27266553962615">
+      </trkpt>
+      <trkpt lat="46.98291352706773" lon="8.272699539624071">
+      </trkpt>
+      <trkpt lat="46.98276852706827" lon="8.27255753962663">
+      </trkpt>
+      <trkpt lat="46.982706527061275" lon="8.272568539629363">
+      </trkpt>
+      <trkpt lat="46.98247452706412" lon="8.273102539625384">
+      </trkpt>
+      <trkpt lat="46.98233152706293" lon="8.273197539619902">
+      </trkpt>
+      <trkpt lat="46.98215652706111" lon="8.273213539613657">
+      </trkpt>
+      <trkpt lat="46.98191252705793" lon="8.273304539615992">
+      </trkpt>
+      <trkpt lat="46.98184752705706" lon="8.27337853961562">
+      </trkpt>
+      <trkpt lat="46.98140552705379" lon="8.27362853960509">
+      </trkpt>
+      <trkpt lat="46.98124152705297" lon="8.273948539602102">
+      </trkpt>
+      <trkpt lat="46.981064527048126" lon="8.274052539607013">
+      </trkpt>
+      <trkpt lat="46.9809785270546" lon="8.274226539600141">
+      </trkpt>
+      <trkpt lat="46.98084252705012" lon="8.274361539599512">
+      </trkpt>
+      <trkpt lat="46.98076552705355" lon="8.274413539596921">
+      </trkpt>
+      <trkpt lat="46.98066952704519" lon="8.274394539592992">
+      </trkpt>
+      <trkpt lat="46.98054452704838" lon="8.274292539596825">
+      </trkpt>
+      <trkpt lat="46.98038352704934" lon="8.274331539593867">
+      </trkpt>
+      <trkpt lat="46.980487527046606" lon="8.274802539586563">
+      </trkpt>
+      <trkpt lat="46.98061052704764" lon="8.27498453959902">
+      </trkpt>
+      <trkpt lat="46.98060952704515" lon="8.275076539591081">
+      </trkpt>
+      <trkpt lat="46.9805135270419" lon="8.274988539591133">
+      </trkpt>
+      <trkpt lat="46.98051252704685" lon="8.275204539586936">
+      </trkpt>
+      <trkpt lat="46.980319527044365" lon="8.27537353958745">
+      </trkpt>
+      <trkpt lat="46.980197527039685" lon="8.275807539585882">
+      </trkpt>
+      <trkpt lat="46.97998052704196" lon="8.276130539574838">
+      </trkpt>
+      <trkpt lat="46.97989252704049" lon="8.276148539582072">
+      </trkpt>
+      <trkpt lat="46.97970052704234" lon="8.275962539580158">
+      </trkpt>
+      <trkpt lat="46.979110527035346" lon="8.275756539578744">
+      </trkpt>
+      <trkpt lat="46.978944527040895" lon="8.27580553956906">
+      </trkpt>
+      <trkpt lat="46.97859552703609" lon="8.276022539564103">
+      </trkpt>
+      <trkpt lat="46.97846152703073" lon="8.276023539565085">
+      </trkpt>
+      <trkpt lat="46.978263527030464" lon="8.276116539569442">
+      </trkpt>
+      <trkpt lat="46.978174527032955" lon="8.276037539558775">
+      </trkpt>
+      <trkpt lat="46.97783552703053" lon="8.275953539558508">
+      </trkpt>
+      <trkpt lat="46.977720527035835" lon="8.275807539558995">
+      </trkpt>
+      <trkpt lat="46.977546527032196" lon="8.275706539565927">
+      </trkpt>
+      <trkpt lat="46.97744652703536" lon="8.27577453955959">
+      </trkpt>
+      <trkpt lat="46.97732716112542" lon="8.27548648296287">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

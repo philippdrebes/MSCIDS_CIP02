@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Bchlitalhtte  Obri Bchlilicke</name>
+    <desc>After a short descent from the Bchlitalhtte 2328 m the glacier can be reached in around 30 minutes to the west Climb the initially steep section of the glacier via its righthand northern edge to gain the Bchligletscher proper Bear south across the glacial plateau then once it starts to steepen again commence a wide arc through W to NW following its curve round and finally up to the Obri Bchlilicken 3074 m on the western skyline</desc>
+    <trkseg>
+      <trkpt lat="46.58694259808395" lon="8.282663689726322">
+      </trkpt>
+      <trkpt lat="46.586926100377354" lon="8.28255026289596">
+      </trkpt>
+      <trkpt lat="46.58693450310027" lon="8.282001312150992">
+      </trkpt>
+      <trkpt lat="46.58692076700484" lon="8.281514888413028">
+      </trkpt>
+      <trkpt lat="46.58697584798179" lon="8.281100791179211">
+      </trkpt>
+      <trkpt lat="46.586978359651695" lon="8.280761321496273">
+      </trkpt>
+      <trkpt lat="46.58690353735016" lon="8.28032843662806">
+      </trkpt>
+      <trkpt lat="46.58683451333529" lon="8.279501646390472">
+      </trkpt>
+      <trkpt lat="46.58684357262326" lon="8.279057492912925">
+      </trkpt>
+      <trkpt lat="46.58685263018553" lon="8.27861333928685">
+      </trkpt>
+      <trkpt lat="46.58683214441987" lon="8.27752545233295">
+      </trkpt>
+      <trkpt lat="46.58689613376075" lon="8.27663145479418">
+      </trkpt>
+      <trkpt lat="46.58689503497508" lon="8.276226591494064">
+      </trkpt>
+      <trkpt lat="46.58685224643549" lon="8.275706139649182">
+      </trkpt>
+      <trkpt lat="46.58676522961001" lon="8.275256845624211">
+      </trkpt>
+      <trkpt lat="46.58672723885693" lon="8.274875925376973">
+      </trkpt>
+      <trkpt lat="46.586759256779324" lon="8.274483409309697">
+      </trkpt>
+      <trkpt lat="46.58744877941373" lon="8.271811406120394">
+      </trkpt>
+      <trkpt lat="46.58796245095955" lon="8.270327127986366">
+      </trkpt>
+      <trkpt lat="46.58956879648007" lon="8.26641165723853">
+      </trkpt>
+      <trkpt lat="46.590638322270365" lon="8.263980041959758">
+      </trkpt>
+      <trkpt lat="46.591373126416535" lon="8.262272613287788">
+      </trkpt>
+      <trkpt lat="46.59179871882851" lon="8.260962857155658">
+      </trkpt>
+      <trkpt lat="46.59199583614798" lon="8.260077181937246">
+      </trkpt>
+      <trkpt lat="46.59205219899349" lon="8.259474411490359">
+      </trkpt>
+      <trkpt lat="46.5919317077153" lon="8.258550379219537">
+      </trkpt>
+      <trkpt lat="46.59154532004682" lon="8.257630710252432">
+      </trkpt>
+      <trkpt lat="46.591150374749915" lon="8.257096568584299">
+      </trkpt>
+      <trkpt lat="46.59028854164459" lon="8.25638770903714">
+      </trkpt>
+      <trkpt lat="46.589593705845886" lon="8.255964330406268">
+      </trkpt>
+      <trkpt lat="46.58868045684741" lon="8.255170901821918">
+      </trkpt>
+      <trkpt lat="46.58777628347376" lon="8.25391657048578">
+      </trkpt>
+      <trkpt lat="46.58766912513761" lon="8.253546103617378">
+      </trkpt>
+      <trkpt lat="46.58758580075577" lon="8.253075401050353">
+      </trkpt>
+      <trkpt lat="46.5875230510319" lon="8.252505866598495">
+      </trkpt>
+      <trkpt lat="46.58751890107425" lon="8.251863456771721">
+      </trkpt>
+      <trkpt lat="46.58762256648749" lon="8.251218440097265">
+      </trkpt>
+      <trkpt lat="46.58791940421944" lon="8.250449539415989">
+      </trkpt>
+      <trkpt lat="46.588233204266785" lon="8.24975272699948">
+      </trkpt>
+      <trkpt lat="46.588363134280655" lon="8.249304601899107">
+      </trkpt>
+      <trkpt lat="46.58857844923345" lon="8.248526008136515">
+      </trkpt>
+      <trkpt lat="46.58895794973022" lon="8.247601950402656">
+      </trkpt>
+      <trkpt lat="46.58934615573409" lon="8.247092168559128">
+      </trkpt>
+      <trkpt lat="46.58988842987713" lon="8.246631167481224">
+      </trkpt>
+      <trkpt lat="46.59005712144004" lon="8.246261783849533">
+      </trkpt>
+      <trkpt lat="46.59014493090005" lon="8.245793989362276">
+      </trkpt>
+      <trkpt lat="46.590104856442714" lon="8.245282025227503">
+      </trkpt>
+      <trkpt lat="46.590012850433496" lon="8.244697443516452">
+      </trkpt>
+      <trkpt lat="46.58985873710316" lon="8.244242949946026">
+      </trkpt>
+      <trkpt lat="46.589578292974316" lon="8.243524559488753">
+      </trkpt>
+      <trkpt lat="46.58943633534832" lon="8.242998409740547">
+      </trkpt>
+      <trkpt lat="46.589215718488624" lon="8.242471094341884">
+      </trkpt>
+      <trkpt lat="46.588971107675064" lon="8.242040626868258">
+      </trkpt>
+      <trkpt lat="46.58888631571654" lon="8.241876664259387">
+      </trkpt>
+      <trkpt lat="46.5887691689654" lon="8.241549518634224">
+      </trkpt>
+      <trkpt lat="46.58867110611212" lon="8.241201527204675">
+      </trkpt>
+      <trkpt lat="46.58868621206236" lon="8.241125153999874">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Morenia Maste 4  Egginerjoch</name>
+    <desc>From Morenia Maste 4 along the whitered marked mountain trail to the Egginerjoch</desc>
+    <trkseg>
+      <trkpt lat="46.08137204685445" lon="7.918111793646787">
+      </trkpt>
+      <trkpt lat="46.0810404010203" lon="7.917830957981021">
+      </trkpt>
+      <trkpt lat="46.08103012550528" lon="7.916860059323168">
+      </trkpt>
+      <trkpt lat="46.08114032658558" lon="7.916540435928995">
+      </trkpt>
+      <trkpt lat="46.08103062190533" lon="7.916530428171786">
+      </trkpt>
+      <trkpt lat="46.08070081101033" lon="7.917089861769574">
+      </trkpt>
+      <trkpt lat="46.080340143772325" lon="7.917500360822831">
+      </trkpt>
+      <trkpt lat="46.08031038289634" lon="7.917730195861159">
+      </trkpt>
+      <trkpt lat="46.08024081728658" lon="7.9178006832464325">
+      </trkpt>
+      <trkpt lat="46.0801109338727" lon="7.917670278291426">
+      </trkpt>
+      <trkpt lat="46.07997030556121" lon="7.917740142856567">
+      </trkpt>
+      <trkpt lat="46.07800029545515" lon="7.917519942340114">
+      </trkpt>
+      <trkpt lat="46.077610529733164" lon="7.917579866896042">
+      </trkpt>
+      <trkpt lat="46.07718046080667" lon="7.91781006026644">
+      </trkpt>
+      <trkpt lat="46.076620113577206" lon="7.9177909316061506">
+      </trkpt>
+      <trkpt lat="46.07596014673867" lon="7.918140604349864">
+      </trkpt>
+      <trkpt lat="46.0756503560222" lon="7.918220611236888">
+      </trkpt>
+      <trkpt lat="46.074930232263284" lon="7.9181199394639075">
+      </trkpt>
+      <trkpt lat="46.073750246557445" lon="7.917851090388637">
+      </trkpt>
+      <trkpt lat="46.073270653845015" lon="7.9178804924649455">
+      </trkpt>
+      <trkpt lat="46.072810252439695" lon="7.918050944292453">
+      </trkpt>
+      <trkpt lat="46.072370807418096" lon="7.918370212147823">
+      </trkpt>
+      <trkpt lat="46.072310668886445" lon="7.918550631684794">
+      </trkpt>
+      <trkpt lat="46.07228078228134" lon="7.9190208327043">
+      </trkpt>
+      <trkpt lat="46.07231047564375" lon="7.919230476205148">
+      </trkpt>
+      <trkpt lat="46.07237044745912" lon="7.919300797810581">
+      </trkpt>
+      <trkpt lat="46.072850308850334" lon="7.919420049250714">
+      </trkpt>
+      <trkpt lat="46.07283013407523" lon="7.919510346558931">
+      </trkpt>
+      <trkpt lat="46.07213084656542" lon="7.920220231825566">
+      </trkpt>
+      <trkpt lat="46.07160088513763" lon="7.920879892033728">
+      </trkpt>
+      <trkpt lat="46.071454955970964" lon="7.921137097253913">
+      </trkpt>
+      <trkpt lat="46.07080100593806" lon="7.92176075089765">
+      </trkpt>
+      <trkpt lat="46.07026045630206" lon="7.923000593631345">
+      </trkpt>
+      <trkpt lat="46.069680917779465" lon="7.923471072651756">
+      </trkpt>
+      <trkpt lat="46.06948082219357" lon="7.923981095861846">
+      </trkpt>
+      <trkpt lat="46.069320610963274" lon="7.92421101634705">
+      </trkpt>
+      <trkpt lat="46.06892034854266" lon="7.92441037130371">
+      </trkpt>
+      <trkpt lat="46.068830854966244" lon="7.924721045842005">
+      </trkpt>
+      <trkpt lat="46.06884057540721" lon="7.924970566030277">
+      </trkpt>
+      <trkpt lat="46.068620695735724" lon="7.9250603716011785">
+      </trkpt>
+      <trkpt lat="46.06856101868222" lon="7.925340291536726">
+      </trkpt>
+      <trkpt lat="46.06839026743745" lon="7.925510660478618">
+      </trkpt>
+      <trkpt lat="46.06825252628812" lon="7.925859533163183">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

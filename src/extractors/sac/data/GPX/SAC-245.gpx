@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Hinterrhein Tunnel north entrance  End of the Military Street</name>
+    <desc>From the San Bernadino Tunnels north entrance 1610 m hike along the military road and tank tracks on the northern edge of the shooting range to its western end and the massive earth mound where the marked hut approach begins</desc>
+    <trkseg>
+      <trkpt lat="46.52517764899031" lon="9.186668339078615">
+      </trkpt>
+      <trkpt lat="46.524973521177664" lon="9.186202530540372">
+      </trkpt>
+      <trkpt lat="46.524058521190845" lon="9.183125530549317">
+      </trkpt>
+      <trkpt lat="46.52337352119846" lon="9.181271530553524">
+      </trkpt>
+      <trkpt lat="46.52272852120513" lon="9.179609530557016">
+      </trkpt>
+      <trkpt lat="46.521533521214586" lon="9.177125530560215">
+      </trkpt>
+      <trkpt lat="46.52115952121946" lon="9.175983530563224">
+      </trkpt>
+      <trkpt lat="46.52101552122285" lon="9.175228530566129">
+      </trkpt>
+      <trkpt lat="46.5209365212274" lon="9.17428453057065">
+      </trkpt>
+      <trkpt lat="46.52099652123956" lon="9.171925530584215">
+      </trkpt>
+      <trkpt lat="46.52106352124487" lon="9.170920530590355">
+      </trkpt>
+      <trkpt lat="46.52098152125173" lon="9.169510530597423">
+      </trkpt>
+      <trkpt lat="46.52073752125729" lon="9.168300530601948">
+      </trkpt>
+      <trkpt lat="46.520550317444794" lon="9.167539555838745">
+      </trkpt>
+      <trkpt lat="46.52022952126378" lon="9.166745530606049">
+      </trkpt>
+      <trkpt lat="46.51896352127843" lon="9.16320553061443">
+      </trkpt>
+      <trkpt lat="46.51815352129263" lon="9.159971530625135">
+      </trkpt>
+      <trkpt lat="46.517928521295886" lon="9.159218530627317">
+      </trkpt>
+      <trkpt lat="46.517672521298536" lon="9.158565530628675">
+      </trkpt>
+      <trkpt lat="46.5175845212994" lon="9.158347530629095">
+      </trkpt>
+      <trkpt lat="46.51734452129933" lon="9.15823153062762">
+      </trkpt>
+      <trkpt lat="46.51667652130224" lon="9.157310530626807">
+      </trkpt>
+      <trkpt lat="46.51556452131307" lon="9.154587530632039">
+      </trkpt>
+      <trkpt lat="46.51499152131999" lon="9.152927530636147">
+      </trkpt>
+      <trkpt lat="46.51471152132729" lon="9.15134853064238">
+      </trkpt>
+      <trkpt lat="46.5142655213328" lon="9.150027530645744">
+      </trkpt>
+      <trkpt lat="46.51366952134164" lon="9.147975530651799">
+      </trkpt>
+      <trkpt lat="46.51312352134779" lon="9.146473530655273">
+      </trkpt>
+      <trkpt lat="46.51307952134883" lon="9.146237530656173">
+      </trkpt>
+      <trkpt lat="46.5131455213502" lon="9.146006530658033">
+      </trkpt>
+      <trkpt lat="46.513779521358" lon="9.144808530670222">
+      </trkpt>
+      <trkpt lat="46.51242252136325" lon="9.14304953066796">
+      </trkpt>
+      <trkpt lat="46.51202852136251" lon="9.14299053066481">
+      </trkpt>
+      <trkpt lat="46.51132452136341" lon="9.14244453066161">
+      </trkpt>
+      <trkpt lat="46.51104652136341" lon="9.142302530659949">
+      </trkpt>
+      <trkpt lat="46.51102052136446" lon="9.142080530660953">
+      </trkpt>
+      <trkpt lat="46.51117052136545" lon="9.141964530662896">
+      </trkpt>
+      <trkpt lat="46.51126652136656" lon="9.141797530664677">
+      </trkpt>
+      <trkpt lat="46.51126152136778" lon="9.14155253066597">
+      </trkpt>
+      <trkpt lat="46.51072952137007" lon="9.140816530665333">
+      </trkpt>
+      <trkpt lat="46.510589521371415" lon="9.14048353066594">
+      </trkpt>
+      <trkpt lat="46.510168521379164" lon="9.138734530671869">
+      </trkpt>
+      <trkpt lat="46.5100665213798" lon="9.138556530671963">
+      </trkpt>
+      <trkpt lat="46.509647521380344" lon="9.138229530670053">
+      </trkpt>
+      <trkpt lat="46.50903252138575" lon="9.1368395306723">
+      </trkpt>
+      <trkpt lat="46.50875052138668" lon="9.136504530671663">
+      </trkpt>
+      <trkpt lat="46.50819852138951" lon="9.135665530671409">
+      </trkpt>
+      <trkpt lat="46.508054772238964" lon="9.135555290258836">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

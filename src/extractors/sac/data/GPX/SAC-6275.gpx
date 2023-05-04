@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Riazzino  Medoscio</name>
+    <desc>Von der Haltestelle Riazzino Scuole auf der Hauptstrasse kurz ostwrts und bei P 205 links in den markierten Wanderweg einbiegen Der Sentee Riazzign folgt dem Bach des Valle della Pesta mit Blick zu einem markanten Wasserfall umgeht ein Fabrikgebude rechts und erklimmt die dahinter liegende Steilstufe mit vielen Treppen An einer Stichstrasse vorbei erreicht der Sentee Riazzign das hbsche Dorf Piandesso Dort nach rechts zur PostautoHaltestelle und durch das Dorf hinauf Sentee Insedina an einem Brunnen vorbei zu einem Weinberg Durch diesen hinauf dann an dessen linkem Rand bis zu den obersten Reben Der Weg kommt bald darauf an einem felsigen Aussichtspunkt vorbei und dreht nach rechts An einigen Gebuden vorbei zu einem verlassenen Wohnhaus ca 520 m am Rand von Medoscio T2T3 Unmittelbar darber befinden sich die eindrcklichen filmreifen Ruinen des ehemaligen Sanatorium von Medoscio die schon lnger als illegaler aber wohl geduldeter Treffpunkt Jugendlicher und Knstler aus der alternativen Szene dient</desc>
+    <trkseg>
+      <trkpt lat="46.17459901915069" lon="8.897135018169067">
+      </trkpt>
+      <trkpt lat="46.174341019145665" lon="8.899175018173171">
+      </trkpt>
+      <trkpt lat="46.1749720191426" lon="8.89894201817502">
+      </trkpt>
+      <trkpt lat="46.17547301915033" lon="8.898858018180862">
+      </trkpt>
+      <trkpt lat="46.17597801915056" lon="8.899222018181447">
+      </trkpt>
+      <trkpt lat="46.176068019145056" lon="8.899564018179912">
+      </trkpt>
+      <trkpt lat="46.17648601914331" lon="8.89945801817902">
+      </trkpt>
+      <trkpt lat="46.176551019145194" lon="8.899579018175947">
+      </trkpt>
+      <trkpt lat="46.17666301915067" lon="8.900161018172577">
+      </trkpt>
+      <trkpt lat="46.17674701914894" lon="8.89988301817501">
+      </trkpt>
+      <trkpt lat="46.176924019146455" lon="8.89987401817643">
+      </trkpt>
+      <trkpt lat="46.17706601914745" lon="8.89954901817336">
+      </trkpt>
+      <trkpt lat="46.177103019151794" lon="8.899635018172313">
+      </trkpt>
+      <trkpt lat="46.177127019146994" lon="8.89942001818046">
+      </trkpt>
+      <trkpt lat="46.17721601914912" lon="8.899587018177023">
+      </trkpt>
+      <trkpt lat="46.17720201914859" lon="8.899179018170505">
+      </trkpt>
+      <trkpt lat="46.177278019149426" lon="8.899325018176278">
+      </trkpt>
+      <trkpt lat="46.17733001914961" lon="8.899045018182251">
+      </trkpt>
+      <trkpt lat="46.177423019144534" lon="8.899202018176414">
+      </trkpt>
+      <trkpt lat="46.17744501914853" lon="8.898939018173865">
+      </trkpt>
+      <trkpt lat="46.17749901915003" lon="8.898844018170333">
+      </trkpt>
+      <trkpt lat="46.17764801915112" lon="8.898923018174518">
+      </trkpt>
+      <trkpt lat="46.17768001914445" lon="8.898856018170205">
+      </trkpt>
+      <trkpt lat="46.17780901914981" lon="8.898866018176946">
+      </trkpt>
+      <trkpt lat="46.17786901914995" lon="8.898561018179137">
+      </trkpt>
+      <trkpt lat="46.17809401914749" lon="8.898630018172785">
+      </trkpt>
+      <trkpt lat="46.178267019149715" lon="8.898859018173697">
+      </trkpt>
+      <trkpt lat="46.17841701914555" lon="8.898863018170017">
+      </trkpt>
+      <trkpt lat="46.1785960191463" lon="8.899024018169452">
+      </trkpt>
+      <trkpt lat="46.1785360191442" lon="8.899387018177233">
+      </trkpt>
+      <trkpt lat="46.17882101915209" lon="8.899346018179688">
+      </trkpt>
+      <trkpt lat="46.1790090191508" lon="8.899200018181034">
+      </trkpt>
+      <trkpt lat="46.179025019147616" lon="8.8991270181731">
+      </trkpt>
+      <trkpt lat="46.179183019150926" lon="8.899045018171925">
+      </trkpt>
+      <trkpt lat="46.17942101915063" lon="8.899147018175254">
+      </trkpt>
+      <trkpt lat="46.179582019145954" lon="8.899129018176884">
+      </trkpt>
+      <trkpt lat="46.179825019152524" lon="8.89873801818104">
+      </trkpt>
+      <trkpt lat="46.18008801914964" lon="8.898521018175908">
+      </trkpt>
+      <trkpt lat="46.180495306500454" lon="8.898767746820672">
+      </trkpt>
+      <trkpt lat="46.18063701915058" lon="8.89911801818183">
+      </trkpt>
+      <trkpt lat="46.180797019162185" lon="8.899085018173736">
+      </trkpt>
+      <trkpt lat="46.181094019156916" lon="8.898797018177879">
+      </trkpt>
+      <trkpt lat="46.181243019159375" lon="8.898727018180516">
+      </trkpt>
+      <trkpt lat="46.181281019162455" lon="8.899255018173104">
+      </trkpt>
+      <trkpt lat="46.18144101915408" lon="8.89945101817652">
+      </trkpt>
+      <trkpt lat="46.181480019159146" lon="8.89941501817737">
+      </trkpt>
+      <trkpt lat="46.181459019161" lon="8.899711018177127">
+      </trkpt>
+      <trkpt lat="46.181281019158874" lon="8.900369018182744">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

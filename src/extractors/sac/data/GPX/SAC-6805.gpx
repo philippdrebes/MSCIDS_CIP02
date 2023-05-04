@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Schilthornbahn  Abzweigung Lengwald</name>
+    <desc>Von der Talstation der Schilthornbahn Bushaltestelle 863 m folgt man der Strasse ca 300 m talauswrts bis zu einer alten Scheune unmittelbar an der Strasse</desc>
+    <trkseg>
+      <trkpt lat="46.55514620960369" lon="7.901767959676002">
+      </trkpt>
+      <trkpt lat="46.55503002004729" lon="7.901980015944161">
+      </trkpt>
+      <trkpt lat="46.555180020046194" lon="7.90227001594417">
+      </trkpt>
+      <trkpt lat="46.555040020045524" lon="7.902970015952941">
+      </trkpt>
+      <trkpt lat="46.55573002004649" lon="7.903450015953026">
+      </trkpt>
+      <trkpt lat="46.55614002004822" lon="7.903680015953406">
+      </trkpt>
+      <trkpt lat="46.557550020044744" lon="7.90406001594852">
+      </trkpt>
+      <trkpt lat="46.55854002004735" lon="7.904400015955443">
+      </trkpt>
+      <trkpt lat="46.55926441729885" lon="7.904659367639359">
+      </trkpt>
+      <trkpt lat="46.55929062080256" lon="7.904668749254599">
+      </trkpt>
+      <trkpt lat="46.55935002004407" lon="7.904690015956303">
+      </trkpt>
+      <trkpt lat="46.55929002004575" lon="7.904660015948474">
+      </trkpt>
+      <trkpt lat="46.55929109131611" lon="7.904668285305031">
+      </trkpt>
+      <trkpt lat="46.55929062080256" lon="7.904668749254599">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

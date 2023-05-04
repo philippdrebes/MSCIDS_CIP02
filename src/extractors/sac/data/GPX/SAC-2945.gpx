@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Cabane de Trient  Fentre de Saleinaz</name>
+    <desc>From the Trient hut head across the Glacier du Trient in a SW direction past the beautiful Aiguilles Dorees to the Fentre de Saleina 3261 m</desc>
+    <trkseg>
+      <trkpt lat="45.99959744386472" lon="7.0437046851132745">
+      </trkpt>
+      <trkpt lat="46.00030388196123" lon="7.043719104653542">
+      </trkpt>
+      <trkpt lat="46.00032089144059" lon="7.042869267277904">
+      </trkpt>
+      <trkpt lat="46.000144707521955" lon="7.041985242277743">
+      </trkpt>
+      <trkpt lat="45.999172551463694" lon="7.041607108805992">
+      </trkpt>
+      <trkpt lat="45.99872084689682" lon="7.041431417069472">
+      </trkpt>
+      <trkpt lat="45.99785340039783" lon="7.041094029469493">
+      </trkpt>
+      <trkpt lat="45.997289103094964" lon="7.040096833754852">
+      </trkpt>
+      <trkpt lat="45.99692327894286" lon="7.039450388043638">
+      </trkpt>
+      <trkpt lat="45.99509112245888" lon="7.036213023552903">
+      </trkpt>
+      <trkpt lat="45.99362761109952" lon="7.034170139704068">
+      </trkpt>
+      <trkpt lat="45.99306298300224" lon="7.033552969758457">
+      </trkpt>
+      <trkpt lat="45.9900177035062" lon="7.03089104131572">
+      </trkpt>
+      <trkpt lat="45.987532118537764" lon="7.028517616389383">
+      </trkpt>
+      <trkpt lat="45.985378180045515" lon="7.026673114379088">
+      </trkpt>
+      <trkpt lat="45.984524050077" lon="7.026103114484641">
+      </trkpt>
+      <trkpt lat="45.98391894818219" lon="7.0258826496083175">
+      </trkpt>
+      <trkpt lat="45.98304833172232" lon="7.0255654554938305">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

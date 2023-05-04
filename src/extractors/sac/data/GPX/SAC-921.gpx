@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Passo del San Gottardo  Passo di Lucendro</name>
+    <desc>From Ospizio del San Gottardo 2091 m crossing the pass road hike eastward to the hilly terrain of Alpe di San Gottardo characterised by rocky knolls polished by the glacier and wetlands Keeping to the north of the Ri della Valletta hike pathless to the northern shore of the little lake at P 2255 Hiking southwestward  across a short but steep step you reach the little lakes at P 2387 Traverse past them to the left and slightly above to reach the wide depression which runs down from Fibbia Now at first towards Fibbia until ca 2600 m from here you can make a detour to the Fibbia summit then distinctly southwestward to a saddle ca 150 m south of the nameless hill at P 2758 From the saddle on which a small statue of the Virgin Mother stands follow a distinct path on a grassy ridge southward until the barracks at Passo di Lucendro 2532 m keeping to the left in the upper part rather to the right in the lower part of the ridge</desc>
+    <trkseg>
+      <trkpt lat="46.55547914394274" lon="8.566867173801906">
+      </trkpt>
+      <trkpt lat="46.555461524406496" lon="8.56668953417703">
+      </trkpt>
+      <trkpt lat="46.555536524414634" lon="8.565199534186956">
+      </trkpt>
+      <trkpt lat="46.55546352441719" lon="8.56502453419115">
+      </trkpt>
+      <trkpt lat="46.55516052441844" lon="8.564764534182629">
+      </trkpt>
+      <trkpt lat="46.55537352441581" lon="8.564652534193465">
+      </trkpt>
+      <trkpt lat="46.55491006280669" lon="8.563287590568999">
+      </trkpt>
+      <trkpt lat="46.55461055282259" lon="8.560849325657939">
+      </trkpt>
+      <trkpt lat="46.55457933666221" lon="8.559519836375655">
+      </trkpt>
+      <trkpt lat="46.554633382692685" lon="8.557380847361722">
+      </trkpt>
+      <trkpt lat="46.554436142004384" lon="8.556539420140357">
+      </trkpt>
+      <trkpt lat="46.55405936698651" lon="8.555552068646495">
+      </trkpt>
+      <trkpt lat="46.55369712260002" lon="8.553120202883866">
+      </trkpt>
+      <trkpt lat="46.55351143938656" lon="8.55142024979378">
+      </trkpt>
+      <trkpt lat="46.553544496965046" lon="8.550550720614096">
+      </trkpt>
+      <trkpt lat="46.553618780364744" lon="8.54950856656899">
+      </trkpt>
+      <trkpt lat="46.5534252217608" lon="8.54905196897748">
+      </trkpt>
+      <trkpt lat="46.552557740989045" lon="8.547964296592802">
+      </trkpt>
+      <trkpt lat="46.55174841081198" lon="8.547601324047855">
+      </trkpt>
+      <trkpt lat="46.55038392115716" lon="8.546334152676044">
+      </trkpt>
+      <trkpt lat="46.54781967847365" lon="8.544828325185815">
+      </trkpt>
+      <trkpt lat="46.5468309001125" lon="8.54530836656278">
+      </trkpt>
+      <trkpt lat="46.54602288627651" lon="8.545138708468228">
+      </trkpt>
+      <trkpt lat="46.5452325466237" lon="8.544938830335827">
+      </trkpt>
+      <trkpt lat="46.54443149396488" lon="8.542580003933107">
+      </trkpt>
+      <trkpt lat="46.54375984458681" lon="8.541578814691144">
+      </trkpt>
+      <trkpt lat="46.54323477337184" lon="8.540167268376731">
+      </trkpt>
+      <trkpt lat="46.54187225007631" lon="8.538509091985045">
+      </trkpt>
+      <trkpt lat="46.54162352451267" lon="8.537934534204402">
+      </trkpt>
+      <trkpt lat="46.54155952451608" lon="8.537946534210139">
+      </trkpt>
+      <trkpt lat="46.54126652451143" lon="8.537554534203137">
+      </trkpt>
+      <trkpt lat="46.54076752452152" lon="8.53659253420483">
+      </trkpt>
+      <trkpt lat="46.540703524516736" lon="8.536171534203815">
+      </trkpt>
+      <trkpt lat="46.54056852452004" lon="8.535905534211665">
+      </trkpt>
+      <trkpt lat="46.54058052452491" lon="8.535221534208546">
+      </trkpt>
+      <trkpt lat="46.54046852452321" lon="8.534902534218643">
+      </trkpt>
+      <trkpt lat="46.54067752452971" lon="8.534788534218798">
+      </trkpt>
+      <trkpt lat="46.540880524528106" lon="8.534442534220082">
+      </trkpt>
+      <trkpt lat="46.54074252452969" lon="8.534165534222401">
+      </trkpt>
+      <trkpt lat="46.540742524532995" lon="8.53405053422062">
+      </trkpt>
+      <trkpt lat="46.540362524534196" lon="8.533992534220761">
+      </trkpt>
+      <trkpt lat="46.5402515245293" lon="8.534052534212167">
+      </trkpt>
+      <trkpt lat="46.54009952452877" lon="8.534011534217788">
+      </trkpt>
+      <trkpt lat="46.54000852452826" lon="8.533894534218303">
+      </trkpt>
+      <trkpt lat="46.53983452453231" lon="8.533916534213457">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Robiei  Capanna Basodino</name>
+    <desc>From the summit station of the aerial cableway follow the road making a curve to the south and at the end through an avalanche screen to the cabin</desc>
+    <trkseg>
+      <trkpt lat="46.44312163194312" lon="8.512436954813856">
+      </trkpt>
+      <trkpt lat="46.442805524371764" lon="8.512694533457854">
+      </trkpt>
+      <trkpt lat="46.44280752437179" lon="8.51269253345788">
+      </trkpt>
+      <trkpt lat="46.44280852437176" lon="8.512691533457883">
+      </trkpt>
+      <trkpt lat="46.44280052437034" lon="8.512978533456309">
+      </trkpt>
+      <trkpt lat="46.44279252436964" lon="8.513115533455506">
+      </trkpt>
+      <trkpt lat="46.44277552436887" lon="8.513243533454666">
+      </trkpt>
+      <trkpt lat="46.44273652436809" lon="8.513379533453604">
+      </trkpt>
+      <trkpt lat="46.44267452436708" lon="8.51355653345211">
+      </trkpt>
+      <trkpt lat="46.442605524365995" lon="8.513723533450612">
+      </trkpt>
+      <trkpt lat="46.442430524363616" lon="8.5140935334471">
+      </trkpt>
+      <trkpt lat="46.442365524362756" lon="8.514236533445759">
+      </trkpt>
+      <trkpt lat="46.4423045243629" lon="8.51417653344552">
+      </trkpt>
+      <trkpt lat="46.44225852436312" lon="8.514102533445502">
+      </trkpt>
+      <trkpt lat="46.442202524363715" lon="8.513961533445759">
+      </trkpt>
+      <trkpt lat="46.441960524367126" lon="8.513149533447905">
+      </trkpt>
+      <trkpt lat="46.441923524367546" lon="8.513052533448091">
+      </trkpt>
+      <trkpt lat="46.4418655243679" lon="8.512950533448118">
+      </trkpt>
+      <trkpt lat="46.44179652436809" lon="8.512872533447911">
+      </trkpt>
+      <trkpt lat="46.4417125243683" lon="8.512789533447606">
+      </trkpt>
+      <trkpt lat="46.44145352436836" lon="8.512632533446121">
+      </trkpt>
+      <trkpt lat="46.44105452436875" lon="8.512339533444118">
+      </trkpt>
+      <trkpt lat="46.44098652436879" lon="8.512294533443756">
+      </trkpt>
+      <trkpt lat="46.440986524368796" lon="8.512294533443743">
+      </trkpt>
+      <trkpt lat="46.44086752436892" lon="8.512212533443117">
+      </trkpt>
+      <trkpt lat="46.440781524368944" lon="8.512161533442624">
+      </trkpt>
+      <trkpt lat="46.44071752436886" lon="8.512145533442137">
+      </trkpt>
+      <trkpt lat="46.44060452436837" lon="8.51217553344097">
+      </trkpt>
+      <trkpt lat="46.4404075243671" lon="8.512311533438497">
+      </trkpt>
+      <trkpt lat="46.44033852436662" lon="8.512374533437551">
+      </trkpt>
+      <trkpt lat="46.44013352436443" lon="8.512691533434035">
+      </trkpt>
+      <trkpt lat="46.439810524361164" lon="8.513169533428627">
+      </trkpt>
+      <trkpt lat="46.43976052436069" lon="8.513226533427877">
+      </trkpt>
+      <trkpt lat="46.43971152436069" lon="8.513210533427527">
+      </trkpt>
+      <trkpt lat="46.43962952436021" lon="8.513258533426544">
+      </trkpt>
+      <trkpt lat="46.439589524358915" lon="8.51348553342498">
+      </trkpt>
+      <trkpt lat="46.43959352435831" lon="8.513616533424328">
+      </trkpt>
+      <trkpt lat="46.439600524357886" lon="8.51370153342393">
+      </trkpt>
+      <trkpt lat="46.439593524357335" lon="8.51380253342333">
+      </trkpt>
+      <trkpt lat="46.43958952435685" lon="8.513889533422834">
+      </trkpt>
+      <trkpt lat="46.43957352435649" lon="8.513954533422357">
+      </trkpt>
+      <trkpt lat="46.439498524356146" lon="8.513983533421529">
+      </trkpt>
+      <trkpt lat="46.43949852435609" lon="8.513991533421487">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

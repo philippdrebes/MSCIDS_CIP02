@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Haltestelle Waldhaus  Abzweigung Halpi</name>
+    <desc>Von der Haltestelle NeubrckeWaldhaus weiter ca 700 m die Strasse entlang zu einem Ausstellplatz mit Sitzbank und Feuerstelle nrdlich der Strasse</desc>
+    <trkseg>
+      <trkpt lat="46.46784252874862" lon="7.662305538082751">
+      </trkpt>
+      <trkpt lat="46.467748060089775" lon="7.662644190412283">
+      </trkpt>
+      <trkpt lat="46.467647528744756" lon="7.662962538077709">
+      </trkpt>
+      <trkpt lat="46.46741352874154" lon="7.663462538072994">
+      </trkpt>
+      <trkpt lat="46.46724552873793" lon="7.664084538068312">
+      </trkpt>
+      <trkpt lat="46.46706752873502" lon="7.664558538064362">
+      </trkpt>
+      <trkpt lat="46.46624852872748" lon="7.6655935380516755">
+      </trkpt>
+      <trkpt lat="46.4655255287223" lon="7.666204538042012">
+      </trkpt>
+      <trkpt lat="46.464893528716246" lon="7.667045538032017">
+      </trkpt>
+      <trkpt lat="46.46362252870524" lon="7.668516538013017">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

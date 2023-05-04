@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Cabane Rambert  Grand Muveran</name>
+    <desc>De la cabane Rambert 2584 m suivre au N les gazons et boulis de la Crte  Moret qui monte au milieu du versant S Franchir de petits bancs de rocher vers la droite qui nous mne au pied dune large chemine oblique  main gauche Gravir cette chemine II puis monter encore de 30 m par des petits gradins pour rejoindre  gauche une longue vire en gnral ascendante qui traverse tout le flanc S du Grand Muveran Avant le grand couloir sous le sommet revenir denviron 50 m  droite puis escalader quelques gradins faciles pour rejoindre une vire  nouveau ascendante  gauche et qui nous mne au sommet
+Descente par le mme itinraire</desc>
+    <trkseg>
+      <trkpt lat="46.230237849249285" lon="7.134400719688172">
+      </trkpt>
+      <trkpt lat="46.23025041497772" lon="7.13439027945653">
+      </trkpt>
+      <trkpt lat="46.23029986237883" lon="7.134379632332713">
+      </trkpt>
+      <trkpt lat="46.23037987006707" lon="7.134359740203437">
+      </trkpt>
+      <trkpt lat="46.230469772835384" lon="7.134339792501854">
+      </trkpt>
+      <trkpt lat="46.23057038967312" lon="7.134289971417308">
+      </trkpt>
+      <trkpt lat="46.230590235884804" lon="7.134310599684905">
+      </trkpt>
+      <trkpt lat="46.23061007859025" lon="7.134329931759972">
+      </trkpt>
+      <trkpt lat="46.23065044989238" lon="7.134289522185282">
+      </trkpt>
+      <trkpt lat="46.23073045756605" lon="7.134269629795337">
+      </trkpt>
+      <trkpt lat="46.23088030799676" lon="7.134130091895672">
+      </trkpt>
+      <trkpt lat="46.23093967849679" lon="7.134129758581094">
+      </trkpt>
+      <trkpt lat="46.23101976675449" lon="7.134139678848872">
+      </trkpt>
+      <trkpt lat="46.23109988304748" lon="7.134159968899717">
+      </trkpt>
+      <trkpt lat="46.231220426659405" lon="7.1341605884549555">
+      </trkpt>
+      <trkpt lat="46.23131030135812" lon="7.134130270322212">
+      </trkpt>
+      <trkpt lat="46.23135974873705" lon="7.134119622754715">
+      </trkpt>
+      <trkpt lat="46.231469606358225" lon="7.134160485897965">
+      </trkpt>
+      <trkpt lat="46.23149024000573" lon="7.134139630096738">
+      </trkpt>
+      <trkpt lat="46.231509840899314" lon="7.1340695226282325">
+      </trkpt>
+      <trkpt lat="46.23152039362318" lon="7.133980022194935">
+      </trkpt>
+      <trkpt lat="46.23152490190783" lon="7.133983885619197">
+      </trkpt>
+      <trkpt lat="46.231957095883914" lon="7.133799981704679">
+      </trkpt>
+      <trkpt lat="46.23235076022131" lon="7.133340186302903">
+      </trkpt>
+      <trkpt lat="46.23277603203868" lon="7.132595024690141">
+      </trkpt>
+      <trkpt lat="46.232984388663986" lon="7.132799958163699">
+      </trkpt>
+      <trkpt lat="46.233652626337395" lon="7.132748226964023">
+      </trkpt>
+      <trkpt lat="46.23423339605606" lon="7.132619209066102">
+      </trkpt>
+      <trkpt lat="46.23442975338658" lon="7.13238087490564">
+      </trkpt>
+      <trkpt lat="46.23467066087936" lon="7.132315994697249">
+      </trkpt>
+      <trkpt lat="46.234909806846105" lon="7.131604255279924">
+      </trkpt>
+      <trkpt lat="46.235204511459756" lon="7.131144980032545">
+      </trkpt>
+      <trkpt lat="46.23542279473119" lon="7.130701689818262">
+      </trkpt>
+      <trkpt lat="46.23557368552776" lon="7.129958026997582">
+      </trkpt>
+      <trkpt lat="46.23573631191314" lon="7.129231145605185">
+      </trkpt>
+      <trkpt lat="46.23595229622887" lon="7.128282278059945">
+      </trkpt>
+      <trkpt lat="46.236038839990215" lon="7.127697125838648">
+      </trkpt>
+      <trkpt lat="46.23600407372355" lon="7.127160633682963">
+      </trkpt>
+      <trkpt lat="46.23613479882681" lon="7.12693950186808">
+      </trkpt>
+      <trkpt lat="46.23625437698991" lon="7.126591389595855">
+      </trkpt>
+      <trkpt lat="46.236288008730725" lon="7.126716943316326">
+      </trkpt>
+      <trkpt lat="46.2365293509292" lon="7.126810190280421">
+      </trkpt>
+      <trkpt lat="46.23680264273876" lon="7.126746393030436">
+      </trkpt>
+      <trkpt lat="46.23701068188905" lon="7.1265079591178715">
+      </trkpt>
+      <trkpt lat="46.23720667756856" lon="7.126143843401196">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

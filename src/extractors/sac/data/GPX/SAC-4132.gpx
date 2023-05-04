@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Bttfork Bergstation ca 2710 m  Rifugion Quintino Sella</name>
+    <desc>Die Bttfork Colle di Bettaforca 2672 m erreicht man von St Jacques 1689 m ber Rsy und die Comba de Fourcare TMR 2 12 Std  von Stafal Val de Gressoney zu Fuss ber Sitte TMR 3 Std oder von Stafal mit der Bergbahn Diese endet etwas N der Bttfork Von hier fhrt ein markierter szenischer Weg E des Betlinhre 2996 m am Schluss mit Ketten abgesichert hinauf zu P 3490 Ein schmaler Felsgrat mit Seilen versehen bildet die Fortsetzung bis zur Htte</desc>
+    <trkseg>
+      <trkpt lat="45.8702820645771" lon="7.781927786921773">
+      </trkpt>
+      <trkpt lat="45.87104528033369" lon="7.7823832604024625">
+      </trkpt>
+      <trkpt lat="45.871360112231095" lon="7.78238523143125">
+      </trkpt>
+      <trkpt lat="45.87212411378611" lon="7.782583176287749">
+      </trkpt>
+      <trkpt lat="45.873021663708734" lon="7.7832326817276005">
+      </trkpt>
+      <trkpt lat="45.87410167908207" lon="7.783046291671826">
+      </trkpt>
+      <trkpt lat="45.87472976536987" lon="7.783565354028796">
+      </trkpt>
+      <trkpt lat="45.87491026134933" lon="7.783373316491292">
+      </trkpt>
+      <trkpt lat="45.87517913062998" lon="7.783696958848816">
+      </trkpt>
+      <trkpt lat="45.875583914725766" lon="7.7836995029319835">
+      </trkpt>
+      <trkpt lat="45.87612500814082" lon="7.783252160249559">
+      </trkpt>
+      <trkpt lat="45.877789120970434" lon="7.7832626061542465">
+      </trkpt>
+      <trkpt lat="45.87976569737841" lon="7.784047768845092">
+      </trkpt>
+      <trkpt lat="45.88021427122363" lon="7.784436971727206">
+      </trkpt>
+      <trkpt lat="45.880709007698535" lon="7.784440088134376">
+      </trkpt>
+      <trkpt lat="45.881024433476846" lon="7.784248881973634">
+      </trkpt>
+      <trkpt lat="45.8833944279764" lon="7.784076669954747">
+      </trkpt>
+      <trkpt lat="45.88486447185317" lon="7.783443592001682">
+      </trkpt>
+      <trkpt lat="45.88502687541698" lon="7.783678186988782">
+      </trkpt>
+      <trkpt lat="45.885313407893065" lon="7.783329623953089">
+      </trkpt>
+      <trkpt lat="45.88551694940629" lon="7.783447690550716">
+      </trkpt>
+      <trkpt lat="45.88657865578327" lon="7.782987196940104">
+      </trkpt>
+      <trkpt lat="45.886740881549414" lon="7.783280192337029">
+      </trkpt>
+      <trkpt lat="45.8877192404993" lon="7.783403128406177">
+      </trkpt>
+      <trkpt lat="45.888696704395606" lon="7.783818051387639">
+      </trkpt>
+      <trkpt lat="45.889063006611735" lon="7.784053947053742">
+      </trkpt>
+      <trkpt lat="45.8900828617805" lon="7.783943566965589">
+      </trkpt>
+      <trkpt lat="45.89102061980683" lon="7.784007866759225">
+      </trkpt>
+      <trkpt lat="45.89240552194449" lon="7.784542195676856">
+      </trkpt>
+      <trkpt lat="45.89326010345087" lon="7.785131606648758">
+      </trkpt>
+      <trkpt lat="45.89391096255818" lon="7.7856613444914515">
+      </trkpt>
+      <trkpt lat="45.8942339559386" lon="7.786714650589079">
+      </trkpt>
+      <trkpt lat="45.894434961996964" lon="7.787650385627951">
+      </trkpt>
+      <trkpt lat="45.89459808157064" lon="7.787651422968396">
+      </trkpt>
+      <trkpt lat="45.894799805864075" lon="7.788353555677053">
+      </trkpt>
+      <trkpt lat="45.89496292544002" lon="7.7883545951198085">
+      </trkpt>
+      <trkpt lat="45.89524656870119" lon="7.788940448923914">
+      </trkpt>
+      <trkpt lat="45.89540968828242" lon="7.788941490124019">
+      </trkpt>
+      <trkpt lat="45.895733197726564" lon="7.789819632449632">
+      </trkpt>
+      <trkpt lat="45.89597896982217" lon="7.789470772677025">
+      </trkpt>
+      <trkpt lat="45.89626278961944" lon="7.789998238585399">
+      </trkpt>
+      <trkpt lat="45.8965081979854" lon="7.789766185875812">
+      </trkpt>
+      <trkpt lat="45.896629808714934" lon="7.790000588429902">
+      </trkpt>
+      <trkpt lat="45.89793330621796" lon="7.790476194389186">
+      </trkpt>
+      <trkpt lat="45.898951342562334" lon="7.790949990292887">
+      </trkpt>
+      <trkpt lat="45.90037424362101" lon="7.792360968567928">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

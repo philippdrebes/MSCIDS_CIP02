@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Rhonegletscher  Einstieg Breritz</name>
+    <desc>Von FurkaBelvedere geht man in Richtung Eisgrotte verlsst bei Beginn des Holzsteges den Touristenpfad und folgt am Rande der weissen Planen zur Abdeckung des Gletschers findet sich eine gut sichtbare Pfadspur welche in einem leichten Auf und Ab am Ende der Planen auf den Gletscher fhrt Nun berquert man den im unteren Bereich flachen Rhonegletscher in einem sanften Bogen in nordwestlicher Richtung Rechts von aufflligen glattgeschliffenen Felsen unterhalb von P2359 sieht man schwach ausgeprgte Rinne mit losem Gestein  hier kann der Gletscher auch problemlos verlassen werden Der kurze Aufstieg ber die Rinne entlang der Felsen ist mit einem Fixseil versehen Auf dem flachen Felsplateau angekommen quert man weglos in westlicher Richtung und steigt alsbald einige Meter abwrts zum Fusse der von rechts herabkommenden aufflligen Flanke mit dem hellem Gestein Wir queren die Flanke im flachen Bereich und steigen gegenber weglos in weiter in westlicher Richtung aufwrts So erreicht man P2339 mit dem kleinen Seelein wo links des aufflligen Baches der Anstieg in den Breritz beginnt</desc>
+    <trkseg>
+      <trkpt lat="46.576929087112624" lon="8.38815786342481">
+      </trkpt>
+      <trkpt lat="46.57709219268914" lon="8.388017217019463">
+      </trkpt>
+      <trkpt lat="46.57727459342561" lon="8.387720353181725">
+      </trkpt>
+      <trkpt lat="46.57735035925017" lon="8.387265062482994">
+      </trkpt>
+      <trkpt lat="46.577486805100826" lon="8.387084806121388">
+      </trkpt>
+      <trkpt lat="46.5778198344771" lon="8.387064550277126">
+      </trkpt>
+      <trkpt lat="46.57800049374949" lon="8.386976391597674">
+      </trkpt>
+      <trkpt lat="46.5784717070476" lon="8.386567160286926">
+      </trkpt>
+      <trkpt lat="46.57860869491232" lon="8.386321675072734">
+      </trkpt>
+      <trkpt lat="46.57848385220177" lon="8.386189023294586">
+      </trkpt>
+      <trkpt lat="46.57866375057174" lon="8.386192173396926">
+      </trkpt>
+      <trkpt lat="46.57869116974532" lon="8.386140467151018">
+      </trkpt>
+      <trkpt lat="46.57862918266793" lon="8.386021962589249">
+      </trkpt>
+      <trkpt lat="46.57871891467535" lon="8.386049626759663">
+      </trkpt>
+      <trkpt lat="46.57885253524933" lon="8.386208525756562">
+      </trkpt>
+      <trkpt lat="46.578738750346254" lon="8.38582818178094">
+      </trkpt>
+      <trkpt lat="46.578749916280856" lon="8.385567445112965">
+      </trkpt>
+      <trkpt lat="46.57894650196087" lon="8.385727445011861">
+      </trkpt>
+      <trkpt lat="46.5793377177602" lon="8.386282255547217">
+      </trkpt>
+      <trkpt lat="46.57954384050709" lon="8.386377192854493">
+      </trkpt>
+      <trkpt lat="46.57973966447209" lon="8.3866285126486">
+      </trkpt>
+      <trkpt lat="46.57976697518975" lon="8.386589850544471">
+      </trkpt>
+      <trkpt lat="46.57999975642654" lon="8.38672439756908">
+      </trkpt>
+      <trkpt lat="46.58043862784302" lon="8.388036788670904">
+      </trkpt>
+      <trkpt lat="46.58109079372224" lon="8.388583165409699">
+      </trkpt>
+      <trkpt lat="46.58172649219893" lon="8.388946603481463">
+      </trkpt>
+      <trkpt lat="46.5821485995265" lon="8.389032301377433">
+      </trkpt>
+      <trkpt lat="46.58334688344402" lon="8.38881848972846">
+      </trkpt>
+      <trkpt lat="46.58388940931004" lon="8.388488772757155">
+      </trkpt>
+      <trkpt lat="46.58418062079491" lon="8.388089399341785">
+      </trkpt>
+      <trkpt lat="46.58488464757515" lon="8.386731703899684">
+      </trkpt>
+      <trkpt lat="46.58521454764703" lon="8.386006787242444">
+      </trkpt>
+      <trkpt lat="46.58544484797385" lon="8.385358408559854">
+      </trkpt>
+      <trkpt lat="46.5856822958657" lon="8.384931970105278">
+      </trkpt>
+      <trkpt lat="46.58573008997468" lon="8.3845935504993">
+      </trkpt>
+      <trkpt lat="46.58547552343369" lon="8.383832302775831">
+      </trkpt>
+      <trkpt lat="46.58545926679192" lon="8.383623247251789">
+      </trkpt>
+      <trkpt lat="46.58599830266373" lon="8.382627938760193">
+      </trkpt>
+      <trkpt lat="46.58603123607431" lon="8.381910853760994">
+      </trkpt>
+      <trkpt lat="46.586123887715644" lon="8.381586259586923">
+      </trkpt>
+      <trkpt lat="46.585901899358966" lon="8.380147075427153">
+      </trkpt>
+      <trkpt lat="46.58580576045935" lon="8.379806146792445">
+      </trkpt>
+      <trkpt lat="46.58512662384351" lon="8.378163317190896">
+      </trkpt>
+      <trkpt lat="46.5850850944063" lon="8.377745056261755">
+      </trkpt>
+      <trkpt lat="46.58509230281202" lon="8.376870957365544">
+      </trkpt>
+      <trkpt lat="46.58504958614075" lon="8.3765962063842">
+      </trkpt>
+      <trkpt lat="46.58508648813188" lon="8.376344285292014">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

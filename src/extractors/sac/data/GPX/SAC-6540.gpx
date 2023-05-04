@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Bergstation Gemsstock  Vermigelhtte</name>
+    <desc>Von der Bergstation der GemsstockLuftseilbahn ca 2950 m ber den steilen meist stark verfahrenen Sdhang auf den Schwarzwasserfirn hinunter Richtung Osten ber den Gletscher in die Mulde von Schwarzbach ca 2480 m und sdostwrts in den Gafallensaum Talabwrts durch die kleine reizvolle BortwasserSchlucht zu P 2052 und im Bereich des Wegs ber den hgeligen Gelndercken von Sunnsbiel nordostwrts flach zur Htte</desc>
+    <trkseg>
+      <trkpt lat="46.601929829050725" lon="8.611885626866115">
+      </trkpt>
+      <trkpt lat="46.6011562588161" lon="8.611791817609323">
+      </trkpt>
+      <trkpt lat="46.599261874696865" lon="8.61096975372761">
+      </trkpt>
+      <trkpt lat="46.598714611234854" lon="8.611168679572215">
+      </trkpt>
+      <trkpt lat="46.598180889842716" lon="8.611686032849526">
+      </trkpt>
+      <trkpt lat="46.59789517617557" lon="8.61221560971368">
+      </trkpt>
+      <trkpt lat="46.597894897346094" lon="8.612216127038009">
+      </trkpt>
+      <trkpt lat="46.597836130542234" lon="8.612325050162193">
+      </trkpt>
+      <trkpt lat="46.59778483961621" lon="8.612420117763532">
+      </trkpt>
+      <trkpt lat="46.59760778749577" lon="8.613205004697392">
+      </trkpt>
+      <trkpt lat="46.59760726603996" lon="8.6146985448448">
+      </trkpt>
+      <trkpt lat="46.59803097038643" lon="8.618263309788777">
+      </trkpt>
+      <trkpt lat="46.598157099951216" lon="8.620143695849602">
+      </trkpt>
+      <trkpt lat="46.59801292242688" lon="8.622703852770398">
+      </trkpt>
+      <trkpt lat="46.597850655997085" lon="8.62353290438142">
+      </trkpt>
+      <trkpt lat="46.59751791399837" lon="8.624352910719512">
+      </trkpt>
+      <trkpt lat="46.596400171350375" lon="8.62587568335241">
+      </trkpt>
+      <trkpt lat="46.59273345154199" lon="8.629323720153321">
+      </trkpt>
+      <trkpt lat="46.59178045014083" lon="8.630666807677017">
+      </trkpt>
+      <trkpt lat="46.59043074022001" lon="8.633313158618266">
+      </trkpt>
+      <trkpt lat="46.588972704778115" lon="8.637209470483304">
+      </trkpt>
+      <trkpt lat="46.58868326526971" lon="8.63758162531028">
+      </trkpt>
+      <trkpt lat="46.588441734527386" lon="8.638559553342205">
+      </trkpt>
+      <trkpt lat="46.58815131289809" lon="8.639379330652483">
+      </trkpt>
+      <trkpt lat="46.58812556606789" lon="8.639452004379125">
+      </trkpt>
+      <trkpt lat="46.58743428880256" lon="8.641403170285436">
+      </trkpt>
+      <trkpt lat="46.58750919218363" lon="8.642436367935456">
+      </trkpt>
+      <trkpt lat="46.587343565262444" lon="8.64318983328812">
+      </trkpt>
+      <trkpt lat="46.58734743453275" lon="8.643817474652188">
+      </trkpt>
+      <trkpt lat="46.587134821535436" lon="8.645202512666039">
+      </trkpt>
+      <trkpt lat="46.58731659825375" lon="8.6490329252996">
+      </trkpt>
+      <trkpt lat="46.58754606154655" lon="8.649620544425286">
+      </trkpt>
+      <trkpt lat="46.58781945911694" lon="8.650320685927811">
+      </trkpt>
+      <trkpt lat="46.58829086297496" lon="8.650630378533986">
+      </trkpt>
+      <trkpt lat="46.58862721688901" lon="8.65085135304583">
+      </trkpt>
+      <trkpt lat="46.588854745441495" lon="8.65131995897389">
+      </trkpt>
+      <trkpt lat="46.589190273284025" lon="8.652011011041829">
+      </trkpt>
+      <trkpt lat="46.590106962328825" lon="8.653181422784648">
+      </trkpt>
+      <trkpt lat="46.59022625379128" lon="8.653388833620761">
+      </trkpt>
+      <trkpt lat="46.59123443501894" lon="8.655141813833696">
+      </trkpt>
+      <trkpt lat="46.591560988352434" lon="8.655557270686556">
+      </trkpt>
+      <trkpt lat="46.591605969657515" lon="8.655614498332714">
+      </trkpt>
+      <trkpt lat="46.59214998298325" lon="8.656306637983377">
+      </trkpt>
+      <trkpt lat="46.59320483376896" lon="8.657278112834819">
+      </trkpt>
+      <trkpt lat="46.593722879805064" lon="8.657560414220164">
+      </trkpt>
+      <trkpt lat="46.593723213440846" lon="8.657560595315607">
+      </trkpt>
+      <trkpt lat="46.59456497133683" lon="8.658019308432387">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

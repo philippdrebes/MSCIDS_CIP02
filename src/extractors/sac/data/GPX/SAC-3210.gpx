@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Cabane Brunet  Col des Avouillons</name>
+    <desc>Von der Htte in allgemeiner Richtung S auf dem breiten Rcken mit der Htte bis zur Terrasse der Ecuries de Sery 2232 m aufsteigen Weiter horizontal in gleicher Richtung zwischen den Felsbnken durch in ein erstes Tal dann ins Haupttal der Dyure de Sery Jetzt in den Col des Avouillons 2648 m aufsteigen mglichst in den am wenigsten steilen Hngen und geschtzt vor den Lawinen die von der Becca de Sery herunter kommen knnen Die letzten Meter evtl zu Fuss</desc>
+    <trkseg>
+      <trkpt lat="46.030430747129216" lon="7.2741769375233405">
+      </trkpt>
+      <trkpt lat="46.029438977469226" lon="7.273894729811805">
+      </trkpt>
+      <trkpt lat="46.02943864089706" lon="7.273894633974637">
+      </trkpt>
+      <trkpt lat="46.029321808081114" lon="7.273861390300116">
+      </trkpt>
+      <trkpt lat="46.02866935750517" lon="7.273675742771025">
+      </trkpt>
+      <trkpt lat="46.02849667400292" lon="7.273597103190091">
+      </trkpt>
+      <trkpt lat="46.02808915064359" lon="7.27335689540883">
+      </trkpt>
+      <trkpt lat="46.02806874946144" lon="7.2733566746884595">
+      </trkpt>
+      <trkpt lat="46.02690210959863" lon="7.27331253102175">
+      </trkpt>
+      <trkpt lat="46.02669331189223" lon="7.27330463071114">
+      </trkpt>
+      <trkpt lat="46.02632884828654" lon="7.27316284242296">
+      </trkpt>
+      <trkpt lat="46.02594809920702" lon="7.272921475798671">
+      </trkpt>
+      <trkpt lat="46.02580286666994" lon="7.272784518419853">
+      </trkpt>
+      <trkpt lat="46.02562158880205" lon="7.272529157876837">
+      </trkpt>
+      <trkpt lat="46.02483633001316" lon="7.271029832828538">
+      </trkpt>
+      <trkpt lat="46.02461148266265" lon="7.270651311983009">
+      </trkpt>
+      <trkpt lat="46.02441592626807" lon="7.270392586296663">
+      </trkpt>
+      <trkpt lat="46.023588344085" lon="7.269417194471866">
+      </trkpt>
+      <trkpt lat="46.02341242723285" lon="7.26915777110675">
+      </trkpt>
+      <trkpt lat="46.02304148904579" lon="7.268543676204972">
+      </trkpt>
+      <trkpt lat="46.02286415466519" lon="7.268314640279253">
+      </trkpt>
+      <trkpt lat="46.0227988155545" lon="7.268256429888915">
+      </trkpt>
+      <trkpt lat="46.022665856447176" lon="7.268193461677482">
+      </trkpt>
+      <trkpt lat="46.022056225899824" lon="7.268196584685025">
+      </trkpt>
+      <trkpt lat="46.021812095471184" lon="7.26813435384292">
+      </trkpt>
+      <trkpt lat="46.02165630604134" lon="7.268053848542642">
+      </trkpt>
+      <trkpt lat="46.02113218510774" lon="7.2676787082417675">
+      </trkpt>
+      <trkpt lat="46.02032892323368" lon="7.267281729990864">
+      </trkpt>
+      <trkpt lat="46.01977932793997" lon="7.266918742839014">
+      </trkpt>
+      <trkpt lat="46.018419168885956" lon="7.265913952186212">
+      </trkpt>
+      <trkpt lat="46.01789322835319" lon="7.265525439989502">
+      </trkpt>
+      <trkpt lat="46.01787361469542" lon="7.265510950987583">
+      </trkpt>
+      <trkpt lat="46.01691117464022" lon="7.2648488337622">
+      </trkpt>
+      <trkpt lat="46.01647921893905" lon="7.264994736638713">
+      </trkpt>
+      <trkpt lat="46.01556895475543" lon="7.2651295466619255">
+      </trkpt>
+      <trkpt lat="46.0155069517986" lon="7.2651267363894965">
+      </trkpt>
+      <trkpt lat="46.01496285628012" lon="7.264943007217749">
+      </trkpt>
+      <trkpt lat="46.014736835865264" lon="7.2649660813333865">
+      </trkpt>
+      <trkpt lat="46.01405643335511" lon="7.265200231474986">
+      </trkpt>
+      <trkpt lat="46.0138394605824" lon="7.265300547474184">
+      </trkpt>
+      <trkpt lat="46.013699462468985" lon="7.265391304712137">
+      </trkpt>
+      <trkpt lat="46.013564430429426" lon="7.265508060713885">
+      </trkpt>
+      <trkpt lat="46.01338083168377" lon="7.265733048481186">
+      </trkpt>
+      <trkpt lat="46.013282718940815" lon="7.265911269246697">
+      </trkpt>
+      <trkpt lat="46.013208468959284" lon="7.266127323016117">
+      </trkpt>
+      <trkpt lat="46.013019523889966" lon="7.267034358575029">
+      </trkpt>
+      <trkpt lat="46.012643838130444" lon="7.268746425319059">
+      </trkpt>
+      <trkpt lat="46.01222338722015" lon="7.270097875522791">
+      </trkpt>
+      <trkpt lat="46.01194981399628" lon="7.27057727743542">
+      </trkpt>
+      <trkpt lat="46.01126277420845" lon="7.27138039666497">
+      </trkpt>
+      <trkpt lat="46.01071980000042" lon="7.272370944098959">
+      </trkpt>
+      <trkpt lat="46.009680897294956" lon="7.2754368887943786">
+      </trkpt>
+      <trkpt lat="46.00908587792413" lon="7.276750553918315">
+      </trkpt>
+      <trkpt lat="46.00795622596544" lon="7.278538075813565">
+      </trkpt>
+      <trkpt lat="46.007793090795296" lon="7.278748907798175">
+      </trkpt>
+      <trkpt lat="46.00712896512135" lon="7.27960718393636">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Ltschenpasshtte  Gitzifurggu</name>
+    <desc>Von der Ltschenpasshtte 2689 m folgt man den Markierungen und der teilweise hngenden Wasserleitung in westlicher Richtung zu den Resten des Ferdengletschers Von hier steiler ber Felsplatten Markierungen Drahtseile und Gerll in die Einsattelung der Gitzifurggu 2911 m ca  Std von der Htte</desc>
+    <trkseg>
+      <trkpt lat="46.41633712860303" lon="7.716991408017344">
+      </trkpt>
+      <trkpt lat="46.41633712860303" lon="7.716991408017344">
+      </trkpt>
+      <trkpt lat="46.416241360255924" lon="7.716774368925042">
+      </trkpt>
+      <trkpt lat="46.414897864952685" lon="7.715593959327258">
+      </trkpt>
+      <trkpt lat="46.41464696962158" lon="7.71421757039216">
+      </trkpt>
+      <trkpt lat="46.413950775747054" lon="7.711950986164299">
+      </trkpt>
+      <trkpt lat="46.41409707576798" lon="7.710963256280558">
+      </trkpt>
+      <trkpt lat="46.41383006712802" lon="7.709765363301004">
+      </trkpt>
+      <trkpt lat="46.41369292225875" lon="7.706903356339671">
+      </trkpt>
+      <trkpt lat="46.4134795492464" lon="7.706175318977533">
+      </trkpt>
+      <trkpt lat="46.413943803434734" lon="7.704423160174366">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

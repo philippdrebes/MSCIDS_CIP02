@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Rotenboden  MonteRosaHtte</name>
+    <desc>From the Rotenboden train station 2815 m head S over the Gornergrat then E in the line of the summer path through its southern flank to the glacier just above P 2649 The transition onto the glacier is usually straightforward Descend southwards onto the main body of the glacier at roughly 2500 m then continue on to the foot of the Grenzgletscher Ascend the lefthand E edge of the glacier the Grenz glacier until roughly 2800 m where you may cut out N onto the steep moraine flank to reach the hut</desc>
+    <trkseg>
+      <trkpt lat="45.984272000647564" lon="7.76526967621464">
+      </trkpt>
+      <trkpt lat="45.983508357125245" lon="7.765639815563273">
+      </trkpt>
+      <trkpt lat="45.98323210890326" lon="7.765654118732371">
+      </trkpt>
+      <trkpt lat="45.982604192474355" lon="7.765428271132613">
+      </trkpt>
+      <trkpt lat="45.98222153814247" lon="7.765528007447517">
+      </trkpt>
+      <trkpt lat="45.98168451444115" lon="7.76669480654976">
+      </trkpt>
+      <trkpt lat="45.9813740618288" lon="7.76788157215087">
+      </trkpt>
+      <trkpt lat="45.981028872359296" lon="7.770378634761623">
+      </trkpt>
+      <trkpt lat="45.9806729577627" lon="7.771278368799589">
+      </trkpt>
+      <trkpt lat="45.980544689049204" lon="7.771885273085643">
+      </trkpt>
+      <trkpt lat="45.98041703614131" lon="7.774223011701739">
+      </trkpt>
+      <trkpt lat="45.980517723285764" lon="7.775868145361588">
+      </trkpt>
+      <trkpt lat="45.980251766641096" lon="7.77712307630448">
+      </trkpt>
+      <trkpt lat="45.98014426603969" lon="7.77885057697073">
+      </trkpt>
+      <trkpt lat="45.97986890860074" lon="7.780102087205718">
+      </trkpt>
+      <trkpt lat="45.97946376085515" lon="7.780948240207489">
+      </trkpt>
+      <trkpt lat="45.97919418984654" lon="7.783210330359905">
+      </trkpt>
+      <trkpt lat="45.97919416525646" lon="7.784173611605124">
+      </trkpt>
+      <trkpt lat="45.9793298122895" lon="7.785559346719394">
+      </trkpt>
+      <trkpt lat="45.979209006103" lon="7.787387811614991">
+      </trkpt>
+      <trkpt lat="45.979326527027325" lon="7.790137772049221">
+      </trkpt>
+      <trkpt lat="45.979140167670025" lon="7.791834309561013">
+      </trkpt>
+      <trkpt lat="45.978396202964376" lon="7.794491797999022">
+      </trkpt>
+      <trkpt lat="45.97834559193385" lon="7.7958748089875565">
+      </trkpt>
+      <trkpt lat="45.97788710071895" lon="7.797178524773298">
+      </trkpt>
+      <trkpt lat="45.977795433843426" lon="7.797995240108286">
+      </trkpt>
+      <trkpt lat="45.97779998655779" lon="7.80100590594364">
+      </trkpt>
+      <trkpt lat="45.97813299658979" lon="7.803377898938691">
+      </trkpt>
+      <trkpt lat="45.97809668292397" lon="7.806107650350558">
+      </trkpt>
+      <trkpt lat="45.97783757907207" lon="7.807044592435822">
+      </trkpt>
+      <trkpt lat="45.97754277735206" lon="7.807617424639843">
+      </trkpt>
+      <trkpt lat="45.97665855573142" lon="7.807767601103109">
+      </trkpt>
+      <trkpt lat="45.975113467559346" lon="7.805358535439854">
+      </trkpt>
+      <trkpt lat="45.973798339128734" lon="7.804419623303649">
+      </trkpt>
+      <trkpt lat="45.972868094491695" lon="7.804027038523331">
+      </trkpt>
+      <trkpt lat="45.972360675946604" lon="7.8039485231557615">
+      </trkpt>
+      <trkpt lat="45.97035494866203" lon="7.804014491429462">
+      </trkpt>
+      <trkpt lat="45.96896407605771" lon="7.804634605898928">
+      </trkpt>
+      <trkpt lat="45.967585789982174" lon="7.805449434576061">
+      </trkpt>
+      <trkpt lat="45.9665178727173" lon="7.805734078055339">
+      </trkpt>
+      <trkpt lat="45.96539189127713" lon="7.805631740647872">
+      </trkpt>
+      <trkpt lat="45.963101217142956" lon="7.804966136749612">
+      </trkpt>
+      <trkpt lat="45.96198010294227" lon="7.8049712041877">
+      </trkpt>
+      <trkpt lat="45.9599011377963" lon="7.805480989089226">
+      </trkpt>
+      <trkpt lat="45.95922447570545" lon="7.805784416293914">
+      </trkpt>
+      <trkpt lat="45.959005979599944" lon="7.805954206239823">
+      </trkpt>
+      <trkpt lat="45.95899454795672" lon="7.805963089818911">
+      </trkpt>
+      <trkpt lat="45.95868356752069" lon="7.806204745470878">
+      </trkpt>
+      <trkpt lat="45.957224994133696" lon="7.807786839378281">
+      </trkpt>
+      <trkpt lat="45.95610098706511" lon="7.809931835066258">
+      </trkpt>
+      <trkpt lat="45.95421237097164" lon="7.8119470485788725">
+      </trkpt>
+      <trkpt lat="45.95402988080913" lon="7.812460773278409">
+      </trkpt>
+      <trkpt lat="45.95408268910494" lon="7.812970588113765">
+      </trkpt>
+      <trkpt lat="45.95522145351698" lon="7.813304789206076">
+      </trkpt>
+      <trkpt lat="45.95605802950369" lon="7.814089887735376">
+      </trkpt>
+      <trkpt lat="45.95607443244518" lon="7.81409808795447">
+      </trkpt>
+      <trkpt lat="45.95607464169155" lon="7.814098192565773">
+      </trkpt>
+      <trkpt lat="45.95607691017499" lon="7.814099326295956">
+      </trkpt>
+      <trkpt lat="45.95607712570943" lon="7.814099433529738">
+      </trkpt>
+      <trkpt lat="45.956093695691784" lon="7.814107716151516">
+      </trkpt>
+      <trkpt lat="45.95609889362422" lon="7.814110314441717">
+      </trkpt>
+      <trkpt lat="45.95609921692589" lon="7.814110475292619">
+      </trkpt>
+      <trkpt lat="45.95694308273291" lon="7.814532303242876">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

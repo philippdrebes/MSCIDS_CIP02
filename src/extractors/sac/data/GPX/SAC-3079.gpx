@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Segneshtte  Sardonapass</name>
+    <desc>Von der Segneshtte 2108 m gegen Norden ber den Rcken hinauf zur Plaun Segnas Sura Alles weiter sanft ansteigend das breite Tal hoch zum Glatschiu dil Segnas und gegen den Sardonapass</desc>
+    <trkseg>
+      <trkpt lat="46.86756336365292" lon="9.239810778803948">
+      </trkpt>
+      <trkpt lat="46.86756376298953" lon="9.239810731826436">
+      </trkpt>
+      <trkpt lat="46.87183509459967" lon="9.239312027555988">
+      </trkpt>
+      <trkpt lat="46.87273174489009" lon="9.239207327331215">
+      </trkpt>
+      <trkpt lat="46.87429502030955" lon="9.240122785675515">
+      </trkpt>
+      <trkpt lat="46.87505343717268" lon="9.240566937743468">
+      </trkpt>
+      <trkpt lat="46.875362162337034" lon="9.240528093413227">
+      </trkpt>
+      <trkpt lat="46.876048247704254" lon="9.24001669781628">
+      </trkpt>
+      <trkpt lat="46.87653067490816" lon="9.239945582303687">
+      </trkpt>
+      <trkpt lat="46.87677000205447" lon="9.24020477448597">
+      </trkpt>
+      <trkpt lat="46.87737062611227" lon="9.241496341108286">
+      </trkpt>
+      <trkpt lat="46.879158804700204" lon="9.242828495301124">
+      </trkpt>
+      <trkpt lat="46.88280829864876" lon="9.245146244664657">
+      </trkpt>
+      <trkpt lat="46.88866581028529" lon="9.248164468733489">
+      </trkpt>
+      <trkpt lat="46.891603028029856" lon="9.24937309027565">
+      </trkpt>
+      <trkpt lat="46.89355796504127" lon="9.249988165171667">
+      </trkpt>
+      <trkpt lat="46.89449776812821" lon="9.250151723050672">
+      </trkpt>
+      <trkpt lat="46.8966136777078" lon="9.250287178494625">
+      </trkpt>
+      <trkpt lat="46.897681444052324" lon="9.250355538823435">
+      </trkpt>
+      <trkpt lat="46.898527058686845" lon="9.250280821125285">
+      </trkpt>
+      <trkpt lat="46.9012222837812" lon="9.250042660327304">
+      </trkpt>
+      <trkpt lat="46.90346963096384" lon="9.250025308004897">
+      </trkpt>
+      <trkpt lat="46.90627020801068" lon="9.250937955735713">
+      </trkpt>
+      <trkpt lat="46.90782459313584" lon="9.25155897292859">
+      </trkpt>
+      <trkpt lat="46.91025014106828" lon="9.252528117349014">
+      </trkpt>
+      <trkpt lat="46.91114585580083" lon="9.252886029385072">
+      </trkpt>
+      <trkpt lat="46.911150962007014" lon="9.252888070116503">
+      </trkpt>
+      <trkpt lat="46.9111858247933" lon="9.25290200121425">
+      </trkpt>
+      <trkpt lat="46.912053406271" lon="9.25324868327838">
+      </trkpt>
+      <trkpt lat="46.91279605978175" lon="9.253581527027144">
+      </trkpt>
+      <trkpt lat="46.91282451325173" lon="9.253594280128551">
+      </trkpt>
+      <trkpt lat="46.91291328652122" lon="9.253634067581137">
+      </trkpt>
+      <trkpt lat="46.912969233943386" lon="9.253659142345809">
+      </trkpt>
+      <trkpt lat="46.913310764837355" lon="9.253812213348764">
+      </trkpt>
+      <trkpt lat="46.91357913392436" lon="9.253931697379116">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

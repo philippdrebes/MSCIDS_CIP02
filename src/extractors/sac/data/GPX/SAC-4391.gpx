@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Parpaner Rothorn  Aroser Rothorn  Erzhorn</name>
+    <desc>Von der Bergstation auf gutem Pfad in wenigen Miunten sdlich unter dem Hauiptgipfel P 2896 des Parpaner Rothorns queren Eine den Aufschwngen geschickt ausweichende Wegspur entlang einzelner roter Punkte fhrt aufs Aroser Rothorn T4 dieses berschreiten und auf gutem Pfad zum Erzhornsattel absteigen T3 Erst noch einfach dann steil etwas links nrdlich des Westgrates hinauf zum Erzhorn einige Steinmnner besttigen die leichteste Routenfhrung  man darf sich nur nicht zu sehr in die gerllbersten Flanken abdrngen lassen Bevor man den Vorgipfel erreicht wieder nher der Gratkante denselben umgeht man etwas in der Sdflanke T5 I Der Schlussaufstieg zum Gipfel ist wieder leichter</desc>
+    <trkseg>
+      <trkpt lat="46.742683291063614" lon="9.597459650046275">
+      </trkpt>
+      <trkpt lat="46.742314746020675" lon="9.598232084241983">
+      </trkpt>
+      <trkpt lat="46.74229301923425" lon="9.598762019173803">
+      </trkpt>
+      <trkpt lat="46.74219401922427" lon="9.599178019170413">
+      </trkpt>
+      <trkpt lat="46.742134019220856" lon="9.599244019177283">
+      </trkpt>
+      <trkpt lat="46.74199901921969" lon="9.598922019170518">
+      </trkpt>
+      <trkpt lat="46.742118019222325" lon="9.600664019177874">
+      </trkpt>
+      <trkpt lat="46.74206401921767" lon="9.601409019178854">
+      </trkpt>
+      <trkpt lat="46.742180019222715" lon="9.602511019179293">
+      </trkpt>
+      <trkpt lat="46.74214401921937" lon="9.603091019182166">
+      </trkpt>
+      <trkpt lat="46.742157019217856" lon="9.604211019177407">
+      </trkpt>
+      <trkpt lat="46.74218401922182" lon="9.604485019181881">
+      </trkpt>
+      <trkpt lat="46.74229601921926" lon="9.60470601917542">
+      </trkpt>
+      <trkpt lat="46.74166197007351" lon="9.606084687129567">
+      </trkpt>
+      <trkpt lat="46.741027434197825" lon="9.607747781020786">
+      </trkpt>
+      <trkpt lat="46.74085463347603" lon="9.608316784910945">
+      </trkpt>
+      <trkpt lat="46.740743737189405" lon="9.608942818319063">
+      </trkpt>
+      <trkpt lat="46.74044255318877" lon="9.609637544497922">
+      </trkpt>
+      <trkpt lat="46.73969027038571" lon="9.610392630998728">
+      </trkpt>
+      <trkpt lat="46.73925220464188" lon="9.611186536779263">
+      </trkpt>
+      <trkpt lat="46.7387159688349" lon="9.611937204510383">
+      </trkpt>
+      <trkpt lat="46.7384122738085" lon="9.612762680713967">
+      </trkpt>
+      <trkpt lat="46.73823820127797" lon="9.613397037147832">
+      </trkpt>
+      <trkpt lat="46.737827019211636" lon="9.613914019201335">
+      </trkpt>
+      <trkpt lat="46.73770901921106" lon="9.614308019207128">
+      </trkpt>
+      <trkpt lat="46.73817401921583" lon="9.614503019205788">
+      </trkpt>
+      <trkpt lat="46.73800701921333" lon="9.614916019208271">
+      </trkpt>
+      <trkpt lat="46.738178019218054" lon="9.61516501920571">
+      </trkpt>
+      <trkpt lat="46.7379070192183" lon="9.615555019206333">
+      </trkpt>
+      <trkpt lat="46.73827701921339" lon="9.615842019207191">
+      </trkpt>
+      <trkpt lat="46.7383980192134" lon="9.616112019204952">
+      </trkpt>
+      <trkpt lat="46.73834601921574" lon="9.616634019207613">
+      </trkpt>
+      <trkpt lat="46.7381290192163" lon="9.617410019204383">
+      </trkpt>
+      <trkpt lat="46.738165019212026" lon="9.61770601920294">
+      </trkpt>
+      <trkpt lat="46.738310019215845" lon="9.617870019211848">
+      </trkpt>
+      <trkpt lat="46.73846401921385" lon="9.618445019214995">
+      </trkpt>
+      <trkpt lat="46.73881901921759" lon="9.618912019212104">
+      </trkpt>
+      <trkpt lat="46.73904801921445" lon="9.619092019215831">
+      </trkpt>
+      <trkpt lat="46.73959653458186" lon="9.62043351677267">
+      </trkpt>
+      <trkpt lat="46.739934841398" lon="9.621800359639689">
+      </trkpt>
+      <trkpt lat="46.73971971865126" lon="9.623166067520598">
+      </trkpt>
+      <trkpt lat="46.74110926939202" lon="9.624616459896977">
+      </trkpt>
+      <trkpt lat="46.74163522143604" lon="9.625275997083435">
+      </trkpt>
+      <trkpt lat="46.742057889199785" lon="9.626397448568305">
+      </trkpt>
+      <trkpt lat="46.742008967029804" lon="9.627255213311933">
+      </trkpt>
+      <trkpt lat="46.741956994711806" lon="9.628556651624397">
+      </trkpt>
+      <trkpt lat="46.74232671966996" lon="9.629801080565674">
+      </trkpt>
+      <trkpt lat="46.742420224239574" lon="9.630736853252158">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

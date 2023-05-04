@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Ciernes Picat  Paray Dorna</name>
+    <desc>Ausgangspunkt ist P 1164 Parkmglichkeit oberhalb von Ciernes Picat  auf der Karte neu Les Siernes Picaz   das von der Station Flendruz 980 m auf einem Wanderweg in ca 1 Std erreicht wird Auf der Wanderroute weiter entlang eines Bachlaufs ber Bviau den Haut zur Paray Dorna</desc>
+    <trkseg>
+      <trkpt lat="46.5075124422293" lon="7.169319083673628">
+      </trkpt>
+      <trkpt lat="46.508248531362895" lon="7.168596540912553">
+      </trkpt>
+      <trkpt lat="46.508801531364526" lon="7.168575540917757">
+      </trkpt>
+      <trkpt lat="46.50911353136652" lon="7.1683605409216895">
+      </trkpt>
+      <trkpt lat="46.50924153136786" lon="7.16816354092384">
+      </trkpt>
+      <trkpt lat="46.50928853136919" lon="7.167933540925404">
+      </trkpt>
+      <trkpt lat="46.50924853137054" lon="7.167644540926452">
+      </trkpt>
+      <trkpt lat="46.508693531373396" lon="7.166757540925688">
+      </trkpt>
+      <trkpt lat="46.508665531377375" lon="7.165961540929344">
+      </trkpt>
+      <trkpt lat="46.50858053137826" lon="7.165740540929654">
+      </trkpt>
+      <trkpt lat="46.508760531380474" lon="7.165412540932923">
+      </trkpt>
+      <trkpt lat="46.50894953138503" lon="7.164612540938596">
+      </trkpt>
+      <trkpt lat="46.50929053138994" lon="7.16383354094557">
+      </trkpt>
+      <trkpt lat="46.50977653139175" lon="7.1637495409504695">
+      </trkpt>
+      <trkpt lat="46.51032553139619" lon="7.163176540958343">
+      </trkpt>
+      <trkpt lat="46.51107053140057" lon="7.16274354096735">
+      </trkpt>
+      <trkpt lat="46.51173653140783" lon="7.161688540978668">
+      </trkpt>
+      <trkpt lat="46.51200653140852" lon="7.161706540981075">
+      </trkpt>
+      <trkpt lat="46.51241353141029" lon="7.161575540985476">
+      </trkpt>
+      <trkpt lat="46.51248753141115" lon="7.16144954098678">
+      </trkpt>
+      <trkpt lat="46.51224653141173" lon="7.161198540985785">
+      </trkpt>
+      <trkpt lat="46.51251253141468" lon="7.1607815409902855">
+      </trkpt>
+      <trkpt lat="46.512756531415306" lon="7.160785540992525">
+      </trkpt>
+      <trkpt lat="46.51273353141684" lon="7.160465540993882">
+      </trkpt>
+      <trkpt lat="46.51296353141702" lon="7.160565540995516">
+      </trkpt>
+      <trkpt lat="46.51319453141829" lon="7.1604365409982815">
+      </trkpt>
+      <trkpt lat="46.513490531420985" lon="7.160078541002771">
+      </trkpt>
+      <trkpt lat="46.513663531423624" lon="7.159651541006462">
+      </trkpt>
+      <trkpt lat="46.514604531430145" lon="7.158896541018853">
+      </trkpt>
+      <trkpt lat="46.51475253143174" lon="7.158665541021353">
+      </trkpt>
+      <trkpt lat="46.514652531432844" lon="7.158399541021735">
+      </trkpt>
+      <trkpt lat="46.51486253143349" lon="7.158389541023726">
+      </trkpt>
+      <trkpt lat="46.51468353143435" lon="7.158109541023449">
+      </trkpt>
+      <trkpt lat="46.51498453143654" lon="7.1578495410275025">
+      </trkpt>
+      <trkpt lat="46.51525453143753" lon="7.157815541030164">
+      </trkpt>
+      <trkpt lat="46.51504653143832" lon="7.157535541029616">
+      </trkpt>
+      <trkpt lat="46.515651531441094" lon="7.157324541036243">
+      </trkpt>
+      <trkpt lat="46.51525453144249" lon="7.156833541034989">
+      </trkpt>
+      <trkpt lat="46.51522953144354" lon="7.156606541035873">
+      </trkpt>
+      <trkpt lat="46.51551053144387" lon="7.15670954103796">
+      </trkpt>
+      <trkpt lat="46.51553153144676" lon="7.156134541040974">
+      </trkpt>
+      <trkpt lat="46.51597153144778" lon="7.156188541044771">
+      </trkpt>
+      <trkpt lat="46.51561453145009" lon="7.155532541044704">
+      </trkpt>
+      <trkpt lat="46.516084531451035" lon="7.15560754104867">
+      </trkpt>
+      <trkpt lat="46.51636553145221" lon="7.155537541051607">
+      </trkpt>
+      <trkpt lat="46.51699453145987" lon="7.154387541063059">
+      </trkpt>
+      <trkpt lat="46.51718453146101" lon="7.154257541065453">
+      </trkpt>
+      <trkpt lat="46.51767853146116" lon="7.15451854106873">
+      </trkpt>
+      <trkpt lat="46.51794753146244" lon="7.154411541071738">
+      </trkpt>
+      <trkpt lat="46.51826953146034" lon="7.155008541071776">
+      </trkpt>
+      <trkpt lat="46.518498531459855" lon="7.155226541072819">
+      </trkpt>
+      <trkpt lat="46.51857053146023" lon="7.15520154107361">
+      </trkpt>
+      <trkpt lat="46.518836531464046" lon="7.154593541079053">
+      </trkpt>
+      <trkpt lat="46.51892553146427" lon="7.154604541079822">
+      </trkpt>
+      <trkpt lat="46.51912853146581" lon="7.154421541082586">
+      </trkpt>
+      <trkpt lat="46.519186531467014" lon="7.154209541084171">
+      </trkpt>
+      <trkpt lat="46.51913753146795" lon="7.153999541084743">
+      </trkpt>
+      <trkpt lat="46.519137531467976" lon="7.153993541084774">
+      </trkpt>
+      <trkpt lat="46.5191915314681" lon="7.1539955410852585">
+      </trkpt>
+      <trkpt lat="46.519315531469445" lon="7.153805541087335">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

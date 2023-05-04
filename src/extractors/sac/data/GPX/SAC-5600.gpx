@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Alp Gglia  Gianda Polaschin</name>
+    <desc>Von der Alp Gglia 400 m der Passstrasse entlang talwrts und rechts ber die Brcke in gerader Linie bergwrts ansteigen Ab P 2372 verliert sich der Weg zunehmends und die letzten Wegspuren verblassen sobald man den Bachlauf in der Gianda Polaschin berquert hat</desc>
+    <trkseg>
+      <trkpt lat="46.47248369979415" lon="9.743964030264841">
+      </trkpt>
+      <trkpt lat="46.47249001890827" lon="9.748990019616112">
+      </trkpt>
+      <trkpt lat="46.47227001890926" lon="9.748940019618912">
+      </trkpt>
+      <trkpt lat="46.472170018912585" lon="9.74902001961358">
+      </trkpt>
+      <trkpt lat="46.47191001891373" lon="9.748690019611098">
+      </trkpt>
+      <trkpt lat="46.471790018914554" lon="9.748720019622452">
+      </trkpt>
+      <trkpt lat="46.47179001890932" lon="9.748660019612354">
+      </trkpt>
+      <trkpt lat="46.47179001890805" lon="9.748600019616815">
+      </trkpt>
+      <trkpt lat="46.46937456991306" lon="9.74798843406961">
+      </trkpt>
+      <trkpt lat="46.46776497611873" lon="9.747383421590259">
+      </trkpt>
+      <trkpt lat="46.466485518490806" lon="9.747255635067468">
+      </trkpt>
+      <trkpt lat="46.46538339375227" lon="9.747608942520612">
+      </trkpt>
+      <trkpt lat="46.464364471321836" lon="9.74748002535736">
+      </trkpt>
+      <trkpt lat="46.46380564985899" lon="9.747112520345935">
+      </trkpt>
+      <trkpt lat="46.46362717105043" lon="9.746892391112818">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Trockener Steg  Gandegghtte</name>
+    <desc>Ein markierter Weg fhrt unter der KleinmatterhornBahn ber Felsplatten und einen Mornenkamm in 30 min zur Htte</desc>
+    <trkseg>
+      <trkpt lat="45.97111052702774" lon="7.722703533313246">
+      </trkpt>
+      <trkpt lat="45.970315527023594" lon="7.723084533304298">
+      </trkpt>
+      <trkpt lat="45.96952152702263" lon="7.722827533298519">
+      </trkpt>
+      <trkpt lat="45.96933152702155" lon="7.722918533296382">
+      </trkpt>
+      <trkpt lat="45.96914852702201" lon="7.722732533295673">
+      </trkpt>
+      <trkpt lat="45.96910252702161" lon="7.722787533294995">
+      </trkpt>
+      <trkpt lat="45.96905852702174" lon="7.722727533294903">
+      </trkpt>
+      <trkpt lat="45.96901152702132" lon="7.722782533294212">
+      </trkpt>
+      <trkpt lat="45.96894352702154" lon="7.722710533293963">
+      </trkpt>
+      <trkpt lat="45.968576527020446" lon="7.722706533290725">
+      </trkpt>
+      <trkpt lat="45.9684195270192" lon="7.722871533288513">
+      </trkpt>
+      <trkpt lat="45.96823552701837" lon="7.722934533286565">
+      </trkpt>
+      <trkpt lat="45.96816052701739" lon="7.723081533285162">
+      </trkpt>
+      <trkpt lat="45.96758952701376" lon="7.723474533278145">
+      </trkpt>
+      <trkpt lat="45.96739652701181" lon="7.72375653327503">
+      </trkpt>
+      <trkpt lat="45.96725252701077" lon="7.723878533273147">
+      </trkpt>
+      <trkpt lat="45.96737252700951" lon="7.724201533272609">
+      </trkpt>
+      <trkpt lat="45.967072527008334" lon="7.724261533269641">
+      </trkpt>
+      <trkpt lat="45.96731352700769" lon="7.724536533270422">
+      </trkpt>
+      <trkpt lat="45.96728452700712" lon="7.724634533269674">
+      </trkpt>
+      <trkpt lat="45.96693552700634" lon="7.724582533266835">
+      </trkpt>
+      <trkpt lat="45.96678552700566" lon="7.724636533265236">
+      </trkpt>
+      <trkpt lat="45.96662552700567" lon="7.724538533264301">
+      </trkpt>
+      <trkpt lat="45.96638652700508" lon="7.724511533262314">
+      </trkpt>
+      <trkpt lat="45.96617552700356" lon="7.724708533259459">
+      </trkpt>
+      <trkpt lat="45.96593652700267" lon="7.72474053325718">
+      </trkpt>
+      <trkpt lat="45.96584952700327" lon="7.7245785332572074">
+      </trkpt>
+      <trkpt lat="45.965330527001896" lon="7.724551533252729">
+      </trkpt>
+      <trkpt lat="45.96514052700223" lon="7.724373533251931">
+      </trkpt>
+      <trkpt lat="45.96495952700188" lon="7.724339533250494">
+      </trkpt>
+      <trkpt lat="45.96492052700228" lon="7.724232533250675">
+      </trkpt>
+      <trkpt lat="45.96449852700015" lon="7.724430533245947">
+      </trkpt>
+      <trkpt lat="45.96419652699702" lon="7.7248785332410375">
+      </trkpt>
+      <trkpt lat="45.9640335269964" lon="7.7249005332394844">
+      </trkpt>
+      <trkpt lat="45.96401252699563" lon="7.725034533238633">
+      </trkpt>
+      <trkpt lat="45.96407352699476" lon="7.7252505332381">
+      </trkpt>
+      <trkpt lat="45.96415852699491" lon="7.725267533238768">
+      </trkpt>
+      <trkpt lat="45.964225526994554" lon="7.725382533238793">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

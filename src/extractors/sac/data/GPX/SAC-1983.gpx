@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Golmly  Chllihorn</name>
+    <desc>Von Pass Golmly wenige Meter ber den schmalen grasigen Grat zum ersten felsigen und schmalen Aufschwung Er wird direkt ber die Gratkante erklettert und fhrt zum ersten unkotierten Gipfel Die Schlsselstelle ehemals III wurde 2021 mit Eisenbgeln ausgerstet am Grat neu einige Bohrhaken fr Seilsicherung  Umgehung sdstlich mglich ca 50 m Hhenverlust In stetem Auf und Ab weiter ber den schmalen grasigen und von einigen Tannen bewachsenen Grat mit kleinrumigen Umgehungen auf der SE oder NWSeite 
+
+Nach einem zweiten unkotierten Gipfel bricht der Grat zum Sattel unter dem dritten Gipfel 1952 m ab Man steigt ber die grasige NWSeite sehr steil und exponiert ab und kann dann leicht zum Sattel queren Alternativ kann der gesamte zweite Gipfel sdseitig einfacher umgangen werden Der Kulminationspunkt der Euschelsflue 1952 m kann direkt etwas links erklettert werden III oder man folgt dem Fuss der Felsen auf der ESeite und steigt von der anderen Seite zum Gipfel Der Grat wird nun breiter und einfacher bis zum Gipfelkreuz des Chllihorns 1969 m Hier ist es an der Zeit die Tannennadeln aus Kleidung und Rucksack zu schtteln</desc>
+    <trkseg>
+      <trkpt lat="46.63666341539196" lon="7.301043419045066">
+      </trkpt>
+      <trkpt lat="46.63662475489997" lon="7.300876025284644">
+      </trkpt>
+      <trkpt lat="46.63647612107636" lon="7.300629156237274">
+      </trkpt>
+      <trkpt lat="46.63635496540634" lon="7.300390193535872">
+      </trkpt>
+      <trkpt lat="46.636288805717996" lon="7.300198944744092">
+      </trkpt>
+      <trkpt lat="46.636294016037354" lon="7.299967632939388">
+      </trkpt>
+      <trkpt lat="46.63627539615177" lon="7.299742083795385">
+      </trkpt>
+      <trkpt lat="46.63622608912826" lon="7.299575876715037">
+      </trkpt>
+      <trkpt lat="46.636100312305835" lon="7.299338582259355">
+      </trkpt>
+      <trkpt lat="46.63600189236988" lon="7.29916458310462">
+      </trkpt>
+      <trkpt lat="46.63591438384536" lon="7.298990556177923">
+      </trkpt>
+      <trkpt lat="46.635832213308824" lon="7.298721468160824">
+      </trkpt>
+      <trkpt lat="46.63571733656068" lon="7.29847622831479">
+      </trkpt>
+      <trkpt lat="46.635597042784106" lon="7.29826268613135">
+      </trkpt>
+      <trkpt lat="46.635449518646844" lon="7.298088819205674">
+      </trkpt>
+      <trkpt lat="46.635329253721096" lon="7.297899040580766">
+      </trkpt>
+      <trkpt lat="46.63516528251912" lon="7.297661854331111">
+      </trkpt>
+      <trkpt lat="46.6350559087783" lon="7.297456207932569">
+      </trkpt>
+      <trkpt lat="46.6348975311272" lon="7.297329896595546">
+      </trkpt>
+      <trkpt lat="46.63481539632394" lon="7.29709249805197">
+      </trkpt>
+      <trkpt lat="46.63469511980208" lon="7.296894803421792">
+      </trkpt>
+      <trkpt lat="46.63462936155354" lon="7.296665283556985">
+      </trkpt>
+      <trkpt lat="46.63456915826425" lon="7.29651495412823">
+      </trkpt>
+      <trkpt lat="46.6345634733013" lon="7.296332798622613">
+      </trkpt>
+      <trkpt lat="46.63448695194106" lon="7.296222115315585">
+      </trkpt>
+      <trkpt lat="46.63439404298624" lon="7.296095634986769">
+      </trkpt>
+      <trkpt lat="46.634306509763576" lon="7.295905777423729">
+      </trkpt>
+      <trkpt lat="46.6342189361746" lon="7.295684238946917">
+      </trkpt>
+      <trkpt lat="46.634142364069355" lon="7.2955339554097485">
+      </trkpt>
+      <trkpt lat="46.63401113300039" lon="7.2953046144508615">
+      </trkpt>
+      <trkpt lat="46.6338705771011" lon="7.295200396103314">
+      </trkpt>
+      <trkpt lat="46.63372335287435" lon="7.295135520658026">
+      </trkpt>
+      <trkpt lat="46.633641434368805" lon="7.294999268355536">
+      </trkpt>
+      <trkpt lat="46.63347603007058" lon="7.294747986654699">
+      </trkpt>
+      <trkpt lat="46.63334135747186" lon="7.294605171418032">
+      </trkpt>
+      <trkpt lat="46.633179811520264" lon="7.294481953096638">
+      </trkpt>
+      <trkpt lat="46.633049604984954" lon="7.294326111330018">
+      </trkpt>
+      <trkpt lat="46.632973136152906" lon="7.294124569817006">
+      </trkpt>
+      <trkpt lat="46.63281167289897" lon="7.294066433089085">
+      </trkpt>
+      <trkpt lat="46.63263226924608" lon="7.294001837132421">
+      </trkpt>
+      <trkpt lat="46.632488737968394" lon="7.293943652783432">
+      </trkpt>
+      <trkpt lat="46.63235876396014" lon="7.293970034863893">
+      </trkpt>
+      <trkpt lat="46.63220630828277" lon="7.293944414369801">
+      </trkpt>
+      <trkpt lat="46.631959817610024" lon="7.29400364970058">
+      </trkpt>
+      <trkpt lat="46.631762706576765" lon="7.294114814066738">
+      </trkpt>
+      <trkpt lat="46.63162817465024" lon="7.294082637351871">
+      </trkpt>
+      <trkpt lat="46.631466886054255" lon="7.294161165357395">
+      </trkpt>
+      <trkpt lat="46.63124260367664" lon="7.294111861512671">
+      </trkpt>
+      <trkpt lat="46.631101990862916" lon="7.294044242264793">
+      </trkpt>
+      <trkpt lat="46.630914544744726" lon="7.2939835493993215">
+      </trkpt>
+      <trkpt lat="46.63076916931346" lon="7.293854745942849">
+      </trkpt>
+      <trkpt lat="46.6306565395327" lon="7.293691856043702">
+      </trkpt>
+      <trkpt lat="46.63048313708902" lon="7.293624327232387">
+      </trkpt>
+      <trkpt lat="46.63030041854828" lon="7.293597622219877">
+      </trkpt>
+      <trkpt lat="46.63012227075661" lon="7.293482509270518">
+      </trkpt>
+      <trkpt lat="46.62998161388803" lon="7.293380894900682">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Station Brienzer Rothorn  Chruterepass</name>
+    <desc>Von der Station Brienzer Rothorn mit oder ohne Abstecher zum Gipfel des Brienzer Rothorn auf gut bezeichnetem Bergweg westwrts ber oder unter dem Nebengipfel Schongtsch hindurch via Lttgssli bis zum Chruterepass 2052 m</desc>
+    <trkseg>
+      <trkpt lat="46.78755092889458" lon="8.03907543714126">
+      </trkpt>
+      <trkpt lat="46.78757002017658" lon="8.038820016117404">
+      </trkpt>
+      <trkpt lat="46.78776002017033" lon="8.03802001610482">
+      </trkpt>
+      <trkpt lat="46.78821002017612" lon="8.036850016107037">
+      </trkpt>
+      <trkpt lat="46.788280020172344" lon="8.036440016100062">
+      </trkpt>
+      <trkpt lat="46.78825002017432" lon="8.036010016104196">
+      </trkpt>
+      <trkpt lat="46.78852002017504" lon="8.035220016100759">
+      </trkpt>
+      <trkpt lat="46.78861002017485" lon="8.034620016105515">
+      </trkpt>
+      <trkpt lat="46.788640020175585" lon="8.033970016094042">
+      </trkpt>
+      <trkpt lat="46.78879002017433" lon="8.033780016092269">
+      </trkpt>
+      <trkpt lat="46.78900002017952" lon="8.033290016098732">
+      </trkpt>
+      <trkpt lat="46.78910002017494" lon="8.032910016098173">
+      </trkpt>
+      <trkpt lat="46.789450020176176" lon="8.032150016090789">
+      </trkpt>
+      <trkpt lat="46.78981002017483" lon="8.030700016100488">
+      </trkpt>
+      <trkpt lat="46.78987002018038" lon="8.029290016096017">
+      </trkpt>
+      <trkpt lat="46.78963002017942" lon="8.028400016091338">
+      </trkpt>
+      <trkpt lat="46.78965002017653" lon="8.027860016091385">
+      </trkpt>
+      <trkpt lat="46.7897500201826" lon="8.027410016084424">
+      </trkpt>
+      <trkpt lat="46.789650020178904" lon="8.026190016083804">
+      </trkpt>
+      <trkpt lat="46.7897700201833" lon="8.025740016088632">
+      </trkpt>
+      <trkpt lat="46.78972002017453" lon="8.025680016081854">
+      </trkpt>
+      <trkpt lat="46.7897300201794" lon="8.025500016090245">
+      </trkpt>
+      <trkpt lat="46.78967002018106" lon="8.025420016093923">
+      </trkpt>
+      <trkpt lat="46.78973002017655" lon="8.025300016090924">
+      </trkpt>
+      <trkpt lat="46.78974002017822" lon="8.025110016081491">
+      </trkpt>
+      <trkpt lat="46.78975002017861" lon="8.024760016088242">
+      </trkpt>
+      <trkpt lat="46.78968002017547" lon="8.024510016086026">
+      </trkpt>
+      <trkpt lat="46.78974002018166" lon="8.024050016092078">
+      </trkpt>
+      <trkpt lat="46.78956002018223" lon="8.02317001606797">
+      </trkpt>
+      <trkpt lat="46.789690020177744" lon="8.022780016072732">
+      </trkpt>
+      <trkpt lat="46.78959002017699" lon="8.02237001607189">
+      </trkpt>
+      <trkpt lat="46.78946002018149" lon="8.022080016066893">
+      </trkpt>
+      <trkpt lat="46.78946002018393" lon="8.021890016071032">
+      </trkpt>
+      <trkpt lat="46.78932002018011" lon="8.021510016068712">
+      </trkpt>
+      <trkpt lat="46.78932002017979" lon="8.02138001606806">
+      </trkpt>
+      <trkpt lat="46.78915002018155" lon="8.021020016064895">
+      </trkpt>
+      <trkpt lat="46.78915002017792" lon="8.020660016068677">
+      </trkpt>
+      <trkpt lat="46.78898002018299" lon="8.020480016073106">
+      </trkpt>
+      <trkpt lat="46.78888002018096" lon="8.020080016072802">
+      </trkpt>
+      <trkpt lat="46.78871002018094" lon="8.020070016070228">
+      </trkpt>
+      <trkpt lat="46.78876002017863" lon="8.019940016070306">
+      </trkpt>
+      <trkpt lat="46.788690020179544" lon="8.019920016066648">
+      </trkpt>
+      <trkpt lat="46.788520020180194" lon="8.019630016074242">
+      </trkpt>
+      <trkpt lat="46.78841002017942" lon="8.019060016066264">
+      </trkpt>
+      <trkpt lat="46.78810002017942" lon="8.018280016065436">
+      </trkpt>
+      <trkpt lat="46.788120020179946" lon="8.018100016060167">
+      </trkpt>
+      <trkpt lat="46.78801002017843" lon="8.017680016063448">
+      </trkpt>
+      <trkpt lat="46.788031795234964" lon="8.01762402320536">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

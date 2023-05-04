@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Eggishorn station  Eggishorn</name>
+    <desc>Eggishorn is reached without difficulty on a marked mountain hiking trail The summit resembles a balcony jutting out above Grosser Aletschgletscher</desc>
+    <trkseg>
+      <trkpt lat="46.42745624173248" lon="8.093227660196783">
+      </trkpt>
+      <trkpt lat="46.427646526453955" lon="8.09329353551716">
+      </trkpt>
+      <trkpt lat="46.42773552645393" lon="8.093346535517691">
+      </trkpt>
+      <trkpt lat="46.42780052645385" lon="8.093395535518017">
+      </trkpt>
+      <trkpt lat="46.42794952645396" lon="8.093454535519058">
+      </trkpt>
+      <trkpt lat="46.42810352645435" lon="8.093453535520446">
+      </trkpt>
+      <trkpt lat="46.42834252645485" lon="8.093490535522417">
+      </trkpt>
+      <trkpt lat="46.428619526455144" lon="8.093585535524412">
+      </trkpt>
+      <trkpt lat="46.42880052645565" lon="8.093588535526026">
+      </trkpt>
+      <trkpt lat="46.429115526455405" lon="8.093807535527732">
+      </trkpt>
+      <trkpt lat="46.4293275264548" lon="8.09404253552843">
+      </trkpt>
+      <trkpt lat="46.42954352645476" lon="8.094177535529678">
+      </trkpt>
+      <trkpt lat="46.42985352645507" lon="8.094281535531914">
+      </trkpt>
+      <trkpt lat="46.43002852645509" lon="8.094374535533024">
+      </trkpt>
+      <trkpt lat="46.43009052645536" lon="8.09435853553366">
+      </trkpt>
+      <trkpt lat="46.43013852645531" lon="8.094395535533906">
+      </trkpt>
+      <trkpt lat="46.430230526455745" lon="8.0943615355349">
+      </trkpt>
+      <trkpt lat="46.4303385264562" lon="8.094326535536048">
+      </trkpt>
+      <trkpt lat="46.4303825264563" lon="8.094320535536482">
+      </trkpt>
+      <trkpt lat="46.430626526457985" lon="8.094131535539661">
+      </trkpt>
+      <trkpt lat="46.430682526458284" lon="8.094109535540268">
+      </trkpt>
+      <trkpt lat="46.43065152645783" lon="8.09417853553963">
+      </trkpt>
+      <trkpt lat="46.430625526457355" lon="8.094253535539016">
+      </trkpt>
+      <trkpt lat="46.43057852645655" lon="8.094385535537903">
+      </trkpt>
+      <trkpt lat="46.43064652645673" lon="8.094384535538525">
+      </trkpt>
+      <trkpt lat="46.43069052645705" lon="8.094355535539078">
+      </trkpt>
+      <trkpt lat="46.43074052645707" lon="8.094375535539418">
+      </trkpt>
+      <trkpt lat="46.43078152645687" lon="8.094444535539443">
+      </trkpt>
+      <trkpt lat="46.430786526457176" lon="8.094378535539823">
+      </trkpt>
+      <trkpt lat="46.430823526457935" lon="8.094263535540742">
+      </trkpt>
+      <trkpt lat="46.430874526458396" lon="8.09419153554158">
+      </trkpt>
+      <trkpt lat="46.43092452645895" lon="8.094116535542419">
+      </trkpt>
+      <trkpt lat="46.430974526459416" lon="8.09404453554324">
+      </trkpt>
+      <trkpt lat="46.43103152645966" lon="8.094022535543862">
+      </trkpt>
+      <trkpt lat="46.43099952645924" lon="8.094090535543227">
+      </trkpt>
+      <trkpt lat="46.43105652645936" lon="8.09410053554369">
+      </trkpt>
+      <trkpt lat="46.431043526458886" lon="8.094185535543128">
+      </trkpt>
+      <trkpt lat="46.43104152645828" lon="8.094305535542498">
+      </trkpt>
+      <trkpt lat="46.43109752645876" lon="8.094239535543343">
+      </trkpt>
+      <trkpt lat="46.43115752645929" lon="8.094169535544253">
+      </trkpt>
+      <trkpt lat="46.431224526458564" lon="8.094345535543944">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

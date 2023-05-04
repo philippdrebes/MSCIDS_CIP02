@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Heitbodme  Abzweigung Sdwestgrat</name>
+    <desc>Der Ausgangspunkt Heitbodme kann sehr bequem erreicht werden indem man sich der Sesselbahn bedient die in zwei Sektionen von SaasAlmagell 1671 m hinauffhrt Bei der Bergstation Heitbodme ldt ein modernes Restaurant mit wundervoller Aussichtsterrasse zur Einkehr Neben dem Restaurant beginnt der im Jahr 2011 erstellte Hhenweg in Richtung Antronapass Diesem gut ausgebauten Weg der angenehm ansteigend durch die karge Sdflanke fhrt folgt man bis zur Abzweigung auf etwa 2610 m</desc>
+    <trkseg>
+      <trkpt lat="46.08221226892534" lon="7.975533578328544">
+      </trkpt>
+      <trkpt lat="46.08192957793851" lon="7.975769953287218">
+      </trkpt>
+      <trkpt lat="46.081759969325006" lon="7.976250467540242">
+      </trkpt>
+      <trkpt lat="46.081619587439775" lon="7.976449456235525">
+      </trkpt>
+      <trkpt lat="46.081629999823434" lon="7.976529706629776">
+      </trkpt>
+      <trkpt lat="46.081740309301885" lon="7.976600598806214">
+      </trkpt>
+      <trkpt lat="46.081879982964395" lon="7.976550265233193">
+      </trkpt>
+      <trkpt lat="46.081590294419506" lon="7.977310111137366">
+      </trkpt>
+      <trkpt lat="46.08144974607226" lon="7.9779201748185455">
+      </trkpt>
+      <trkpt lat="46.08158984648397" lon="7.977780652273515">
+      </trkpt>
+      <trkpt lat="46.08193015146469" lon="7.9771596280860555">
+      </trkpt>
+      <trkpt lat="46.08221006661888" lon="7.976940038342413">
+      </trkpt>
+      <trkpt lat="46.08230977881634" lon="7.976969460514818">
+      </trkpt>
+      <trkpt lat="46.08192965476515" lon="7.977640513392508">
+      </trkpt>
+      <trkpt lat="46.081790161385634" lon="7.978029536636947">
+      </trkpt>
+      <trkpt lat="46.08148962887134" lon="7.978609580309291">
+      </trkpt>
+      <trkpt lat="46.0815597922149" lon="7.9786102736035">
+      </trkpt>
+      <trkpt lat="46.08149000259931" lon="7.9787194639545405">
+      </trkpt>
+      <trkpt lat="46.08143028316543" lon="7.978979999932766">
+      </trkpt>
+      <trkpt lat="46.081279710601244" lon="7.9792396365673435">
+      </trkpt>
+      <trkpt lat="46.0809395732854" lon="7.980760356109222">
+      </trkpt>
+      <trkpt lat="46.080949589944204" lon="7.981109482529451">
+      </trkpt>
+      <trkpt lat="46.08078992286849" lon="7.981949438121741">
+      </trkpt>
+      <trkpt lat="46.08052045081565" lon="7.982799929614065">
+      </trkpt>
+      <trkpt lat="46.080290400256295" lon="7.983309539097407">
+      </trkpt>
+      <trkpt lat="46.080289958647775" lon="7.983959751459312">
+      </trkpt>
+      <trkpt lat="46.08049969197459" lon="7.983559820153995">
+      </trkpt>
+      <trkpt lat="46.08065978245915" lon="7.9833804404640905">
+      </trkpt>
+      <trkpt lat="46.08056993697096" lon="7.983729862233686">
+      </trkpt>
+      <trkpt lat="46.08052968918219" lon="7.984240070626521">
+      </trkpt>
+      <trkpt lat="46.08097021461618" lon="7.983550292475438">
+      </trkpt>
+      <trkpt lat="46.08145968626362" lon="7.982969577899505">
+      </trkpt>
+      <trkpt lat="46.081220328089145" lon="7.983729886353311">
+      </trkpt>
+      <trkpt lat="46.08116982847677" lon="7.984499830849353">
+      </trkpt>
+      <trkpt lat="46.081049950888186" lon="7.984920052152622">
+      </trkpt>
+      <trkpt lat="46.08132018022698" lon="7.984660335068829">
+      </trkpt>
+      <trkpt lat="46.08109980097609" lon="7.98540014101471">
+      </trkpt>
+      <trkpt lat="46.08129962396121" lon="7.9851901373002905">
+      </trkpt>
+      <trkpt lat="46.081220178762855" lon="7.985619811715524">
+      </trkpt>
+      <trkpt lat="46.081110314190674" lon="7.985829421652724">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

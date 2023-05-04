@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Bergstation  Oeschinensee</name>
+    <desc>Take the cable car from Kandersteg to the Oeschinensee mountain station Follow the yellow marked hiking path  road right hand southern variant to the lake</desc>
+    <trkseg>
+      <trkpt lat="46.502143528668235" lon="7.697280538218296">
+      </trkpt>
+      <trkpt lat="46.50197152866688" lon="7.697455538215846">
+      </trkpt>
+      <trkpt lat="46.501929528665286" lon="7.697743538214014">
+      </trkpt>
+      <trkpt lat="46.50204952866244" lon="7.698371538211913">
+      </trkpt>
+      <trkpt lat="46.5020405286571" lon="7.699425538206497">
+      </trkpt>
+      <trkpt lat="46.50207952865479" lon="7.6998965382044675">
+      </trkpt>
+      <trkpt lat="46.502012528652386" lon="7.700337538201619">
+      </trkpt>
+      <trkpt lat="46.501662528647394" lon="7.701119538194471">
+      </trkpt>
+      <trkpt lat="46.50154952864437" lon="7.701659538190707">
+      </trkpt>
+      <trkpt lat="46.501187528638376" lon="7.702643538182423">
+      </trkpt>
+      <trkpt lat="46.50074852863371" lon="7.703318538175002">
+      </trkpt>
+      <trkpt lat="46.50054152863101" lon="7.703730538171026">
+      </trkpt>
+      <trkpt lat="46.500110528627175" lon="7.704256538164433">
+      </trkpt>
+      <trkpt lat="46.49979952862502" lon="7.704503538160337">
+      </trkpt>
+      <trkpt lat="46.499233528619946" lon="7.7051925381517">
+      </trkpt>
+      <trkpt lat="46.49909952861674" lon="7.70575353814763">
+      </trkpt>
+      <trkpt lat="46.499190528615124" lon="7.7061215381465935">
+      </trkpt>
+      <trkpt lat="46.498892528610526" lon="7.706870538140088">
+      </trkpt>
+      <trkpt lat="46.49892352860992" lon="7.706997538139735">
+      </trkpt>
+      <trkpt lat="46.498678528605424" lon="7.707750538133687">
+      </trkpt>
+      <trkpt lat="46.498620528603254" lon="7.708149538131121">
+      </trkpt>
+      <trkpt lat="46.49862952860118" lon="7.708551538129167">
+      </trkpt>
+      <trkpt lat="46.498499528598614" lon="7.70899453812575">
+      </trkpt>
+      <trkpt lat="46.49848452859649" lon="7.709405538123522">
+      </trkpt>
+      <trkpt lat="46.49857752859485" lon="7.709781538122471">
+      </trkpt>
+      <trkpt lat="46.49855652859386" lon="7.709961538121355">
+      </trkpt>
+      <trkpt lat="46.498390528591614" lon="7.710306538118101">
+      </trkpt>
+      <trkpt lat="46.49780452858719" lon="7.710865538109926">
+      </trkpt>
+      <trkpt lat="46.497721528586986" lon="7.710859538109213">
+      </trkpt>
+      <trkpt lat="46.49758352858517" lon="7.711142538106509">
+      </trkpt>
+      <trkpt lat="46.497549528582425" lon="7.711660538103572">
+      </trkpt>
+      <trkpt lat="46.49733852857867" lon="7.712286538098478">
+      </trkpt>
+      <trkpt lat="46.49728452857674" lon="7.7126435380961835">
+      </trkpt>
+      <trkpt lat="46.49728652857187" lon="7.713605538091322">
+      </trkpt>
+      <trkpt lat="46.49728631389368" lon="7.713605045592551">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Morgenholz  Wnifurggel  beginning of the summit ascent</name>
+    <desc>From the Morgenholz summit station of the aerial cableway follow the alp access road to Niederurner Tal past the Hirzli restaurant At Mettmen P 1168 a mountain hiking trail branches off southward and zigzags up to Wnisattel T3 From Wnisattel follow the faint path south of the summit ridge eastward to reach the beginning of the summit ascent marked by a blue arrow</desc>
+    <trkseg>
+      <trkpt lat="47.12550652361062" lon="9.019818536842129">
+      </trkpt>
+      <trkpt lat="47.12567152361276" lon="9.019487536845498">
+      </trkpt>
+      <trkpt lat="47.12520452361197" lon="9.019404536841705">
+      </trkpt>
+      <trkpt lat="47.124925523610486" lon="9.019550536838349">
+      </trkpt>
+      <trkpt lat="47.12507052361351" lon="9.019048536842483">
+      </trkpt>
+      <trkpt lat="47.124937523615" lon="9.018666536843416">
+      </trkpt>
+      <trkpt lat="47.124893523618184" lon="9.01803053684658">
+      </trkpt>
+      <trkpt lat="47.125028523619974" lon="9.017749536849385">
+      </trkpt>
+      <trkpt lat="47.124987523623055" lon="9.017135536852441">
+      </trkpt>
+      <trkpt lat="47.12506052362459" lon="9.016871536854586">
+      </trkpt>
+      <trkpt lat="47.12513652363027" lon="9.015802536861273">
+      </trkpt>
+      <trkpt lat="47.12521052363162" lon="9.015586536863154">
+      </trkpt>
+      <trkpt lat="47.125024523632284" lon="9.015354536862757">
+      </trkpt>
+      <trkpt lat="47.125012523640514" lon="9.013744536871672">
+      </trkpt>
+      <trkpt lat="47.12478352364367" lon="9.013011536873691">
+      </trkpt>
+      <trkpt lat="47.12499652364657" lon="9.012561536878161">
+      </trkpt>
+      <trkpt lat="47.12512752365192" lon="9.011589536884788">
+      </trkpt>
+      <trkpt lat="47.124985523654715" lon="9.010977536886926">
+      </trkpt>
+      <trkpt lat="47.1250905236577" lon="9.010446536890852">
+      </trkpt>
+      <trkpt lat="47.12483952366012" lon="9.009845536891936">
+      </trkpt>
+      <trkpt lat="47.12453352366022" lon="9.009661536890187">
+      </trkpt>
+      <trkpt lat="47.12435852366171" lon="9.009286536890697">
+      </trkpt>
+      <trkpt lat="47.12437552366674" lon="9.008333536896183">
+      </trkpt>
+      <trkpt lat="47.12455652367187" lon="9.007413536902982">
+      </trkpt>
+      <trkpt lat="47.12488452367257" lon="9.007438536905832">
+      </trkpt>
+      <trkpt lat="47.12496652368063" lon="9.0059175369151">
+      </trkpt>
+      <trkpt lat="47.12483052368347" lon="9.005300536917316">
+      </trkpt>
+      <trkpt lat="47.124762523691736" lon="9.003654536925914">
+      </trkpt>
+      <trkpt lat="47.12484952369602" lon="9.002866536931112">
+      </trkpt>
+      <trkpt lat="47.124770523698025" lon="9.002436536932807">
+      </trkpt>
+      <trkpt lat="47.124518523700175" lon="9.001884536933597">
+      </trkpt>
+      <trkpt lat="47.12428052370547" lon="9.00073153693789">
+      </trkpt>
+      <trkpt lat="47.12431852371416" lon="8.999065536947562">
+      </trkpt>
+      <trkpt lat="47.124249523718625" lon="8.998162536951991">
+      </trkpt>
+      <trkpt lat="47.12433952372642" lon="8.99668353696109">
+      </trkpt>
+      <trkpt lat="47.12451552373133" lon="8.995817536967536">
+      </trkpt>
+      <trkpt lat="47.12406552372932" lon="8.995976536962546">
+      </trkpt>
+      <trkpt lat="47.12370752372563" lon="8.996524536956228">
+      </trkpt>
+      <trkpt lat="47.12286652371598" lon="8.997984536940402">
+      </trkpt>
+      <trkpt lat="47.1225535237104" lon="8.998905536932401">
+      </trkpt>
+      <trkpt lat="47.122228523706454" lon="8.99948853692618">
+      </trkpt>
+      <trkpt lat="47.122098523708566" lon="8.99902553692759">
+      </trkpt>
+      <trkpt lat="47.12211552371154" lon="8.998458536930917">
+      </trkpt>
+      <trkpt lat="47.121986523714874" lon="8.997735536933792">
+      </trkpt>
+      <trkpt lat="47.12200952372342" lon="8.996088536943216">
+      </trkpt>
+      <trkpt lat="47.1219275237253" lon="8.995680536944755">
+      </trkpt>
+      <trkpt lat="47.12156252372839" lon="8.994883536945897">
+      </trkpt>
+      <trkpt lat="47.12143352372889" lon="8.99473453694555">
+      </trkpt>
+      <trkpt lat="47.12115252372181" lon="8.995966536936095">
+      </trkpt>
+      <trkpt lat="47.120831523726665" lon="8.994850536939424">
+      </trkpt>
+      <trkpt lat="47.120489523729766" lon="8.9940845369406">
+      </trkpt>
+      <trkpt lat="47.12046352372575" lon="8.994840536936138">
+      </trkpt>
+      <trkpt lat="47.12025852372001" lon="8.995861536928553">
+      </trkpt>
+      <trkpt lat="47.11997752372427" lon="8.99489053693143">
+      </trkpt>
+      <trkpt lat="47.119796523725654" lon="8.994527536931823">
+      </trkpt>
+      <trkpt lat="47.119593523717555" lon="8.996003536921712">
+      </trkpt>
+      <trkpt lat="47.1194015237199" lon="8.9954435369231">
+      </trkpt>
+      <trkpt lat="47.119265523717175" lon="8.995909536919253">
+      </trkpt>
+      <trkpt lat="47.119130523719214" lon="8.995443536920634">
+      </trkpt>
+      <trkpt lat="47.11887552371528" lon="8.99607953691476">
+      </trkpt>
+      <trkpt lat="47.11863052371599" lon="8.995816536914">
+      </trkpt>
+      <trkpt lat="47.118567523718255" lon="8.995335536916116">
+      </trkpt>
+      <trkpt lat="47.118327523718605" lon="8.99515853691493">
+      </trkpt>
+      <trkpt lat="47.11805352372041" lon="8.994663536915203">
+      </trkpt>
+      <trkpt lat="47.11802752371286" lon="8.99611353690687">
+      </trkpt>
+      <trkpt lat="47.11820452371101" lon="8.99657253690591">
+      </trkpt>
+      <trkpt lat="47.11854852370928" lon="8.997080536906187">
+      </trkpt>
+      <trkpt lat="47.118911511423946" lon="9.0000344782992">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
