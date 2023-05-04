@@ -133,7 +133,7 @@ df_tour_page_links = pd.DataFrame(link_data)
 print(df_tour_page_links.head(10))
 
 # Export the DataFrame to a CSV file
-df_tour_page_links.to_csv("SAC_page_links.csv",sep=';')
+df_tour_page_links.to_csv(f"data\SAC_page_links.csv",sep=';')
 
 print("Now we will crawl the information from all of them.")
 
@@ -211,10 +211,10 @@ print(df.head(10))
 
 # Export the DataFrame to a CSV file, we create 2 files:
 # 1. saves the data in the same file / overwrites database (indexing is included)
-df.to_csv("SAC_data_with_index1.csv",sep=';')
+df.to_csv(f"data\SAC_data_with_index1.csv",sep=';')
 
 # 2. saves the data in the same file / overwrites database (indexing is disabled) -> we can append it later
-df.to_csv("SAC_data_without_index1.csv",sep=';',index = False)
+df.to_csv(f"data\SAC_data_without_index1.csv",sep=';',index = False)
 
 # 3. appends an existing csv file with new data:
 #df.to_csv("SAC_data_without_index.cs",sep=';', mode ="a", header = False, index = False)
