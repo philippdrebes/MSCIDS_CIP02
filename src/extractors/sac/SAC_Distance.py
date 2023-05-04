@@ -67,7 +67,7 @@ except:
     driver.find_element(by=By.XPATH, value='//*[@id="mytracks"]/app-tracks/div/div/app-user/app-user-welcome/div[3]/a').click()
 
 files =[]
-basepath = 'C:\\Users\\A\\switchdrive\\SyncVM\\CIP_FS23\\Project\\GPX\\'
+basepath = 'data\\GPX\\'
 for entry in os.listdir(basepath):
     if os.path.isfile(os.path.join(basepath, entry)):
         files.append(entry)
@@ -143,10 +143,10 @@ print(df.head(10))
 
 # Export the DataFrame to a CSV file, we create 2 files:
 # 1. saves the data in the same file / overwrites database (indexing is included)
-df.to_csv("Distance_data_with_index.csv",sep=';')
+df.to_csv("data\\Distance_data_with_index.csv",sep=';')
 
 # 2. saves the data in the same file / overwrites database (indexing is disabled) -> we can append it later
-df.to_csv("Distance_data_without_index.csv",sep=';',index = False)
+df.to_csv("data\\Distance_data_without_index.csv",sep=';',index = False)
 
 # 3. appends an existing csv file with new data:
 #df.to_csv("SAC_data_without_index.cs",sep=';', mode ="a", header = False, index = False)
