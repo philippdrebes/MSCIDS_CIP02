@@ -24,9 +24,9 @@ def main() -> None:
 
     # driver = SeleniumUtil.initialize_new_instance()
 
-    stage1_path = './extractors/output/komoot_stage_1.csv'
-    stage2_path = './extractors/output/komoot_stage_2.csv'
-    gpx_download_path = './extractors/output/gpx'
+    stage1_path = 'output/komoot_stage_1.csv'
+    stage2_path = 'output/komoot_stage_2.csv'
+    gpx_download_path = 'output/gpx'
 
     # komoot_ext = KomootExtractor(driver, stage1_path, gpx_download_path)
     # komoot_ext.extract()

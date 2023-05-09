@@ -345,7 +345,6 @@ class KomootExtractor:
         """Handles the Komoot login process."""
 
         keyringServiceName = "Komoot Login"
-        # keyring.set_password(keyringServiceName, "philipp.drebes@gmail.com", "^Wot2Y$3a@^krKN6V3")
 
         credentials = keyring.get_credential(keyringServiceName, "philipp.drebes@gmail.com")
 
