@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 <meta name="generator" content="pdoc 0.10.0" />
-<title>extractors API documentation</title>
+<title>extractors.SacGpxExtractor API documentation</title>
 <meta name="description" content="" />
 <link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
 <link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
@@ -19,30 +19,59 @@
 <main>
 <article id="content">
 <header>
-<h1 class="title">Package <code>extractors</code></h1>
+<h1 class="title">Module <code>extractors.SacGpxExtractor</code></h1>
 </header>
 <section id="section-intro">
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">from pyproj import Transformer
+import gpxpy
+import gpxpy.gpx
+import json
+import requests
+import argparse
+import browser_cookie3
+
+if __name__ == &#34;__main__&#34;:
+    parser = argparse.ArgumentParser(description=&#39;Converts SAC routes to GPX files&#39;)
+    parser.add_argument(&#39;id&#39;, metavar=&#39;route_id&#39;, type=int, help=&#39;SAC ID of the route (last part of the URL)&#39;)
+    parser.add_argument(&#39;-lang&#39;, type=str, default=&#34;de&#34;, help=&#34;language [de/en/it/fr]&#34;)
+
+    args = parser.parse_args()
+
+    cj = browser_cookie3.chrome()
+    with requests.get(f&#34;https://www.sac-cas.ch/de/?type=1567765346410&amp;tx_usersaccas2020_sac2020%5BrouteId%5D={args.id}&amp;output_lang={args.lang}&#34;, cookies=cj) as url:
+        data = json.loads(url.content)
+
+    gpx = gpxpy.gpx.GPX()
+    gpx.name = f&#39;{data[&#34;destination_poi&#34;][&#34;display_name&#34;]} ({data[&#34;title&#34;]})&#39;
+    gpx.description = data[&#34;teaser&#34;]
+    gpx.author_name = data[&#34;author&#34;][&#34;full_name&#34;]
+
+    transformer = Transformer.from_crs(&#39;epsg:2056&#39;, &#39;epsg:4326&#39;)
+
+    for seg in data[&#39;segments&#39;]:
+        gpx_track = gpxpy.gpx.GPXTrack(name=seg[&#39;title&#39;],description=seg[&#39;description&#39;])
+        gpx.tracks.append(gpx_track)
+        gpx_segment = gpxpy.gpx.GPXTrackSegment()
+        gpx_track.segments.append(gpx_segment)
+
+        if &#39;geom&#39; in seg and seg[&#39;geom&#39;]:
+            for x,y in map(lambda xy: transformer.transform(*xy),seg[&#39;geom&#39;][&#39;coordinates&#39;]):
+                gpx_segment.points.append(gpxpy.gpx.GPXTrackPoint(x,y))
+
+    wps = [data[&#39;departure_point&#39;]] + [wp[&#39;reference_poi&#39;] for wp in data[&#39;waypoints&#39;]] + [data[&#39;destination_poi&#39;]]
+    for wp in wps:
+        gpx_wp=gpxpy.gpx.GPXWaypoint(*transformer.transform(*wp[&#39;geom&#39;][&#39;coordinates&#39;]),name=wp[&#39;display_name&#39;])
+        gpx.waypoints.append(gpx_wp)
+
+    with open(f&#39;SAC-{args.id} {gpx.name}.gpx&#39;,&#39;w&#39;) as f:
+        f.write(gpx.to_xml())</code></pre>
+</details>
 </section>
 <section>
-<h2 class="section-title" id="header-submodules">Sub-modules</h2>
-<dl>
-<dt><code class="name"><a title="extractors.KomootExtractor" href="KomootExtractor.html">extractors.KomootExtractor</a></code></dt>
-<dd>
-<div class="desc"></div>
-</dd>
-<dt><code class="name"><a title="extractors.SacExtractor" href="SacExtractor.html">extractors.SacExtractor</a></code></dt>
-<dd>
-<div class="desc"></div>
-</dd>
-<dt><code class="name"><a title="extractors.SacGpxExtractor" href="SacGpxExtractor.html">extractors.SacGpxExtractor</a></code></dt>
-<dd>
-<div class="desc"></div>
-</dd>
-<dt><code class="name"><a title="extractors.SeleniumUtil" href="SeleniumUtil.html">extractors.SeleniumUtil</a></code></dt>
-<dd>
-<div class="desc"></div>
-</dd>
-</dl>
 </section>
 <section>
 </section>
@@ -57,12 +86,9 @@
 <ul></ul>
 </div>
 <ul id="index">
-<li><h3><a href="#header-submodules">Sub-modules</a></h3>
+<li><h3>Super-module</h3>
 <ul>
-<li><code><a title="extractors.KomootExtractor" href="KomootExtractor.html">extractors.KomootExtractor</a></code></li>
-<li><code><a title="extractors.SacExtractor" href="SacExtractor.html">extractors.SacExtractor</a></code></li>
-<li><code><a title="extractors.SacGpxExtractor" href="SacGpxExtractor.html">extractors.SacGpxExtractor</a></code></li>
-<li><code><a title="extractors.SeleniumUtil" href="SeleniumUtil.html">extractors.SeleniumUtil</a></code></li>
+<li><code><a title="extractors" href="index.html">extractors</a></code></li>
 </ul>
 </li>
 </ul>

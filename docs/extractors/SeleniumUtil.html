@@ -53,6 +53,9 @@ def initialize_new_instance() -&gt; WebDriver:
         logger.info(&#39;Running on macOS&#39;)
         option = webdriver.ChromeOptions()
         option.binary_location = r&#39;/Applications/Brave Browser.app/Contents/MacOS/Brave Browser&#39;
+        prefs = {&#34;download.default_directory&#34;: &#39;/Users/pdrebes/dev/mscids/MSCIDS_CIP02/src/extractors/output/gpx&#39;}
+        option.add_experimental_option(&#34;prefs&#34;, prefs)
+
         driver_service = Service(&#39;/opt/homebrew/bin/chromedriver&#39;)
 
         driver = webdriver.Chrome(service=driver_service, options=option)
@@ -90,7 +93,20 @@ def scroll_to_position(driver: WebDriver, position: Union[int, str]) -&gt; None:
         If str, for example &#39;document.body.scrollHeight&#39;.
     &#34;&#34;&#34;
     driver.execute_script(f&#34;window.scrollTo(0, {position});&#34;)
-    logger.debug(&#39;Scrolled to position %s&#39;, position)</code></pre>
+    logger.debug(&#39;Scrolled to position %s&#39;, position)
+
+
+def close_driver(driver):
+    &#34;&#34;&#34;Closes the given WebDriver.
+
+    Parameters
+    ----------
+    driver : WebDriver
+        The Selenium WebDriver used to interact with the browser
+    &#34;&#34;&#34;
+    logger.info(&#39;Closing driver&#39;)
+    driver.close()
+    logger.info(&#39;Closed driver&#39;)</code></pre>
 </details>
 </section>
 <section>
@@ -100,6 +116,33 @@ def scroll_to_position(driver: WebDriver, position: Union[int, str]) -&gt; None:
 <section>
 <h2 class="section-title" id="header-functions">Functions</h2>
 <dl>
+<dt id="extractors.SeleniumUtil.close_driver"><code class="name flex">
+<span>def <span class="ident">close_driver</span></span>(<span>driver)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Closes the given WebDriver.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>driver</code></strong> :&ensp;<code>WebDriver</code></dt>
+<dd>The Selenium WebDriver used to interact with the browser</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def close_driver(driver):
+    &#34;&#34;&#34;Closes the given WebDriver.
+
+    Parameters
+    ----------
+    driver : WebDriver
+        The Selenium WebDriver used to interact with the browser
+    &#34;&#34;&#34;
+    logger.info(&#39;Closing driver&#39;)
+    driver.close()
+    logger.info(&#39;Closed driver&#39;)</code></pre>
+</details>
+</dd>
 <dt id="extractors.SeleniumUtil.initialize_new_instance"><code class="name flex">
 <span>def <span class="ident">initialize_new_instance</span></span>(<span>) ‑> selenium.webdriver.chrome.webdriver.WebDriver</span>
 </code></dt>
@@ -132,6 +175,9 @@ Also, it is assumed that the chromedriver was installed via Homebrew.</p>
         logger.info(&#39;Running on macOS&#39;)
         option = webdriver.ChromeOptions()
         option.binary_location = r&#39;/Applications/Brave Browser.app/Contents/MacOS/Brave Browser&#39;
+        prefs = {&#34;download.default_directory&#34;: &#39;/Users/pdrebes/dev/mscids/MSCIDS_CIP02/src/extractors/output/gpx&#39;}
+        option.add_experimental_option(&#34;prefs&#34;, prefs)
+
         driver_service = Service(&#39;/opt/homebrew/bin/chromedriver&#39;)
 
         driver = webdriver.Chrome(service=driver_service, options=option)
@@ -222,6 +268,7 @@ If str, for example 'document.body.scrollHeight'.</dd>
 </li>
 <li><h3><a href="#header-functions">Functions</a></h3>
 <ul class="">
+<li><code><a title="extractors.SeleniumUtil.close_driver" href="#extractors.SeleniumUtil.close_driver">close_driver</a></code></li>
 <li><code><a title="extractors.SeleniumUtil.initialize_new_instance" href="#extractors.SeleniumUtil.initialize_new_instance">initialize_new_instance</a></code></li>
 <li><code><a title="extractors.SeleniumUtil.scroll_to_bottom" href="#extractors.SeleniumUtil.scroll_to_bottom">scroll_to_bottom</a></code></li>
 <li><code><a title="extractors.SeleniumUtil.scroll_to_position" href="#extractors.SeleniumUtil.scroll_to_position">scroll_to_position</a></code></li>

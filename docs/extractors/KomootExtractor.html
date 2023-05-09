@@ -27,13 +27,22 @@
 <span>Expand source code</span>
 </summary>
 <pre><code class="python">import logging
+import os
+import re
+from itertools import islice
+from time import sleep
 
-from selenium.common import ElementNotInteractableException
+import pandas as pd
+from typing import Dict, List
+
+from bs4 import BeautifulSoup
+from selenium.common import ElementNotInteractableException, NoSuchElementException
 from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium.webdriver.common.by import By
-from bs4 import BeautifulSoup
 
 from src.extractors import SeleniumUtil
+from src.model.Komoot.Route import KomootRoute
+import keyring
 
 
 class KomootExtractor:
@@ -46,7 +55,7 @@ class KomootExtractor:
         a url string used as the base url for all other urls
     discover_url : str
         A combination of the base_url and the discover url
-    regions_url : str
+    region_url : str
         A combination of the base_url and the regions url
     tours_url : str
         A combination of the base_url and the tours url
@@ -59,17 +68,23 @@ class KomootExtractor:
 
     base_url = &#39;https://www.komoot.com&#39;
     discover_url = base_url + &#39;/discover/hiking-trails&#39;
-    regions_url = base_url + &#39;/discover/hiking-trails/germany&#39;
-    tours_url = base_url + &#39;/discover/hiking-trails/germany/bavaria&#39;
+    region_url = base_url + &#39;/guide&#39;
+    route_url = base_url + &#39;/smarttour&#39;
+    login_url = &#39;https://account.komoot.com/signin&#39;
+    max_retries = 3
+    retry_wait_seconds = 5
 
     page_objects = {
         &#39;discover&#39;: {
             &#39;filter_btn&#39;: &#39;//*[@id=&#34;pageMountNode&#34;]/div/div[3]/div[2]/div/div/main/section[1]/div[2]/div/div[1]/div/div/button[1]&#39;,
+            &#39;filter_close_btn&#39;: &#39;//*[@id=&#34;pageMountNode&#34;]/div/div[3]/div[2]/div/div/main/section[1]/div[2]/div/div[2]/div/div[3]/div[2]/button/span&#39;,
             &#39;filter_country_ch_lbl&#39;: &#39;//*[@id=&#34;pageMountNode&#34;]/div/div[3]/div[2]/div/div/main/section[1]/div[2]/div/div[2]/div/div[2]/div/div[13]/label&#39;,
-            &#39;next_page_btn&#39;: &#39;/html/body/div[1]/div/div[3]/div[2]/div/div/main/section[1]/div[2]/div/div[4]/div[3]/button&#39;,
+            &#39;next_page_btn&#39;: &#39;//*[@id=&#34;pageMountNode&#34;]/div/div[3]/div[2]/div/div/main/section[1]/div[2]/div/div[3]/div[3]/button&#39;,
+            &#39;first_region_div&#39;: &#39;//*[@id=&#34;pageMountNode&#34;]/div/div[3]/div[2]/div/div/main/section[1]/div[2]/div/div[2]/div/div[1]/div/div[3]/a&#39;
         },
         &#39;region&#39;: {
             &#39;tour_title_attr&#39;: &#39;data-test-id=&#34;tour_title&#34;&#39;,
+            &#39;tours_list&#39;: &#39;#pageMountNode &gt; div &gt; div.tw-bg-beige-light &gt; div.u-bg-desk-column &gt; div &gt; section &gt; div &gt; div &gt; div &gt; div.tw-w-full.lg\:tw-w-3\/5 &gt; div &gt; div &gt; div:nth-child(2) &gt; div &gt; div:nth-child(2) &gt; ul&#39;,
         },
         &#39;tour&#39;: {
             &#39;title_lbl&#39;: &#39;//*[@id=&#34;title&#34;]/div[2]/h1&#39;,
@@ -79,6 +94,13 @@ class KomootExtractor:
             &#39;speed_lbl&#39;: &#39;//*[@id=&#34;pageMountNode&#34;]/div/div[3]/div[2]/div/div/div/div/div[1]/div/div/div/div[2]/div/div[2]/div/div[4]/div/div/div[2]/div/div/span&#39;,
             &#39;elevation_up_lbl&#39;: &#39;//*[@id=&#34;pageMountNode&#34;]/div/div[3]/div[2]/div/div/div/div/div[1]/div/div/div/div[2]/div/div[2]/div/div[5]/div/div/div[2]/span&#39;,
             &#39;elevation_down_lbl&#39;: &#39;//*[@id=&#34;pageMountNode&#34;]/div/div[3]/div[2]/div/div/div/div/div[1]/div/div/div/div[2]/div/div[2]/div/div[6]/div/div/div[2]/span&#39;,
+            &#39;gpx_download_btn&#39;: &#39;//*[@id=&#34;pageMountNode&#34;]/div/div[3]/div[2]/div/div/div/div/div[2]/div/div/div/div[1]/div/div[2]/div/ul/li[3]/button&#39;
+        },
+        &#39;login&#39;: {
+            &#39;email_input&#39;: &#39;//*[@id=&#34;email&#34;]&#39;,
+            &#39;password_input&#39;: &#39;//*[@id=&#34;password&#34;]&#39;,
+            &#39;continue_btn&#39;: &#39;//*[@id=&#34;pageMountNode&#34;]/div/div[1]/div[2]/div/div[1]/form/div[4]/button&#39;,
+            &#39;login_btn&#39;: &#39;//*[@id=&#34;pageMountNode&#34;]/div/div[1]/div[2]/form/div/div[5]/button&#39;
         },
         &#39;cookie_banner&#39;: {
             &#39;accept_btn&#39;: &#39;//*[@id=&#34;gdpr_banner_portal&#34;]/div/div/div/div[2]/div/div[1]/button&#39;,
@@ -86,7 +108,7 @@ class KomootExtractor:
         }
     }
 
-    def __init__(self, driver: WebDriver) -&gt; None:
+    def __init__(self, driver: WebDriver, output_path: str, gpx_download_path: str) -&gt; None:
         &#34;&#34;&#34;
         Parameters
         ----------
@@ -94,22 +116,71 @@ class KomootExtractor:
             The Selenium WebDriver used to interact with the browser
         &#34;&#34;&#34;
         self.driver = driver
+        self.driver.implicitly_wait(15)
+        self.output_path = output_path
+        self.gpx_download_path = gpx_download_path
         self.logger = logging.getLogger(__name__)
 
     def extract(self) -&gt; None:
         &#34;&#34;&#34;Extracts all relevant data from the Komoot website.&#34;&#34;&#34;
 
         self.logger.info(&#39;Starting Komoot extraction...&#39;)
-        self.extract_ch_regions()
+        regions = self.extract_ch_regions()
 
-    def extract_ch_regions(self) -&gt; None:
-        &#34;&#34;&#34;Extracts all regions from the Komoot discover page.
+        existing = self.read_existing_data()
 
-        Raises
-        ------
-        NotImplementedError
-            If no region is passed in
-        &#34;&#34;&#34;
+        routes: List[KomootRoute] = existing
+
+        # split regions dictionary into chunks of 20
+        for chunk in self.chunks(regions, 20):
+            for region in chunk:
+                for route in self.extract_routes_from_region(region, chunk[region]):
+
+                    # check if route is already in existing routes by comparing the link
+                    if route not in [r.link for r in routes]:
+                        routes.append(self.extract_route(route))
+                        sleep(5)  # Sleep 5 seconds to avoid getting rate limited
+
+            self.logger.info(&#39;Saving current state...&#39;)
+            self.save(routes)  # Save routes after each chunk to avoid losing data
+            sleep(120)  # Sleep for 120 seconds to avoid getting rate limited
+
+        self.logger.info(&#39;Finished Komoot extraction.&#39;)
+
+        self.logger.info(&#39;Saving Komoot data...&#39;)
+        self.save(routes)
+        self.logger.info(&#39;Saved Komoot data.&#39;)
+
+    def extract_gpx(self) -&gt; None:
+        &#34;&#34;&#34; Extracts the GPX files for all routes in the output file.  &#34;&#34;&#34;
+
+        existing = self.read_existing_data()
+
+        self.handle_komoot_login()
+
+        existing_gpx_files = os.listdir(self.gpx_download_path)
+
+        for idx, route in enumerate(existing):
+            pattern = re.compile(route.title + &#34;\.gpx$&#34;)
+            for filepath in existing_gpx_files:
+                if pattern.match(filepath):
+                    self.logger.info(f&#39;GPX for route {route.title} already exists. Skipping...&#39;)
+                    continue
+
+            self.logger.info(f&#39;Downloading GPX for route {route.title}...&#39;)
+
+            link = route.link.replace(&#39;https://www.komoot.com/&#39;, &#39;https://www.komoot.de/&#39;)
+
+            self.driver.get(link)
+            self.driver.find_element(By.XPATH, self.page_objects[&#39;tour&#39;][&#39;gpx_download_btn&#39;]).click()
+            self.logger.info(f&#39;Downloaded GPX for route {route.title}.&#39;)
+            sleep(5)  # Sleep 5 seconds to avoid getting rate limited
+            if idx % 40 == 0:
+                self.logger.info(&#39;Sleeping for 120 seconds...&#39;)
+                sleep(120)
+
+    def extract_ch_regions(self) -&gt; Dict[str, str]:
+        &#34;&#34;&#34;Extracts all regions from the Komoot discover page. &#34;&#34;&#34;
 
         self.logger.info(&#39;Extracting all regions in Switzerland...&#39;)
 
@@ -118,17 +189,19 @@ class KomootExtractor:
 
         # Filter region to Switzerland
         self.logger.debug(&#39;Filter region to Switzerland...&#39;)
-        # SeleniumUtil.scroll_to_position(self.driver, 250)
         self.driver.find_element(By.XPATH, self.page_objects[&#39;discover&#39;][&#39;filter_btn&#39;]).click()
         self.driver.find_element(By.XPATH, self.page_objects[&#39;discover&#39;][&#39;filter_country_ch_lbl&#39;]).click()
+        self.driver.find_element(By.XPATH, self.page_objects[&#39;discover&#39;][&#39;filter_close_btn&#39;]).click()
+
+        regions = {}
 
         # Get all regions
         while True:
-            self.extract_region_page()
+            regions = regions | self.extract_region_page()
 
             # Check if there is a next page button
             try:
-                SeleniumUtil.scroll_to_position(self.driver, 900)
+                SeleniumUtil.scroll_to_position(self.driver, 1500)
                 self.driver.find_element(By.XPATH, self.page_objects[&#39;discover&#39;][&#39;next_page_btn&#39;]).click()
             except ElementNotInteractableException:
                 self.logger.info(&#39;No more pages to extract.&#39;)
@@ -137,7 +210,10 @@ class KomootExtractor:
                 self.logger.error(&#39;Could not extract page.&#39;)
                 break
 
-    def extract_region_page(self) -&gt; None:
+        self.logger.info(&#39;Extracted {} regions.&#39;.format(len(regions)))
+        return regions
+
+    def extract_region_page(self) -&gt; Dict[str, str]:
         &#34;&#34;&#34;Extracts all regions from a discover page.
 
         Raises
@@ -147,15 +223,129 @@ class KomootExtractor:
         &#34;&#34;&#34;
 
         # if current url does not contain the discover url
-        # then we are not on a discover page
-        # and should raise an exception
+        # then we are not on a discover page and should raise an exception
         if self.discover_url not in self.driver.current_url:
             err = &#39;Could not extract regions from a discover page, as current url is not a discover page.&#39;
             self.logger.error(err)
             raise Exception(err)
 
+        regions = {}
+
+        self.logger.info(&#39;Extracting page: {}&#39;.format(self.driver.current_url))
+
+        # Wait for the regions to appear
+        el = self.driver.find_element(By.XPATH, self.page_objects[&#39;discover&#39;][&#39;first_region_div&#39;])
+
         page_source = self.driver.page_source
         soup = BeautifulSoup(page_source, &#39;lxml&#39;)
+
+        box = soup.findAll(&#39;div&#39;, attrs={
+            &#39;class&#39;: &#39;js-href-box c-element-preview c-element-preview tw-overflow-hidden c-element-preview--middle&#39;})
+        for b in box:
+            link = b.find_next(&#39;a&#39;, attrs={
+                &#39;class&#39;: &#39;tw-text-xl sm:tw-text-2xl tw-max-w-full tw-font-bold u-text-shadow tw-text-white tw-mb-0&#39;})
+            url = self.base_url + link.attrs[&#39;href&#39;]
+            name = link.text.strip()
+
+            self.logger.info(&#39;Extracted region: {} -&gt; {}&#39;.format(name, url))
+            regions[name] = url
+
+        return regions
+
+    def extract_routes_from_region(self, region: str, url: str) -&gt; List[str]:
+        &#34;&#34;&#34;Extracts all routes from a region page.
+
+        Parameters
+        ----------
+        region : str
+            The name of the region
+        url : str
+            The url of the region page
+
+        Raises
+        ------
+        Exception
+            If the current url does not contain the region url
+        &#34;&#34;&#34;
+
+        # if current url does not contain the region url
+        # then we are not on a region page and should raise an exception
+        if self.region_url not in url:
+            err = &#39;Could not extract routes from a region page, as current url is not a region page.&#39;
+            self.logger.error(err)
+            raise Exception(err)
+
+        self.logger.info(&#39;Extracting routes from region: {} -&gt; {}&#39;.format(region, url))
+
+        routes = []
+
+        self.driver.get(url)
+
+        page_source = self.driver.page_source
+        soup = BeautifulSoup(page_source, &#39;lxml&#39;)
+
+        for item in soup.select_one(self.page_objects[&#39;region&#39;][&#39;tours_list&#39;]):
+            link = item.find_next(&#39;a&#39;)
+            self.logger.info(&#39;Extracted route: {}&#39;.format(link.attrs[&#39;href&#39;]))
+            routes.append(link.attrs[&#39;href&#39;])
+
+        self.logger.info(&#39;Extracted {} routes from region: {}&#39;.format(len(routes), region))
+        return routes
+
+    def extract_route(self, url: str, retry_count: int = 0) -&gt; KomootRoute:
+        &#34;&#34;&#34;Extracts all relevant data from a tour page.
+
+        Parameters
+        ----------
+        url : str
+            The url of the tour page
+        retry_count : int (optional)
+            The number of retries
+            default: 0
+
+        Raises
+        ------
+        Exception
+            If the current url does not contain the route url
+        &#34;&#34;&#34;
+
+        # if current url does not contain the route url
+        # then we are not on a route page and should raise an exception
+        if self.route_url not in url:
+            err = &#39;Could not extract routes from a region page, as current url is not a region page.&#39;
+            self.logger.error(err)
+            raise Exception(err)
+
+        self.logger.info(&#39;Extracting data from tour: {}&#39;.format(url))
+
+        try:
+            self.driver.get(url)
+
+            title = self.driver.find_element(By.XPATH, self.page_objects[&#39;tour&#39;][&#39;title_lbl&#39;]).text.strip()
+            difficulty = self.driver.find_element(By.XPATH, self.page_objects[&#39;tour&#39;][&#39;difficulty_lbl&#39;]).text.strip()
+            distance = self.driver.find_element(By.XPATH, self.page_objects[&#39;tour&#39;][&#39;distance_lbl&#39;]).text.strip()
+            elevation_up = self.driver.find_element(By.XPATH,
+                                                    self.page_objects[&#39;tour&#39;][&#39;elevation_up_lbl&#39;]).text.strip()
+            elevation_down = self.driver.find_element(By.XPATH,
+                                                      self.page_objects[&#39;tour&#39;][&#39;elevation_down_lbl&#39;]).text.strip()
+            duration = self.driver.find_element(By.XPATH, self.page_objects[&#39;tour&#39;][&#39;duration_lbl&#39;]).text.strip()
+            speed = self.driver.find_element(By.XPATH, self.page_objects[&#39;tour&#39;][&#39;speed_lbl&#39;]).text.strip()
+
+            self.logger.info(&#39;Extracted data from tour: {} -&gt; {}&#39;.format(title, url))
+
+            return KomootRoute(url, title, difficulty, distance, elevation_up, elevation_down, duration, speed)
+        except Exception as e:
+            self.logger.error(&#39;Could not extract data from tour: {}&#39;.format(url))
+            self.logger.error(e)
+            if retry_count &lt; self.max_retries:
+                wait_seconds = self.retry_wait_seconds ** (retry_count + 1)
+
+                self.logger.info(&#39;Retrying in {} seconds...&#39;.format(wait_seconds))
+                sleep(wait_seconds)
+                return self.extract_route(url, retry_count + 1)
+            else:
+                self.logger.info(&#39;Max retries exceeded. Skipping...&#39;)
+                return None
 
     def handle_cookie_banner(self, accept: bool = False) -&gt; None:
         &#34;&#34;&#34;Handles the cookie banner if it appears.
@@ -173,13 +363,71 @@ class KomootExtractor:
 
         self.logger.info(&#39;Searching for and handling cookie banner...&#39;)
 
-        self.driver.implicitly_wait(20)  # Wait for the cookie banner to appear
-
         try:
             self.driver.find_element(By.XPATH, btn).click()
             self.logger.info(&#39;Cookies {}&#39;.format(&#39;accepted&#39; if accept else &#39;declined&#39;))
         except:
-            self.logger.info(&#39;No cookie banner could be found&#39;)</code></pre>
+            self.logger.info(&#39;No cookie banner could be found&#39;)
+
+    def handle_komoot_login(self) -&gt; None:
+        &#34;&#34;&#34;Handles the Komoot login process.&#34;&#34;&#34;
+
+        keyringServiceName = &#34;Komoot Login&#34;
+        credentials = keyring.get_credential(keyringServiceName, &#34;philipp.drebes@gmail.com&#34;)
+
+        self.logger.info(&#39;Logging in to Komoot...&#39;)
+        self.driver.get(self.login_url)
+        self.driver.find_element(By.XPATH, self.page_objects[&#39;login&#39;][&#39;email_input&#39;]).send_keys(credentials.username)
+        self.driver.find_element(By.XPATH, self.page_objects[&#39;login&#39;][&#39;continue_btn&#39;]).click()
+        self.driver.find_element(By.XPATH, self.page_objects[&#39;login&#39;][&#39;password_input&#39;]).send_keys(credentials.password)
+        self.driver.find_element(By.XPATH, self.page_objects[&#39;login&#39;][&#39;login_btn&#39;]).click()
+        sleep(20)
+        self.logger.info(&#39;Logged in to Komoot.&#39;)
+
+    def save(self, routes: List[KomootRoute]) -&gt; None:
+        &#34;&#34;&#34;Saves the given routes to a csv file.
+
+        Parameters
+        ----------
+        routes : List[KomootRoute]
+            The routes to save
+        &#34;&#34;&#34;
+
+        self.logger.info(&#39;Saving {} routes to csv file...&#39;.format(len(routes)))
+
+        df = pd.DataFrame([x.as_dict() for x in routes])
+        df.to_csv(self.output_path, index=False)
+
+        self.logger.info(&#39;Saved {} routes to csv file.&#39;.format(len(routes)))
+
+    def read_existing_data(self) -&gt; List[KomootRoute]:
+        return [(KomootRoute(
+            row.link,
+            row.title,
+            row.difficulty,
+            row.distance,
+            row.elevation_up,
+            row.elevation_down,
+            row.duration,
+            row.speed,
+        )) for index, row in pd.read_csv(self.output_path).iterrows()]
+
+    @staticmethod
+    def chunks(data: Dict, size: int = 10):
+        &#34;&#34;&#34;Yield successive n-sized chunks from data.
+
+        Parameters
+        ----------
+        data : Dict
+            The data to split
+        size : int
+            The size of each chunk
+            default: 10
+        &#34;&#34;&#34;
+
+        it = iter(data)
+        for i in range(0, len(data), size):
+            yield {k: data[k] for k in islice(it, size)}</code></pre>
 </details>
 </section>
 <section>
@@ -193,7 +441,7 @@ class KomootExtractor:
 <dl>
 <dt id="extractors.KomootExtractor.KomootExtractor"><code class="flex name class">
 <span>class <span class="ident">KomootExtractor</span></span>
-<span>(</span><span>driver: selenium.webdriver.chrome.webdriver.WebDriver)</span>
+<span>(</span><span>driver: selenium.webdriver.chrome.webdriver.WebDriver, output_path: str, gpx_download_path: str)</span>
 </code></dt>
 <dd>
 <div class="desc"><p>A class used to extract data from Komoot.com</p>
@@ -203,7 +451,7 @@ class KomootExtractor:
 <dd>a url string used as the base url for all other urls</dd>
 <dt><strong><code>discover_url</code></strong> :&ensp;<code>str</code></dt>
 <dd>A combination of the base_url and the discover url</dd>
-<dt><strong><code>regions_url</code></strong> :&ensp;<code>str</code></dt>
+<dt><strong><code>region_url</code></strong> :&ensp;<code>str</code></dt>
 <dd>A combination of the base_url and the regions url</dd>
 <dt><strong><code>tours_url</code></strong> :&ensp;<code>str</code></dt>
 <dd>A combination of the base_url and the tours url</dd>
@@ -230,7 +478,7 @@ Extracts all relevant data from the Komoot website.</p>
         a url string used as the base url for all other urls
     discover_url : str
         A combination of the base_url and the discover url
-    regions_url : str
+    region_url : str
         A combination of the base_url and the regions url
     tours_url : str
         A combination of the base_url and the tours url
@@ -243,17 +491,23 @@ Extracts all relevant data from the Komoot website.</p>
 
     base_url = &#39;https://www.komoot.com&#39;
     discover_url = base_url + &#39;/discover/hiking-trails&#39;
-    regions_url = base_url + &#39;/discover/hiking-trails/germany&#39;
-    tours_url = base_url + &#39;/discover/hiking-trails/germany/bavaria&#39;
+    region_url = base_url + &#39;/guide&#39;
+    route_url = base_url + &#39;/smarttour&#39;
+    login_url = &#39;https://account.komoot.com/signin&#39;
+    max_retries = 3
+    retry_wait_seconds = 5
 
     page_objects = {
         &#39;discover&#39;: {
             &#39;filter_btn&#39;: &#39;//*[@id=&#34;pageMountNode&#34;]/div/div[3]/div[2]/div/div/main/section[1]/div[2]/div/div[1]/div/div/button[1]&#39;,
+            &#39;filter_close_btn&#39;: &#39;//*[@id=&#34;pageMountNode&#34;]/div/div[3]/div[2]/div/div/main/section[1]/div[2]/div/div[2]/div/div[3]/div[2]/button/span&#39;,
             &#39;filter_country_ch_lbl&#39;: &#39;//*[@id=&#34;pageMountNode&#34;]/div/div[3]/div[2]/div/div/main/section[1]/div[2]/div/div[2]/div/div[2]/div/div[13]/label&#39;,
-            &#39;next_page_btn&#39;: &#39;/html/body/div[1]/div/div[3]/div[2]/div/div/main/section[1]/div[2]/div/div[4]/div[3]/button&#39;,
+            &#39;next_page_btn&#39;: &#39;//*[@id=&#34;pageMountNode&#34;]/div/div[3]/div[2]/div/div/main/section[1]/div[2]/div/div[3]/div[3]/button&#39;,
+            &#39;first_region_div&#39;: &#39;//*[@id=&#34;pageMountNode&#34;]/div/div[3]/div[2]/div/div/main/section[1]/div[2]/div/div[2]/div/div[1]/div/div[3]/a&#39;
         },
         &#39;region&#39;: {
             &#39;tour_title_attr&#39;: &#39;data-test-id=&#34;tour_title&#34;&#39;,
+            &#39;tours_list&#39;: &#39;#pageMountNode &gt; div &gt; div.tw-bg-beige-light &gt; div.u-bg-desk-column &gt; div &gt; section &gt; div &gt; div &gt; div &gt; div.tw-w-full.lg\:tw-w-3\/5 &gt; div &gt; div &gt; div:nth-child(2) &gt; div &gt; div:nth-child(2) &gt; ul&#39;,
         },
         &#39;tour&#39;: {
             &#39;title_lbl&#39;: &#39;//*[@id=&#34;title&#34;]/div[2]/h1&#39;,
@@ -263,6 +517,13 @@ Extracts all relevant data from the Komoot website.</p>
             &#39;speed_lbl&#39;: &#39;//*[@id=&#34;pageMountNode&#34;]/div/div[3]/div[2]/div/div/div/div/div[1]/div/div/div/div[2]/div/div[2]/div/div[4]/div/div/div[2]/div/div/span&#39;,
             &#39;elevation_up_lbl&#39;: &#39;//*[@id=&#34;pageMountNode&#34;]/div/div[3]/div[2]/div/div/div/div/div[1]/div/div/div/div[2]/div/div[2]/div/div[5]/div/div/div[2]/span&#39;,
             &#39;elevation_down_lbl&#39;: &#39;//*[@id=&#34;pageMountNode&#34;]/div/div[3]/div[2]/div/div/div/div/div[1]/div/div/div/div[2]/div/div[2]/div/div[6]/div/div/div[2]/span&#39;,
+            &#39;gpx_download_btn&#39;: &#39;//*[@id=&#34;pageMountNode&#34;]/div/div[3]/div[2]/div/div/div/div/div[2]/div/div/div/div[1]/div/div[2]/div/ul/li[3]/button&#39;
+        },
+        &#39;login&#39;: {
+            &#39;email_input&#39;: &#39;//*[@id=&#34;email&#34;]&#39;,
+            &#39;password_input&#39;: &#39;//*[@id=&#34;password&#34;]&#39;,
+            &#39;continue_btn&#39;: &#39;//*[@id=&#34;pageMountNode&#34;]/div/div[1]/div[2]/div/div[1]/form/div[4]/button&#39;,
+            &#39;login_btn&#39;: &#39;//*[@id=&#34;pageMountNode&#34;]/div/div[1]/div[2]/form/div/div[5]/button&#39;
         },
         &#39;cookie_banner&#39;: {
             &#39;accept_btn&#39;: &#39;//*[@id=&#34;gdpr_banner_portal&#34;]/div/div/div/div[2]/div/div[1]/button&#39;,
@@ -270,7 +531,7 @@ Extracts all relevant data from the Komoot website.</p>
         }
     }
 
-    def __init__(self, driver: WebDriver) -&gt; None:
+    def __init__(self, driver: WebDriver, output_path: str, gpx_download_path: str) -&gt; None:
         &#34;&#34;&#34;
         Parameters
         ----------
@@ -278,22 +539,71 @@ Extracts all relevant data from the Komoot website.</p>
             The Selenium WebDriver used to interact with the browser
         &#34;&#34;&#34;
         self.driver = driver
+        self.driver.implicitly_wait(15)
+        self.output_path = output_path
+        self.gpx_download_path = gpx_download_path
         self.logger = logging.getLogger(__name__)
 
     def extract(self) -&gt; None:
         &#34;&#34;&#34;Extracts all relevant data from the Komoot website.&#34;&#34;&#34;
 
         self.logger.info(&#39;Starting Komoot extraction...&#39;)
-        self.extract_ch_regions()
+        regions = self.extract_ch_regions()
 
-    def extract_ch_regions(self) -&gt; None:
-        &#34;&#34;&#34;Extracts all regions from the Komoot discover page.
+        existing = self.read_existing_data()
 
-        Raises
-        ------
-        NotImplementedError
-            If no region is passed in
-        &#34;&#34;&#34;
+        routes: List[KomootRoute] = existing
+
+        # split regions dictionary into chunks of 20
+        for chunk in self.chunks(regions, 20):
+            for region in chunk:
+                for route in self.extract_routes_from_region(region, chunk[region]):
+
+                    # check if route is already in existing routes by comparing the link
+                    if route not in [r.link for r in routes]:
+                        routes.append(self.extract_route(route))
+                        sleep(5)  # Sleep 5 seconds to avoid getting rate limited
+
+            self.logger.info(&#39;Saving current state...&#39;)
+            self.save(routes)  # Save routes after each chunk to avoid losing data
+            sleep(120)  # Sleep for 120 seconds to avoid getting rate limited
+
+        self.logger.info(&#39;Finished Komoot extraction.&#39;)
+
+        self.logger.info(&#39;Saving Komoot data...&#39;)
+        self.save(routes)
+        self.logger.info(&#39;Saved Komoot data.&#39;)
+
+    def extract_gpx(self) -&gt; None:
+        &#34;&#34;&#34; Extracts the GPX files for all routes in the output file.  &#34;&#34;&#34;
+
+        existing = self.read_existing_data()
+
+        self.handle_komoot_login()
+
+        existing_gpx_files = os.listdir(self.gpx_download_path)
+
+        for idx, route in enumerate(existing):
+            pattern = re.compile(route.title + &#34;\.gpx$&#34;)
+            for filepath in existing_gpx_files:
+                if pattern.match(filepath):
+                    self.logger.info(f&#39;GPX for route {route.title} already exists. Skipping...&#39;)
+                    continue
+
+            self.logger.info(f&#39;Downloading GPX for route {route.title}...&#39;)
+
+            link = route.link.replace(&#39;https://www.komoot.com/&#39;, &#39;https://www.komoot.de/&#39;)
+
+            self.driver.get(link)
+            self.driver.find_element(By.XPATH, self.page_objects[&#39;tour&#39;][&#39;gpx_download_btn&#39;]).click()
+            self.logger.info(f&#39;Downloaded GPX for route {route.title}.&#39;)
+            sleep(5)  # Sleep 5 seconds to avoid getting rate limited
+            if idx % 40 == 0:
+                self.logger.info(&#39;Sleeping for 120 seconds...&#39;)
+                sleep(120)
+
+    def extract_ch_regions(self) -&gt; Dict[str, str]:
+        &#34;&#34;&#34;Extracts all regions from the Komoot discover page. &#34;&#34;&#34;
 
         self.logger.info(&#39;Extracting all regions in Switzerland...&#39;)
 
@@ -302,17 +612,19 @@ Extracts all relevant data from the Komoot website.</p>
 
         # Filter region to Switzerland
         self.logger.debug(&#39;Filter region to Switzerland...&#39;)
-        # SeleniumUtil.scroll_to_position(self.driver, 250)
         self.driver.find_element(By.XPATH, self.page_objects[&#39;discover&#39;][&#39;filter_btn&#39;]).click()
         self.driver.find_element(By.XPATH, self.page_objects[&#39;discover&#39;][&#39;filter_country_ch_lbl&#39;]).click()
+        self.driver.find_element(By.XPATH, self.page_objects[&#39;discover&#39;][&#39;filter_close_btn&#39;]).click()
+
+        regions = {}
 
         # Get all regions
         while True:
-            self.extract_region_page()
+            regions = regions | self.extract_region_page()
 
             # Check if there is a next page button
             try:
-                SeleniumUtil.scroll_to_position(self.driver, 900)
+                SeleniumUtil.scroll_to_position(self.driver, 1500)
                 self.driver.find_element(By.XPATH, self.page_objects[&#39;discover&#39;][&#39;next_page_btn&#39;]).click()
             except ElementNotInteractableException:
                 self.logger.info(&#39;No more pages to extract.&#39;)
@@ -321,7 +633,10 @@ Extracts all relevant data from the Komoot website.</p>
                 self.logger.error(&#39;Could not extract page.&#39;)
                 break
 
-    def extract_region_page(self) -&gt; None:
+        self.logger.info(&#39;Extracted {} regions.&#39;.format(len(regions)))
+        return regions
+
+    def extract_region_page(self) -&gt; Dict[str, str]:
         &#34;&#34;&#34;Extracts all regions from a discover page.
 
         Raises
@@ -331,15 +646,129 @@ Extracts all relevant data from the Komoot website.</p>
         &#34;&#34;&#34;
 
         # if current url does not contain the discover url
-        # then we are not on a discover page
-        # and should raise an exception
+        # then we are not on a discover page and should raise an exception
         if self.discover_url not in self.driver.current_url:
             err = &#39;Could not extract regions from a discover page, as current url is not a discover page.&#39;
             self.logger.error(err)
             raise Exception(err)
 
+        regions = {}
+
+        self.logger.info(&#39;Extracting page: {}&#39;.format(self.driver.current_url))
+
+        # Wait for the regions to appear
+        el = self.driver.find_element(By.XPATH, self.page_objects[&#39;discover&#39;][&#39;first_region_div&#39;])
+
         page_source = self.driver.page_source
         soup = BeautifulSoup(page_source, &#39;lxml&#39;)
+
+        box = soup.findAll(&#39;div&#39;, attrs={
+            &#39;class&#39;: &#39;js-href-box c-element-preview c-element-preview tw-overflow-hidden c-element-preview--middle&#39;})
+        for b in box:
+            link = b.find_next(&#39;a&#39;, attrs={
+                &#39;class&#39;: &#39;tw-text-xl sm:tw-text-2xl tw-max-w-full tw-font-bold u-text-shadow tw-text-white tw-mb-0&#39;})
+            url = self.base_url + link.attrs[&#39;href&#39;]
+            name = link.text.strip()
+
+            self.logger.info(&#39;Extracted region: {} -&gt; {}&#39;.format(name, url))
+            regions[name] = url
+
+        return regions
+
+    def extract_routes_from_region(self, region: str, url: str) -&gt; List[str]:
+        &#34;&#34;&#34;Extracts all routes from a region page.
+
+        Parameters
+        ----------
+        region : str
+            The name of the region
+        url : str
+            The url of the region page
+
+        Raises
+        ------
+        Exception
+            If the current url does not contain the region url
+        &#34;&#34;&#34;
+
+        # if current url does not contain the region url
+        # then we are not on a region page and should raise an exception
+        if self.region_url not in url:
+            err = &#39;Could not extract routes from a region page, as current url is not a region page.&#39;
+            self.logger.error(err)
+            raise Exception(err)
+
+        self.logger.info(&#39;Extracting routes from region: {} -&gt; {}&#39;.format(region, url))
+
+        routes = []
+
+        self.driver.get(url)
+
+        page_source = self.driver.page_source
+        soup = BeautifulSoup(page_source, &#39;lxml&#39;)
+
+        for item in soup.select_one(self.page_objects[&#39;region&#39;][&#39;tours_list&#39;]):
+            link = item.find_next(&#39;a&#39;)
+            self.logger.info(&#39;Extracted route: {}&#39;.format(link.attrs[&#39;href&#39;]))
+            routes.append(link.attrs[&#39;href&#39;])
+
+        self.logger.info(&#39;Extracted {} routes from region: {}&#39;.format(len(routes), region))
+        return routes
+
+    def extract_route(self, url: str, retry_count: int = 0) -&gt; KomootRoute:
+        &#34;&#34;&#34;Extracts all relevant data from a tour page.
+
+        Parameters
+        ----------
+        url : str
+            The url of the tour page
+        retry_count : int (optional)
+            The number of retries
+            default: 0
+
+        Raises
+        ------
+        Exception
+            If the current url does not contain the route url
+        &#34;&#34;&#34;
+
+        # if current url does not contain the route url
+        # then we are not on a route page and should raise an exception
+        if self.route_url not in url:
+            err = &#39;Could not extract routes from a region page, as current url is not a region page.&#39;
+            self.logger.error(err)
+            raise Exception(err)
+
+        self.logger.info(&#39;Extracting data from tour: {}&#39;.format(url))
+
+        try:
+            self.driver.get(url)
+
+            title = self.driver.find_element(By.XPATH, self.page_objects[&#39;tour&#39;][&#39;title_lbl&#39;]).text.strip()
+            difficulty = self.driver.find_element(By.XPATH, self.page_objects[&#39;tour&#39;][&#39;difficulty_lbl&#39;]).text.strip()
+            distance = self.driver.find_element(By.XPATH, self.page_objects[&#39;tour&#39;][&#39;distance_lbl&#39;]).text.strip()
+            elevation_up = self.driver.find_element(By.XPATH,
+                                                    self.page_objects[&#39;tour&#39;][&#39;elevation_up_lbl&#39;]).text.strip()
+            elevation_down = self.driver.find_element(By.XPATH,
+                                                      self.page_objects[&#39;tour&#39;][&#39;elevation_down_lbl&#39;]).text.strip()
+            duration = self.driver.find_element(By.XPATH, self.page_objects[&#39;tour&#39;][&#39;duration_lbl&#39;]).text.strip()
+            speed = self.driver.find_element(By.XPATH, self.page_objects[&#39;tour&#39;][&#39;speed_lbl&#39;]).text.strip()
+
+            self.logger.info(&#39;Extracted data from tour: {} -&gt; {}&#39;.format(title, url))
+
+            return KomootRoute(url, title, difficulty, distance, elevation_up, elevation_down, duration, speed)
+        except Exception as e:
+            self.logger.error(&#39;Could not extract data from tour: {}&#39;.format(url))
+            self.logger.error(e)
+            if retry_count &lt; self.max_retries:
+                wait_seconds = self.retry_wait_seconds ** (retry_count + 1)
+
+                self.logger.info(&#39;Retrying in {} seconds...&#39;.format(wait_seconds))
+                sleep(wait_seconds)
+                return self.extract_route(url, retry_count + 1)
+            else:
+                self.logger.info(&#39;Max retries exceeded. Skipping...&#39;)
+                return None
 
     def handle_cookie_banner(self, accept: bool = False) -&gt; None:
         &#34;&#34;&#34;Handles the cookie banner if it appears.
@@ -357,13 +786,71 @@ Extracts all relevant data from the Komoot website.</p>
 
         self.logger.info(&#39;Searching for and handling cookie banner...&#39;)
 
-        self.driver.implicitly_wait(20)  # Wait for the cookie banner to appear
-
         try:
             self.driver.find_element(By.XPATH, btn).click()
             self.logger.info(&#39;Cookies {}&#39;.format(&#39;accepted&#39; if accept else &#39;declined&#39;))
         except:
-            self.logger.info(&#39;No cookie banner could be found&#39;)</code></pre>
+            self.logger.info(&#39;No cookie banner could be found&#39;)
+
+    def handle_komoot_login(self) -&gt; None:
+        &#34;&#34;&#34;Handles the Komoot login process.&#34;&#34;&#34;
+
+        keyringServiceName = &#34;Komoot Login&#34;
+        credentials = keyring.get_credential(keyringServiceName, &#34;philipp.drebes@gmail.com&#34;)
+
+        self.logger.info(&#39;Logging in to Komoot...&#39;)
+        self.driver.get(self.login_url)
+        self.driver.find_element(By.XPATH, self.page_objects[&#39;login&#39;][&#39;email_input&#39;]).send_keys(credentials.username)
+        self.driver.find_element(By.XPATH, self.page_objects[&#39;login&#39;][&#39;continue_btn&#39;]).click()
+        self.driver.find_element(By.XPATH, self.page_objects[&#39;login&#39;][&#39;password_input&#39;]).send_keys(credentials.password)
+        self.driver.find_element(By.XPATH, self.page_objects[&#39;login&#39;][&#39;login_btn&#39;]).click()
+        sleep(20)
+        self.logger.info(&#39;Logged in to Komoot.&#39;)
+
+    def save(self, routes: List[KomootRoute]) -&gt; None:
+        &#34;&#34;&#34;Saves the given routes to a csv file.
+
+        Parameters
+        ----------
+        routes : List[KomootRoute]
+            The routes to save
+        &#34;&#34;&#34;
+
+        self.logger.info(&#39;Saving {} routes to csv file...&#39;.format(len(routes)))
+
+        df = pd.DataFrame([x.as_dict() for x in routes])
+        df.to_csv(self.output_path, index=False)
+
+        self.logger.info(&#39;Saved {} routes to csv file.&#39;.format(len(routes)))
+
+    def read_existing_data(self) -&gt; List[KomootRoute]:
+        return [(KomootRoute(
+            row.link,
+            row.title,
+            row.difficulty,
+            row.distance,
+            row.elevation_up,
+            row.elevation_down,
+            row.duration,
+            row.speed,
+        )) for index, row in pd.read_csv(self.output_path).iterrows()]
+
+    @staticmethod
+    def chunks(data: Dict, size: int = 10):
+        &#34;&#34;&#34;Yield successive n-sized chunks from data.
+
+        Parameters
+        ----------
+        data : Dict
+            The data to split
+        size : int
+            The size of each chunk
+            default: 10
+        &#34;&#34;&#34;
+
+        it = iter(data)
+        for i in range(0, len(data), size):
+            yield {k: data[k] for k in islice(it, size)}</code></pre>
 </details>
 <h3>Class variables</h3>
 <dl>
@@ -375,17 +862,67 @@ Extracts all relevant data from the Komoot website.</p>
 <dd>
 <div class="desc"></div>
 </dd>
+<dt id="extractors.KomootExtractor.KomootExtractor.login_url"><code class="name">var <span class="ident">login_url</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="extractors.KomootExtractor.KomootExtractor.max_retries"><code class="name">var <span class="ident">max_retries</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
 <dt id="extractors.KomootExtractor.KomootExtractor.page_objects"><code class="name">var <span class="ident">page_objects</span></code></dt>
 <dd>
 <div class="desc"></div>
 </dd>
-<dt id="extractors.KomootExtractor.KomootExtractor.regions_url"><code class="name">var <span class="ident">regions_url</span></code></dt>
+<dt id="extractors.KomootExtractor.KomootExtractor.region_url"><code class="name">var <span class="ident">region_url</span></code></dt>
 <dd>
 <div class="desc"></div>
 </dd>
-<dt id="extractors.KomootExtractor.KomootExtractor.tours_url"><code class="name">var <span class="ident">tours_url</span></code></dt>
+<dt id="extractors.KomootExtractor.KomootExtractor.retry_wait_seconds"><code class="name">var <span class="ident">retry_wait_seconds</span></code></dt>
 <dd>
 <div class="desc"></div>
+</dd>
+<dt id="extractors.KomootExtractor.KomootExtractor.route_url"><code class="name">var <span class="ident">route_url</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+</dl>
+<h3>Static methods</h3>
+<dl>
+<dt id="extractors.KomootExtractor.KomootExtractor.chunks"><code class="name flex">
+<span>def <span class="ident">chunks</span></span>(<span>data: Dict, size: int = 10)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Yield successive n-sized chunks from data.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>data</code></strong> :&ensp;<code>Dict</code></dt>
+<dd>The data to split</dd>
+<dt><strong><code>size</code></strong> :&ensp;<code>int</code></dt>
+<dd>The size of each chunk
+default: 10</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">@staticmethod
+def chunks(data: Dict, size: int = 10):
+    &#34;&#34;&#34;Yield successive n-sized chunks from data.
+
+    Parameters
+    ----------
+    data : Dict
+        The data to split
+    size : int
+        The size of each chunk
+        default: 10
+    &#34;&#34;&#34;
+
+    it = iter(data)
+    for i in range(0, len(data), size):
+        yield {k: data[k] for k in islice(it, size)}</code></pre>
+</details>
 </dd>
 </dl>
 <h3>Methods</h3>
@@ -403,31 +940,44 @@ Extracts all relevant data from the Komoot website.</p>
     &#34;&#34;&#34;Extracts all relevant data from the Komoot website.&#34;&#34;&#34;
 
     self.logger.info(&#39;Starting Komoot extraction...&#39;)
-    self.extract_ch_regions()</code></pre>
+    regions = self.extract_ch_regions()
+
+    existing = self.read_existing_data()
+
+    routes: List[KomootRoute] = existing
+
+    # split regions dictionary into chunks of 20
+    for chunk in self.chunks(regions, 20):
+        for region in chunk:
+            for route in self.extract_routes_from_region(region, chunk[region]):
+
+                # check if route is already in existing routes by comparing the link
+                if route not in [r.link for r in routes]:
+                    routes.append(self.extract_route(route))
+                    sleep(5)  # Sleep 5 seconds to avoid getting rate limited
+
+        self.logger.info(&#39;Saving current state...&#39;)
+        self.save(routes)  # Save routes after each chunk to avoid losing data
+        sleep(120)  # Sleep for 120 seconds to avoid getting rate limited
+
+    self.logger.info(&#39;Finished Komoot extraction.&#39;)
+
+    self.logger.info(&#39;Saving Komoot data...&#39;)
+    self.save(routes)
+    self.logger.info(&#39;Saved Komoot data.&#39;)</code></pre>
 </details>
 </dd>
 <dt id="extractors.KomootExtractor.KomootExtractor.extract_ch_regions"><code class="name flex">
-<span>def <span class="ident">extract_ch_regions</span></span>(<span>self) ‑> None</span>
+<span>def <span class="ident">extract_ch_regions</span></span>(<span>self) ‑> Dict[str, str]</span>
 </code></dt>
 <dd>
-<div class="desc"><p>Extracts all regions from the Komoot discover page.</p>
-<h2 id="raises">Raises</h2>
-<dl>
-<dt><code>NotImplementedError</code></dt>
-<dd>If no region is passed in</dd>
-</dl></div>
+<div class="desc"><p>Extracts all regions from the Komoot discover page.</p></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
-<pre><code class="python">def extract_ch_regions(self) -&gt; None:
-    &#34;&#34;&#34;Extracts all regions from the Komoot discover page.
-
-    Raises
-    ------
-    NotImplementedError
-        If no region is passed in
-    &#34;&#34;&#34;
+<pre><code class="python">def extract_ch_regions(self) -&gt; Dict[str, str]:
+    &#34;&#34;&#34;Extracts all regions from the Komoot discover page. &#34;&#34;&#34;
 
     self.logger.info(&#39;Extracting all regions in Switzerland...&#39;)
 
@@ -436,28 +986,71 @@ Extracts all relevant data from the Komoot website.</p>
 
     # Filter region to Switzerland
     self.logger.debug(&#39;Filter region to Switzerland...&#39;)
-    # SeleniumUtil.scroll_to_position(self.driver, 250)
     self.driver.find_element(By.XPATH, self.page_objects[&#39;discover&#39;][&#39;filter_btn&#39;]).click()
     self.driver.find_element(By.XPATH, self.page_objects[&#39;discover&#39;][&#39;filter_country_ch_lbl&#39;]).click()
+    self.driver.find_element(By.XPATH, self.page_objects[&#39;discover&#39;][&#39;filter_close_btn&#39;]).click()
+
+    regions = {}
 
     # Get all regions
     while True:
-        self.extract_region_page()
+        regions = regions | self.extract_region_page()
 
         # Check if there is a next page button
         try:
-            SeleniumUtil.scroll_to_position(self.driver, 900)
+            SeleniumUtil.scroll_to_position(self.driver, 1500)
             self.driver.find_element(By.XPATH, self.page_objects[&#39;discover&#39;][&#39;next_page_btn&#39;]).click()
         except ElementNotInteractableException:
             self.logger.info(&#39;No more pages to extract.&#39;)
             break
         except Exception:
             self.logger.error(&#39;Could not extract page.&#39;)
-            break</code></pre>
+            break
+
+    self.logger.info(&#39;Extracted {} regions.&#39;.format(len(regions)))
+    return regions</code></pre>
+</details>
+</dd>
+<dt id="extractors.KomootExtractor.KomootExtractor.extract_gpx"><code class="name flex">
+<span>def <span class="ident">extract_gpx</span></span>(<span>self) ‑> None</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Extracts the GPX files for all routes in the output file.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def extract_gpx(self) -&gt; None:
+    &#34;&#34;&#34; Extracts the GPX files for all routes in the output file.  &#34;&#34;&#34;
+
+    existing = self.read_existing_data()
+
+    self.handle_komoot_login()
+
+    existing_gpx_files = os.listdir(self.gpx_download_path)
+
+    for idx, route in enumerate(existing):
+        pattern = re.compile(route.title + &#34;\.gpx$&#34;)
+        for filepath in existing_gpx_files:
+            if pattern.match(filepath):
+                self.logger.info(f&#39;GPX for route {route.title} already exists. Skipping...&#39;)
+                continue
+
+        self.logger.info(f&#39;Downloading GPX for route {route.title}...&#39;)
+
+        link = route.link.replace(&#39;https://www.komoot.com/&#39;, &#39;https://www.komoot.de/&#39;)
+
+        self.driver.get(link)
+        self.driver.find_element(By.XPATH, self.page_objects[&#39;tour&#39;][&#39;gpx_download_btn&#39;]).click()
+        self.logger.info(f&#39;Downloaded GPX for route {route.title}.&#39;)
+        sleep(5)  # Sleep 5 seconds to avoid getting rate limited
+        if idx % 40 == 0:
+            self.logger.info(&#39;Sleeping for 120 seconds...&#39;)
+            sleep(120)</code></pre>
 </details>
 </dd>
 <dt id="extractors.KomootExtractor.KomootExtractor.extract_region_page"><code class="name flex">
-<span>def <span class="ident">extract_region_page</span></span>(<span>self) ‑> None</span>
+<span>def <span class="ident">extract_region_page</span></span>(<span>self) ‑> Dict[str, str]</span>
 </code></dt>
 <dd>
 <div class="desc"><p>Extracts all regions from a discover page.</p>
@@ -470,7 +1063,7 @@ Extracts all relevant data from the Komoot website.</p>
 <summary>
 <span>Expand source code</span>
 </summary>
-<pre><code class="python">def extract_region_page(self) -&gt; None:
+<pre><code class="python">def extract_region_page(self) -&gt; Dict[str, str]:
     &#34;&#34;&#34;Extracts all regions from a discover page.
 
     Raises
@@ -480,15 +1073,174 @@ Extracts all relevant data from the Komoot website.</p>
     &#34;&#34;&#34;
 
     # if current url does not contain the discover url
-    # then we are not on a discover page
-    # and should raise an exception
+    # then we are not on a discover page and should raise an exception
     if self.discover_url not in self.driver.current_url:
         err = &#39;Could not extract regions from a discover page, as current url is not a discover page.&#39;
         self.logger.error(err)
         raise Exception(err)
 
+    regions = {}
+
+    self.logger.info(&#39;Extracting page: {}&#39;.format(self.driver.current_url))
+
+    # Wait for the regions to appear
+    el = self.driver.find_element(By.XPATH, self.page_objects[&#39;discover&#39;][&#39;first_region_div&#39;])
+
     page_source = self.driver.page_source
-    soup = BeautifulSoup(page_source, &#39;lxml&#39;)</code></pre>
+    soup = BeautifulSoup(page_source, &#39;lxml&#39;)
+
+    box = soup.findAll(&#39;div&#39;, attrs={
+        &#39;class&#39;: &#39;js-href-box c-element-preview c-element-preview tw-overflow-hidden c-element-preview--middle&#39;})
+    for b in box:
+        link = b.find_next(&#39;a&#39;, attrs={
+            &#39;class&#39;: &#39;tw-text-xl sm:tw-text-2xl tw-max-w-full tw-font-bold u-text-shadow tw-text-white tw-mb-0&#39;})
+        url = self.base_url + link.attrs[&#39;href&#39;]
+        name = link.text.strip()
+
+        self.logger.info(&#39;Extracted region: {} -&gt; {}&#39;.format(name, url))
+        regions[name] = url
+
+    return regions</code></pre>
+</details>
+</dd>
+<dt id="extractors.KomootExtractor.KomootExtractor.extract_route"><code class="name flex">
+<span>def <span class="ident">extract_route</span></span>(<span>self, url: str, retry_count: int = 0) ‑> src.model.Komoot.Route.KomootRoute</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Extracts all relevant data from a tour page.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>url</code></strong> :&ensp;<code>str</code></dt>
+<dd>The url of the tour page</dd>
+<dt><strong><code>retry_count</code></strong> :&ensp;<code>int (optional)</code></dt>
+<dd>The number of retries
+default: 0</dd>
+</dl>
+<h2 id="raises">Raises</h2>
+<dl>
+<dt><code>Exception</code></dt>
+<dd>If the current url does not contain the route url</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def extract_route(self, url: str, retry_count: int = 0) -&gt; KomootRoute:
+    &#34;&#34;&#34;Extracts all relevant data from a tour page.
+
+    Parameters
+    ----------
+    url : str
+        The url of the tour page
+    retry_count : int (optional)
+        The number of retries
+        default: 0
+
+    Raises
+    ------
+    Exception
+        If the current url does not contain the route url
+    &#34;&#34;&#34;
+
+    # if current url does not contain the route url
+    # then we are not on a route page and should raise an exception
+    if self.route_url not in url:
+        err = &#39;Could not extract routes from a region page, as current url is not a region page.&#39;
+        self.logger.error(err)
+        raise Exception(err)
+
+    self.logger.info(&#39;Extracting data from tour: {}&#39;.format(url))
+
+    try:
+        self.driver.get(url)
+
+        title = self.driver.find_element(By.XPATH, self.page_objects[&#39;tour&#39;][&#39;title_lbl&#39;]).text.strip()
+        difficulty = self.driver.find_element(By.XPATH, self.page_objects[&#39;tour&#39;][&#39;difficulty_lbl&#39;]).text.strip()
+        distance = self.driver.find_element(By.XPATH, self.page_objects[&#39;tour&#39;][&#39;distance_lbl&#39;]).text.strip()
+        elevation_up = self.driver.find_element(By.XPATH,
+                                                self.page_objects[&#39;tour&#39;][&#39;elevation_up_lbl&#39;]).text.strip()
+        elevation_down = self.driver.find_element(By.XPATH,
+                                                  self.page_objects[&#39;tour&#39;][&#39;elevation_down_lbl&#39;]).text.strip()
+        duration = self.driver.find_element(By.XPATH, self.page_objects[&#39;tour&#39;][&#39;duration_lbl&#39;]).text.strip()
+        speed = self.driver.find_element(By.XPATH, self.page_objects[&#39;tour&#39;][&#39;speed_lbl&#39;]).text.strip()
+
+        self.logger.info(&#39;Extracted data from tour: {} -&gt; {}&#39;.format(title, url))
+
+        return KomootRoute(url, title, difficulty, distance, elevation_up, elevation_down, duration, speed)
+    except Exception as e:
+        self.logger.error(&#39;Could not extract data from tour: {}&#39;.format(url))
+        self.logger.error(e)
+        if retry_count &lt; self.max_retries:
+            wait_seconds = self.retry_wait_seconds ** (retry_count + 1)
+
+            self.logger.info(&#39;Retrying in {} seconds...&#39;.format(wait_seconds))
+            sleep(wait_seconds)
+            return self.extract_route(url, retry_count + 1)
+        else:
+            self.logger.info(&#39;Max retries exceeded. Skipping...&#39;)
+            return None</code></pre>
+</details>
+</dd>
+<dt id="extractors.KomootExtractor.KomootExtractor.extract_routes_from_region"><code class="name flex">
+<span>def <span class="ident">extract_routes_from_region</span></span>(<span>self, region: str, url: str) ‑> List[str]</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Extracts all routes from a region page.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>region</code></strong> :&ensp;<code>str</code></dt>
+<dd>The name of the region</dd>
+<dt><strong><code>url</code></strong> :&ensp;<code>str</code></dt>
+<dd>The url of the region page</dd>
+</dl>
+<h2 id="raises">Raises</h2>
+<dl>
+<dt><code>Exception</code></dt>
+<dd>If the current url does not contain the region url</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def extract_routes_from_region(self, region: str, url: str) -&gt; List[str]:
+    &#34;&#34;&#34;Extracts all routes from a region page.
+
+    Parameters
+    ----------
+    region : str
+        The name of the region
+    url : str
+        The url of the region page
+
+    Raises
+    ------
+    Exception
+        If the current url does not contain the region url
+    &#34;&#34;&#34;
+
+    # if current url does not contain the region url
+    # then we are not on a region page and should raise an exception
+    if self.region_url not in url:
+        err = &#39;Could not extract routes from a region page, as current url is not a region page.&#39;
+        self.logger.error(err)
+        raise Exception(err)
+
+    self.logger.info(&#39;Extracting routes from region: {} -&gt; {}&#39;.format(region, url))
+
+    routes = []
+
+    self.driver.get(url)
+
+    page_source = self.driver.page_source
+    soup = BeautifulSoup(page_source, &#39;lxml&#39;)
+
+    for item in soup.select_one(self.page_objects[&#39;region&#39;][&#39;tours_list&#39;]):
+        link = item.find_next(&#39;a&#39;)
+        self.logger.info(&#39;Extracted route: {}&#39;.format(link.attrs[&#39;href&#39;]))
+        routes.append(link.attrs[&#39;href&#39;])
+
+    self.logger.info(&#39;Extracted {} routes from region: {}&#39;.format(len(routes), region))
+    return routes</code></pre>
 </details>
 </dd>
 <dt id="extractors.KomootExtractor.KomootExtractor.handle_cookie_banner"><code class="name flex">
@@ -522,13 +1274,89 @@ default: False</dd>
 
     self.logger.info(&#39;Searching for and handling cookie banner...&#39;)
 
-    self.driver.implicitly_wait(20)  # Wait for the cookie banner to appear
-
     try:
         self.driver.find_element(By.XPATH, btn).click()
         self.logger.info(&#39;Cookies {}&#39;.format(&#39;accepted&#39; if accept else &#39;declined&#39;))
     except:
         self.logger.info(&#39;No cookie banner could be found&#39;)</code></pre>
+</details>
+</dd>
+<dt id="extractors.KomootExtractor.KomootExtractor.handle_komoot_login"><code class="name flex">
+<span>def <span class="ident">handle_komoot_login</span></span>(<span>self) ‑> None</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Handles the Komoot login process.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def handle_komoot_login(self) -&gt; None:
+    &#34;&#34;&#34;Handles the Komoot login process.&#34;&#34;&#34;
+
+    keyringServiceName = &#34;Komoot Login&#34;
+    credentials = keyring.get_credential(keyringServiceName, &#34;philipp.drebes@gmail.com&#34;)
+
+    self.logger.info(&#39;Logging in to Komoot...&#39;)
+    self.driver.get(self.login_url)
+    self.driver.find_element(By.XPATH, self.page_objects[&#39;login&#39;][&#39;email_input&#39;]).send_keys(credentials.username)
+    self.driver.find_element(By.XPATH, self.page_objects[&#39;login&#39;][&#39;continue_btn&#39;]).click()
+    self.driver.find_element(By.XPATH, self.page_objects[&#39;login&#39;][&#39;password_input&#39;]).send_keys(credentials.password)
+    self.driver.find_element(By.XPATH, self.page_objects[&#39;login&#39;][&#39;login_btn&#39;]).click()
+    sleep(20)
+    self.logger.info(&#39;Logged in to Komoot.&#39;)</code></pre>
+</details>
+</dd>
+<dt id="extractors.KomootExtractor.KomootExtractor.read_existing_data"><code class="name flex">
+<span>def <span class="ident">read_existing_data</span></span>(<span>self) ‑> List[src.model.Komoot.Route.KomootRoute]</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def read_existing_data(self) -&gt; List[KomootRoute]:
+    return [(KomootRoute(
+        row.link,
+        row.title,
+        row.difficulty,
+        row.distance,
+        row.elevation_up,
+        row.elevation_down,
+        row.duration,
+        row.speed,
+    )) for index, row in pd.read_csv(self.output_path).iterrows()]</code></pre>
+</details>
+</dd>
+<dt id="extractors.KomootExtractor.KomootExtractor.save"><code class="name flex">
+<span>def <span class="ident">save</span></span>(<span>self, routes: List[src.model.Komoot.Route.KomootRoute]) ‑> None</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Saves the given routes to a csv file.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>routes</code></strong> :&ensp;<code>List[KomootRoute]</code></dt>
+<dd>The routes to save</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def save(self, routes: List[KomootRoute]) -&gt; None:
+    &#34;&#34;&#34;Saves the given routes to a csv file.
+
+    Parameters
+    ----------
+    routes : List[KomootRoute]
+        The routes to save
+    &#34;&#34;&#34;
+
+    self.logger.info(&#39;Saving {} routes to csv file...&#39;.format(len(routes)))
+
+    df = pd.DataFrame([x.as_dict() for x in routes])
+    df.to_csv(self.output_path, index=False)
+
+    self.logger.info(&#39;Saved {} routes to csv file.&#39;.format(len(routes)))</code></pre>
 </details>
 </dd>
 </dl>
@@ -553,14 +1381,24 @@ default: False</dd>
 <h4><code><a title="extractors.KomootExtractor.KomootExtractor" href="#extractors.KomootExtractor.KomootExtractor">KomootExtractor</a></code></h4>
 <ul class="">
 <li><code><a title="extractors.KomootExtractor.KomootExtractor.base_url" href="#extractors.KomootExtractor.KomootExtractor.base_url">base_url</a></code></li>
+<li><code><a title="extractors.KomootExtractor.KomootExtractor.chunks" href="#extractors.KomootExtractor.KomootExtractor.chunks">chunks</a></code></li>
 <li><code><a title="extractors.KomootExtractor.KomootExtractor.discover_url" href="#extractors.KomootExtractor.KomootExtractor.discover_url">discover_url</a></code></li>
 <li><code><a title="extractors.KomootExtractor.KomootExtractor.extract" href="#extractors.KomootExtractor.KomootExtractor.extract">extract</a></code></li>
 <li><code><a title="extractors.KomootExtractor.KomootExtractor.extract_ch_regions" href="#extractors.KomootExtractor.KomootExtractor.extract_ch_regions">extract_ch_regions</a></code></li>
+<li><code><a title="extractors.KomootExtractor.KomootExtractor.extract_gpx" href="#extractors.KomootExtractor.KomootExtractor.extract_gpx">extract_gpx</a></code></li>
 <li><code><a title="extractors.KomootExtractor.KomootExtractor.extract_region_page" href="#extractors.KomootExtractor.KomootExtractor.extract_region_page">extract_region_page</a></code></li>
+<li><code><a title="extractors.KomootExtractor.KomootExtractor.extract_route" href="#extractors.KomootExtractor.KomootExtractor.extract_route">extract_route</a></code></li>
+<li><code><a title="extractors.KomootExtractor.KomootExtractor.extract_routes_from_region" href="#extractors.KomootExtractor.KomootExtractor.extract_routes_from_region">extract_routes_from_region</a></code></li>
 <li><code><a title="extractors.KomootExtractor.KomootExtractor.handle_cookie_banner" href="#extractors.KomootExtractor.KomootExtractor.handle_cookie_banner">handle_cookie_banner</a></code></li>
+<li><code><a title="extractors.KomootExtractor.KomootExtractor.handle_komoot_login" href="#extractors.KomootExtractor.KomootExtractor.handle_komoot_login">handle_komoot_login</a></code></li>
+<li><code><a title="extractors.KomootExtractor.KomootExtractor.login_url" href="#extractors.KomootExtractor.KomootExtractor.login_url">login_url</a></code></li>
+<li><code><a title="extractors.KomootExtractor.KomootExtractor.max_retries" href="#extractors.KomootExtractor.KomootExtractor.max_retries">max_retries</a></code></li>
 <li><code><a title="extractors.KomootExtractor.KomootExtractor.page_objects" href="#extractors.KomootExtractor.KomootExtractor.page_objects">page_objects</a></code></li>
-<li><code><a title="extractors.KomootExtractor.KomootExtractor.regions_url" href="#extractors.KomootExtractor.KomootExtractor.regions_url">regions_url</a></code></li>
-<li><code><a title="extractors.KomootExtractor.KomootExtractor.tours_url" href="#extractors.KomootExtractor.KomootExtractor.tours_url">tours_url</a></code></li>
+<li><code><a title="extractors.KomootExtractor.KomootExtractor.read_existing_data" href="#extractors.KomootExtractor.KomootExtractor.read_existing_data">read_existing_data</a></code></li>
+<li><code><a title="extractors.KomootExtractor.KomootExtractor.region_url" href="#extractors.KomootExtractor.KomootExtractor.region_url">region_url</a></code></li>
+<li><code><a title="extractors.KomootExtractor.KomootExtractor.retry_wait_seconds" href="#extractors.KomootExtractor.KomootExtractor.retry_wait_seconds">retry_wait_seconds</a></code></li>
+<li><code><a title="extractors.KomootExtractor.KomootExtractor.route_url" href="#extractors.KomootExtractor.KomootExtractor.route_url">route_url</a></code></li>
+<li><code><a title="extractors.KomootExtractor.KomootExtractor.save" href="#extractors.KomootExtractor.KomootExtractor.save">save</a></code></li>
 </ul>
 </li>
 </ul>

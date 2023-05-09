@@ -1,8 +1,14 @@
 mypy
 pandas
 selenium
+requests
+browser_cookie3
 bs4
 types-beautifulsoup4
 lxml
 pdoc3
 mariadb
+keyring
+gpxpy
+rapidfuzz
+pyproj
