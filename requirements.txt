@@ -7,3 +7,5 @@ lxml
 pdoc3
 mariadb
 keyring
+gpxpy
+rapidfuzz

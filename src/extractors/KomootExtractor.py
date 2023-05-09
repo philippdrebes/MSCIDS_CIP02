@@ -1,7 +1,8 @@
 import logging
+import os
+import re
 from itertools import islice
 from time import sleep
-from types import NoneType
 
 import pandas as pd
 from typing import Dict, List
@@ -13,6 +14,7 @@ from selenium.webdriver.common.by import By
 
 from src.extractors import SeleniumUtil
 from src.model.Komoot.Route import KomootRoute
+import keyring
 
 
 class KomootExtractor:
@@ -40,7 +42,7 @@ class KomootExtractor:
     discover_url = base_url + '/discover/hiking-trails'
     region_url = base_url + '/guide'
     route_url = base_url + '/smarttour'
-    output_path = './extractors/output/komoot_stage_1.csv'
+    login_url = 'https://account.komoot.com/signin'
     max_retries = 3
     retry_wait_seconds = 5
 
@@ -64,6 +66,13 @@ class KomootExtractor:
             'speed_lbl': '//*[@id="pageMountNode"]/div/div[3]/div[2]/div/div/div/div/div[1]/div/div/div/div[2]/div/div[2]/div/div[4]/div/div/div[2]/div/div/span',
             'elevation_up_lbl': '//*[@id="pageMountNode"]/div/div[3]/div[2]/div/div/div/div/div[1]/div/div/div/div[2]/div/div[2]/div/div[5]/div/div/div[2]/span',
             'elevation_down_lbl': '//*[@id="pageMountNode"]/div/div[3]/div[2]/div/div/div/div/div[1]/div/div/div/div[2]/div/div[2]/div/div[6]/div/div/div[2]/span',
+            'gpx_download_btn': '//*[@id="pageMountNode"]/div/div[3]/div[2]/div/div/div/div/div[2]/div/div/div/div[1]/div/div[2]/div/ul/li[3]/button'
+        },
+        'login': {
+            'email_input': '//*[@id="email"]',
+            'password_input': '//*[@id="password"]',
+            'continue_btn': '//*[@id="pageMountNode"]/div/div[1]/div[2]/div/div[1]/form/div[4]/button',
+            'login_btn': '//*[@id="pageMountNode"]/div/div[1]/div[2]/form/div/div[5]/button'
         },
         'cookie_banner': {
             'accept_btn': '//*[@id="gdpr_banner_portal"]/div/div/div/div[2]/div/div[1]/button',
@@ -71,7 +80,7 @@ class KomootExtractor:
         }
     }
 
-    def __init__(self, driver: WebDriver) -> None:
+    def __init__(self, driver: WebDriver, output_path: str, gpx_download_path: str) -> None:
         """
         Parameters
         ----------
@@ -80,6 +89,8 @@ class KomootExtractor:
         """
         self.driver = driver
         self.driver.implicitly_wait(15)
+        self.output_path = output_path
+        self.gpx_download_path = gpx_download_path
         self.logger = logging.getLogger(__name__)
 
     def extract(self) -> None:
@@ -88,21 +99,12 @@ class KomootExtractor:
         self.logger.info('Starting Komoot extraction...')
         regions = self.extract_ch_regions()
 
-        existing = [(KomootRoute(
-            row.link,
-            row.title,
-            row.difficulty,
-            row.distance,
-            row.elevation_up,
-            row.elevation_down,
-            row.duration,
-            row.speed,
-        )) for index, row in pd.read_csv(self.output_path).iterrows()]
+        existing = self.read_existing_data()
 
         routes: List[KomootRoute] = existing
 
-        # split regions dictionary into chunks of 10
-        for chunk in self.chunks(regions, 10):
+        # split regions dictionary into chunks of 20
+        for chunk in self.chunks(regions, 20):
             for region in chunk:
                 for route in self.extract_routes_from_region(region, chunk[region]):
 
@@ -120,6 +122,34 @@ class KomootExtractor:
         self.logger.info('Saving Komoot data...')
         self.save(routes)
         self.logger.info('Saved Komoot data.')
+
+    def extract_gpx(self) -> None:
+        """ Extracts the GPX files for all routes in the output file.  """
+
+        existing = self.read_existing_data()
+
+        self.handle_komoot_login()
+
+        existing_gpx_files = os.listdir(self.gpx_download_path)
+
+        for idx, route in enumerate(existing):
+            pattern = re.compile(route.title + "\.gpx$")
+            for filepath in existing_gpx_files:
+                if pattern.match(filepath):
+                    self.logger.info(f'GPX for route {route.title} already exists. Skipping...')
+                    continue
+
+            self.logger.info(f'Downloading GPX for route {route.title}...')
+
+            link = route.link.replace('https://www.komoot.com/', 'https://www.komoot.de/')
+
+            self.driver.get(link)
+            self.driver.find_element(By.XPATH, self.page_objects['tour']['gpx_download_btn']).click()
+            self.logger.info(f'Downloaded GPX for route {route.title}.')
+            sleep(5)  # Sleep 5 seconds to avoid getting rate limited
+            if idx % 40 == 0:
+                self.logger.info('Sleeping for 120 seconds...')
+                sleep(120)
 
     def extract_ch_regions(self) -> Dict[str, str]:
         """Extracts all regions from the Komoot discover page. """
@@ -311,6 +341,23 @@ class KomootExtractor:
         except:
             self.logger.info('No cookie banner could be found')
 
+    def handle_komoot_login(self) -> None:
+        """Handles the Komoot login process."""
+
+        keyringServiceName = "Komoot Login"
+        # keyring.set_password(keyringServiceName, "philipp.drebes@gmail.com", "^Wot2Y$3a@^krKN6V3")
+
+        credentials = keyring.get_credential(keyringServiceName, "philipp.drebes@gmail.com")
+
+        self.logger.info('Logging in to Komoot...')
+        self.driver.get(self.login_url)
+        self.driver.find_element(By.XPATH, self.page_objects['login']['email_input']).send_keys(credentials.username)
+        self.driver.find_element(By.XPATH, self.page_objects['login']['continue_btn']).click()
+        self.driver.find_element(By.XPATH, self.page_objects['login']['password_input']).send_keys(credentials.password)
+        self.driver.find_element(By.XPATH, self.page_objects['login']['login_btn']).click()
+        sleep(20)
+        self.logger.info('Logged in to Komoot.')
+
     def save(self, routes: List[KomootRoute]) -> None:
         """Saves the given routes to a csv file.
 
@@ -326,6 +373,18 @@ class KomootExtractor:
         df.to_csv(self.output_path, index=False)
 
         self.logger.info('Saved {} routes to csv file.'.format(len(routes)))
+
+    def read_existing_data(self) -> List[KomootRoute]:
+        return [(KomootRoute(
+            row.link,
+            row.title,
+            row.difficulty,
+            row.distance,
+            row.elevation_up,
+            row.elevation_down,
+            row.duration,
+            row.speed,
+        )) for index, row in pd.read_csv(self.output_path).iterrows()]
 
     @staticmethod
     def chunks(data: Dict, size: int = 10):

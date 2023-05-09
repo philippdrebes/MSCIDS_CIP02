@@ -25,6 +25,9 @@ def initialize_new_instance() -> WebDriver:
         logger.info('Running on macOS')
         option = webdriver.ChromeOptions()
         option.binary_location = r'/Applications/Brave Browser.app/Contents/MacOS/Brave Browser'
+        prefs = {"download.default_directory": '/Users/pdrebes/dev/mscids/MSCIDS_CIP02/src/extractors/output/gpx'}
+        option.add_experimental_option("prefs", prefs)
+
         driver_service = Service('/opt/homebrew/bin/chromedriver')
 
         driver = webdriver.Chrome(service=driver_service, options=option)
@@ -63,3 +66,16 @@ def scroll_to_position(driver: WebDriver, position: Union[int, str]) -> None:
     """
     driver.execute_script(f"window.scrollTo(0, {position});")
     logger.debug('Scrolled to position %s', position)
+
+
+def close_driver(driver):
+    """Closes the given WebDriver.
+
+    Parameters
+    ----------
+    driver : WebDriver
+        The Selenium WebDriver used to interact with the browser
+    """
+    logger.info('Closing driver')
+    driver.close()
+    logger.info('Closed driver')
