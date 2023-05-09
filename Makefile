@@ -13,4 +13,4 @@ include *.mk
 # PROJECT UTILS
 ###########################
 docs: ##@Utils Builds the documentation
-	./venv/bin/pdoc3 --html --force --output-dir docs ./src/extractors ./src/loaders
+	./venv/bin/pdoc3 --html --force --output-dir docs ./src/extractors ./src/transformers ./src/loaders ./src/model
