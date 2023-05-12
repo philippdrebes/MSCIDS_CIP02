@@ -1,5 +1,6 @@
 mypy
 pandas
+pandas-stubs
 selenium
 requests
 browser_cookie3
@@ -12,3 +13,4 @@ keyring
 gpxpy
 rapidfuzz
 pyproj
+SQLAlchemy
