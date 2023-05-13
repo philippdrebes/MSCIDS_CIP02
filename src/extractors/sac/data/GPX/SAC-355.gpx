@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Frenalpbahn valley station  Bridge to Goldboden</name>
+    <desc>From the Herrenrtiboden car park Frenalp cable car  P 1083 follow the hiking trail to Herrenrti 1166 m and cross the Engelberger river on the bridge that leads to GoldbodenAlp</desc>
+    <trkseg>
+      <trkpt lat="46.80193252567272" lon="8.449252537027883">
+      </trkpt>
+      <trkpt lat="46.80105252566157" lon="8.4509685370107">
+      </trkpt>
+      <trkpt lat="46.80056852565248" lon="8.452498536998112">
+      </trkpt>
+      <trkpt lat="46.798619525626684" lon="8.45650653695895">
+      </trkpt>
+      <trkpt lat="46.79833352562363" lon="8.456966536953887">
+      </trkpt>
+      <trkpt lat="46.798241525623126" lon="8.457014536952792">
+      </trkpt>
+      <trkpt lat="46.798012525619974" lon="8.457509536948065">
+      </trkpt>
+      <trkpt lat="46.797302525614754" lon="8.458158536938143">
+      </trkpt>
+      <trkpt lat="46.79698652561165" lon="8.458599536932905">
+      </trkpt>
+      <trkpt lat="46.7967905256103" lon="8.458756536930292">
+      </trkpt>
+      <trkpt lat="46.796589525608084" lon="8.459093536926657">
+      </trkpt>
+      <trkpt lat="46.79623852560555" lon="8.459401536921819">
+      </trkpt>
+      <trkpt lat="46.795600525597365" lon="8.460667536909252">
+      </trkpt>
+      <trkpt lat="46.795447525596124" lon="8.460823536907025">
+      </trkpt>
+      <trkpt lat="46.79518852559239" lon="8.461423536901458">
+      </trkpt>
+      <trkpt lat="46.79484152558954" lon="8.461805536896275">
+      </trkpt>
+      <trkpt lat="46.794738525585764" lon="8.462488536891671">
+      </trkpt>
+      <trkpt lat="46.79464160838195" lon="8.462602649331918">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

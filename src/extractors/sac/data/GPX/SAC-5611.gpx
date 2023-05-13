@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Forcola di Livigno   Landesgrenze Val Ursera</name>
+    <desc>Von der Forcola di Livigno auf dem markierten Weg das Val del Orsera hinauf zur Abzweigung auf 2461 m Nun auf vereinzelten Pfadspuren ungefhr dem Bachlauf folgend zur Landesgrenze die man auf ca 2680 m berquert</desc>
+    <trkseg>
+      <trkpt lat="46.44087011833537" lon="10.056149424969501">
+      </trkpt>
+      <trkpt lat="46.44086016595503" lon="10.056229666973852">
+      </trkpt>
+      <trkpt lat="46.44077961020339" lon="10.056210153313325">
+      </trkpt>
+      <trkpt lat="46.44065017073843" lon="10.056319778387975">
+      </trkpt>
+      <trkpt lat="46.44058027535257" lon="10.05654034203495">
+      </trkpt>
+      <trkpt lat="46.440579697635464" lon="10.056760347171906">
+      </trkpt>
+      <trkpt lat="46.43976003772481" lon="10.0570202080584">
+      </trkpt>
+      <trkpt lat="46.43941002292018" lon="10.057210310409474">
+      </trkpt>
+      <trkpt lat="46.43913016141395" lon="10.057480613609508">
+      </trkpt>
+      <trkpt lat="46.43874017197322" lon="10.057569833036766">
+      </trkpt>
+      <trkpt lat="46.438560194032874" lon="10.057880109052466">
+      </trkpt>
+      <trkpt lat="46.43849005334512" lon="10.058150123490279">
+      </trkpt>
+      <trkpt lat="46.43833373015653" lon="10.058254534504592">
+      </trkpt>
+      <trkpt lat="46.43722697253316" lon="10.05940920754536">
+      </trkpt>
+      <trkpt lat="46.43627085264688" lon="10.060198785008847">
+      </trkpt>
+      <trkpt lat="46.43537179374718" lon="10.060505505786193">
+      </trkpt>
+      <trkpt lat="46.43429529701417" lon="10.061090035015193">
+      </trkpt>
+      <trkpt lat="46.432977091764094" lon="10.060995028035798">
+      </trkpt>
+      <trkpt lat="46.43182194775503" lon="10.061282820211648">
+      </trkpt>
+      <trkpt lat="46.43121005570083" lon="10.062210005835583">
+      </trkpt>
+      <trkpt lat="46.43043551957622" lon="10.063086340619337">
+      </trkpt>
+      <trkpt lat="46.429557914434916" lon="10.064526507326798">
+      </trkpt>
+      <trkpt lat="46.42891957952054" lon="10.065311754687096">
+      </trkpt>
+      <trkpt lat="46.428127723788045" lon="10.0669343327528">
+      </trkpt>
+      <trkpt lat="46.427614050846245" lon="10.067660493390834">
+      </trkpt>
+      <trkpt lat="46.42696678511639" lon="10.068713383628102">
+      </trkpt>
+      <trkpt lat="46.426966549652064" lon="10.068714059477907">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

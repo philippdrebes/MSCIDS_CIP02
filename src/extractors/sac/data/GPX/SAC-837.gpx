@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Station Bernina Lagalb Val Minor ca 2210 m</name>
+    <desc>From the Bernina Lagalb railway station cross the road to the bottom station of the Lagalb cableway Follow the whiteredwhite marked mountain hiking trail to ca 2210 m in Val Minor</desc>
+    <trkseg>
+      <trkpt lat="46.43627451685748" lon="9.991624525216912">
+      </trkpt>
+      <trkpt lat="46.43639051684626" lon="9.993893525204806">
+      </trkpt>
+      <trkpt lat="46.43643851684533" lon="9.994113525203948">
+      </trkpt>
+      <trkpt lat="46.43626351684271" lon="9.994532525200018">
+      </trkpt>
+      <trkpt lat="46.43661551684183" lon="9.994892525200974">
+      </trkpt>
+      <trkpt lat="46.436508516839034" lon="9.99537652519725">
+      </trkpt>
+      <trkpt lat="46.436394516833595" lon="9.996394525190391">
+      </trkpt>
+      <trkpt lat="46.43605451682793" lon="9.997343525181988">
+      </trkpt>
+      <trkpt lat="46.435893516826305" lon="9.997577525179251">
+      </trkpt>
+      <trkpt lat="46.435805516824075" lon="9.997970525176218">
+      </trkpt>
+      <trkpt lat="46.435621516821136" lon="9.998459525171812">
+      </trkpt>
+      <trkpt lat="46.43566151681978" lon="9.998749525170489">
+      </trkpt>
+      <trkpt lat="46.435642516817154" lon="9.999259525167375">
+      </trkpt>
+      <trkpt lat="46.43575451681353" lon="10.000023525163924">
+      </trkpt>
+      <trkpt lat="46.43571451681163" lon="10.000388525161469">
+      </trkpt>
+      <trkpt lat="46.43577051681093" lon="10.000540525161075">
+      </trkpt>
+      <trkpt lat="46.436058516810505" lon="10.000787525162126">
+      </trkpt>
+      <trkpt lat="46.43638351680873" lon="10.001291525162014">
+      </trkpt>
+      <trkpt lat="46.43657951680827" lon="10.001494525162524">
+      </trkpt>
+      <trkpt lat="46.43664551680581" lon="10.00200452516015">
+      </trkpt>
+      <trkpt lat="46.43671951680534" lon="10.002133525160037">
+      </trkpt>
+      <trkpt lat="46.43678151680359" lon="10.002518525158347">
+      </trkpt>
+      <trkpt lat="46.436862516803224" lon="10.002625525158427">
+      </trkpt>
+      <trkpt lat="46.43687351680118" lon="10.003027525156199">
+      </trkpt>
+      <trkpt lat="46.436953516800465" lon="10.00321852515578">
+      </trkpt>
+      <trkpt lat="46.43693251679984" lon="10.003322525155003">
+      </trkpt>
+      <trkpt lat="46.437016516798614" lon="10.003613525154044">
+      </trkpt>
+      <trkpt lat="46.437496516795385" lon="10.004494525153085">
+      </trkpt>
+      <trkpt lat="46.43762751679529" lon="10.00458452515369">
+      </trkpt>
+      <trkpt lat="46.43768851679344" lon="10.00497852515194">
+      </trkpt>
+      <trkpt lat="46.43787651679259" lon="10.005239525152053">
+      </trkpt>
+      <trkpt lat="46.43800651679109" lon="10.005605525151058">
+      </trkpt>
+      <trkpt lat="46.438180516790254" lon="10.005857525151093">
+      </trkpt>
+      <trkpt lat="46.438382516788145" lon="10.006387525149771">
+      </trkpt>
+      <trkpt lat="46.438371516787036" lon="10.006597525148463">
+      </trkpt>
+      <trkpt lat="46.438582516783185" lon="10.007458525145301">
+      </trkpt>
+      <trkpt lat="46.43863705695864" lon="10.007473200732893">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

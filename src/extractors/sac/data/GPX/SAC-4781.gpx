@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Capanna Tomeo  Bocchetta del Monte Zucchero</name>
+    <desc>Von der Capanna Tomeo 1739 m auf dem weissrotweiss markierten Weg ber Crosla zum Corte Piatto 2058 m Dort verlsst man den Weg er fhrt zur Bassa di Perts und peilt genau den Monte Zucchero an der mit seiner massigen Gestalt den Talabschluss bildet Die sanften teilweise fels und gerlldurchsetzten Hnge des Piatto lassen sich an beliebiger Stelle begehen Auf etwa 2470 m am Fuss der Westwand des Monte Zucchero biegt man nach links Norden in ein gerlliges Tlchen ein und steht bald auf der Bocchetta del Monte Zucchero 2540 m zwischen Triangolino und Monte Zucchero</desc>
+    <trkseg>
+      <trkpt lat="46.36651201945415" lon="8.688908017653201">
+      </trkpt>
+      <trkpt lat="46.366562019454484" lon="8.689021017656406">
+      </trkpt>
+      <trkpt lat="46.366563019454944" lon="8.68919301765643">
+      </trkpt>
+      <trkpt lat="46.36640301944941" lon="8.689614017652861">
+      </trkpt>
+      <trkpt lat="46.36630101944928" lon="8.690065017659185">
+      </trkpt>
+      <trkpt lat="46.36632001945284" lon="8.690426017653463">
+      </trkpt>
+      <trkpt lat="46.366285019447126" lon="8.690496017662397">
+      </trkpt>
+      <trkpt lat="46.366082019448804" lon="8.690592017659686">
+      </trkpt>
+      <trkpt lat="46.36570401945478" lon="8.691046017652068">
+      </trkpt>
+      <trkpt lat="46.365299019450774" lon="8.691358017656587">
+      </trkpt>
+      <trkpt lat="46.36536501944868" lon="8.691474017655855">
+      </trkpt>
+      <trkpt lat="46.365146019453" lon="8.69181201765708">
+      </trkpt>
+      <trkpt lat="46.36504401945052" lon="8.692706017663324">
+      </trkpt>
+      <trkpt lat="46.36489701944744" lon="8.69342701765984">
+      </trkpt>
+      <trkpt lat="46.36440001945089" lon="8.694211017666552">
+      </trkpt>
+      <trkpt lat="46.36416901943722" lon="8.694434017656812">
+      </trkpt>
+      <trkpt lat="46.36412601944192" lon="8.694642017667746">
+      </trkpt>
+      <trkpt lat="46.36404001943772" lon="8.694721017665218">
+      </trkpt>
+      <trkpt lat="46.3639930194435" lon="8.695050017658641">
+      </trkpt>
+      <trkpt lat="46.36385501944015" lon="8.695331017657276">
+      </trkpt>
+      <trkpt lat="46.36363601943612" lon="8.695340017657477">
+      </trkpt>
+      <trkpt lat="46.36348401943656" lon="8.695480017681955">
+      </trkpt>
+      <trkpt lat="46.3632220194388" lon="8.695981017676509">
+      </trkpt>
+      <trkpt lat="46.36304701943675" lon="8.696559017670783">
+      </trkpt>
+      <trkpt lat="46.36290701944223" lon="8.69684401767802">
+      </trkpt>
+      <trkpt lat="46.36214101943529" lon="8.697461017680206">
+      </trkpt>
+      <trkpt lat="46.362092019435906" lon="8.697406017676725">
+      </trkpt>
+      <trkpt lat="46.36196601943935" lon="8.697436017678967">
+      </trkpt>
+      <trkpt lat="46.361900019433286" lon="8.697471017681176">
+      </trkpt>
+      <trkpt lat="46.36188801943323" lon="8.697561017679844">
+      </trkpt>
+      <trkpt lat="46.361679019432884" lon="8.697686017684697">
+      </trkpt>
+      <trkpt lat="46.36102201943642" lon="8.697959017683674">
+      </trkpt>
+      <trkpt lat="46.3609850194336" lon="8.698148017684254">
+      </trkpt>
+      <trkpt lat="46.36070401943922" lon="8.698532017673957">
+      </trkpt>
+      <trkpt lat="46.3606680194386" lon="8.69872801767465">
+      </trkpt>
+      <trkpt lat="46.36053917539335" lon="8.699024707501328">
+      </trkpt>
+      <trkpt lat="46.35967539644886" lon="8.7002095912547">
+      </trkpt>
+      <trkpt lat="46.359156812838215" lon="8.700782971278807">
+      </trkpt>
+      <trkpt lat="46.35818862150496" lon="8.702222927627805">
+      </trkpt>
+      <trkpt lat="46.357437209622674" lon="8.703723370864289">
+      </trkpt>
+      <trkpt lat="46.356846726282654" lon="8.705229401633453">
+      </trkpt>
+      <trkpt lat="46.35617525318272" lon="8.70723708828387">
+      </trkpt>
+      <trkpt lat="46.35563982473565" lon="8.709348328915402">
+      </trkpt>
+      <trkpt lat="46.35534244531483" lon="8.710702838269054">
+      </trkpt>
+      <trkpt lat="46.35536359387857" lon="8.71122308116437">
+      </trkpt>
+      <trkpt lat="46.355575736285495" lon="8.711494642188235">
+      </trkpt>
+      <trkpt lat="46.35633567067266" lon="8.711986508533661">
+      </trkpt>
+      <trkpt lat="46.35669077644817" lon="8.712410641314104">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

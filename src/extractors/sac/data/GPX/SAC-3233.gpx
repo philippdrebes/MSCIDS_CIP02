@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Surlej  Chamanna Coaz CAS</name>
+    <desc>From Surlej take the cable car to the Corvatsch top station 3297 m Descend SE along the ski slope into Vadret da lAlp Ota then you leave the pisted slopes and cross S over the ridge to the west of P 3099 crossing point marked with a sign A short fixed rope facilitates the descent into the larger Vadret dal Murtl Continue traversing south until you can descend over the beautiful SE slopes of Murtl Sur to the plateau of Plaun dals Sts 2679 m From here contour once more along gentle slopes and finally cross above the steep Plattas slabs to gain the hut</desc>
+    <trkseg>
+      <trkpt lat="46.41787565763255" lon="9.821459013587429">
+      </trkpt>
+      <trkpt lat="46.41770248661578" lon="9.821207542215918">
+      </trkpt>
+      <trkpt lat="46.4175957429282" lon="9.821260287978951">
+      </trkpt>
+      <trkpt lat="46.417515148031725" lon="9.821988886456898">
+      </trkpt>
+      <trkpt lat="46.41724498560205" lon="9.822439410140749">
+      </trkpt>
+      <trkpt lat="46.41657103876842" lon="9.82303091629534">
+      </trkpt>
+      <trkpt lat="46.41464820711343" lon="9.824021274617435">
+      </trkpt>
+      <trkpt lat="46.41402093367949" lon="9.824504981245218">
+      </trkpt>
+      <trkpt lat="46.41375205045026" lon="9.824483166508971">
+      </trkpt>
+      <trkpt lat="46.413314999500834" lon="9.824214127938003">
+      </trkpt>
+      <trkpt lat="46.41300296719439" lon="9.82425567151729">
+      </trkpt>
+      <trkpt lat="46.41268038128537" lon="9.824500466610957">
+      </trkpt>
+      <trkpt lat="46.41235249821976" lon="9.82494662507195">
+      </trkpt>
+      <trkpt lat="46.41182375787785" lon="9.826325732911785">
+      </trkpt>
+      <trkpt lat="46.41171292939414" lon="9.826785366424858">
+      </trkpt>
+      <trkpt lat="46.41111105355493" lon="9.826514106082032">
+      </trkpt>
+      <trkpt lat="46.41062810577072" lon="9.826810775699725">
+      </trkpt>
+      <trkpt lat="46.41025567399786" lon="9.827221763343493">
+      </trkpt>
+      <trkpt lat="46.40807013568455" lon="9.830675667864147">
+      </trkpt>
+      <trkpt lat="46.40685303697555" lon="9.831763221511654">
+      </trkpt>
+      <trkpt lat="46.405976048893145" lon="9.832119553653849">
+      </trkpt>
+      <trkpt lat="46.405434741396945" lon="9.832060412162154">
+      </trkpt>
+      <trkpt lat="46.40318941088022" lon="9.831228130421586">
+      </trkpt>
+      <trkpt lat="46.40153890902409" lon="9.829954399515701">
+      </trkpt>
+      <trkpt lat="46.40059795589085" lon="9.829554787908142">
+      </trkpt>
+      <trkpt lat="46.39930263756775" lon="9.829246733874308">
+      </trkpt>
+      <trkpt lat="46.39447374865701" lon="9.828741559691784">
+      </trkpt>
+      <trkpt lat="46.38750698149111" lon="9.82916763831153">
+      </trkpt>
+      <trkpt lat="46.38687541792683" lon="9.829053312661253">
+      </trkpt>
+      <trkpt lat="46.3866497397051" lon="9.82897382270417">
+      </trkpt>
+      <trkpt lat="46.386538053706076" lon="9.829210888993947">
+      </trkpt>
+      <trkpt lat="46.386513173434835" lon="9.82928256791364">
+      </trkpt>
+      <trkpt lat="46.38630142258431" lon="9.829892597500674">
+      </trkpt>
+      <trkpt lat="46.38587832755269" lon="9.830352665494688">
+      </trkpt>
+      <trkpt lat="46.38584880283369" lon="9.830372356164936">
+      </trkpt>
+      <trkpt lat="46.385092363853" lon="9.830876840852">
+      </trkpt>
+      <trkpt lat="46.38453454343024" lon="9.831827239508016">
+      </trkpt>
+      <trkpt lat="46.38411239724597" lon="9.83229055657731">
+      </trkpt>
+      <trkpt lat="46.38409899165223" lon="9.83230526950483">
+      </trkpt>
+      <trkpt lat="46.38407508268259" lon="9.83233151099304">
+      </trkpt>
+      <trkpt lat="46.38407279959033" lon="9.832334016478882">
+      </trkpt>
+      <trkpt lat="46.38389684369498" lon="9.832744066526576">
+      </trkpt>
+      <trkpt lat="46.38378466917099" lon="9.833005477294197">
+      </trkpt>
+      <trkpt lat="46.38366168736738" lon="9.833972554590408">
+      </trkpt>
+      <trkpt lat="46.38370496409267" lon="9.835486737003926">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

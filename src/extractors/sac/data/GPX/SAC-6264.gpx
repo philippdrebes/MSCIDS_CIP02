@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Cabane de Saleinaz bis Abzweigung zum Aufstiegscouloir</name>
+    <desc>Von der Cabane de Saleinaz auf dem Httenzustiegsweg rund 50 Hhenmeter absteigen und dann rechts haltend weglos durch das Gerllgelnde weiter</desc>
+    <trkseg>
+      <trkpt lat="45.97644812828019" lon="7.070285804339226">
+      </trkpt>
+      <trkpt lat="45.976247530313685" lon="7.070135536543178">
+      </trkpt>
+      <trkpt lat="45.97623153031367" lon="7.070262536538798">
+      </trkpt>
+      <trkpt lat="45.97618153031146" lon="7.070284536540894">
+      </trkpt>
+      <trkpt lat="45.976213530315775" lon="7.070359536537183">
+      </trkpt>
+      <trkpt lat="45.97616253031188" lon="7.070402536532626">
+      </trkpt>
+      <trkpt lat="45.976216530308015" lon="7.070458536534853">
+      </trkpt>
+      <trkpt lat="45.97610253031242" lon="7.0705535365414125">
+      </trkpt>
+      <trkpt lat="45.976177530311155" lon="7.070668536536897">
+      </trkpt>
+      <trkpt lat="45.97603153030847" lon="7.07076153653301">
+      </trkpt>
+      <trkpt lat="45.97609380415106" lon="7.070830027636989">
+      </trkpt>
+      <trkpt lat="45.97601753031077" lon="7.070856536537556">
+      </trkpt>
+      <trkpt lat="45.97612853030759" lon="7.070913536532597">
+      </trkpt>
+      <trkpt lat="45.97610453031201" lon="7.070991536531657">
+      </trkpt>
+      <trkpt lat="45.9761845303086" lon="7.071071536537471">
+      </trkpt>
+      <trkpt lat="45.976145530305594" lon="7.071145536533036">
+      </trkpt>
+      <trkpt lat="45.9761915303106" lon="7.071210536537687">
+      </trkpt>
+      <trkpt lat="45.97615653030437" lon="7.071277536527697">
+      </trkpt>
+      <trkpt lat="45.976265530305" lon="7.071539536537125">
+      </trkpt>
+      <trkpt lat="45.976263530304735" lon="7.071787536530832">
+      </trkpt>
+      <trkpt lat="45.97616253030718" lon="7.07215953652926">
+      </trkpt>
+      <trkpt lat="45.97622753030322" lon="7.072638536529839">
+      </trkpt>
+      <trkpt lat="45.97604053030291" lon="7.07276653653154">
+      </trkpt>
+      <trkpt lat="45.97593953029688" lon="7.0729105365246365">
+      </trkpt>
+      <trkpt lat="45.97610253029347" lon="7.073068536518918">
+      </trkpt>
+      <trkpt lat="45.97601753029305" lon="7.0731465365185295">
+      </trkpt>
+      <trkpt lat="45.9759605302997" lon="7.073368536515689">
+      </trkpt>
+      <trkpt lat="45.976144530292224" lon="7.074102536515168">
+      </trkpt>
+      <trkpt lat="45.97644153029009" lon="7.074365536525456">
+      </trkpt>
+      <trkpt lat="45.976616530293974" lon="7.07473653651891">
+      </trkpt>
+      <trkpt lat="45.97664381504616" lon="7.074911315636208">
+      </trkpt>
+      <trkpt lat="45.9766446360163" lon="7.075312029340006">
+      </trkpt>
+      <trkpt lat="45.976595954955044" lon="7.075659131782126">
+      </trkpt>
+      <trkpt lat="45.976568787501265" lon="7.07580702211221">
+      </trkpt>
+      <trkpt lat="45.976479877422385" lon="7.0761301650286015">
+      </trkpt>
+      <trkpt lat="45.97640820679659" lon="7.076220955819161">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

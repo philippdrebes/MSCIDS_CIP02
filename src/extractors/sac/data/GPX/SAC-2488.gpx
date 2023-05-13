@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Bergstation  Tllihtte</name>
+    <desc>Die Htte befindet sich wenige Schritte hinter der Bergstation</desc>
+    <trkseg>
+      <trkpt lat="46.73992481624661" lon="8.328141082915172">
+      </trkpt>
+      <trkpt lat="46.73997120371506" lon="8.328361081902775">
+      </trkpt>
+      <trkpt lat="46.74007111300383" lon="8.327988397876323">
+      </trkpt>
+      <trkpt lat="46.74012252612202" lon="8.328232537111697">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

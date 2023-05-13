@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Gitschen top station  Lidernenhtte</name>
+    <desc>Turn left and follow the flat path eastwards to the hut 15 mins for the non geriatric</desc>
+    <trkseg>
+      <trkpt lat="46.93489052481354" lon="8.687265536948836">
+      </trkpt>
+      <trkpt lat="46.93466152481241" lon="8.687360536946237">
+      </trkpt>
+      <trkpt lat="46.934524524812474" lon="8.687281536945427">
+      </trkpt>
+      <trkpt lat="46.934337524811305" lon="8.687408536943032">
+      </trkpt>
+      <trkpt lat="46.93425452480965" lon="8.687691536940743">
+      </trkpt>
+      <trkpt lat="46.93413652480884" lon="8.687788536939124">
+      </trkpt>
+      <trkpt lat="46.93415652480479" lon="8.688589536934941">
+      </trkpt>
+      <trkpt lat="46.93428052479774" lon="8.690029536928208">
+      </trkpt>
+      <trkpt lat="46.93447552479723" lon="8.69023353692888">
+      </trkpt>
+      <trkpt lat="46.93448152479648" lon="8.690379536928132">
+      </trkpt>
+      <trkpt lat="46.934602524795565" lon="8.690628536927862">
+      </trkpt>
+      <trkpt lat="46.934773524795034" lon="8.690821536928363">
+      </trkpt>
+      <trkpt lat="46.93482552479379" lon="8.691083536927406">
+      </trkpt>
+      <trkpt lat="46.93504252479305" lon="8.691338536927988">
+      </trkpt>
+      <trkpt lat="46.935034524792286" lon="8.691492536927068">
+      </trkpt>
+      <trkpt lat="46.935170524790855" lon="8.691838536926408">
+      </trkpt>
+      <trkpt lat="46.93520052478907" lon="8.692203536924692">
+      </trkpt>
+      <trkpt lat="46.93511452478775" lon="8.692420536922727">
+      </trkpt>
+      <trkpt lat="46.934983524786844" lon="8.692527536920952">
+      </trkpt>
+      <trkpt lat="46.93504252478614" lon="8.692696536920572">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

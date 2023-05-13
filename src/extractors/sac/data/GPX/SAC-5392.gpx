@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Crotta  Alpe di Carate</name>
+    <desc>Vom Ende der Strasse bei Crotta auf einem nicht markierten breiten Wiesenweg zu einer gemauerten Brcke ber die Breggia 643 m Gleich nach der Brcke wenige Meter nach rechts und sogleich wieder nach links auf einem ansteigenden Pfad zu einer flachen Stelle im Wald ca 700 m Nun ber die Rippe hoch dann leicht nach rechts zu einem Jagdunterstand und gerade hoch zur stattlichen Ruine einer Kaserne der Guardia di Finanza 760 m Auf Wegspuren nach links zum Grenzzaun bei rund 800 m oberhalb des Grenzsteins 48 Auf der italienischen Seite des Zauns auf guten Spuren im Zickzack ansteigen dann leicht nach rechts hinauf Auf 1000 m gelangt man auf einen flachen Waldkamm Man folgt dem lieblichen Rcken und gelangt so zur Alpe di Carate oder Alpe di San Bernardo ca 1240 m</desc>
+    <trkseg>
+      <trkpt lat="45.89106401876724" lon="9.069974018648175">
+      </trkpt>
+      <trkpt lat="45.89106801876637" lon="9.069920018657289">
+      </trkpt>
+      <trkpt lat="45.89114801876166" lon="9.069985018659963">
+      </trkpt>
+      <trkpt lat="45.89129001876571" lon="9.070218018659396">
+      </trkpt>
+      <trkpt lat="45.89140501876489" lon="9.070597018650588">
+      </trkpt>
+      <trkpt lat="45.89154401876283" lon="9.070859018654852">
+      </trkpt>
+      <trkpt lat="45.89175301876865" lon="9.071671018660219">
+      </trkpt>
+      <trkpt lat="45.89180201876331" lon="9.071924018656665">
+      </trkpt>
+      <trkpt lat="45.89175301876945" lon="9.072563018670172">
+      </trkpt>
+      <trkpt lat="45.891796018765426" lon="9.073157018669715">
+      </trkpt>
+      <trkpt lat="45.89150501876177" lon="9.074633018675344">
+      </trkpt>
+      <trkpt lat="45.891389018762666" lon="9.074703018671046">
+      </trkpt>
+      <trkpt lat="45.891232018760434" lon="9.074656018668497">
+      </trkpt>
+      <trkpt lat="45.89103401876633" lon="9.07471701866991">
+      </trkpt>
+      <trkpt lat="45.89095301876731" lon="9.074757018674664">
+      </trkpt>
+      <trkpt lat="45.89093801876474" lon="9.074900018673745">
+      </trkpt>
+      <trkpt lat="45.89080922940085" lon="9.074942558175865">
+      </trkpt>
+      <trkpt lat="45.89108577264016" lon="9.075105436420513">
+      </trkpt>
+      <trkpt lat="45.89172222214898" lon="9.075884656944783">
+      </trkpt>
+      <trkpt lat="45.891536533654396" lon="9.076278532775385">
+      </trkpt>
+      <trkpt lat="45.89078294577422" lon="9.076745612297584">
+      </trkpt>
+      <trkpt lat="45.89057234082385" lon="9.076997003345857">
+      </trkpt>
+      <trkpt lat="45.89066337606397" lon="9.077540877567436">
+      </trkpt>
+      <trkpt lat="45.89117111234752" lon="9.078294121138306">
+      </trkpt>
+      <trkpt lat="45.89185084096778" lon="9.078721794205492">
+      </trkpt>
+      <trkpt lat="45.89166023412476" lon="9.079171326797992">
+      </trkpt>
+      <trkpt lat="45.89180584969199" lon="9.079511130354701">
+      </trkpt>
+      <trkpt lat="45.89156751832304" lon="9.079791509555454">
+      </trkpt>
+      <trkpt lat="45.89176120292939" lon="9.080276515607228">
+      </trkpt>
+      <trkpt lat="45.891309577350754" lon="9.081413053025237">
+      </trkpt>
+      <trkpt lat="45.8911311278585" lon="9.082174414704978">
+      </trkpt>
+      <trkpt lat="45.89138328192344" lon="9.083236219575397">
+      </trkpt>
+      <trkpt lat="45.892258641659474" lon="9.085155373681758">
+      </trkpt>
+      <trkpt lat="45.893092935112534" lon="9.08645037530985">
+      </trkpt>
+      <trkpt lat="45.89483911250519" lon="9.089450182224576">
+      </trkpt>
+      <trkpt lat="45.89483822899937" lon="9.090648230868636">
+      </trkpt>
+      <trkpt lat="45.894899644166415" lon="9.092159660694756">
+      </trkpt>
+      <trkpt lat="45.89531541230343" lon="9.09346614841036">
+      </trkpt>
+      <trkpt lat="45.89553330620646" lon="9.094574977408293">
+      </trkpt>
+      <trkpt lat="45.895911240719705" lon="9.095041684086617">
+      </trkpt>
+      <trkpt lat="45.89635794819755" lon="9.096516890939736">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

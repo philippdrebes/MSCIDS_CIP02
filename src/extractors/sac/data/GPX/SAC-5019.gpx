@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Bergstation  Berghaus</name>
+    <desc>Bei jedem Wetter trocken und begehbar</desc>
+    <trkseg>
+      <trkpt lat="46.41243270436449" lon="9.965450896189687">
+      </trkpt>
+      <trkpt lat="46.41220893888991" lon="9.965431710940722">
+      </trkpt>
+      <trkpt lat="46.412051359450544" lon="9.965161561350856">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

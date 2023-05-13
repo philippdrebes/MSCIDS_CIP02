@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>AlbertHeimHtte SAC  Ostfuss Nrdlicher Tiefensattel</name>
+    <desc>Von der AlbertHeimHtte 2543 m westwrts zum Tiefengletscher ca 2500 m hinunter Nordwestwrts ber den Gletscher an den Fuss des Nrdlichen Tiefensattels</desc>
+    <trkseg>
+      <trkpt lat="46.608916502519094" lon="8.463531493040342">
+      </trkpt>
+      <trkpt lat="46.60898247741245" lon="8.464017587200612">
+      </trkpt>
+      <trkpt lat="46.60887541493406" lon="8.464080713864714">
+      </trkpt>
+      <trkpt lat="46.60871016488529" lon="8.463969443648635">
+      </trkpt>
+      <trkpt lat="46.60864132266097" lon="8.463174651819596">
+      </trkpt>
+      <trkpt lat="46.60871229324125" lon="8.46266416980952">
+      </trkpt>
+      <trkpt lat="46.608802252586074" lon="8.462017084389382">
+      </trkpt>
+      <trkpt lat="46.608859580264095" lon="8.461493300410552">
+      </trkpt>
+      <trkpt lat="46.60885968613087" lon="8.461492331192757">
+      </trkpt>
+      <trkpt lat="46.608997100229125" lon="8.460236729677446">
+      </trkpt>
+      <trkpt lat="46.60918274084736" lon="8.458540256171075">
+      </trkpt>
+      <trkpt lat="46.60928419802723" lon="8.45640356127465">
+      </trkpt>
+      <trkpt lat="46.609085200277306" lon="8.454846054661115">
+      </trkpt>
+      <trkpt lat="46.60892805459904" lon="8.454084595644762">
+      </trkpt>
+      <trkpt lat="46.6089062910115" lon="8.453979139905423">
+      </trkpt>
+      <trkpt lat="46.60888172284577" lon="8.45386009980134">
+      </trkpt>
+      <trkpt lat="46.60813497102609" lon="8.450242106896344">
+      </trkpt>
+      <trkpt lat="46.60825689521089" lon="8.448948886885743">
+      </trkpt>
+      <trkpt lat="46.60841319792436" lon="8.447290787103956">
+      </trkpt>
+      <trkpt lat="46.60859948025423" lon="8.44531430130831">
+      </trkpt>
+      <trkpt lat="46.609314989478776" lon="8.441008245285909">
+      </trkpt>
+      <trkpt lat="46.609760202668646" lon="8.439694415615987">
+      </trkpt>
+      <trkpt lat="46.6101381747404" lon="8.438975753961493">
+      </trkpt>
+      <trkpt lat="46.610185786670115" lon="8.438885224501261">
+      </trkpt>
+      <trkpt lat="46.61163562956098" lon="8.436935975432776">
+      </trkpt>
+      <trkpt lat="46.61357974392293" lon="8.435014278051487">
+      </trkpt>
+      <trkpt lat="46.615335744950116" lon="8.433278378857315">
+      </trkpt>
+      <trkpt lat="46.62021169896715" lon="8.428457512342325">
+      </trkpt>
+      <trkpt lat="46.62090929660665" lon="8.427605167129927">
+      </trkpt>
+      <trkpt lat="46.621453802652454" lon="8.426317423712444">
+      </trkpt>
+      <trkpt lat="46.62254063762494" lon="8.422604873678548">
+      </trkpt>
+      <trkpt lat="46.622540671932136" lon="8.422604755481837">
+      </trkpt>
+      <trkpt lat="46.62282704054778" lon="8.421626447514832">
+      </trkpt>
+      <trkpt lat="46.62282763936024" lon="8.421624401873062">
+      </trkpt>
+      <trkpt lat="46.622892384204135" lon="8.421403212478918">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

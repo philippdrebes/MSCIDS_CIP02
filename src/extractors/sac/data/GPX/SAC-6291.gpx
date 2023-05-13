@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Waldenburg  Burgruine</name>
+    <desc>Vom Bahnhof Waldenburg gemss gelben Wegweisern durchs Dorf sdostwrts hinauf Der markierte Weg verlsst die Quartierstrasse auf ca 570 m und fhrt im Zickzack durch den Wald zur Burgruine Vom dortigen Turm geniesst man einen guten Blick auf den ersten Teil der Route die meisten Gratfelsen bleiben aber im Wald verborgen</desc>
+    <trkseg>
+      <trkpt lat="47.386058469687384" lon="7.749146769613851">
+      </trkpt>
+      <trkpt lat="47.385500020771424" lon="7.749110015194206">
+      </trkpt>
+      <trkpt lat="47.38550002076665" lon="7.7493200151955755">
+      </trkpt>
+      <trkpt lat="47.385490020766724" lon="7.749650015186668">
+      </trkpt>
+      <trkpt lat="47.38554002077018" lon="7.749880015190406">
+      </trkpt>
+      <trkpt lat="47.3855600207665" lon="7.7500300151959305">
+      </trkpt>
+      <trkpt lat="47.38559002076926" lon="7.750190015197514">
+      </trkpt>
+      <trkpt lat="47.38554002077468" lon="7.750590015194169">
+      </trkpt>
+      <trkpt lat="47.38532002076769" lon="7.751020015198212">
+      </trkpt>
+      <trkpt lat="47.38501002076995" lon="7.751430015197389">
+      </trkpt>
+      <trkpt lat="47.38492002076538" lon="7.751430015191189">
+      </trkpt>
+      <trkpt lat="47.38430002076626" lon="7.751260015188992">
+      </trkpt>
+      <trkpt lat="47.38379002076744" lon="7.751360015199407">
+      </trkpt>
+      <trkpt lat="47.38368002077372" lon="7.751500015201775">
+      </trkpt>
+      <trkpt lat="47.383698300456544" lon="7.751686996280692">
+      </trkpt>
+      <trkpt lat="47.38377002076589" lon="7.751910015193336">
+      </trkpt>
+      <trkpt lat="47.38360002077149" lon="7.751770015194384">
+      </trkpt>
+      <trkpt lat="47.38330002076696" lon="7.75170001519735">
+      </trkpt>
+      <trkpt lat="47.38314002077115" lon="7.751380015194051">
+      </trkpt>
+      <trkpt lat="47.38313002076692" lon="7.751610015194184">
+      </trkpt>
+      <trkpt lat="47.38292002077068" lon="7.7512000151995855">
+      </trkpt>
+      <trkpt lat="47.38281002076828" lon="7.751250015196456">
+      </trkpt>
+      <trkpt lat="47.38266002076562" lon="7.752350015191426">
+      </trkpt>
+      <trkpt lat="47.382440020766204" lon="7.7517900151968675">
+      </trkpt>
+      <trkpt lat="47.3824100207723" lon="7.751910015199026">
+      </trkpt>
+      <trkpt lat="47.382320020772724" lon="7.753120015203459">
+      </trkpt>
+      <trkpt lat="47.382025656801446" lon="7.754591592546034">
+      </trkpt>
+      <trkpt lat="47.381890020770314" lon="7.753330015191998">
+      </trkpt>
+      <trkpt lat="47.381797540991364" lon="7.752550753342488">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

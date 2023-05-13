@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Gigerwald dam  St Martin</name>
+    <desc>Follow the road along the southern bank of the reservoir to St Martin You can also drive here</desc>
+    <trkseg>
+      <trkpt lat="46.91108073803183" lon="9.392448576748427">
+      </trkpt>
+      <trkpt lat="46.91114052114289" lon="9.392357532809653">
+      </trkpt>
+      <trkpt lat="46.91104252114348" lon="9.392200532809671">
+      </trkpt>
+      <trkpt lat="46.91072452115284" lon="9.390208532818148">
+      </trkpt>
+      <trkpt lat="46.91074552115756" lon="9.389300532823485">
+      </trkpt>
+      <trkpt lat="46.91055752116214" lon="9.388303532827473">
+      </trkpt>
+      <trkpt lat="46.910736521172595" lon="9.386342532840192">
+      </trkpt>
+      <trkpt lat="46.910626521175146" lon="9.385797532842306">
+      </trkpt>
+      <trkpt lat="46.911032521188076" lon="9.383483532859067">
+      </trkpt>
+      <trkpt lat="46.911410521191115" lon="9.383071532864768">
+      </trkpt>
+      <trkpt lat="46.91159752119354" lon="9.38270153286853">
+      </trkpt>
+      <trkpt lat="46.911574521209516" lon="9.379564532886134">
+      </trkpt>
+      <trkpt lat="46.91274752122902" lon="9.376358532914791">
+      </trkpt>
+      <trkpt lat="46.91324352123534" lon="9.37536353292487">
+      </trkpt>
+      <trkpt lat="46.91313852124296" lon="9.37382453293265">
+      </trkpt>
+      <trkpt lat="46.91318052124682" lon="9.373086532937222">
+      </trkpt>
+      <trkpt lat="46.91330452124975" lon="9.372577532941209">
+      </trkpt>
+      <trkpt lat="46.913321521257515" lon="9.37107853294986">
+      </trkpt>
+      <trkpt lat="46.913398521260795" lon="9.370472532953984">
+      </trkpt>
+      <trkpt lat="46.91380852126463" lon="9.369926532960745">
+      </trkpt>
+      <trkpt lat="46.91372352126898" lon="9.369036532965024">
+      </trkpt>
+      <trkpt lat="46.91383952127225" lon="9.368453532969378">
+      </trkpt>
+      <trkpt lat="46.91481752127934" lon="9.36756253298316">
+      </trkpt>
+      <trkpt lat="46.91515552128617" lon="9.366402532992756">
+      </trkpt>
+      <trkpt lat="46.91647452129552" lon="9.36524353301112">
+      </trkpt>
+      <trkpt lat="46.91763452130884" lon="9.363230533032878">
+      </trkpt>
+      <trkpt lat="46.91780652131227" lon="9.362655533037673">
+      </trkpt>
+      <trkpt lat="46.91789052131752" lon="9.361664533044042">
+      </trkpt>
+      <trkpt lat="46.91827552132118" lon="9.361146533050421">
+      </trkpt>
+      <trkpt lat="46.91842752132386" lon="9.360711533054259">
+      </trkpt>
+      <trkpt lat="46.91853252133153" lon="9.359253533063455">
+      </trkpt>
+      <trkpt lat="46.91912352133623" lon="9.358634533072244">
+      </trkpt>
+      <trkpt lat="46.91946452134001" lon="9.358076533078446">
+      </trkpt>
+      <trkpt lat="46.91955352134553" lon="9.35703153308517">
+      </trkpt>
+      <trkpt lat="46.919750521348966" lon="9.35645853309018">
+      </trkpt>
+      <trkpt lat="46.91984052135244" lon="9.355837533094501">
+      </trkpt>
+      <trkpt lat="46.92007952135585" lon="9.355286533099774">
+      </trkpt>
+      <trkpt lat="46.92033576811518" lon="9.355197253958384">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

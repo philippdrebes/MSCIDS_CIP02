@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Lohnerhtte  Witi Chume</name>
+    <desc>Von der Lohnerhtte 2172 m steigt man zuerst auf dem Bergweg der Richtung Engstligenalp fhrt in die Witi Chume ab</desc>
+    <trkseg>
+      <trkpt lat="46.474551529087265" lon="7.599538538457688">
+      </trkpt>
+      <trkpt lat="46.47462452908428" lon="7.5994975384649335">
+      </trkpt>
+      <trkpt lat="46.474592529085356" lon="7.599422538460531">
+      </trkpt>
+      <trkpt lat="46.474497529083095" lon="7.599338538465574">
+      </trkpt>
+      <trkpt lat="46.47444252908593" lon="7.599132538465277">
+      </trkpt>
+      <trkpt lat="46.4743195290852" lon="7.599397538462961">
+      </trkpt>
+      <trkpt lat="46.47405252908735" lon="7.599642538449875">
+      </trkpt>
+      <trkpt lat="46.47373252908639" lon="7.5995605384508105">
+      </trkpt>
+      <trkpt lat="46.47359452908293" lon="7.5996225384560905">
+      </trkpt>
+      <trkpt lat="46.47338852908398" lon="7.599596538448872">
+      </trkpt>
+      <trkpt lat="46.473320529079615" lon="7.599627538442792">
+      </trkpt>
+      <trkpt lat="46.473224529084845" lon="7.59953353844529">
+      </trkpt>
+      <trkpt lat="46.473160529080644" lon="7.599351538453417">
+      </trkpt>
+      <trkpt lat="46.47292052908262" lon="7.59927953844577">
+      </trkpt>
+      <trkpt lat="46.47283452907924" lon="7.5991665384428515">
+      </trkpt>
+      <trkpt lat="46.47285352907966" lon="7.598939538453781">
+      </trkpt>
+      <trkpt lat="46.4729545290894" lon="7.598724538444943">
+      </trkpt>
+      <trkpt lat="46.47298352908411" lon="7.59857953845447">
+      </trkpt>
+      <trkpt lat="46.47284352908447" lon="7.598556538447853">
+      </trkpt>
+      <trkpt lat="46.4727515290859" lon="7.5983805384486915">
+      </trkpt>
+      <trkpt lat="46.47272052908337" lon="7.598221538445221">
+      </trkpt>
+      <trkpt lat="46.47280052908418" lon="7.598217538454326">
+      </trkpt>
+      <trkpt lat="46.472892529089634" lon="7.598038538454424">
+      </trkpt>
+      <trkpt lat="46.47276152909204" lon="7.597950538457059">
+      </trkpt>
+      <trkpt lat="46.47267352908706" lon="7.597637538448424">
+      </trkpt>
+      <trkpt lat="46.472710529092076" lon="7.597588538459083">
+      </trkpt>
+      <trkpt lat="46.472631529086385" lon="7.5975555384515685">
+      </trkpt>
+      <trkpt lat="46.47262352908959" lon="7.597427538450716">
+      </trkpt>
+      <trkpt lat="46.4725485290866" lon="7.597357538453832">
+      </trkpt>
+      <trkpt lat="46.472289725933194" lon="7.59728431833293">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

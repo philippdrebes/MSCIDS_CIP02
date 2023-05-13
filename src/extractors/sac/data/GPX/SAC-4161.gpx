@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Bristenhttli  Lauchergrat</name>
+    <desc>Vom Bristenhttli auf Wegspuren gegen die weite schuttige Nordflanke des Bristen hinauf Auf ungefhr 2300 m dreht der Weg leicht nach links und fhrt zu einem schon von weit her sichtbaren weissen Pfeil Man folgt diesem quert ansteigend eine felsige Stufe und gelangt zur Grasschulter des Lauchergrats bei P 2373</desc>
+    <trkseg>
+      <trkpt lat="46.750762588528765" lon="8.689498070098011">
+      </trkpt>
+      <trkpt lat="46.75067552430875" lon="8.689599535269485">
+      </trkpt>
+      <trkpt lat="46.750667524307936" lon="8.689749535268597">
+      </trkpt>
+      <trkpt lat="46.75064652430753" lon="8.68982353526799">
+      </trkpt>
+      <trkpt lat="46.75056552430715" lon="8.689849535267136">
+      </trkpt>
+      <trkpt lat="46.75051552430689" lon="8.689886535266478">
+      </trkpt>
+      <trkpt lat="46.75046952430651" lon="8.68993153526582">
+      </trkpt>
+      <trkpt lat="46.75042652430626" lon="8.689957535265295">
+      </trkpt>
+      <trkpt lat="46.750375524306044" lon="8.689970535264766">
+      </trkpt>
+      <trkpt lat="46.75032352430591" lon="8.68997653526426">
+      </trkpt>
+      <trkpt lat="46.75026852430573" lon="8.689968535263818">
+      </trkpt>
+      <trkpt lat="46.750223524305724" lon="8.689956535263478">
+      </trkpt>
+      <trkpt lat="46.75018852430537" lon="8.689995535262945">
+      </trkpt>
+      <trkpt lat="46.7501475243051" lon="8.690046535262292">
+      </trkpt>
+      <trkpt lat="46.75007552430461" lon="8.690086535261436">
+      </trkpt>
+      <trkpt lat="46.7499425243036" lon="8.690228535259454">
+      </trkpt>
+      <trkpt lat="46.74994252430351" lon="8.69023353525943">
+      </trkpt>
+      <trkpt lat="46.74936187704829" lon="8.690136363211156">
+      </trkpt>
+      <trkpt lat="46.748932398175995" lon="8.689811395282225">
+      </trkpt>
+      <trkpt lat="46.748133806198226" lon="8.689297873310759">
+      </trkpt>
+      <trkpt lat="46.74738022054905" lon="8.688440418520141">
+      </trkpt>
+      <trkpt lat="46.746918007205394" lon="8.688279712214834">
+      </trkpt>
+      <trkpt lat="46.746013538992614" lon="8.688018767191036">
+      </trkpt>
+      <trkpt lat="46.74549650261834" lon="8.688156780716076">
+      </trkpt>
+      <trkpt lat="46.74540993474433" lon="8.688529751986936">
+      </trkpt>
+      <trkpt lat="46.7448875242983" lon="8.688592535222792">
+      </trkpt>
+      <trkpt lat="46.7449145242975" lon="8.688768535222081">
+      </trkpt>
+      <trkpt lat="46.74500452429614" lon="8.689091535221147">
+      </trkpt>
+      <trkpt lat="46.74505052429557" lon="8.689223535220851">
+      </trkpt>
+      <trkpt lat="46.74508752429523" lon="8.689306535220728">
+      </trkpt>
+      <trkpt lat="46.74510772325633" lon="8.689449599969286">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

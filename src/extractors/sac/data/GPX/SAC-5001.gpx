@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Alpe Dvero  Piani della Rossa</name>
+    <desc>Beim Rifugio Castiglioni CAI in der nordstlichen Ecke der Alpe Dvero setzt der Wanderweg Richtung Geisspfad  Passo della Rossa an Wir folgen ihm bis zu den Piani della Rossa</desc>
+    <trkseg>
+      <trkpt lat="46.31515132580426" lon="8.260754815325397">
+      </trkpt>
+      <trkpt lat="46.31727365227832" lon="8.26127506715799">
+      </trkpt>
+      <trkpt lat="46.31879380934317" lon="8.261542153978409">
+      </trkpt>
+      <trkpt lat="46.320335335719605" lon="8.262193161005667">
+      </trkpt>
+      <trkpt lat="46.32192897773074" lon="8.262321913533398">
+      </trkpt>
+      <trkpt lat="46.322942329740066" lon="8.262511627500238">
+      </trkpt>
+      <trkpt lat="46.32428652780968" lon="8.26371769738829">
+      </trkpt>
+      <trkpt lat="46.32564417738265" lon="8.263075683730571">
+      </trkpt>
+      <trkpt lat="46.326452787071496" lon="8.261518569604117">
+      </trkpt>
+      <trkpt lat="46.3281473653372" lon="8.261055951257864">
+      </trkpt>
+      <trkpt lat="46.32873220887092" lon="8.26036726864838">
+      </trkpt>
+      <trkpt lat="46.32932311022071" lon="8.258841618884066">
+      </trkpt>
+      <trkpt lat="46.33085185332719" lon="8.257922980871125">
+      </trkpt>
+      <trkpt lat="46.33218556444999" lon="8.257245506106685">
+      </trkpt>
+      <trkpt lat="46.33334890918609" lon="8.256739831982117">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

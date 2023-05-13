@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Klein Matterhorn  Schwarztor</name>
+    <desc>Von der Bergstation der Klein MatterhornBahn 3885 m zur Anbgelstation 3795 m fr das Sommerskifahren hinunter fahren und dann ostwrts zu P 3824 auf dem Breithornplateau queren In langer Traverse wenig an Hhe verlierend ostwrts ber Gletscherterrassen zum Felssporn 3787 m mit dem Bivacco Rossi e Volante Sdlich unterhalb am Biwak vorbei ca 3700 m und dann wenig steil zum Schwarztor 3725 m aufsteigen</desc>
+    <trkseg>
+      <trkpt lat="45.93012638364724" lon="7.776649751869315">
+      </trkpt>
+      <trkpt lat="45.93002317964226" lon="7.775769090195203">
+      </trkpt>
+      <trkpt lat="45.929920208775926" lon="7.775394985667951">
+      </trkpt>
+      <trkpt lat="45.92907052397597" lon="7.772308201260449">
+      </trkpt>
+      <trkpt lat="45.929069577050186" lon="7.772304761379867">
+      </trkpt>
+      <trkpt lat="45.9290679058277" lon="7.772292569367782">
+      </trkpt>
+      <trkpt lat="45.928789289880605" lon="7.7702601094649575">
+      </trkpt>
+      <trkpt lat="45.928620676048084" lon="7.768650020851038">
+      </trkpt>
+      <trkpt lat="45.92867969631659" lon="7.7674504728300064">
+      </trkpt>
+      <trkpt lat="45.92905124363686" lon="7.766094762571911">
+      </trkpt>
+      <trkpt lat="45.92969205263496" lon="7.76467326376079">
+      </trkpt>
+      <trkpt lat="45.93014677280874" lon="7.762849476617355">
+      </trkpt>
+      <trkpt lat="45.931608845302115" lon="7.760516243015518">
+      </trkpt>
+      <trkpt lat="45.93350749761449" lon="7.758119341711087">
+      </trkpt>
+      <trkpt lat="45.933839655776836" lon="7.757253084074393">
+      </trkpt>
+      <trkpt lat="45.93399490460672" lon="7.756022396914875">
+      </trkpt>
+      <trkpt lat="45.93375307958155" lon="7.754543792185351">
+      </trkpt>
+      <trkpt lat="45.93384814120953" lon="7.751779530684443">
+      </trkpt>
+      <trkpt lat="45.933661655152235" lon="7.750404671976419">
+      </trkpt>
+      <trkpt lat="45.93349754880322" lon="7.748032956557677">
+      </trkpt>
+      <trkpt lat="45.9328467745186" lon="7.744801035954407">
+      </trkpt>
+      <trkpt lat="45.93278683754212" lon="7.744503402116633">
+      </trkpt>
+      <trkpt lat="45.93261252303406" lon="7.742757919487489">
+      </trkpt>
+      <trkpt lat="45.932104813289946" lon="7.7415584959839725">
+      </trkpt>
+      <trkpt lat="45.93165858979194" lon="7.7386394104883">
+      </trkpt>
+      <trkpt lat="45.93144560694792" lon="7.73519598989373">
+      </trkpt>
+      <trkpt lat="45.93156479080616" lon="7.733939174074872">
+      </trkpt>
+      <trkpt lat="45.93177594191585" lon="7.733129018922778">
+      </trkpt>
+      <trkpt lat="45.932630218675655" lon="7.731699584969559">
+      </trkpt>
+      <trkpt lat="45.93331520971911" lon="7.731002283114717">
+      </trkpt>
+      <trkpt lat="45.934709436202944" lon="7.730267816659071">
+      </trkpt>
+      <trkpt lat="45.93748951150415" lon="7.729238405135603">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

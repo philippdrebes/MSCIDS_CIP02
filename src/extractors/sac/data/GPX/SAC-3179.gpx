@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Bergstation  Brunnihtte</name>
+    <desc>Off the chairlift and turn left Job done</desc>
+    <trkseg>
+      <trkpt lat="46.84118106351446" lon="8.411412871221463">
+      </trkpt>
+      <trkpt lat="46.84117007962704" lon="8.411042065798355">
+      </trkpt>
+      <trkpt lat="46.84113442945362" lon="8.410913591520558">
+      </trkpt>
+      <trkpt lat="46.84095571330958" lon="8.410685242232297">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

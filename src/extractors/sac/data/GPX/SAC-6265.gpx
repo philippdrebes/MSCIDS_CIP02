@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Cabane Arpitettaz  Col de Milon</name>
+    <desc>Von der Cabane Arpitettaz auf dem blauweissblau markierten Wanderweg bis kurz unterhalb des Col de Milon aufsteigen</desc>
+    <trkseg>
+      <trkpt lat="46.10094541293744" lon="7.679243129812293">
+      </trkpt>
+      <trkpt lat="46.10100005982018" lon="7.679349407697586">
+      </trkpt>
+      <trkpt lat="46.10103972523261" lon="7.679309494644798">
+      </trkpt>
+      <trkpt lat="46.101119636461036" lon="7.67937967581688">
+      </trkpt>
+      <trkpt lat="46.10129964723537" lon="7.678909760826409">
+      </trkpt>
+      <trkpt lat="46.10151027061544" lon="7.678849906945553">
+      </trkpt>
+      <trkpt lat="46.1015797280011" lon="7.678759690749235">
+      </trkpt>
+      <trkpt lat="46.10178041236888" lon="7.678720482979879">
+      </trkpt>
+      <trkpt lat="46.10187028487687" lon="7.678759672014431">
+      </trkpt>
+      <trkpt lat="46.101910076299525" lon="7.6786602728863835">
+      </trkpt>
+      <trkpt lat="46.10202976013278" lon="7.678640106946059">
+      </trkpt>
+      <trkpt lat="46.102469751416926" lon="7.677739397869532">
+      </trkpt>
+      <trkpt lat="46.10261015341574" lon="7.677279638657626">
+      </trkpt>
+      <trkpt lat="46.102690360504965" lon="7.677210156413579">
+      </trkpt>
+      <trkpt lat="46.10280971407713" lon="7.676919709760945">
+      </trkpt>
+      <trkpt lat="46.103110254126506" lon="7.67645029569815">
+      </trkpt>
+      <trkpt lat="46.10325968976318" lon="7.675969875815033">
+      </trkpt>
+      <trkpt lat="46.10276041747068" lon="7.675119382459144">
+      </trkpt>
+      <trkpt lat="46.10340983190626" lon="7.6747200024875415">
+      </trkpt>
+      <trkpt lat="46.10342981081983" lon="7.674629564623465">
+      </trkpt>
+      <trkpt lat="46.10362986653166" lon="7.674459723917492">
+      </trkpt>
+      <trkpt lat="46.103659759131624" lon="7.674360275840484">
+      </trkpt>
+      <trkpt lat="46.10355030131796" lon="7.673789501989564">
+      </trkpt>
+      <trkpt lat="46.10353041999285" lon="7.673400162620739">
+      </trkpt>
+      <trkpt lat="46.103650330893025" lon="7.673270063054268">
+      </trkpt>
+      <trkpt lat="46.10362970294612" lon="7.673240230937546">
+      </trkpt>
+      <trkpt lat="46.10399990753154" lon="7.672570639406459">
+      </trkpt>
+      <trkpt lat="46.104079730424424" lon="7.672250263021485">
+      </trkpt>
+      <trkpt lat="46.10417976719988" lon="7.672160164621725">
+      </trkpt>
+      <trkpt lat="46.104089675469616" lon="7.671789920645686">
+      </trkpt>
+      <trkpt lat="46.105080410374164" lon="7.6720695997457495">
+      </trkpt>
+      <trkpt lat="46.10577043106808" lon="7.672040210449531">
+      </trkpt>
+      <trkpt lat="46.10673028565716" lon="7.671590361898567">
+      </trkpt>
+      <trkpt lat="46.10719959456022" lon="7.671279382797289">
+      </trkpt>
+      <trkpt lat="46.10794013346009" lon="7.671180358424415">
+      </trkpt>
+      <trkpt lat="46.108159790847594" lon="7.6710998127806596">
+      </trkpt>
+      <trkpt lat="46.10837995716631" lon="7.67120938631635">
+      </trkpt>
+      <trkpt lat="46.10882967326319" lon="7.671239750034884">
+      </trkpt>
+      <trkpt lat="46.108899715799105" lon="7.671299540802386">
+      </trkpt>
+      <trkpt lat="46.10954980792401" lon="7.6714393982512155">
+      </trkpt>
+      <trkpt lat="46.11055992114723" lon="7.6719196537116">
+      </trkpt>
+      <trkpt lat="46.11115595158723" lon="7.672101973945885">
+      </trkpt>
+      <trkpt lat="46.11124891940284" lon="7.672072623122078">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

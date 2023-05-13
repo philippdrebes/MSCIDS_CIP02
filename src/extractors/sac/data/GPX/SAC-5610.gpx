@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Alp Gglia  Fuorcla Alva</name>
+    <desc>Von der Postautohaltestelle bei der Alp Gglia zum Alpgebude und links auf undeutliche Kuh oder Wegspuren einbiegen die dem Bachlauf entlang nordwrts fhren Auf 2482 m wird der Bach berquert und bei P 2543 verlsst man den Talboden und steigt in nordwestlicher Richtung sanft an um den Spelm Ravulaunas herum zu P 2813 Kurz darauf erreicht man die Einsattelung der Furcla Alva mit ihren speziellen Felsgebilden</desc>
+    <trkseg>
+      <trkpt lat="46.47258874813158" lon="9.743753575861044">
+      </trkpt>
+      <trkpt lat="46.47283988361723" lon="9.7438398102538">
+      </trkpt>
+      <trkpt lat="46.47295981991683" lon="9.744049418926009">
+      </trkpt>
+      <trkpt lat="46.47306327843546" lon="9.744095503978144">
+      </trkpt>
+      <trkpt lat="46.47318022542794" lon="9.74250220336247">
+      </trkpt>
+      <trkpt lat="46.473562080483575" lon="9.74067005504579">
+      </trkpt>
+      <trkpt lat="46.47464572559301" lon="9.740176813108537">
+      </trkpt>
+      <trkpt lat="46.47783913240881" lon="9.74113448328615">
+      </trkpt>
+      <trkpt lat="46.47945595122059" lon="9.741819397388213">
+      </trkpt>
+      <trkpt lat="46.483735347725535" lon="9.743454019502423">
+      </trkpt>
+      <trkpt lat="46.48386001193836" lon="9.743209177352636">
+      </trkpt>
+      <trkpt lat="46.48635181274693" lon="9.743261774309028">
+      </trkpt>
+      <trkpt lat="46.487640248796644" lon="9.743099004170121">
+      </trkpt>
+      <trkpt lat="46.490841769984165" lon="9.742237112299225">
+      </trkpt>
+      <trkpt lat="46.49209362935798" lon="9.74121534632505">
+      </trkpt>
+      <trkpt lat="46.493330577464555" lon="9.739907527040893">
+      </trkpt>
+      <trkpt lat="46.49421146265378" lon="9.738583224670291">
+      </trkpt>
+      <trkpt lat="46.49476389984379" lon="9.73694522550338">
+      </trkpt>
+      <trkpt lat="46.49483322983909" lon="9.732715680141245">
+      </trkpt>
+      <trkpt lat="46.495100276564365" lon="9.730632893156065">
+      </trkpt>
+      <trkpt lat="46.496349629720406" lon="9.730042016341194">
+      </trkpt>
+      <trkpt lat="46.496993352675865" lon="9.729690020725778">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

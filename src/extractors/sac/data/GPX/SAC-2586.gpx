@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Schwndi  Guppen Oberstafel</name>
+    <desc>Von Schwndi folgt man dem Fahrstrsschen Richtung Leuggelen bis Enneteggen Nach der Guppenbrcke am Ende des kleinen kleinen Waldes im Enneteggen zweigt man gegen Sden ab und folgt dem markierten Weg ber Guppen Unter und Mittelstafel bis zum Oberstafel ACHTUNG Bis Ende 2019 sind grosse Bauarbeiten in der Guppenrunse im Gange Der Weg von Enneteggen bis Guppen Unterstafel wird umgeleitet Die Umleitung ist signalisiert</desc>
+    <trkseg>
+      <trkpt lat="47.00567540606236" lon="9.066809602004966">
+      </trkpt>
+      <trkpt lat="47.00573168417021" lon="9.064304219194414">
+      </trkpt>
+      <trkpt lat="47.004416562012274" lon="9.063781227763613">
+      </trkpt>
+      <trkpt lat="47.003623214037404" lon="9.062911435636876">
+      </trkpt>
+      <trkpt lat="47.00321810334697" lon="9.06087534342742">
+      </trkpt>
+      <trkpt lat="47.003891950055" lon="9.061495975303414">
+      </trkpt>
+      <trkpt lat="47.00456306520074" lon="9.060066456199234">
+      </trkpt>
+      <trkpt lat="47.00492035102372" lon="9.05963920508961">
+      </trkpt>
+      <trkpt lat="47.00510257406504" lon="9.059119858970663">
+      </trkpt>
+      <trkpt lat="47.00590497159789" lon="9.05868729306266">
+      </trkpt>
+      <trkpt lat="47.006079234448094" lon="9.058058201978783">
+      </trkpt>
+      <trkpt lat="47.005820690994696" lon="9.05734045717761">
+      </trkpt>
+      <trkpt lat="47.006476979237746" lon="9.05549594346117">
+      </trkpt>
+      <trkpt lat="47.00664097865953" lon="9.055106055495552">
+      </trkpt>
+      <trkpt lat="47.00689770343654" lon="9.054694588323857">
+      </trkpt>
+      <trkpt lat="47.007222989579766" lon="9.053606142169082">
+      </trkpt>
+      <trkpt lat="47.007316797405906" lon="9.053094481151192">
+      </trkpt>
+      <trkpt lat="47.007519671410364" lon="9.0525072694097">
+      </trkpt>
+      <trkpt lat="47.00775864039727" lon="9.052163304553229">
+      </trkpt>
+      <trkpt lat="47.00770585310339" lon="9.051940271443176">
+      </trkpt>
+      <trkpt lat="47.00669472543505" lon="9.052233085855239">
+      </trkpt>
+      <trkpt lat="47.00655995844241" lon="9.052083529761267">
+      </trkpt>
+      <trkpt lat="47.006831450649265" lon="9.05181277829384">
+      </trkpt>
+      <trkpt lat="47.00659121261072" lon="9.05157076838816">
+      </trkpt>
+      <trkpt lat="47.005778321868135" lon="9.050188857075977">
+      </trkpt>
+      <trkpt lat="47.00594698140311" lon="9.050095692018557">
+      </trkpt>
+      <trkpt lat="47.0064523574885" lon="9.050319395907563">
+      </trkpt>
+      <trkpt lat="47.00698517901799" lon="9.050216340366195">
+      </trkpt>
+      <trkpt lat="47.00694830758454" lon="9.049898052353077">
+      </trkpt>
+      <trkpt lat="47.007175630145994" lon="9.049753261180257">
+      </trkpt>
+      <trkpt lat="47.007414414507885" lon="9.049821475039169">
+      </trkpt>
+      <trkpt lat="47.00719416150712" lon="9.04933555278637">
+      </trkpt>
+      <trkpt lat="47.0069461253691" lon="9.049324066082686">
+      </trkpt>
+      <trkpt lat="47.00665453770121" lon="9.04865287139933">
+      </trkpt>
+      <trkpt lat="47.006249559994075" lon="9.048155332059537">
+      </trkpt>
+      <trkpt lat="47.00599002182934" lon="9.04745663944764">
+      </trkpt>
+      <trkpt lat="47.00569812746613" lon="9.047395322815385">
+      </trkpt>
+      <trkpt lat="47.00549849502685" lon="9.047504852716203">
+      </trkpt>
+      <trkpt lat="47.005465415872735" lon="9.047031119782863">
+      </trkpt>
+      <trkpt lat="47.00466353454889" lon="9.042400315567367">
+      </trkpt>
+      <trkpt lat="47.004549353270505" lon="9.04240781261059">
+      </trkpt>
+      <trkpt lat="47.00444447254526" lon="9.041999720769141">
+      </trkpt>
+      <trkpt lat="47.00417891119457" lon="9.041825383192121">
+      </trkpt>
+      <trkpt lat="47.00418759071615" lon="9.041517239804222">
+      </trkpt>
+      <trkpt lat="47.00398307333402" lon="9.041473062859192">
+      </trkpt>
+      <trkpt lat="47.00294601403813" lon="9.04059551370388">
+      </trkpt>
+      <trkpt lat="47.00284802945699" lon="9.040214997440497">
+      </trkpt>
+      <trkpt lat="47.00260103255271" lon="9.040147190463674">
+      </trkpt>
+      <trkpt lat="47.0028847712233" lon="9.03899661528122">
+      </trkpt>
+      <trkpt lat="47.00196115557151" lon="9.039357948452977">
+      </trkpt>
+      <trkpt lat="47.00135013659696" lon="9.04001543640306">
+      </trkpt>
+      <trkpt lat="47.00098747738778" lon="9.040208613330597">
+      </trkpt>
+      <trkpt lat="47.00099962942738" lon="9.039614322065356">
+      </trkpt>
+      <trkpt lat="47.000655307634375" lon="9.039968305350303">
+      </trkpt>
+      <trkpt lat="47.00076344289797" lon="9.039201403368416">
+      </trkpt>
+      <trkpt lat="46.999837951313474" lon="9.039732491196524">
+      </trkpt>
+      <trkpt lat="46.999938838886095" lon="9.039368701340857">
+      </trkpt>
+      <trkpt lat="46.99945499475265" lon="9.039497617306818">
+      </trkpt>
+      <trkpt lat="46.99933043239567" lon="9.03982306135174">
+      </trkpt>
+      <trkpt lat="46.99918965357849" lon="9.040003789349127">
+      </trkpt>
+      <trkpt lat="46.99899840928745" lon="9.03977534917848">
+      </trkpt>
+      <trkpt lat="46.99870056601852" lon="9.039829219191244">
+      </trkpt>
+      <trkpt lat="46.99839651136507" lon="9.039372463762652">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

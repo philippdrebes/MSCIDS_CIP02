@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Ibergeregg  Hudelschijen</name>
+    <desc>Von der Ibergeregg auf markiertem Weg sdwrts durch einen mit Felsblcken versetzten Wald zum Sattel P 1515 Von dort auf schwachen Wegspuren mehr oder weniger dem Rcken folgend ostwrts zum Fuss des Hudelschijen Zuoberst wird der Gipfel felsig man kann ihn von mehreren Seiten erklimmen  zum Beispiel direkt von Westen Die letzten paar Meter sind felsig aber gut gestuft und gutmtig Die einzige Gefahr besteht darin beim letzten Kraxelzug nicht aufzupassen und beim Sichaufrichten den Kopf am Gipfelkreuz anzuschlagen Vom Hudelschijen nordwrts hinab und auf dem gewellten Verbindungsgrat zum Fuss des Gross Schijen</desc>
+    <trkseg>
+      <trkpt lat="47.017433117082795" lon="8.733483480656243">
+      </trkpt>
+      <trkpt lat="47.017299773372066" lon="8.733660474468026">
+      </trkpt>
+      <trkpt lat="47.01707037731845" lon="8.733579959747617">
+      </trkpt>
+      <trkpt lat="47.01662000872597" lon="8.733549359914623">
+      </trkpt>
+      <trkpt lat="47.01625968726973" lon="8.733830049777017">
+      </trkpt>
+      <trkpt lat="47.015959889150324" lon="8.733929359180687">
+      </trkpt>
+      <trkpt lat="47.01585990263997" lon="8.734020337411446">
+      </trkpt>
+      <trkpt lat="47.01559001323311" lon="8.734020398856186">
+      </trkpt>
+      <trkpt lat="47.015340134877576" lon="8.734160372127954">
+      </trkpt>
+      <trkpt lat="47.01510961041745" lon="8.734179798311366">
+      </trkpt>
+      <trkpt lat="47.01469036544612" lon="8.734340671670418">
+      </trkpt>
+      <trkpt lat="47.01366981492918" lon="8.735169675035223">
+      </trkpt>
+      <trkpt lat="47.0134501797155" lon="8.73541954029334">
+      </trkpt>
+      <trkpt lat="47.01313986780432" lon="8.73613020163294">
+      </trkpt>
+      <trkpt lat="47.013019654776556" lon="8.736179907340498">
+      </trkpt>
+      <trkpt lat="47.01289008961977" lon="8.736420106054334">
+      </trkpt>
+      <trkpt lat="47.01279045140673" lon="8.736400597404044">
+      </trkpt>
+      <trkpt lat="47.01269036539704" lon="8.736579688472535">
+      </trkpt>
+      <trkpt lat="47.01255002507591" lon="8.736500006736518">
+      </trkpt>
+      <trkpt lat="47.0124897432644" lon="8.73658009713562">
+      </trkpt>
+      <trkpt lat="47.01233016544452" lon="8.736610434979436">
+      </trkpt>
+      <trkpt lat="47.01202011239754" lon="8.736900189877852">
+      </trkpt>
+      <trkpt lat="47.01193958876629" lon="8.737099480044614">
+      </trkpt>
+      <trkpt lat="47.0117902290617" lon="8.737260275935846">
+      </trkpt>
+      <trkpt lat="47.011749620138936" lon="8.737430279394113">
+      </trkpt>
+      <trkpt lat="47.01163985666293" lon="8.73751048517293">
+      </trkpt>
+      <trkpt lat="47.011500049559565" lon="8.737939825834768">
+      </trkpt>
+      <trkpt lat="47.011399973913164" lon="8.737879530902894">
+      </trkpt>
+      <trkpt lat="47.011379949162794" lon="8.73790009039219">
+      </trkpt>
+      <trkpt lat="47.011319647814844" lon="8.738140639715612">
+      </trkpt>
+      <trkpt lat="47.01129020088549" lon="8.738039966317992">
+      </trkpt>
+      <trkpt lat="47.01126995266416" lon="8.738080249296338">
+      </trkpt>
+      <trkpt lat="47.01124983288056" lon="8.73802978198164">
+      </trkpt>
+      <trkpt lat="47.011129618984796" lon="8.738079481679891">
+      </trkpt>
+      <trkpt lat="47.01110992750513" lon="8.738150029050676">
+      </trkpt>
+      <trkpt lat="47.01103987424294" lon="8.738060210144903">
+      </trkpt>
+      <trkpt lat="47.01099016978923" lon="8.738080050744927">
+      </trkpt>
+      <trkpt lat="47.01094980178554" lon="8.738069866435378">
+      </trkpt>
+      <trkpt lat="47.010830316355495" lon="8.738690404545777">
+      </trkpt>
+      <trkpt lat="47.01077011762369" lon="8.739159807374534">
+      </trkpt>
+      <trkpt lat="47.010629628637346" lon="8.739569391622036">
+      </trkpt>
+      <trkpt lat="47.010650244956906" lon="8.740210419171051">
+      </trkpt>
+      <trkpt lat="47.01060027651283" lon="8.740649816311326">
+      </trkpt>
+      <trkpt lat="47.01043963742842" lon="8.74109047237938">
+      </trkpt>
+      <trkpt lat="47.01048777804882" lon="8.741287612800289">
+      </trkpt>
+      <trkpt lat="47.01010545804071" lon="8.741839939462489">
+      </trkpt>
+      <trkpt lat="47.0100404095493" lon="8.742022493078519">
+      </trkpt>
+      <trkpt lat="47.00994564405219" lon="8.74214809811079">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

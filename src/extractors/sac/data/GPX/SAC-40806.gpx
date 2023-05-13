@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Morcles  Cabane de la Tourche</name>
+    <desc>Von Morcles nordwrts durch eine Mulde oder ber den Rcken rechts davon aufsteigen immer stlich der Strasse nach Prabeneu von wo ein kleiner Skilift zum Waldrand hinauffhrt Ab P 1394 nach rechts weiter um die Ebene von Prabeneu zu erreichen 1483 m Weiter im Hang von La Rosseline zu P 1726 aufsteigen Hier beginnt der steilere Teil der Route Am einfachsten ist es dem Sommerweg zur Cabane de la Tourche zu bis zur Waldgrenze beim Chalet bei P 1949 zu folgen  Entweder ber einen Rcken zu P 2182 aufsteigen oder direkter zum Grat etwas nrdlich von P 2182 Dem Gratrcken entlang zur Htte</desc>
+    <trkseg>
+      <trkpt lat="46.209356983270105" lon="7.036643923387773">
+      </trkpt>
+      <trkpt lat="46.20961266448309" lon="7.036688737889145">
+      </trkpt>
+      <trkpt lat="46.209842731975954" lon="7.036825287717788">
+      </trkpt>
+      <trkpt lat="46.209909207542246" lon="7.036916342542402">
+      </trkpt>
+      <trkpt lat="46.210095202002414" lon="7.037060693887976">
+      </trkpt>
+      <trkpt lat="46.210239745326845" lon="7.037220299132369">
+      </trkpt>
+      <trkpt lat="46.21036106799842" lon="7.037415573950256">
+      </trkpt>
+      <trkpt lat="46.210490038501746" lon="7.037937748500082">
+      </trkpt>
+      <trkpt lat="46.210806456335476" lon="7.038649113162389">
+      </trkpt>
+      <trkpt lat="46.21097128802169" lon="7.039043983710659">
+      </trkpt>
+      <trkpt lat="46.21117447206075" lon="7.039281636016849">
+      </trkpt>
+      <trkpt lat="46.21143986121983" lon="7.039503884760053">
+      </trkpt>
+      <trkpt lat="46.2117149380678" lon="7.039531756452709">
+      </trkpt>
+      <trkpt lat="46.21204607769788" lon="7.039275225366367">
+      </trkpt>
+      <trkpt lat="46.212418111147876" lon="7.038846498275225">
+      </trkpt>
+      <trkpt lat="46.21284771818451" lon="7.038559339836815">
+      </trkpt>
+      <trkpt lat="46.21328862908308" lon="7.03853366941103">
+      </trkpt>
+      <trkpt lat="46.213921872252214" lon="7.038611214836393">
+      </trkpt>
+      <trkpt lat="46.2143584169956" lon="7.038817263632381">
+      </trkpt>
+      <trkpt lat="46.2149307804928" lon="7.039283902463368">
+      </trkpt>
+      <trkpt lat="46.21564348689274" lon="7.039824258476174">
+      </trkpt>
+      <trkpt lat="46.21628328503552" lon="7.04028855414514">
+      </trkpt>
+      <trkpt lat="46.21651285653011" lon="7.0406530997439">
+      </trkpt>
+      <trkpt lat="46.216696024129334" lon="7.041100202923582">
+      </trkpt>
+      <trkpt lat="46.21691063486321" lon="7.04163676890797">
+      </trkpt>
+      <trkpt lat="46.21722889978599" lon="7.042142685398367">
+      </trkpt>
+      <trkpt lat="46.217599543766326" lon="7.042790235707071">
+      </trkpt>
+      <trkpt lat="46.217789961140255" lon="7.043827767407211">
+      </trkpt>
+      <trkpt lat="46.21788090631841" lon="7.044611903550682">
+      </trkpt>
+      <trkpt lat="46.21782597883457" lon="7.045225189973486">
+      </trkpt>
+      <trkpt lat="46.21734295864571" lon="7.046566569781651">
+      </trkpt>
+      <trkpt lat="46.21678640606763" lon="7.047654334512592">
+      </trkpt>
+      <trkpt lat="46.21600190269681" lon="7.048840875603823">
+      </trkpt>
+      <trkpt lat="46.215527720449344" lon="7.049748626741218">
+      </trkpt>
+      <trkpt lat="46.21533733232095" lon="7.050205898202203">
+      </trkpt>
+      <trkpt lat="46.21519861787285" lon="7.050603007199349">
+      </trkpt>
+      <trkpt lat="46.215072267272475" lon="7.050824389754228">
+      </trkpt>
+      <trkpt lat="46.214945737138954" lon="7.050993454792481">
+      </trkpt>
+      <trkpt lat="46.21506569388892" lon="7.051175707628089">
+      </trkpt>
+      <trkpt lat="46.215167492069554" lon="7.051358092095009">
+      </trkpt>
+      <trkpt lat="46.2152515168045" lon="7.05165271076455">
+      </trkpt>
+      <trkpt lat="46.2153227240954" lon="7.051992266481964">
+      </trkpt>
+      <trkpt lat="46.21541226802251" lon="7.052384009519272">
+      </trkpt>
+      <trkpt lat="46.21553264505538" lon="7.052689584542982">
+      </trkpt>
+      <trkpt lat="46.21574909170736" lon="7.05302063710164">
+      </trkpt>
+      <trkpt lat="46.21592413355952" lon="7.053381880868884">
+      </trkpt>
+      <trkpt lat="46.21613980842322" lon="7.054247337325944">
+      </trkpt>
+      <trkpt lat="46.216295329691086" lon="7.054971216520387">
+      </trkpt>
+      <trkpt lat="46.2164164370511" lon="7.055493544519183">
+      </trkpt>
+      <trkpt lat="46.21659674604752" lon="7.056263535434454">
+      </trkpt>
+      <trkpt lat="46.21661912514171" lon="7.056359107212899">
+      </trkpt>
+      <trkpt lat="46.21687573823137" lon="7.057063603827006">
+      </trkpt>
+      <trkpt lat="46.21728318079839" lon="7.057879162365347">
+      </trkpt>
+      <trkpt lat="46.21744630951414" lon="7.058558169736927">
+      </trkpt>
+      <trkpt lat="46.217467818326995" lon="7.058782244356155">
+      </trkpt>
+      <trkpt lat="46.217447846703394" lon="7.059014084094314">
+      </trkpt>
+      <trkpt lat="46.21733977722074" lon="7.05927643615631">
+      </trkpt>
+      <trkpt lat="46.21708671652185" lon="7.059622016160167">
+      </trkpt>
+      <trkpt lat="46.2164661756913" lon="7.060231747096338">
+      </trkpt>
+      <trkpt lat="46.216269603348586" lon="7.0604050198588615">
+      </trkpt>
+      <trkpt lat="46.21595435663957" lon="7.0607734407528575">
+      </trkpt>
+      <trkpt lat="46.21542148198993" lon="7.061225584630307">
+      </trkpt>
+      <trkpt lat="46.214851988826524" lon="7.061588288933883">
+      </trkpt>
+      <trkpt lat="46.21445454929793" lon="7.061739978506416">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

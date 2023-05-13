@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Oensingen Bahnhof  Ravellenweg</name>
+    <desc>Von Oensingen Bahnhof beim Kiosk dem Wanderweg in Richtung Ravellen  Oensinger Roggen folgend ber die Dnnern kurz danach ber den Autobahnzubringer Nun links nordwrts bis auf die Solothurnstrasse dieser nach rechts fr 150 m folgen und links in die Klusstrasse einbiegen Auf dieser gut 500 m Richtung Balsthal bis an den waldigen Fuss der Ravellen dort wo der Ravellenweg 122 abzweigt</desc>
+    <trkseg>
+      <trkpt lat="47.28543247085515" lon="7.709932460999542">
+      </trkpt>
+      <trkpt lat="47.28573975012256" lon="7.71045285780041">
+      </trkpt>
+      <trkpt lat="47.285977628160886" lon="7.711632995282704">
+      </trkpt>
+      <trkpt lat="47.28636562654374" lon="7.712648860833283">
+      </trkpt>
+      <trkpt lat="47.28710439974645" lon="7.712330394721038">
+      </trkpt>
+      <trkpt lat="47.28796747335029" lon="7.7159581869637135">
+      </trkpt>
+      <trkpt lat="47.289136361446005" lon="7.714690923090225">
+      </trkpt>
+      <trkpt lat="47.289851626718594" lon="7.715260539267984">
+      </trkpt>
+      <trkpt lat="47.29029408057364" lon="7.71585626856912">
+      </trkpt>
+      <trkpt lat="47.290589729912995" lon="7.715225052658918">
+      </trkpt>
+      <trkpt lat="47.29076339579845" lon="7.714164817948123">
+      </trkpt>
+      <trkpt lat="47.29098558394744" lon="7.712935829378451">
+      </trkpt>
+      <trkpt lat="47.29203883171393" lon="7.710799260995029">
+      </trkpt>
+      <trkpt lat="47.29233499744682" lon="7.709936115381924">
+      </trkpt>
+      <trkpt lat="47.29283002072947" lon="7.709381015161961">
+      </trkpt>
+      <trkpt lat="47.292831020723035" lon="7.709381015156444">
+      </trkpt>
+      <trkpt lat="47.292898361250174" lon="7.709411062795315">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

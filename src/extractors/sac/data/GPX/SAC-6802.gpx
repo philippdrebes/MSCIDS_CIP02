@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Kernwald  Langschwandi</name>
+    <desc>Von der Haltestelle Kernwald Richtung Stanserhorn am Weiler Wisserli vorbei zum Mehlbach und diesem entlang zum Sitz Auf der Teerstrasse 3 Minuten bergwarts uber die Brucke und auf steilem Fahrweg nach Langschwandi</desc>
+    <trkseg>
+      <trkpt lat="46.92943466739625" lon="8.299504418868352">
+      </trkpt>
+      <trkpt lat="46.929330427932555" lon="8.299489618304596">
+      </trkpt>
+      <trkpt lat="46.92932000262739" lon="8.299679859436806">
+      </trkpt>
+      <trkpt lat="46.928379614738894" lon="8.301039653639636">
+      </trkpt>
+      <trkpt lat="46.92727994193245" lon="8.301569582703745">
+      </trkpt>
+      <trkpt lat="46.926880130680395" lon="8.302100224055991">
+      </trkpt>
+      <trkpt lat="46.92660968426076" lon="8.303130598587959">
+      </trkpt>
+      <trkpt lat="46.925750461677325" lon="8.304219765392673">
+      </trkpt>
+      <trkpt lat="46.92559979820295" lon="8.30511022695329">
+      </trkpt>
+      <trkpt lat="46.92521966950968" lon="8.305890624354886">
+      </trkpt>
+      <trkpt lat="46.92533046782169" lon="8.305989578013305">
+      </trkpt>
+      <trkpt lat="46.9252496989607" lon="8.30632047952243">
+      </trkpt>
+      <trkpt lat="46.92449992437835" lon="8.307919484029787">
+      </trkpt>
+      <trkpt lat="46.92441437829442" lon="8.308523412809869">
+      </trkpt>
+      <trkpt lat="46.92366991391961" lon="8.309419981111875">
+      </trkpt>
+      <trkpt lat="46.92364983118778" lon="8.310049906562014">
+      </trkpt>
+      <trkpt lat="46.923809786939366" lon="8.31019036649524">
+      </trkpt>
+      <trkpt lat="46.923530163977325" lon="8.310880421611689">
+      </trkpt>
+      <trkpt lat="46.92298009915042" lon="8.311290348051179">
+      </trkpt>
+      <trkpt lat="46.922649591485104" lon="8.311810183711728">
+      </trkpt>
+      <trkpt lat="46.92224964815515" lon="8.311879842792127">
+      </trkpt>
+      <trkpt lat="46.92154971756387" lon="8.312359527898382">
+      </trkpt>
+      <trkpt lat="46.921329987489095" lon="8.312390094870514">
+      </trkpt>
+      <trkpt lat="46.92110957421191" lon="8.311920412507359">
+      </trkpt>
+      <trkpt lat="46.92038977495078" lon="8.312410267621338">
+      </trkpt>
+      <trkpt lat="46.920139705303946" lon="8.312880174625633">
+      </trkpt>
+      <trkpt lat="46.919870031836275" lon="8.312500292422342">
+      </trkpt>
+      <trkpt lat="46.91948030433906" lon="8.31240993244892">
+      </trkpt>
+      <trkpt lat="46.9197503694628" lon="8.313209954612015">
+      </trkpt>
+      <trkpt lat="46.91976995889836" lon="8.313589709413858">
+      </trkpt>
+      <trkpt lat="46.919280142825926" lon="8.315060083768383">
+      </trkpt>
+      <trkpt lat="46.919579625945076" lon="8.315540243035036">
+      </trkpt>
+      <trkpt lat="46.91948981659818" lon="8.316460449603671">
+      </trkpt>
+      <trkpt lat="46.91934032953942" lon="8.31695035376038">
+      </trkpt>
+      <trkpt lat="46.91939970659984" lon="8.317770585487855">
+      </trkpt>
+      <trkpt lat="46.91906969608145" lon="8.317870223449322">
+      </trkpt>
+      <trkpt lat="46.91878986200593" lon="8.31904988862885">
+      </trkpt>
+      <trkpt lat="46.918969808298364" lon="8.319279968016037">
+      </trkpt>
+      <trkpt lat="46.91952974885469" lon="8.319110580117588">
+      </trkpt>
+      <trkpt lat="46.91961987070517" lon="8.319440287062756">
+      </trkpt>
+      <trkpt lat="46.91957003851609" lon="8.319720436665246">
+      </trkpt>
+      <trkpt lat="46.91898039587108" lon="8.320709900409046">
+      </trkpt>
+      <trkpt lat="46.918819995082686" lon="8.321329587009417">
+      </trkpt>
+      <trkpt lat="46.91875046408984" lon="8.322180520894108">
+      </trkpt>
+      <trkpt lat="46.91885969885056" lon="8.322480345619597">
+      </trkpt>
+      <trkpt lat="46.91956983061407" lon="8.322549785856737">
+      </trkpt>
+      <trkpt lat="46.91958134546272" lon="8.322591323815033">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

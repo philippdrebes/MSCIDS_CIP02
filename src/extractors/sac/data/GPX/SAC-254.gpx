@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Zinal  bridge at P 1730</name>
+    <desc>From Zinal 1675 m follow the paved road southwards to the bridge at P 1674 over the La Navisence river On the left W bank pass the sports field and continue to the bridge at 1730 m to cross for the second time</desc>
+    <trkseg>
+      <trkpt lat="46.13651096010163" lon="7.6259212345000185">
+      </trkpt>
+      <trkpt lat="46.13534681090062" lon="7.62620919692974">
+      </trkpt>
+      <trkpt lat="46.134485703616576" lon="7.626609961901525">
+      </trkpt>
+      <trkpt lat="46.13350149684706" lon="7.627126188434099">
+      </trkpt>
+      <trkpt lat="46.132594049332745" lon="7.62760097965812">
+      </trkpt>
+      <trkpt lat="46.13179685952199" lon="7.628117005160441">
+      </trkpt>
+      <trkpt lat="46.13087836251742" lon="7.629138725588807">
+      </trkpt>
+      <trkpt lat="46.130226527949695" lon="7.62965053519495">
+      </trkpt>
+      <trkpt lat="46.12942552795181" lon="7.6300695351863785">
+      </trkpt>
+      <trkpt lat="46.12914152795044" lon="7.630103535188618">
+      </trkpt>
+      <trkpt lat="46.12856452794799" lon="7.629940535180636">
+      </trkpt>
+      <trkpt lat="46.1282825279491" lon="7.629938535178911">
+      </trkpt>
+      <trkpt lat="46.127960527945675" lon="7.6300785351727205">
+      </trkpt>
+      <trkpt lat="46.12780252794082" lon="7.629944535173278">
+      </trkpt>
+      <trkpt lat="46.12756052793881" lon="7.630166535174399">
+      </trkpt>
+      <trkpt lat="46.12717152793693" lon="7.6301485351694955">
+      </trkpt>
+      <trkpt lat="46.12701652794178" lon="7.62962653516857">
+      </trkpt>
+      <trkpt lat="46.126726527944975" lon="7.629526535164854">
+      </trkpt>
+      <trkpt lat="46.12616752793925" lon="7.6295995351623995">
+      </trkpt>
+      <trkpt lat="46.12530652793865" lon="7.629444535149416">
+      </trkpt>
+      <trkpt lat="46.12475352793359" lon="7.629754535148746">
+      </trkpt>
+      <trkpt lat="46.124182527931055" lon="7.629875535146204">
+      </trkpt>
+      <trkpt lat="46.12371552792817" lon="7.630127535133377">
+      </trkpt>
+      <trkpt lat="46.122940527932535" lon="7.6302655351290705">
+      </trkpt>
+      <trkpt lat="46.118662527912626" lon="7.631627535083949">
+      </trkpt>
+      <trkpt lat="46.11833869353735" lon="7.63164089580383">
+      </trkpt>
+      <trkpt lat="46.118250019764375" lon="7.631610015568991">
+      </trkpt>
+      <trkpt lat="46.117900019760405" lon="7.631720015564417">
+      </trkpt>
+      <trkpt lat="46.117561144319176" lon="7.631714876407218">
+      </trkpt>
+      <trkpt lat="46.11683767941199" lon="7.631738948619776">
+      </trkpt>
+      <trkpt lat="46.115760019759946" lon="7.631280015565628">
+      </trkpt>
+      <trkpt lat="46.11531001976257" lon="7.630990015565751">
+      </trkpt>
+      <trkpt lat="46.114970019759326" lon="7.631060015571293">
+      </trkpt>
+      <trkpt lat="46.11478235579599" lon="7.6311842778183445">
+      </trkpt>
+      <trkpt lat="46.114582527901725" lon="7.631440535042152">
+      </trkpt>
+      <trkpt lat="46.1144028514982" lon="7.631476060279975">
+      </trkpt>
+      <trkpt lat="46.114248124472034" lon="7.631450766035844">
+      </trkpt>
+      <trkpt lat="46.114136663559975" lon="7.631433286247661">
+      </trkpt>
+      <trkpt lat="46.11395088992881" lon="7.631479727489277">
+      </trkpt>
+      <trkpt lat="46.11312852789566" lon="7.6313975350333285">
+      </trkpt>
+      <trkpt lat="46.11225752789083" lon="7.631619535020878">
+      </trkpt>
+      <trkpt lat="46.112040527892354" lon="7.631597535016939">
+      </trkpt>
+      <trkpt lat="46.11185830727276" lon="7.631617677468958">
+      </trkpt>
+      <trkpt lat="46.11157952788239" lon="7.63202853502122">
+      </trkpt>
+      <trkpt lat="46.11114752788212" lon="7.632510535007329">
+      </trkpt>
+      <trkpt lat="46.111333433186" lon="7.633149188783075">
+      </trkpt>
+      <trkpt lat="46.11099474533739" lon="7.633608786687261">
+      </trkpt>
+      <trkpt lat="46.111317404508505" lon="7.6336877099970915">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

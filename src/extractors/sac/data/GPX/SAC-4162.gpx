@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Gotthardpass  Abzweigung Strsschen</name>
+    <desc>Von der GotthardPasshhe zum stlichen Ende des Lago della Piazza mit dem grossen Wegweiser und auf dem Strsschen rund 10 Min Richtung Lago della Sella Auf ungefhr 2120 m kurz nach einem Armeebunker kreuzt die Strasse einen kleinen Wildbach in der Landeskarte klar eingezeichnet</desc>
+    <trkseg>
+      <trkpt lat="46.555484524404896" lon="8.566895534176458">
+      </trkpt>
+      <trkpt lat="46.55608552440427" lon="8.567336534179486">
+      </trkpt>
+      <trkpt lat="46.556249524404464" lon="8.567387534180686">
+      </trkpt>
+      <trkpt lat="46.556298524404596" lon="8.567390534181104">
+      </trkpt>
+      <trkpt lat="46.55637452440484" lon="8.567387534181805">
+      </trkpt>
+      <trkpt lat="46.55648352440518" lon="8.567371534182866">
+      </trkpt>
+      <trkpt lat="46.55647652440398" lon="8.567609534181532">
+      </trkpt>
+      <trkpt lat="46.556405524401654" lon="8.56802353417868">
+      </trkpt>
+      <trkpt lat="46.55649652439152" lon="8.570064534168603">
+      </trkpt>
+      <trkpt lat="46.556456524388935" lon="8.57056253416558">
+      </trkpt>
+      <trkpt lat="46.55626852438628" lon="8.570976534161687">
+      </trkpt>
+      <trkpt lat="46.55616452438387" lon="8.571407534158451">
+      </trkpt>
+      <trkpt lat="46.5561475243814" lon="8.571886534155745">
+      </trkpt>
+      <trkpt lat="46.556098524379905" lon="8.572149534153896">
+      </trkpt>
+      <trkpt lat="46.5556885243736" lon="8.57317053414477">
+      </trkpt>
+      <trkpt lat="46.555333524369445" lon="8.573795534138256">
+      </trkpt>
+      <trkpt lat="46.55460852436423" lon="8.57443053412837">
+      </trkpt>
+      <trkpt lat="46.55435552436181" lon="8.574779534124238">
+      </trkpt>
+      <trkpt lat="46.55435658427088" lon="8.574783875435426">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

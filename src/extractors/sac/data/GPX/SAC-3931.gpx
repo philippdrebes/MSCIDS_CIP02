@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Les Attelas  Cabane du Mont Fort</name>
+    <desc>The ski slopes afford an easy approach for example from the cable car station at Les Attelas</desc>
+    <trkseg>
+      <trkpt lat="46.08363244163757" lon="7.2810087736867235">
+      </trkpt>
+      <trkpt lat="46.08437048767926" lon="7.281663116690617">
+      </trkpt>
+      <trkpt lat="46.08474282868956" lon="7.281714346271701">
+      </trkpt>
+      <trkpt lat="46.08509651973372" lon="7.28153681286715">
+      </trkpt>
+      <trkpt lat="46.08651159549257" lon="7.27932346980213">
+      </trkpt>
+      <trkpt lat="46.08675201017497" lon="7.278796934561552">
+      </trkpt>
+      <trkpt lat="46.08724821560516" lon="7.277710153877054">
+      </trkpt>
+      <trkpt lat="46.08763140847374" lon="7.27679309987142">
+      </trkpt>
+      <trkpt lat="46.08794028348884" lon="7.276343469198859">
+      </trkpt>
+      <trkpt lat="46.08838528156098" lon="7.276087706564106">
+      </trkpt>
+      <trkpt lat="46.088765076374685" lon="7.2760075777420345">
+      </trkpt>
+      <trkpt lat="46.08980209396402" lon="7.27578878175425">
+      </trkpt>
+      <trkpt lat="46.0902116123937" lon="7.275461923797027">
+      </trkpt>
+      <trkpt lat="46.09148009364258" lon="7.2739195371408">
+      </trkpt>
+      <trkpt lat="46.092587078407085" lon="7.272374523684089">
+      </trkpt>
+      <trkpt lat="46.09305514757579" lon="7.271963869750147">
+      </trkpt>
+      <trkpt lat="46.09355465643578" lon="7.271818832645024">
+      </trkpt>
+      <trkpt lat="46.09415018725516" lon="7.271995367168746">
+      </trkpt>
+      <trkpt lat="46.09621160192838" lon="7.273131098563591">
+      </trkpt>
+      <trkpt lat="46.09753082735234" lon="7.273463056628666">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

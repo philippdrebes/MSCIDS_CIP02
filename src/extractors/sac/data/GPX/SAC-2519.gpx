@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Bergstation  Berghtte Hohsaas</name>
+    <desc>Von der Bergstation der Gondelbahn in wenigen Schritten abwrts und unter den Masten durch zur Berghtte</desc>
+    <trkseg>
+      <trkpt lat="46.139632526160554" lon="7.991103533463319">
+      </trkpt>
+      <trkpt lat="46.139632526160554" lon="7.991103533463319">
+      </trkpt>
+      <trkpt lat="46.139474526159695" lon="7.991187533461488">
+      </trkpt>
+      <trkpt lat="46.13935352615903" lon="7.9912545334600695">
+      </trkpt>
+      <trkpt lat="46.139198791404226" lon="7.991526086832742">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

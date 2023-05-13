@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Station Eigergletscher to a point on the moraine ca 2175m</name>
+    <desc>From the Eigergletscher station 2320 m descend the mountain trail along the moraines crest about 500 m to around 2175 m where the path from Kleine Scheidegg cuts across the crest</desc>
+    <trkseg>
+      <trkpt lat="46.574817467840866" lon="7.974568208402022">
+      </trkpt>
+      <trkpt lat="46.574720527462965" lon="7.975012537458057">
+      </trkpt>
+      <trkpt lat="46.57464252746316" lon="7.974923537457802">
+      </trkpt>
+      <trkpt lat="46.57454252746245" lon="7.975009537456454">
+      </trkpt>
+      <trkpt lat="46.57418752745862" lon="7.975568537450344">
+      </trkpt>
+      <trkpt lat="46.57388552745732" lon="7.97565753744714">
+      </trkpt>
+      <trkpt lat="46.57364952745602" lon="7.975781537444353">
+      </trkpt>
+      <trkpt lat="46.57373952745805" lon="7.975432537446974">
+      </trkpt>
+      <trkpt lat="46.573814527465494" lon="7.974015537454969">
+      </trkpt>
+      <trkpt lat="46.57372152746887" lon="7.973285537457892">
+      </trkpt>
+      <trkpt lat="46.5737265274719" lon="7.972706537460931">
+      </trkpt>
+      <trkpt lat="46.57354852747746" lon="7.9715085374655">
+      </trkpt>
+      <trkpt lat="46.573519527479235" lon="7.971143537467124">
+      </trkpt>
+      <trkpt lat="46.57336952748237" lon="7.970442537469372">
+      </trkpt>
+      <trkpt lat="46.57332252748269" lon="7.970356537469394">
+      </trkpt>
+      <trkpt lat="46.57328652748369" lon="7.970136537470208">
+      </trkpt>
+      <trkpt lat="46.57298452748784" lon="7.969161537472493">
+      </trkpt>
+      <trkpt lat="46.57284552748887" lon="7.968867537472744">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

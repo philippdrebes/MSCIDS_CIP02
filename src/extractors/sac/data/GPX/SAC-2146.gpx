@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Salei Bergstation  Capanna Salei</name>
+    <desc>Von der Bergstation der Seilbahn auf breitem bequemem Weg westwrts zur gut sichtbaren Alp und zur Capanna Salei</desc>
+    <trkseg>
+      <trkpt lat="46.221751523492344" lon="8.566216531214588">
+      </trkpt>
+      <trkpt lat="46.22180052349587" lon="8.565550531218536">
+      </trkpt>
+      <trkpt lat="46.22172152350179" lon="8.564328531224277">
+      </trkpt>
+      <trkpt lat="46.22148952350456" lon="8.563650531225807">
+      </trkpt>
+      <trkpt lat="46.2213695235081" lon="8.562887531228768">
+      </trkpt>
+      <trkpt lat="46.220909702561784" lon="8.562426058479792">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

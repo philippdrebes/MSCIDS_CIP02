@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Dieni  Fuorcla Piz Nair</name>
+    <desc>Von RuerasDieni 1425 m nach W ber Giuv bis Mulinatsch P 1753 hierher auch von der Skiliftstation Milez mglich Nun nach NW durch das enge Val Giuv bis in den hintersten Talkessel zum Seelein ca 2615 m Hier wendet man nach rechts und gewinnt durch eine Steilmulde die Fuorcla Piz Nair 2829 m</desc>
+    <trkseg>
+      <trkpt lat="46.670350689512794" lon="8.725972718231048">
+      </trkpt>
+      <trkpt lat="46.67152761050153" lon="8.722363109576833">
+      </trkpt>
+      <trkpt lat="46.67313495440093" lon="8.718756312053227">
+      </trkpt>
+      <trkpt lat="46.6748291352812" lon="8.715857151325162">
+      </trkpt>
+      <trkpt lat="46.67632322108722" lon="8.71414547090246">
+      </trkpt>
+      <trkpt lat="46.67990647140375" lon="8.711055111690824">
+      </trkpt>
+      <trkpt lat="46.684849442542195" lon="8.707455887070576">
+      </trkpt>
+      <trkpt lat="46.68799944219809" lon="8.705425739159002">
+      </trkpt>
+      <trkpt lat="46.69183046711684" lon="8.703203390719526">
+      </trkpt>
+      <trkpt lat="46.69587994396214" lon="8.700470474039511">
+      </trkpt>
+      <trkpt lat="46.69625369087239" lon="8.70033585041069">
+      </trkpt>
+      <trkpt lat="46.6962584212781" lon="8.700334146057212">
+      </trkpt>
+      <trkpt lat="46.69712747772202" lon="8.700021103624495">
+      </trkpt>
+      <trkpt lat="46.69729137234441" lon="8.701410303474237">
+      </trkpt>
+      <trkpt lat="46.69731788584355" lon="8.701635048104269">
+      </trkpt>
+      <trkpt lat="46.697889229002584" lon="8.703147042964417">
+      </trkpt>
+      <trkpt lat="46.69936264060751" lon="8.705285590028076">
+      </trkpt>
+      <trkpt lat="46.69956480351648" lon="8.705499011375624">
+      </trkpt>
+      <trkpt lat="46.70029262456376" lon="8.706267378191976">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

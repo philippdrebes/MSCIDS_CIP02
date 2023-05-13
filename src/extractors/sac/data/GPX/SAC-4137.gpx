@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Nufenenpass  Gonerlilcke</name>
+    <desc>Vom Nufenenpass folgt man dem Weg Richtung Chilchhorn nur bis ca 2500 m um dann weglos und mehr oder weniger waagrecht in die weite Mulde zu queren die von Pizzo Gallina und Pizzo Nero umrahmt wird Weiter zum Seelein 2535 m dann etwas steiler auf Wegspuren zu einem weiteren See und zur Gonerlilcke 2740 m wo sich einst eine kleine stets offene Htte der SAT Lugano befand wer sucht findet noch Spuren davon das meiste ist aber nordseitig in die Tiefe gestrzt</desc>
+    <trkseg>
+      <trkpt lat="46.47769152510611" lon="8.386722534435316">
+      </trkpt>
+      <trkpt lat="46.47795013251311" lon="8.386731787721365">
+      </trkpt>
+      <trkpt lat="46.47808652510709" lon="8.386742534438763">
+      </trkpt>
+      <trkpt lat="46.4780440313352" lon="8.386972954336809">
+      </trkpt>
+      <trkpt lat="46.47810263595113" lon="8.38734878266285">
+      </trkpt>
+      <trkpt lat="46.47812155138036" lon="8.38752733558999">
+      </trkpt>
+      <trkpt lat="46.47830352510335" lon="8.387728534436521">
+      </trkpt>
+      <trkpt lat="46.47837219596232" lon="8.3878241520621">
+      </trkpt>
+      <trkpt lat="46.47868552510238" lon="8.387983534437588">
+      </trkpt>
+      <trkpt lat="46.47880953037313" lon="8.388204881806454">
+      </trkpt>
+      <trkpt lat="46.47891913887633" lon="8.3883031076729">
+      </trkpt>
+      <trkpt lat="46.47880953037313" lon="8.388204881806454">
+      </trkpt>
+      <trkpt lat="46.47891913887633" lon="8.3883031076729">
+      </trkpt>
+      <trkpt lat="46.47895552510146" lon="8.388326534438264">
+      </trkpt>
+      <trkpt lat="46.47899623068347" lon="8.388369382403228">
+      </trkpt>
+      <trkpt lat="46.47895552510146" lon="8.388326534438264">
+      </trkpt>
+      <trkpt lat="46.47899623068347" lon="8.388369382403228">
+      </trkpt>
+      <trkpt lat="46.47902164292463" lon="8.3884524872674">
+      </trkpt>
+      <trkpt lat="46.47899623068347" lon="8.388369382403228">
+      </trkpt>
+      <trkpt lat="46.47902164292463" lon="8.3884524872674">
+      </trkpt>
+      <trkpt lat="46.47904252759279" lon="8.388588624425806">
+      </trkpt>
+      <trkpt lat="46.47923797289959" lon="8.389862695549356">
+      </trkpt>
+      <trkpt lat="46.47969349421642" lon="8.391275812436508">
+      </trkpt>
+      <trkpt lat="46.47963589566087" lon="8.393336743036121">
+      </trkpt>
+      <trkpt lat="46.47935553832719" lon="8.394506588133064">
+      </trkpt>
+      <trkpt lat="46.47964155379255" lon="8.395343773224267">
+      </trkpt>
+      <trkpt lat="46.480096322314196" lon="8.395915933002179">
+      </trkpt>
+      <trkpt lat="46.48051175036198" lon="8.395592948117354">
+      </trkpt>
+      <trkpt lat="46.48183478457165" lon="8.397029352978537">
+      </trkpt>
+      <trkpt lat="46.48265929885679" lon="8.39770986026403">
+      </trkpt>
+      <trkpt lat="46.483831293148505" lon="8.398429025671255">
+      </trkpt>
+      <trkpt lat="46.48366449369101" lon="8.399579290004777">
+      </trkpt>
+      <trkpt lat="46.48391082334243" lon="8.400964276016923">
+      </trkpt>
+      <trkpt lat="46.4850743318617" lon="8.401358519438263">
+      </trkpt>
+      <trkpt lat="46.48576687896072" lon="8.403043863113192">
+      </trkpt>
+      <trkpt lat="46.486611309427985" lon="8.404017247792885">
+      </trkpt>
+      <trkpt lat="46.487201356711964" lon="8.405061236591544">
+      </trkpt>
+      <trkpt lat="46.487199525039244" lon="8.405061534423814">
+      </trkpt>
+      <trkpt lat="46.487201356711964" lon="8.405061236591544">
+      </trkpt>
+      <trkpt lat="46.48748052504029" lon="8.405003534426646">
+      </trkpt>
+      <trkpt lat="46.48746252503954" lon="8.405144534425736">
+      </trkpt>
+      <trkpt lat="46.48762152503951" lon="8.405228534426723">
+      </trkpt>
+      <trkpt lat="46.48772952503901" lon="8.405392534426824">
+      </trkpt>
+      <trkpt lat="46.487686525037745" lon="8.405623534425215">
+      </trkpt>
+      <trkpt lat="46.4877355250368" lon="8.40583853442453">
+      </trkpt>
+      <trkpt lat="46.48791352503607" lon="8.406076534424868">
+      </trkpt>
+      <trkpt lat="46.488015525036296" lon="8.40608353442574">
+      </trkpt>
+      <trkpt lat="46.48820452503768" lon="8.405916534428314">
+      </trkpt>
+      <trkpt lat="46.48831652503717" lon="8.406075534428476">
+      </trkpt>
+      <trkpt lat="46.4883955250382" lon="8.405908534430068">
+      </trkpt>
+      <trkpt lat="46.488514525038674" lon="8.40588453443126">
+      </trkpt>
+      <trkpt lat="46.4886425250386" lon="8.405970534431951">
+      </trkpt>
+      <trkpt lat="46.48878452503913" lon="8.405942534433374">
+      </trkpt>
+      <trkpt lat="46.48929717447218" lon="8.405569148893319">
+      </trkpt>
+      <trkpt lat="46.48988495550592" lon="8.405291093605689">
+      </trkpt>
+      <trkpt lat="46.4904344543741" lon="8.405120553773529">
+      </trkpt>
+      <trkpt lat="46.49198380718668" lon="8.406013839348267">
+      </trkpt>
+      <trkpt lat="46.492769400624034" lon="8.406597143038477">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

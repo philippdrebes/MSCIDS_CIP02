@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>La Fouly  cabin</name>
+    <desc>From La Fouly cross the Drance de Ferret on the bridge at 1593 m and go NNW into the valley The valley has two creeks La Reuse de lAmne and La Reuse de lA Neuve Follow the Reuse de lA Neuve until its source in the glacier forefield Avoid the summer trail which crosses the Reuse de lAmne further north From the glacier depression ascend northward to traverse the lateral moraine to the west of P 2094 Now ascend on steep slopes and stay 100 metres away from the pillar on which the cabin stands You reach the cabin from above by bypassing the rocks on the lefthand side</desc>
+    <trkseg>
+      <trkpt lat="45.93213721065722" lon="7.098690796197049">
+      </trkpt>
+      <trkpt lat="45.931798001427296" lon="7.09848245650889">
+      </trkpt>
+      <trkpt lat="45.931194173791475" lon="7.09753677387447">
+      </trkpt>
+      <trkpt lat="45.931194347460654" lon="7.097195119796964">
+      </trkpt>
+      <trkpt lat="45.931213551350886" lon="7.097069244436558">
+      </trkpt>
+      <trkpt lat="45.931225479428136" lon="7.096994642235845">
+      </trkpt>
+      <trkpt lat="45.9312470249853" lon="7.096910471087963">
+      </trkpt>
+      <trkpt lat="45.93125393097017" lon="7.096892541059085">
+      </trkpt>
+      <trkpt lat="45.931212243033734" lon="7.096338756304794">
+      </trkpt>
+      <trkpt lat="45.931204089655935" lon="7.0962304556465226">
+      </trkpt>
+      <trkpt lat="45.93120399495448" lon="7.096229196755788">
+      </trkpt>
+      <trkpt lat="45.93120304327216" lon="7.096216552445147">
+      </trkpt>
+      <trkpt lat="45.93115551680823" lon="7.095585251096069">
+      </trkpt>
+      <trkpt lat="45.93110679123117" lon="7.095205327720289">
+      </trkpt>
+      <trkpt lat="45.930808125661365" lon="7.092103797951742">
+      </trkpt>
+      <trkpt lat="45.93083258468382" lon="7.090780240413732">
+      </trkpt>
+      <trkpt lat="45.930978999054375" lon="7.0895876991266435">
+      </trkpt>
+      <trkpt lat="45.93163822855828" lon="7.087338578993275">
+      </trkpt>
+      <trkpt lat="45.93234892646574" lon="7.085671465689646">
+      </trkpt>
+      <trkpt lat="45.93321038120847" lon="7.084089490193766">
+      </trkpt>
+      <trkpt lat="45.934045630036024" lon="7.082598404727965">
+      </trkpt>
+      <trkpt lat="45.934590836837806" lon="7.0811761440500725">
+      </trkpt>
+      <trkpt lat="45.936309377986646" lon="7.074105508797765">
+      </trkpt>
+      <trkpt lat="45.936705918303424" lon="7.072969174749567">
+      </trkpt>
+      <trkpt lat="45.937250968556256" lon="7.071876241319982">
+      </trkpt>
+      <trkpt lat="45.937877794947845" lon="7.07118278595286">
+      </trkpt>
+      <trkpt lat="45.93833181339524" lon="7.0709787574494225">
+      </trkpt>
+      <trkpt lat="45.93889070931045" lon="7.07129651462393">
+      </trkpt>
+      <trkpt lat="45.939105235978005" lon="7.0710998020685425">
+      </trkpt>
+      <trkpt lat="45.93951688793264" lon="7.06906447613978">
+      </trkpt>
+      <trkpt lat="45.94007092871426" lon="7.067125284906242">
+      </trkpt>
+      <trkpt lat="45.94057196879038" lon="7.065937564949612">
+      </trkpt>
+      <trkpt lat="45.94134598787744" lon="7.064736750169608">
+      </trkpt>
+      <trkpt lat="45.94178384235581" lon="7.0642955032875845">
+      </trkpt>
+      <trkpt lat="45.94257075915744" lon="7.063795326284562">
+      </trkpt>
+      <trkpt lat="45.94350961567809" lon="7.063509069327122">
+      </trkpt>
+      <trkpt lat="45.94423202460989" lon="7.063577632223672">
+      </trkpt>
+      <trkpt lat="45.94689659300074" lon="7.064899222220809">
+      </trkpt>
+      <trkpt lat="45.948442784693675" lon="7.065173344077354">
+      </trkpt>
+      <trkpt lat="45.94894726024097" lon="7.065340203016717">
+      </trkpt>
+      <trkpt lat="45.94926617121803" lon="7.065445687425083">
+      </trkpt>
+      <trkpt lat="45.94960021552425" lon="7.065755656169856">
+      </trkpt>
+      <trkpt lat="45.94974168271181" lon="7.06640245787048">
+      </trkpt>
+      <trkpt lat="45.949504366204025" lon="7.066628075519836">
+      </trkpt>
+      <trkpt lat="45.94880676104826" lon="7.06693149360974">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

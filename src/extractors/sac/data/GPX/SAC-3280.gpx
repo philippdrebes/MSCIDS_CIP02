@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>MonteRosaHtte  Gornerschlucht</name>
+    <desc>Von der MonteRosaHtte 2882 m sdwrts ber die steile Morne auf den Grenzgletscher und dann Richtung N auf den Gornergletscher hinunter In dessen Mitte bis zur Gletscherzunge ca 2200 m</desc>
+    <trkseg>
+      <trkpt lat="45.95694308273291" lon="7.814532303242876">
+      </trkpt>
+      <trkpt lat="45.95609921692589" lon="7.814110475292619">
+      </trkpt>
+      <trkpt lat="45.95609889362422" lon="7.814110314441717">
+      </trkpt>
+      <trkpt lat="45.956093695691784" lon="7.814107716151516">
+      </trkpt>
+      <trkpt lat="45.95607712570943" lon="7.814099433529738">
+      </trkpt>
+      <trkpt lat="45.95607691017499" lon="7.814099326295956">
+      </trkpt>
+      <trkpt lat="45.95607464169155" lon="7.814098192565773">
+      </trkpt>
+      <trkpt lat="45.95607443244518" lon="7.81409808795447">
+      </trkpt>
+      <trkpt lat="45.95605802950369" lon="7.814089887735376">
+      </trkpt>
+      <trkpt lat="45.95522145351698" lon="7.813304789206076">
+      </trkpt>
+      <trkpt lat="45.95408268910494" lon="7.812970588113765">
+      </trkpt>
+      <trkpt lat="45.95402988080913" lon="7.812460773278409">
+      </trkpt>
+      <trkpt lat="45.95421237097164" lon="7.8119470485788725">
+      </trkpt>
+      <trkpt lat="45.95610098706511" lon="7.809931835066258">
+      </trkpt>
+      <trkpt lat="45.957224994133696" lon="7.807786839378281">
+      </trkpt>
+      <trkpt lat="45.95825493639931" lon="7.805101543449594">
+      </trkpt>
+      <trkpt lat="45.96119562745316" lon="7.797433014200955">
+      </trkpt>
+      <trkpt lat="45.964334061507486" lon="7.790064363769659">
+      </trkpt>
+      <trkpt lat="45.96494661553674" lon="7.788037003709819">
+      </trkpt>
+      <trkpt lat="45.965188174424725" lon="7.786797066747611">
+      </trkpt>
+      <trkpt lat="45.96543018944159" lon="7.785554704450094">
+      </trkpt>
+      <trkpt lat="45.965584929606166" lon="7.784284009601332">
+      </trkpt>
+      <trkpt lat="45.96601647334938" lon="7.780739609013234">
+      </trkpt>
+      <trkpt lat="45.96639034672435" lon="7.7776680824786535">
+      </trkpt>
+      <trkpt lat="45.96741376744253" lon="7.771688122984639">
+      </trkpt>
+      <trkpt lat="45.96798420915239" lon="7.769655465308501">
+      </trkpt>
+      <trkpt lat="45.96951428501954" lon="7.7654582632646445">
+      </trkpt>
+      <trkpt lat="45.97107332385216" lon="7.760711424782373">
+      </trkpt>
+      <trkpt lat="45.97216930473217" lon="7.757179104671501">
+      </trkpt>
+      <trkpt lat="45.97337548924156" lon="7.753740261493652">
+      </trkpt>
+      <trkpt lat="45.974272470128064" lon="7.7506764598547795">
+      </trkpt>
+      <trkpt lat="45.975639484511746" lon="7.746691356408507">
+      </trkpt>
+      <trkpt lat="45.976248171364794" lon="7.745946689284782">
+      </trkpt>
+      <trkpt lat="45.976719249535876" lon="7.74561369828302">
+      </trkpt>
+      <trkpt lat="45.97966532559595" lon="7.7444465458422584">
+      </trkpt>
+      <trkpt lat="45.98010158616279" lon="7.74417626079607">
+      </trkpt>
+      <trkpt lat="45.98056263524629" lon="7.743433554992082">
+      </trkpt>
+      <trkpt lat="45.980708058542504" lon="7.742933649598978">
+      </trkpt>
+      <trkpt lat="45.98105668968656" lon="7.741735159194336">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

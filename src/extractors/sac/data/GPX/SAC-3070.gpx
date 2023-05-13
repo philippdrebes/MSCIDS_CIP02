@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Turtmannhtte  Gssi</name>
+    <desc>Von der Turtmannhtte 2519 m Richtung Sdosten fast waagrecht durch einen Steilhang zum Fuss des engen steilen Couloirs Gssi Es ist auch mglich der Morne unten am Hang zu folgen</desc>
+    <trkseg>
+      <trkpt lat="46.16013641501746" lon="7.69949586710147">
+      </trkpt>
+      <trkpt lat="46.15941625257749" lon="7.700634099545196">
+      </trkpt>
+      <trkpt lat="46.159250926232374" lon="7.700895394562938">
+      </trkpt>
+      <trkpt lat="46.158655639682756" lon="7.70161826478573">
+      </trkpt>
+      <trkpt lat="46.15864478283917" lon="7.701631447656594">
+      </trkpt>
+      <trkpt lat="46.15820384117045" lon="7.702166880114711">
+      </trkpt>
+      <trkpt lat="46.15736490188903" lon="7.702980754743522">
+      </trkpt>
+      <trkpt lat="46.15604648817324" lon="7.704048991795677">
+      </trkpt>
+      <trkpt lat="46.15526280939607" lon="7.704683934010329">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

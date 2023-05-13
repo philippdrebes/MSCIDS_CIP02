@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Sentier des Falaises</name>
+    <desc>Vom Rastplatz mit Aussicht oberhalb der Face de Frinvillier auf dem mit roten Punkten markierten Weg ber eine Felskuppe hinweg ca 5 Minuten lang nordwestwrts Dort zweigen mehrere Wege links ab einer stich direkt in die Wand hinunter und ist mit Drahtseilen gesichert  davon lassen wir unbedingt die Finger Ein zweiter quert fast eben nach links zurck Auch der interessiert uns nicht Wir whlen den mittleren weissblauweiss markierten der schrg nach links absteigt Er hlt sich meist recht nahe der Abbruchkante und da auf der Pfadspur teilweise lockerer Splitt liegt sollte man sich in Acht nehmen vor einem mglichen Ausrutscher Recht bald kommt eine erste Felsstufe mit Kette die nicht ganz ohne Kraxelei geht T4 Spter scheint der Pfad bei einigen Steinmnnchen zu enden denn auf den ersten Blick geht es dort nicht weiter Doch hinter einem Bumchen hart an der Abbruchkante entdeckt man ein Fixseil Es hilft ber eine Felsstufe mit Klemmblock hinweg Die Stelle erfordert krftiges Zupacken ist aber nicht sonderlich ausgesetzt Am besten nutzt man nebst dem Seil auch den Felsblock im Rcken um in Spreiztechnik abzuklettern Wer keine Lust darauf hat kann der Felsstufe mit einem kurzen Umweg rund 50 Meter weiter stlich im Wald ausweichen weglos Anschliessend geht es wieder durch den Wald bis zu einem letzten Kabel das steil nach rechts hinab fhrt T4 Es hilft die Falaise zu berwinden die hier am schmalsten ist So gelangt man zu einigen Grotten Unmittelbar darauf mndet der Sentier des Echelles ein Auf guter Wegspur durch den Wald hinab spter nach links und nach einer Stromleitung in der Falllinie absteigen Schliesslich erreicht man die alte Landstrasse bei einem Steinmnnchen</desc>
+    <trkseg>
+      <trkpt lat="47.17451852429246" lon="7.255880540718441">
+      </trkpt>
+      <trkpt lat="47.17461002086759" lon="7.255780014272859">
+      </trkpt>
+      <trkpt lat="47.17500002086953" lon="7.255610014279083">
+      </trkpt>
+      <trkpt lat="47.175420020868025" lon="7.254520014253492">
+      </trkpt>
+      <trkpt lat="47.175675330125074" lon="7.254220927227341">
+      </trkpt>
+      <trkpt lat="47.175571738418554" lon="7.254010864730218">
+      </trkpt>
+      <trkpt lat="47.1753827427447" lon="7.25394556443973">
+      </trkpt>
+      <trkpt lat="47.17473426944126" lon="7.253420171852789">
+      </trkpt>
+      <trkpt lat="47.17334811886797" lon="7.252831414148091">
+      </trkpt>
+      <trkpt lat="47.17313188093029" lon="7.25260792736031">
+      </trkpt>
+      <trkpt lat="47.172816829358844" lon="7.252463932199889">
+      </trkpt>
+      <trkpt lat="47.17285233561926" lon="7.252173613718563">
+      </trkpt>
+      <trkpt lat="47.172528439338635" lon="7.252121986858879">
+      </trkpt>
+      <trkpt lat="47.17220432780472" lon="7.251938456518931">
+      </trkpt>
+      <trkpt lat="47.17193442026652" lon="7.251871063806058">
+      </trkpt>
+      <trkpt lat="47.17166511624193" lon="7.252201768173118">
+      </trkpt>
+      <trkpt lat="47.17105002087469" lon="7.251490014249974">
+      </trkpt>
+      <trkpt lat="47.17106002087482" lon="7.252560014257566">
+      </trkpt>
+      <trkpt lat="47.17101002086631" lon="7.252930014264958">
+      </trkpt>
+      <trkpt lat="47.17086062103554" lon="7.253406289841612">
+      </trkpt>
+      <trkpt lat="47.170610020866775" lon="7.253870014266148">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

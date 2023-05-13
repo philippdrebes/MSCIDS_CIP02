@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Gotthardpass  Fibbia</name>
+    <desc>Von der GotthardPasshhe 2091 m zur Kreuzung P 2094 und ber die Kantonsstrasse Nun dem Ri della Valletta entgegen bis ungefhr 2160 m wo man den Bach berquert Schaut man von hier hinauf zur Fibbia erkennbar am Regenmesstrichter auf dem Gipfel fallen einem die beiden tief eingeschnittenen wie mit dem Lineal gezogenen Flusstler oder Felsspalten auf Unsere Route folgt dem rechten Einschnitt und weiter in ziemlich direkter Linie bis zum Gipfel 
+Wir whlen eine der vielen Wegspuren die zum Einschnitt fhren und folgen dem festen Fels auf dessen Nordseite Durch die Sohle des Einschnitts leichter oder ber den kompakten Fels anspruchsvoller geht es hinauf bis ungefhr 2300 m Nach der Achse des Ri della Fibbia sucht man sich leicht rechtshaltend einen geeigneten Aufstieg zur 2600er Hhenkurve Die letzten Hhenmeter zum Gipfel fhren ber khlschrankgrosse gut verfestigte Felsbrocken Der Gipfel der Fibbia 2738 m begrsst seine Besucher mit einem angejahrten Niederschlagsmessgert und einer von Blitzen arg gebeutelten Gamelle mit aufgeweichtem Gipfelbuch</desc>
+    <trkseg>
+      <trkpt lat="46.55547914394274" lon="8.566867173801906">
+      </trkpt>
+      <trkpt lat="46.555461524406496" lon="8.56668953417703">
+      </trkpt>
+      <trkpt lat="46.555536524414634" lon="8.565199534186956">
+      </trkpt>
+      <trkpt lat="46.55550352441231" lon="8.565111534191486">
+      </trkpt>
+      <trkpt lat="46.55546152441009" lon="8.565028534187794">
+      </trkpt>
+      <trkpt lat="46.55541552441859" lon="8.564966534183377">
+      </trkpt>
+      <trkpt lat="46.55534452441867" lon="8.564904534183444">
+      </trkpt>
+      <trkpt lat="46.55527752441142" lon="8.564866534191346">
+      </trkpt>
+      <trkpt lat="46.555180524413906" lon="8.564845534183942">
+      </trkpt>
+      <trkpt lat="46.555157524412564" lon="8.564768534188243">
+      </trkpt>
+      <trkpt lat="46.555283524411905" lon="8.56470153417984">
+      </trkpt>
+      <trkpt lat="46.55536752441311" lon="8.564655534190122">
+      </trkpt>
+      <trkpt lat="46.55537352441581" lon="8.564652534193465">
+      </trkpt>
+      <trkpt lat="46.55491006280669" lon="8.563287590568999">
+      </trkpt>
+      <trkpt lat="46.55461055282259" lon="8.560849325657939">
+      </trkpt>
+      <trkpt lat="46.55457933666221" lon="8.559519836375655">
+      </trkpt>
+      <trkpt lat="46.55460355834674" lon="8.558345139971369">
+      </trkpt>
+      <trkpt lat="46.554633382692685" lon="8.557380847361722">
+      </trkpt>
+      <trkpt lat="46.554436142004384" lon="8.556539420140357">
+      </trkpt>
+      <trkpt lat="46.55405936698651" lon="8.555552068646495">
+      </trkpt>
+      <trkpt lat="46.55389751251362" lon="8.554493494883586">
+      </trkpt>
+      <trkpt lat="46.55369712260002" lon="8.553120202883866">
+      </trkpt>
+      <trkpt lat="46.55351143938656" lon="8.55142024979378">
+      </trkpt>
+      <trkpt lat="46.553544496965046" lon="8.550550720614096">
+      </trkpt>
+      <trkpt lat="46.553618780364744" lon="8.54950856656899">
+      </trkpt>
+      <trkpt lat="46.5534252217608" lon="8.54905196897748">
+      </trkpt>
+      <trkpt lat="46.552557740989045" lon="8.547964296592802">
+      </trkpt>
+      <trkpt lat="46.55174841081198" lon="8.547601324047855">
+      </trkpt>
+      <trkpt lat="46.55038392115716" lon="8.546334152676044">
+      </trkpt>
+      <trkpt lat="46.54781967847365" lon="8.544828325185815">
+      </trkpt>
+      <trkpt lat="46.5468309001125" lon="8.54530836656278">
+      </trkpt>
+      <trkpt lat="46.54615405066135" lon="8.546295552109795">
+      </trkpt>
+      <trkpt lat="46.545612654154745" lon="8.54658073885894">
+      </trkpt>
+      <trkpt lat="46.54451778911392" lon="8.547290910855253">
+      </trkpt>
+      <trkpt lat="46.543745682474196" lon="8.546935418902533">
+      </trkpt>
+      <trkpt lat="46.54273011888823" lon="8.546819016765046">
+      </trkpt>
+      <trkpt lat="46.542793214170295" lon="8.547652721499803">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

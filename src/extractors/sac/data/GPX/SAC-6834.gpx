@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Negg  Schwarzenberg  Abzweigung P 1720</name>
+    <desc>Von der Bergstation Negg zum Bergrestaurant Schwarzenberg Dort folgt man in sdlicher Richtung dem gut angelegten Wanderweg Richtung Alp Gurbs Metteberg ber Weideflchen zum Huschen bei einem breiten Schotterweg auf 1720 m</desc>
+    <trkseg>
+      <trkpt lat="46.58992029693373" lon="7.539719095914765">
+      </trkpt>
+      <trkpt lat="46.59005972689014" lon="7.539720659083779">
+      </trkpt>
+      <trkpt lat="46.59050031699033" lon="7.539939385281182">
+      </trkpt>
+      <trkpt lat="46.5906998765556" lon="7.540100252919374">
+      </trkpt>
+      <trkpt lat="46.59092989823924" lon="7.540399493641386">
+      </trkpt>
+      <trkpt lat="46.5917499032539" lon="7.540839462865767">
+      </trkpt>
+      <trkpt lat="46.59239981818512" lon="7.54136002889941">
+      </trkpt>
+      <trkpt lat="46.592969643281975" lon="7.541910468770252">
+      </trkpt>
+      <trkpt lat="46.593679869474016" lon="7.542380282088804">
+      </trkpt>
+      <trkpt lat="46.59399969501912" lon="7.542840227245923">
+      </trkpt>
+      <trkpt lat="46.59420996776296" lon="7.544069881700351">
+      </trkpt>
+      <trkpt lat="46.59432041022171" lon="7.544290630403349">
+      </trkpt>
+      <trkpt lat="46.59458028189819" lon="7.544399444599381">
+      </trkpt>
+      <trkpt lat="46.59600964974407" lon="7.54442962158518">
+      </trkpt>
+      <trkpt lat="46.596059959842854" lon="7.544500188321493">
+      </trkpt>
+      <trkpt lat="46.59623985279928" lon="7.544520112395236">
+      </trkpt>
+      <trkpt lat="46.596289997630755" lon="7.544769462745968">
+      </trkpt>
+      <trkpt lat="46.59639974334856" lon="7.544769676357687">
+      </trkpt>
+      <trkpt lat="46.59662987241249" lon="7.54493977398136">
+      </trkpt>
+      <trkpt lat="46.5970003971661" lon="7.545039676855539">
+      </trkpt>
+      <trkpt lat="46.59870652971341" lon="7.544815539871538">
+      </trkpt>
+      <trkpt lat="46.59880152971785" lon="7.5445675398712355">
+      </trkpt>
+      <trkpt lat="46.59855852971743" lon="7.544205539869065">
+      </trkpt>
+      <trkpt lat="46.59852552971637" lon="7.543909539876557">
+      </trkpt>
+      <trkpt lat="46.598783529728394" lon="7.542694539878967">
+      </trkpt>
+      <trkpt lat="46.598990529730415" lon="7.540954539899886">
+      </trkpt>
+      <trkpt lat="46.59921952973935" lon="7.5401395398963995">
+      </trkpt>
+      <trkpt lat="46.598966529743414" lon="7.5394685399032175">
+      </trkpt>
+      <trkpt lat="46.59888352973949" lon="7.539175539904196">
+      </trkpt>
+      <trkpt lat="46.59888452974933" lon="7.538134539908232">
+      </trkpt>
+      <trkpt lat="46.59984752976289" lon="7.536320539924008">
+      </trkpt>
+      <trkpt lat="46.59981470936767" lon="7.535311327720376">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

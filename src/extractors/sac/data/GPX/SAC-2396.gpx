@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Safien Bch  Bcher Tobel</name>
+    <desc>From Bch follow the alp access road to Bcher Htta then the hiking trail in Bcher Tobel</desc>
+    <trkseg>
+      <trkpt lat="46.648177521030135" lon="9.279525531109304">
+      </trkpt>
+      <trkpt lat="46.64756152102808" lon="9.279614531103364">
+      </trkpt>
+      <trkpt lat="46.6467705210298" lon="9.278859531100588">
+      </trkpt>
+      <trkpt lat="46.647269521035135" lon="9.278061531109453">
+      </trkpt>
+      <trkpt lat="46.64738352103538" lon="9.278082531110346">
+      </trkpt>
+      <trkpt lat="46.647650521034876" lon="9.278329531111329">
+      </trkpt>
+      <trkpt lat="46.64798652103616" lon="9.27824753111476">
+      </trkpt>
+      <trkpt lat="46.64842952103889" lon="9.277940531120384">
+      </trkpt>
+      <trkpt lat="46.64975252104822" lon="9.276785531138536">
+      </trkpt>
+      <trkpt lat="46.650185521050815" lon="9.276501531143948">
+      </trkpt>
+      <trkpt lat="46.65072052105479" lon="9.275994531151515">
+      </trkpt>
+      <trkpt lat="46.650922521055776" lon="9.275906531153787">
+      </trkpt>
+      <trkpt lat="46.651352521056666" lon="9.275968531157252">
+      </trkpt>
+      <trkpt lat="46.651445521057255" lon="9.275905531158424">
+      </trkpt>
+      <trkpt lat="46.6515925210588" lon="9.27567153116103">
+      </trkpt>
+      <trkpt lat="46.65168552106287" lon="9.274917531166059">
+      </trkpt>
+      <trkpt lat="46.65161452106381" lon="9.274690531166696">
+      </trkpt>
+      <trkpt lat="46.65107352106359" lon="9.274452531163245">
+      </trkpt>
+      <trkpt lat="46.65057652106388" lon="9.274141531160584">
+      </trkpt>
+      <trkpt lat="46.65041952106347" lon="9.274131531159247">
+      </trkpt>
+      <trkpt lat="46.65012052106213" lon="9.274256531155904">
+      </trkpt>
+      <trkpt lat="46.65005352106193" lon="9.274244531155379">
+      </trkpt>
+      <trkpt lat="46.65001952106242" lon="9.274142531155652">
+      </trkpt>
+      <trkpt lat="46.65100052107093" lon="9.272979531170822">
+      </trkpt>
+      <trkpt lat="46.65171052107534" lon="9.27247353117992">
+      </trkpt>
+      <trkpt lat="46.65175452107583" lon="9.272402531180711">
+      </trkpt>
+      <trkpt lat="46.65170752107618" lon="9.272309531180817">
+      </trkpt>
+      <trkpt lat="46.65060052107195" lon="9.272569531169568">
+      </trkpt>
+      <trkpt lat="46.65018652107107" lon="9.272526531166154">
+      </trkpt>
+      <trkpt lat="46.64992352107093" lon="9.27241853116443">
+      </trkpt>
+      <trkpt lat="46.65047352107382" lon="9.272130531170903">
+      </trkpt>
+      <trkpt lat="46.651038521078455" lon="9.27151753117932">
+      </trkpt>
+      <trkpt lat="46.65132252107984" lon="9.271384531182575">
+      </trkpt>
+      <trkpt lat="46.651559521081666" lon="9.27115353118596">
+      </trkpt>
+      <trkpt lat="46.6515595210817" lon="9.271153531185975">
+      </trkpt>
+      <trkpt lat="46.65193052108185" lon="9.271305531188398">
+      </trkpt>
+      <trkpt lat="46.652334521082615" lon="9.2713715311916">
+      </trkpt>
+      <trkpt lat="46.65268952108383" lon="9.271310531195079">
+      </trkpt>
+      <trkpt lat="46.65280852108508" lon="9.271134531197111">
+      </trkpt>
+      <trkpt lat="46.65290352108424" lon="9.271353531196729">
+      </trkpt>
+      <trkpt lat="46.65291152108314" lon="9.271566531195619">
+      </trkpt>
+      <trkpt lat="46.653082521082496" lon="9.271779531195886">
+      </trkpt>
+      <trkpt lat="46.65316265704986" lon="9.271955560789552">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

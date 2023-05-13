@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Chlingenstock  Sisiger Spitz  Wannentritt</name>
+    <desc>Vom Stoos luft man 5 Minuten gut ausgeschildert zum KlingenstockSessellift und mit diesem zur Bergstation Chlingenstock Von dort aus folgt man dem Grat ostwrts in die Senke P 1841 und weiter auf zunehmend schmaler Wegspur und zum Schluss leicht ausgesetzt zum Hngst und hinuber zu P 1819 Da die Krete beim Lauchstock in eine Felswand ubergeht lsst man diesen rechts liegen und steigt diagonal uber die Kuhweide zu P 1719 ab Nun rechts ins WiesenHalbrund zwischen Lauchstock und Sisiger Spitz wechseln Den Sisiger Spitz ersteigt man am besten von Norden Dazu peilt man zunchst die markante Rippe leicht sudwestlich von P 1882 an und folgt dieser sehr steil aber in gut griffigem Gras zu einer Lucke im Norden des Sisiger Spitz Weiter uber den schmalen moosigfedernden Grat zum Gipfel ber den Ostgrat anfnglich sehr steil aber breit dann zum Teil wieder recht schmal und nahe der abschussigen Sudflanke hinab Im unteren Teil wird der Grat flacher und angenehmer Von der Senke geht es problemlos hinauf zum Driangel dem letzten Gipfel dieser Tour Vom Driangel ber die Krete zum Wannentritt</desc>
+    <trkseg>
+      <trkpt lat="46.95698086321707" lon="8.675846914749355">
+      </trkpt>
+      <trkpt lat="46.95699001995514" lon="8.676620017296393">
+      </trkpt>
+      <trkpt lat="46.95677001995406" lon="8.677130017305673">
+      </trkpt>
+      <trkpt lat="46.95658001995278" lon="8.677360017298737">
+      </trkpt>
+      <trkpt lat="46.95655001995043" lon="8.677790017309729">
+      </trkpt>
+      <trkpt lat="46.956620019947515" lon="8.677930017297431">
+      </trkpt>
+      <trkpt lat="46.95649001995139" lon="8.678090017306182">
+      </trkpt>
+      <trkpt lat="46.95643001994865" lon="8.678290017310296">
+      </trkpt>
+      <trkpt lat="46.95612001995168" lon="8.679300017302937">
+      </trkpt>
+      <trkpt lat="46.95605001995068" lon="8.679810017302795">
+      </trkpt>
+      <trkpt lat="46.956120019948564" lon="8.681170017309826">
+      </trkpt>
+      <trkpt lat="46.956290019952206" lon="8.681800017309959">
+      </trkpt>
+      <trkpt lat="46.95654001994741" lon="8.681920017310652">
+      </trkpt>
+      <trkpt lat="46.95677001994474" lon="8.681940017309067">
+      </trkpt>
+      <trkpt lat="46.95687001994636" lon="8.682030017310671">
+      </trkpt>
+      <trkpt lat="46.95707001995032" lon="8.682350017312478">
+      </trkpt>
+      <trkpt lat="46.95737001995055" lon="8.683090017304673">
+      </trkpt>
+      <trkpt lat="46.95759187303474" lon="8.683434712688674">
+      </trkpt>
+      <trkpt lat="46.95728314899893" lon="8.684454876170363">
+      </trkpt>
+      <trkpt lat="46.95660180482743" lon="8.685739284074362">
+      </trkpt>
+      <trkpt lat="46.956476449471026" lon="8.688039061101856">
+      </trkpt>
+      <trkpt lat="46.95682611831218" lon="8.689322324731927">
+      </trkpt>
+      <trkpt lat="46.957148148484016" lon="8.689866434963633">
+      </trkpt>
+      <trkpt lat="46.95655876096854" lon="8.69041498144295">
+      </trkpt>
+      <trkpt lat="46.95618379751529" lon="8.691892648151432">
+      </trkpt>
+      <trkpt lat="46.95625504346061" lon="8.692577188101955">
+      </trkpt>
+      <trkpt lat="46.956070364038915" lon="8.693525767708854">
+      </trkpt>
+      <trkpt lat="46.955683703288216" lon="8.694977051032605">
+      </trkpt>
+      <trkpt lat="46.95579129715574" lon="8.695814545559259">
+      </trkpt>
+      <trkpt lat="46.955643537967305" lon="8.696740272993466">
+      </trkpt>
+      <trkpt lat="46.95530263147266" lon="8.697631645848558">
+      </trkpt>
+      <trkpt lat="46.95494937879096" lon="8.699082059746596">
+      </trkpt>
+      <trkpt lat="46.95540288837774" lon="8.699334201548151">
+      </trkpt>
+      <trkpt lat="46.955459222240115" lon="8.69987263099894">
+      </trkpt>
+      <trkpt lat="46.95514624260742" lon="8.701281325380638">
+      </trkpt>
+      <trkpt lat="46.955031142244174" lon="8.702501212130981">
+      </trkpt>
+      <trkpt lat="46.95499545317929" lon="8.70454473353323">
+      </trkpt>
+      <trkpt lat="46.9552447899954" lon="8.705886155048749">
+      </trkpt>
+      <trkpt lat="46.955599274344486" lon="8.706975627502635">
+      </trkpt>
+      <trkpt lat="46.95421718864544" lon="8.707264481986757">
+      </trkpt>
+      <trkpt lat="46.95337286040544" lon="8.709477547509051">
+      </trkpt>
+      <trkpt lat="46.95241030325739" lon="8.711654021287734">
+      </trkpt>
+      <trkpt lat="46.952403166049436" lon="8.713858308599695">
+      </trkpt>
+      <trkpt lat="46.95309837373172" lon="8.714955033581083">
+      </trkpt>
+      <trkpt lat="46.95360172016948" lon="8.716144056012688">
+      </trkpt>
+      <trkpt lat="46.95424704810679" lon="8.717077994268845">
+      </trkpt>
+      <trkpt lat="46.95445724308292" lon="8.718643107686184">
+      </trkpt>
+      <trkpt lat="46.95459520319365" lon="8.720473238304086">
+      </trkpt>
+      <trkpt lat="46.954740006500714" lon="8.721551046034666">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

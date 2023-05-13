@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Rifugio Citt di Busto  Rifugio Claudio e Bruno</name>
+    <desc>Vom Rifugio Citt di Busto ber den Piano dei Camosci an dessen Ende links abzweigen rund 70 Hm verlieren auf einem teils gerlligen Weg den Hang queren und wieder hinauf zum Lago del Sabbione Von der Staumauer folgt man zunchst dem Nordufer des Sees und steigt dann allmhlich hinauf zum Rifugio Claudio e Bruno 2708 m T2T3</desc>
+    <trkseg>
+      <trkpt lat="46.433952019688235" lon="8.362881016965693">
+      </trkpt>
+      <trkpt lat="46.43325930472725" lon="8.36080050605372">
+      </trkpt>
+      <trkpt lat="46.432915931743295" lon="8.358749037208657">
+      </trkpt>
+      <trkpt lat="46.43213330674205" lon="8.356950512569645">
+      </trkpt>
+      <trkpt lat="46.43160897731358" lon="8.355007633494791">
+      </trkpt>
+      <trkpt lat="46.43085170561909" lon="8.353246826443787">
+      </trkpt>
+      <trkpt lat="46.43021547724145" lon="8.349219428415637">
+      </trkpt>
+      <trkpt lat="46.42916455270567" lon="8.348792695792005">
+      </trkpt>
+      <trkpt lat="46.428017033761385" lon="8.34758337242708">
+      </trkpt>
+      <trkpt lat="46.427042942377625" lon="8.34719516446709">
+      </trkpt>
+      <trkpt lat="46.42593552562451" lon="8.34739975480253">
+      </trkpt>
+      <trkpt lat="46.42487506463628" lon="8.348162939479439">
+      </trkpt>
+      <trkpt lat="46.42383514826068" lon="8.346360533721843">
+      </trkpt>
+      <trkpt lat="46.42225019638014" lon="8.345181260485624">
+      </trkpt>
+      <trkpt lat="46.420904944233406" lon="8.342964874997543">
+      </trkpt>
+      <trkpt lat="46.41960870856956" lon="8.341046887677093">
+      </trkpt>
+      <trkpt lat="46.41882639283241" lon="8.339174702695509">
+      </trkpt>
+      <trkpt lat="46.417301330873244" lon="8.336918449651742">
+      </trkpt>
+      <trkpt lat="46.41633904542454" lon="8.33177143318664">
+      </trkpt>
+      <trkpt lat="46.415606541135645" lon="8.330086221805354">
+      </trkpt>
+      <trkpt lat="46.415643343223046" lon="8.328673936266146">
+      </trkpt>
+      <trkpt lat="46.414933885360604" lon="8.327323793633333">
+      </trkpt>
+      <trkpt lat="46.414951623401265" lon="8.325056053826252">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

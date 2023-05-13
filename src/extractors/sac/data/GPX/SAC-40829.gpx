@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Medelserhtte  Piz Caschleglia</name>
+    <desc>Von der Camona da Medel CAS 2524 m auf dem markierten Bergwanderweg gegen Nordosten Nach rund 10 Minuten wird das Gelnde flacher und man verlsst den Bergweg bei einer roten Markierung an Steinblock mit Steinmann nach links hinauf zum Rasenplateau bei der flachen Senke P 2588 m Nun auf Wegspuren dem Grat entlang bis zum sdlichen Vorgipfel Ab hier wird die Route exponierter kurzer Abstieg zwischen Blcken Eisenklammern und den Gipfelaufbau von rechts nach links Pfeil Markierungen Ketten in plattigem Gelnde ersteigen 
+Abstieg auf der gleichen Route</desc>
+    <trkseg>
+      <trkpt lat="46.64045136841531" lon="8.913693385785967">
+      </trkpt>
+      <trkpt lat="46.640460388966126" lon="8.913900026250962">
+      </trkpt>
+      <trkpt lat="46.64060023450449" lon="8.913869880735506">
+      </trkpt>
+      <trkpt lat="46.64062065235188" lon="8.91396057199783">
+      </trkpt>
+      <trkpt lat="46.64073066879729" lon="8.91401060217656">
+      </trkpt>
+      <trkpt lat="46.64075096766742" lon="8.914110433904165">
+      </trkpt>
+      <trkpt lat="46.640940538609" lon="8.914200519339012">
+      </trkpt>
+      <trkpt lat="46.641110471215356" lon="8.914139845540372">
+      </trkpt>
+      <trkpt lat="46.641370601717846" lon="8.914200507692618">
+      </trkpt>
+      <trkpt lat="46.64152047690275" lon="8.914160186547702">
+      </trkpt>
+      <trkpt lat="46.64175053779434" lon="8.914250073142332">
+      </trkpt>
+      <trkpt lat="46.641850281044384" lon="8.9141208595861">
+      </trkpt>
+      <trkpt lat="46.64192019682396" lon="8.914141057188923">
+      </trkpt>
+      <trkpt lat="46.64214039011757" lon="8.91402035638398">
+      </trkpt>
+      <trkpt lat="46.642270704032015" lon="8.914100988891885">
+      </trkpt>
+      <trkpt lat="46.64242083183422" lon="8.914041077372094">
+      </trkpt>
+      <trkpt lat="46.64259063103788" lon="8.914060083805627">
+      </trkpt>
+      <trkpt lat="46.64274065010805" lon="8.913800300218455">
+      </trkpt>
+      <trkpt lat="46.64286017069097" lon="8.913880637511909">
+      </trkpt>
+      <trkpt lat="46.6432706853405" lon="8.913931036498255">
+      </trkpt>
+      <trkpt lat="46.643584348031" lon="8.913818109435878">
+      </trkpt>
+      <trkpt lat="46.64385247021068" lon="8.913470097470107">
+      </trkpt>
+      <trkpt lat="46.64373383533993" lon="8.912609077439928">
+      </trkpt>
+      <trkpt lat="46.643490187194644" lon="8.911844941816643">
+      </trkpt>
+      <trkpt lat="46.643363841068215" lon="8.911246834326192">
+      </trkpt>
+      <trkpt lat="46.643537102269406" lon="8.909053838000377">
+      </trkpt>
+      <trkpt lat="46.64434958128782" lon="8.908207420406622">
+      </trkpt>
+      <trkpt lat="46.64478652389625" lon="8.907820647695758">
+      </trkpt>
+      <trkpt lat="46.6455939614765" lon="8.907092732492849">
+      </trkpt>
+      <trkpt lat="46.646480039006136" lon="8.906754941330052">
+      </trkpt>
+      <trkpt lat="46.64713691385508" lon="8.906050330146558">
+      </trkpt>
+      <trkpt lat="46.647611867180075" lon="8.905289814922758">
+      </trkpt>
+      <trkpt lat="46.6483334184253" lon="8.904802498516261">
+      </trkpt>
+      <trkpt lat="46.64998179441975" lon="8.904725746363319">
+      </trkpt>
+      <trkpt lat="46.65041846619545" lon="8.904352175655132">
+      </trkpt>
+      <trkpt lat="46.651049499642205" lon="8.904465982800891">
+      </trkpt>
+      <trkpt lat="46.651266739946216" lon="8.904644346908777">
+      </trkpt>
+      <trkpt lat="46.65151186660764" lon="8.904430638393046">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

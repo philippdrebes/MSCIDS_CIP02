@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Parkplatz Frmeltal 1650 m  Grod ca 1800 m</name>
+    <desc>Vom Parkplatz im Frmeltal Am Vordere Berg 1650 m folgt man in stlicher Richtung dem Alpstrsschen sdlich des Frmelbachs nach Grod und berquert diesen dort</desc>
+    <trkseg>
+      <trkpt lat="46.51610324642861" lon="7.485325894524096">
+      </trkpt>
+      <trkpt lat="46.516030412513054" lon="7.485250255868032">
+      </trkpt>
+      <trkpt lat="46.51600963017459" lon="7.485479575623259">
+      </trkpt>
+      <trkpt lat="46.51606981568425" lon="7.485689418402042">
+      </trkpt>
+      <trkpt lat="46.516079604723046" lon="7.485950037640245">
+      </trkpt>
+      <trkpt lat="46.51598028625566" lon="7.486839937131232">
+      </trkpt>
+      <trkpt lat="46.5156598210505" lon="7.487369996356969">
+      </trkpt>
+      <trkpt lat="46.51517982689737" lon="7.488610059782071">
+      </trkpt>
+      <trkpt lat="46.514970043009626" lon="7.48903986890813">
+      </trkpt>
+      <trkpt lat="46.51483007348994" lon="7.490259371876622">
+      </trkpt>
+      <trkpt lat="46.51471036915505" lon="7.490399986114927">
+      </trkpt>
+      <trkpt lat="46.51433967402796" lon="7.490570332691096">
+      </trkpt>
+      <trkpt lat="46.51406970701198" lon="7.490790286384841">
+      </trkpt>
+      <trkpt lat="46.51404030430126" lon="7.492140172215196">
+      </trkpt>
+      <trkpt lat="46.51421966862434" lon="7.493310449192815">
+      </trkpt>
+      <trkpt lat="46.51391983004904" lon="7.493909532711282">
+      </trkpt>
+      <trkpt lat="46.51385041515497" lon="7.494219577248094">
+      </trkpt>
+      <trkpt lat="46.51374030232143" lon="7.496790281702704">
+      </trkpt>
+      <trkpt lat="46.513550201616034" lon="7.497369912964335">
+      </trkpt>
+      <trkpt lat="46.513489706128446" lon="7.497810259758364">
+      </trkpt>
+      <trkpt lat="46.51348546838089" lon="7.4978723447045414">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

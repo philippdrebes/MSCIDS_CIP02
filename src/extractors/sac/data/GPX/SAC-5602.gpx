@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Isenthal  Siti</name>
+    <desc>Von der Haltestelle Isenthal Post ber die kleine Brcke dann auf dem Wiesenweg an den Husern von Oberbchi vorbei und auf der Strasse bis P 842 Hier dem Bach entlang aufsteigen bis zum alten Gebude von Siti wo die steilen Wiesen beginnen</desc>
+    <trkseg>
+      <trkpt lat="46.910540076633595" lon="8.56153070179558">
+      </trkpt>
+      <trkpt lat="46.910589782647385" lon="8.561140538299146">
+      </trkpt>
+      <trkpt lat="46.91073003500332" lon="8.5606905639252">
+      </trkpt>
+      <trkpt lat="46.91050981658945" lon="8.560579635521096">
+      </trkpt>
+      <trkpt lat="46.91042025843067" lon="8.560630276998104">
+      </trkpt>
+      <trkpt lat="46.91011957900951" lon="8.56055967861503">
+      </trkpt>
+      <trkpt lat="46.9095602648683" lon="8.559799752200208">
+      </trkpt>
+      <trkpt lat="46.90928042538036" lon="8.559989513505702">
+      </trkpt>
+      <trkpt lat="46.90873968270284" lon="8.5606398437463">
+      </trkpt>
+      <trkpt lat="46.908329772404116" lon="8.560699551374373">
+      </trkpt>
+      <trkpt lat="46.90814979294795" lon="8.560980651125565">
+      </trkpt>
+      <trkpt lat="46.90785030893756" lon="8.560879886848811">
+      </trkpt>
+      <trkpt lat="46.90775976112284" lon="8.56093969348014">
+      </trkpt>
+      <trkpt lat="46.9076996126535" lon="8.561110400017276">
+      </trkpt>
+      <trkpt lat="46.90742992460284" lon="8.561090331208334">
+      </trkpt>
+      <trkpt lat="46.90721040004623" lon="8.56100042523834">
+      </trkpt>
+      <trkpt lat="46.9068803767453" lon="8.560619427423163">
+      </trkpt>
+      <trkpt lat="46.90648998889882" lon="8.55988013281762">
+      </trkpt>
+      <trkpt lat="46.90579989326248" lon="8.559429948077263">
+      </trkpt>
+      <trkpt lat="46.905339896422866" lon="8.559000320138637">
+      </trkpt>
+      <trkpt lat="46.90452034631013" lon="8.559000310234527">
+      </trkpt>
+      <trkpt lat="46.90392009026112" lon="8.558930051054695">
+      </trkpt>
+      <trkpt lat="46.90347984267796" lon="8.558780433751584">
+      </trkpt>
+      <trkpt lat="46.90334030217494" lon="8.558790653122426">
+      </trkpt>
+      <trkpt lat="46.903250332530355" lon="8.558699523947581">
+      </trkpt>
+      <trkpt lat="46.903255933341256" lon="8.558682369315486">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

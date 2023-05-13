@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Piz Ault Bergstation  Fuss NEGrates Piz Ault</name>
+    <desc>Von  der SkiliftBergstation ca 2770 m am Piz Ault steigt man nach NW ausholend zum SGrat und quert anschliessend die steilen SEHnge des Piz Ault an den felsigen NEGrat</desc>
+    <trkseg>
+      <trkpt lat="46.72419134469459" lon="8.783233917445434">
+      </trkpt>
+      <trkpt lat="46.72446001585773" lon="8.782136765069616">
+      </trkpt>
+      <trkpt lat="46.72482156016951" lon="8.781644103932257">
+      </trkpt>
+      <trkpt lat="46.72512048365787" lon="8.781474582073736">
+      </trkpt>
+      <trkpt lat="46.72546415010945" lon="8.781503153261475">
+      </trkpt>
+      <trkpt lat="46.725722646729814" lon="8.781812354930194">
+      </trkpt>
+      <trkpt lat="46.72648634981626" lon="8.782725885203716">
+      </trkpt>
+      <trkpt lat="46.72768487995233" lon="8.782995863542126">
+      </trkpt>
+      <trkpt lat="46.72807169415018" lon="8.783255646542877">
+      </trkpt>
+      <trkpt lat="46.72856106012571" lon="8.783763933225986">
+      </trkpt>
+      <trkpt lat="46.72856142897211" lon="8.783764316620609">
+      </trkpt>
+      <trkpt lat="46.72869020720799" lon="8.783898074525384">
+      </trkpt>
+      <trkpt lat="46.729093926554526" lon="8.784862012837717">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

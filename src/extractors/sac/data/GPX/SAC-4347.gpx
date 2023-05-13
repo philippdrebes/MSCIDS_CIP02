@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Gfellen  Mittlisthtten</name>
+    <desc>From the Gfellen bus station follow a side road to Hintergfellen There take the marked hiking trail left to reach the farmhouse called Mittlisthtten</desc>
+    <trkseg>
+      <trkpt lat="46.956160527735605" lon="8.1272435401528">
+      </trkpt>
+      <trkpt lat="46.955806527732705" lon="8.12762254014753">
+      </trkpt>
+      <trkpt lat="46.95569052772955" lon="8.128171540143564">
+      </trkpt>
+      <trkpt lat="46.95517252772236" lon="8.129309540132764">
+      </trkpt>
+      <trkpt lat="46.95475552771781" lon="8.129973540125409">
+      </trkpt>
+      <trkpt lat="46.95447352771528" lon="8.130312540121022">
+      </trkpt>
+      <trkpt lat="46.95430052771504" lon="8.130273540119633">
+      </trkpt>
+      <trkpt lat="46.95412152771406" lon="8.130368540117477">
+      </trkpt>
+      <trkpt lat="46.95406252771212" lon="8.130713540115108">
+      </trkpt>
+      <trkpt lat="46.954111527711426" lon="8.130876540114704">
+      </trkpt>
+      <trkpt lat="46.95411452771065" lon="8.131039540113866">
+      </trkpt>
+      <trkpt lat="46.95395952770756" lon="8.131555540109703">
+      </trkpt>
+      <trkpt lat="46.95398552770678" lon="8.131711540109123">
+      </trkpt>
+      <trkpt lat="46.954070527706044" lon="8.131903540108882">
+      </trkpt>
+      <trkpt lat="46.95419752770407" lon="8.132352540107682">
+      </trkpt>
+      <trkpt lat="46.95416952770195" lon="8.132751540105312">
+      </trkpt>
+      <trkpt lat="46.95420952770042" lon="8.133082540103931">
+      </trkpt>
+      <trkpt lat="46.95417852769953" lon="8.133232540102853">
+      </trkpt>
+      <trkpt lat="46.953923527696645" lon="8.133653540098273">
+      </trkpt>
+      <trkpt lat="46.95365952769497" lon="8.133842540094838">
+      </trkpt>
+      <trkpt lat="46.953470527693" lon="8.134141540091523">
+      </trkpt>
+      <trkpt lat="46.95341352769197" lon="8.134300540090157">
+      </trkpt>
+      <trkpt lat="46.95330852768894" lon="8.134840540086325">
+      </trkpt>
+      <trkpt lat="46.95312652768786" lon="8.134956540084033">
+      </trkpt>
+      <trkpt lat="46.95307752768723" lon="8.13505554008306">
+      </trkpt>
+      <trkpt lat="46.95274652768451" lon="8.135415540078105">
+      </trkpt>
+      <trkpt lat="46.952047527677635" lon="8.136381540066555">
+      </trkpt>
+      <trkpt lat="46.95193852767689" lon="8.136465540065098">
+      </trkpt>
+      <trkpt lat="46.95180252767451" lon="8.13686654006173">
+      </trkpt>
+      <trkpt lat="46.951689527673054" lon="8.137087540059518">
+      </trkpt>
+      <trkpt lat="46.95167952767244" lon="8.137209540058786">
+      </trkpt>
+      <trkpt lat="46.95172652767143" lon="8.137420540058095">
+      </trkpt>
+      <trkpt lat="46.951731527670255" lon="8.137663540056861">
+      </trkpt>
+      <trkpt lat="46.95179752766962" lon="8.137812540056679">
+      </trkpt>
+      <trkpt lat="46.95203252766882" lon="8.138096540057342">
+      </trkpt>
+      <trkpt lat="46.95211552766803" lon="8.13830354005701">
+      </trkpt>
+      <trkpt lat="46.95230452766705" lon="8.138584540057265">
+      </trkpt>
+      <trkpt lat="46.95270252766335" lon="8.13952654005594">
+      </trkpt>
+      <trkpt lat="46.952827527660915" lon="8.140065540054236">
+      </trkpt>
+      <trkpt lat="46.952909527660175" lon="8.140259540053968">
+      </trkpt>
+      <trkpt lat="46.95288252765894" lon="8.14048254005254">
+      </trkpt>
+      <trkpt lat="46.95278152765794" lon="8.140619540050883">
+      </trkpt>
+      <trkpt lat="46.95275152765584" lon="8.141019540048491">
+      </trkpt>
+      <trkpt lat="46.95289127486989" lon="8.141145405058294">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

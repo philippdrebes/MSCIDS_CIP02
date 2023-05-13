@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Forcola di Livigno  P 2469 bei Fuorcla Minor</name>
+    <desc>Von der Forcola di Livigno auf dem markierten und fr Mountainbikes ausgebauten Wanderweg rund 35 Minuten gegen Fuorcla Minor ansteigen Oberhalb des Sees bei P 2370 folgt man Schafspuren hinauf zu P 2469 auf der Krete zum Val Minor</desc>
+    <trkseg>
+      <trkpt lat="46.44108149516042" lon="10.055960428592174">
+      </trkpt>
+      <trkpt lat="46.44117350240871" lon="10.055873732192696">
+      </trkpt>
+      <trkpt lat="46.44109800770263" lon="10.054854540860218">
+      </trkpt>
+      <trkpt lat="46.43953094750403" lon="10.054114919027711">
+      </trkpt>
+      <trkpt lat="46.43900110704575" lon="10.053282157802224">
+      </trkpt>
+      <trkpt lat="46.43854048852294" lon="10.052179347779813">
+      </trkpt>
+      <trkpt lat="46.43856476256488" lon="10.05190711495242">
+      </trkpt>
+      <trkpt lat="46.43747178238149" lon="10.050513476673636">
+      </trkpt>
+      <trkpt lat="46.436944626437146" lon="10.050344871459828">
+      </trkpt>
+      <trkpt lat="46.43647889050424" lon="10.049463200744404">
+      </trkpt>
+      <trkpt lat="46.4361054726221" lon="10.049262956668843">
+      </trkpt>
+      <trkpt lat="46.43591665687757" lon="10.048863307701954">
+      </trkpt>
+      <trkpt lat="46.435614564890244" lon="10.048692540791752">
+      </trkpt>
+      <trkpt lat="46.43296579732023" lon="10.046065598575527">
+      </trkpt>
+      <trkpt lat="46.432087675601274" lon="10.045502662161516">
+      </trkpt>
+      <trkpt lat="46.43180806721084" lon="10.045528270345555">
+      </trkpt>
+      <trkpt lat="46.432183859235685" lon="10.045233916811663">
+      </trkpt>
+      <trkpt lat="46.43264238495406" lon="10.045255962201985">
+      </trkpt>
+      <trkpt lat="46.43269931782844" lon="10.045128521988358">
+      </trkpt>
+      <trkpt lat="46.43260460400764" lon="10.044941720265397">
+      </trkpt>
+      <trkpt lat="46.43230820969939" lon="10.04491445399857">
+      </trkpt>
+      <trkpt lat="46.43199377982002" lon="10.044105266378558">
+      </trkpt>
+      <trkpt lat="46.43186880616572" lon="10.044060207842277">
+      </trkpt>
+      <trkpt lat="46.43180912750632" lon="10.043523621200073">
+      </trkpt>
+      <trkpt lat="46.431522555578816" lon="10.042676735261796">
+      </trkpt>
+      <trkpt lat="46.4315555736993" lon="10.042675339443177">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

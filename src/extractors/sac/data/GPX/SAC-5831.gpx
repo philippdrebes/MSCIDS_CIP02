@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Belvedere  Rifugio Zamboni e Zappa</name>
+    <desc>Von der Bergstation Belvedere 1904 m auf dem markierten beliebten Wanderweg durch lichten Wald hinauf zum Rcken der die beiden Arme des Ghiacciaio del Belvedere trennt Nun nach links ber den sdlichen Arm des Gletschers hinweg Gerll und zur grossen Seitenmorne Man folgt dieser bis zu einer Absperrung quert nach links und gelangt zur schnen grnen Ebene des Rifugio Zamboni e Zappa T2</desc>
+    <trkseg>
+      <trkpt lat="45.965753809928714" lon="7.922200287876096">
+      </trkpt>
+      <trkpt lat="45.965573815955295" lon="7.921463295597565">
+      </trkpt>
+      <trkpt lat="45.965100666576454" lon="7.92074999210215">
+      </trkpt>
+      <trkpt lat="45.96455290565821" lon="7.92035121209714">
+      </trkpt>
+      <trkpt lat="45.96385671539888" lon="7.920397616485577">
+      </trkpt>
+      <trkpt lat="45.962172869407496" lon="7.920120179047884">
+      </trkpt>
+      <trkpt lat="45.95945838448933" lon="7.916708591897179">
+      </trkpt>
+      <trkpt lat="45.958054038546045" lon="7.91530451498549">
+      </trkpt>
+      <trkpt lat="45.95741401797215" lon="7.915062601756897">
+      </trkpt>
+      <trkpt lat="45.95528069753455" lon="7.917118545111639">
+      </trkpt>
+      <trkpt lat="45.954601596508425" lon="7.917453982340256">
+      </trkpt>
+      <trkpt lat="45.95320732085049" lon="7.9179932238135375">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

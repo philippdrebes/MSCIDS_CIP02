@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Zuoz  unterhalb Gratlcke</name>
+    <desc>Von der SesselliftBergstation Pizzet ca 2440 m nordwestwrts via Som Muntatsch 2559 m durch die grosse Mulde von Viroula bis unterhalb der Gratlcke westlich von P 2992</desc>
+    <trkseg>
+      <trkpt lat="46.61130919945894" lon="9.932784908231131">
+      </trkpt>
+      <trkpt lat="46.61324452626876" lon="9.930509397414841">
+      </trkpt>
+      <trkpt lat="46.613938798069185" lon="9.929693036688901">
+      </trkpt>
+      <trkpt lat="46.61417459801089" lon="9.929062193374225">
+      </trkpt>
+      <trkpt lat="46.61448751999938" lon="9.928224999199198">
+      </trkpt>
+      <trkpt lat="46.61481589008318" lon="9.927758301092286">
+      </trkpt>
+      <trkpt lat="46.61600612313964" lon="9.926066602216084">
+      </trkpt>
+      <trkpt lat="46.61646096168413" lon="9.924839429834694">
+      </trkpt>
+      <trkpt lat="46.616960370495974" lon="9.923912289823063">
+      </trkpt>
+      <trkpt lat="46.61759646296245" lon="9.922849748604577">
+      </trkpt>
+      <trkpt lat="46.61848795043076" lon="9.921360522017288">
+      </trkpt>
+      <trkpt lat="46.62182587618542" lon="9.91578380337269">
+      </trkpt>
+      <trkpt lat="46.62258707206814" lon="9.914670615594972">
+      </trkpt>
+      <trkpt lat="46.62321587912118" lon="9.91375099925892">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

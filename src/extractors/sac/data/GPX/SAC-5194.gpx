@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Bergstation  Bifertenhtte</name>
+    <desc>Von Breil  Brigels mit den Bergbahnen bis zur Bergstation P 2420 Kurze Abfahrt nach NW zur Htte ca 2228 m in der Mulde westlich von Fuortga Hier steigt man ber den SHang von P 2376 und gelangt ber  die Terrasse im S des Piz dArtgas nach W zu P 2415 Weiter nach SW durch ein Tlchen zur Htte auf der SESchulter des Kistenstckli</desc>
+    <trkseg>
+      <trkpt lat="46.80848816874132" lon="9.059135324266984">
+      </trkpt>
+      <trkpt lat="46.80934833345457" lon="9.057082151729254">
+      </trkpt>
+      <trkpt lat="46.809730524248245" lon="9.05656421160357">
+      </trkpt>
+      <trkpt lat="46.8103354103218" lon="9.055961955333618">
+      </trkpt>
+      <trkpt lat="46.810626176051365" lon="9.055482614114625">
+      </trkpt>
+      <trkpt lat="46.81101853366992" lon="9.054245250544705">
+      </trkpt>
+      <trkpt lat="46.81133333564112" lon="9.053270264127084">
+      </trkpt>
+      <trkpt lat="46.81180064091236" lon="9.051952388133913">
+      </trkpt>
+      <trkpt lat="46.812002538175996" lon="9.051329718083938">
+      </trkpt>
+      <trkpt lat="46.81233559162404" lon="9.05066960472295">
+      </trkpt>
+      <trkpt lat="46.812655456671685" lon="9.049736090895825">
+      </trkpt>
+      <trkpt lat="46.81348708248209" lon="9.047146753313625">
+      </trkpt>
+      <trkpt lat="46.813969568016624" lon="9.04434010294901">
+      </trkpt>
+      <trkpt lat="46.81452937716509" lon="9.041684620138106">
+      </trkpt>
+      <trkpt lat="46.81499156672002" lon="9.038695261482594">
+      </trkpt>
+      <trkpt lat="46.815391104421316" lon="9.036998391107417">
+      </trkpt>
+      <trkpt lat="46.81543841542137" lon="9.03679744920017">
+      </trkpt>
+      <trkpt lat="46.81551774222308" lon="9.036633341851028">
+      </trkpt>
+      <trkpt lat="46.81597065290375" lon="9.035696363521353">
+      </trkpt>
+      <trkpt lat="46.81650173966015" lon="9.035083344603862">
+      </trkpt>
+      <trkpt lat="46.81708393630733" lon="9.034877223402571">
+      </trkpt>
+      <trkpt lat="46.81758085844393" lon="9.034676844315516">
+      </trkpt>
+      <trkpt lat="46.8181930573533" lon="9.03435577456091">
+      </trkpt>
+      <trkpt lat="46.818432663060804" lon="9.033781882384691">
+      </trkpt>
+      <trkpt lat="46.81848385275254" lon="9.033554284481689">
+      </trkpt>
+      <trkpt lat="46.81857683788775" lon="9.033140854889869">
+      </trkpt>
+      <trkpt lat="46.81857995970453" lon="9.032727251297379">
+      </trkpt>
+      <trkpt lat="46.818581252578426" lon="9.03255594443725">
+      </trkpt>
+      <trkpt lat="46.818349089228654" lon="9.031721134957333">
+      </trkpt>
+      <trkpt lat="46.817225381306464" lon="9.029214154317065">
+      </trkpt>
+      <trkpt lat="46.81666390880238" lon="9.027931757382852">
+      </trkpt>
+      <trkpt lat="46.81639669198749" lon="9.02754330193872">
+      </trkpt>
+      <trkpt lat="46.81590783150223" lon="9.02716485844271">
+      </trkpt>
+      <trkpt lat="46.81453662972136" lon="9.026449313616538">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

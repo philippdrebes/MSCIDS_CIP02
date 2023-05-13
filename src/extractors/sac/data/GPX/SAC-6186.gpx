@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Pilatus Kulm  Tomlishorn</name>
+    <desc>From Kulm via Drachenweg or Chriesiloch go to the mountain hiking trail towards Klimsenkapelle At the first right hand bend leave the trail left to follow a narrow path below the northwest walls of the Pilatus ridge Keep close to the rocks Traverse several depressions some steep passages until below P 2091 The last very steep and rocky depression is traversed by a seemingly audacious path which turns out to be manageable despite a gritty surface But it is scarily exposed After this passage continue another 50 metres to descend a grassy rib alongside a talus Follow the faint path to the left to merge with Alte Tomliweg at 1920 m Follow this trail T4 partly exposed on ledges and ribs which seem to be unpassable viewed from below some fixed ropes You reach a narrow and steep but not too exposed gully Follow this gully to the summit ridge which you reach west of Tomlishorn On the marked mountain hiking trail ascend to the summit</desc>
+    <trkseg>
+      <trkpt lat="46.979805997295216" lon="8.255632886008453">
+      </trkpt>
+      <trkpt lat="46.97959575232796" lon="8.254216444311215">
+      </trkpt>
+      <trkpt lat="46.979410020213024" lon="8.253480016444529">
+      </trkpt>
+      <trkpt lat="46.9792700202095" lon="8.253160016443049">
+      </trkpt>
+      <trkpt lat="46.97951002021631" lon="8.252810016440243">
+      </trkpt>
+      <trkpt lat="46.97941002021527" lon="8.252570016445745">
+      </trkpt>
+      <trkpt lat="46.97916002021456" lon="8.252300016445401">
+      </trkpt>
+      <trkpt lat="46.97900083466559" lon="8.251897076228587">
+      </trkpt>
+      <trkpt lat="46.97876958270998" lon="8.25152555448306">
+      </trkpt>
+      <trkpt lat="46.97725565586978" lon="8.249360300225012">
+      </trkpt>
+      <trkpt lat="46.97700779903551" lon="8.24879140363156">
+      </trkpt>
+      <trkpt lat="46.976633550349604" lon="8.248286323055455">
+      </trkpt>
+      <trkpt lat="46.97637669349984" lon="8.247717302558058">
+      </trkpt>
+      <trkpt lat="46.976164992380454" lon="8.247122681195712">
+      </trkpt>
+      <trkpt lat="46.975804619818874" lon="8.245763851822591">
+      </trkpt>
+      <trkpt lat="46.97556809363612" lon="8.244532690519158">
+      </trkpt>
+      <trkpt lat="46.97540392275658" lon="8.243971500774668">
+      </trkpt>
+      <trkpt lat="46.97534871858035" lon="8.243404863502771">
+      </trkpt>
+      <trkpt lat="46.975087527197715" lon="8.243010539712452">
+      </trkpt>
+      <trkpt lat="46.97505052719995" lon="8.242774539715848">
+      </trkpt>
+      <trkpt lat="46.97509052719735" lon="8.24260553971738">
+      </trkpt>
+      <trkpt lat="46.97503352719388" lon="8.242644539713815">
+      </trkpt>
+      <trkpt lat="46.97497352719363" lon="8.242445539713472">
+      </trkpt>
+      <trkpt lat="46.97481652719567" lon="8.242349539712203">
+      </trkpt>
+      <trkpt lat="46.97474052720282" lon="8.242001539710966">
+      </trkpt>
+      <trkpt lat="46.9744039085698" lon="8.241593870338555">
+      </trkpt>
+      <trkpt lat="46.97429652720735" lon="8.240763539714402">
+      </trkpt>
+      <trkpt lat="46.97397002021266" lon="8.24039001641726">
+      </trkpt>
+      <trkpt lat="46.973730020212805" lon="8.239590016420731">
+      </trkpt>
+      <trkpt lat="46.97365002021469" lon="8.239540016421328">
+      </trkpt>
+      <trkpt lat="46.97329002021505" lon="8.240160016416219">
+      </trkpt>
+      <trkpt lat="46.9729800202108" lon="8.240440016419623">
+      </trkpt>
+      <trkpt lat="46.97294002021578" lon="8.24060001642537">
+      </trkpt>
+      <trkpt lat="46.972990020211846" lon="8.240790016419664">
+      </trkpt>
+      <trkpt lat="46.97306002021152" lon="8.240620016422453">
+      </trkpt>
+      <trkpt lat="46.97314002021128" lon="8.240860016424294">
+      </trkpt>
+      <trkpt lat="46.97351002021832" lon="8.241070016420439">
+      </trkpt>
+      <trkpt lat="46.97343002021306" lon="8.24080001641927">
+      </trkpt>
+      <trkpt lat="46.97358002021079" lon="8.240930016424622">
+      </trkpt>
+      <trkpt lat="46.97356002021202" lon="8.240830016422553">
+      </trkpt>
+      <trkpt lat="46.973910135294574" lon="8.241244419873354">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

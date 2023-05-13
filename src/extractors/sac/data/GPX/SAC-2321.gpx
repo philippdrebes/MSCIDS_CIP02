@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Glattalpbahn top station  Glattalphtte</name>
+    <desc>From the station Glattalp follow the mountain path shortly but steeply northwards up to the hut</desc>
+    <trkseg>
+      <trkpt lat="46.91517952380829" lon="8.873514535748638">
+      </trkpt>
+      <trkpt lat="46.91542652380843" lon="8.873613535750332">
+      </trkpt>
+      <trkpt lat="46.91555852380898" lon="8.873571535751752">
+      </trkpt>
+      <trkpt lat="46.915753523810544" lon="8.873370535754614">
+      </trkpt>
+      <trkpt lat="46.915878523811074" lon="8.873333535755958">
+      </trkpt>
+      <trkpt lat="46.91595652381254" lon="8.873087535758016">
+      </trkpt>
+      <trkpt lat="46.916000523812784" lon="8.873061535758557">
+      </trkpt>
+      <trkpt lat="46.91625252381366" lon="8.873016535761082">
+      </trkpt>
+      <trkpt lat="46.91632152381314" lon="8.873158535760918">
+      </trkpt>
+      <trkpt lat="46.91631952381416" lon="8.872964535761975">
+      </trkpt>
+      <trkpt lat="46.91647052381553" lon="8.872774535764384">
+      </trkpt>
+      <trkpt lat="46.916544523811986" lon="8.873501535761042">
+      </trkpt>
+      <trkpt lat="46.91669852381011" lon="8.873947535759973">
+      </trkpt>
+      <trkpt lat="46.916715523809245" lon="8.874123535759162">
+      </trkpt>
+      <trkpt lat="46.91668252380425" lon="8.875090535753545">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

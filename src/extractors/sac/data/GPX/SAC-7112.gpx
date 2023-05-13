@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>CufercalhtteSattel ca 2510 m</name>
+    <desc>Von der Cufercalhtte folgt man dem rotweiss markierten Bergwanderweg Richtung Lai da Calandari nordwrts Man gelangt so zu einem Sattel auf dem Hauptgrat ca 2510 m im Westen des Piz Calandari</desc>
+    <trkseg>
+      <trkpt lat="46.59333032507057" lon="9.35913038526776">
+      </trkpt>
+      <trkpt lat="46.593449945290054" lon="9.359240364641584">
+      </trkpt>
+      <trkpt lat="46.593639805208284" lon="9.359560385343707">
+      </trkpt>
+      <trkpt lat="46.59427964492291" lon="9.36008958778254">
+      </trkpt>
+      <trkpt lat="46.59456975994333" lon="9.36044059219542">
+      </trkpt>
+      <trkpt lat="46.5946504093885" lon="9.36046042839123">
+      </trkpt>
+      <trkpt lat="46.594690352656414" lon="9.360439657369875">
+      </trkpt>
+      <trkpt lat="46.59476982465614" lon="9.360369382892888">
+      </trkpt>
+      <trkpt lat="46.59482959217859" lon="9.360400224936548">
+      </trkpt>
+      <trkpt lat="46.59492975736689" lon="9.36048993839763">
+      </trkpt>
+      <trkpt lat="46.59504978132637" lon="9.360469403169278">
+      </trkpt>
+      <trkpt lat="46.59527996736007" lon="9.360319637165674">
+      </trkpt>
+      <trkpt lat="46.59539270919344" lon="9.360478875457915">
+      </trkpt>
+      <trkpt lat="46.595400371353165" lon="9.360489697647433">
+      </trkpt>
+      <trkpt lat="46.595620046588266" lon="9.360109812692423">
+      </trkpt>
+      <trkpt lat="46.59573023178427" lon="9.359339645040642">
+      </trkpt>
+      <trkpt lat="46.595829714813966" lon="9.359149984380537">
+      </trkpt>
+      <trkpt lat="46.596099955645236" lon="9.358919394631027">
+      </trkpt>
+      <trkpt lat="46.59640032591826" lon="9.358449681883656">
+      </trkpt>
+      <trkpt lat="46.596629603621885" lon="9.358406913351372">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

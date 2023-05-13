@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Disentis  Beginn Steilrinne</name>
+    <desc>Zuerst der Skipiste spter dem Rein dAcletta auf der rechten Talseite folgend durch das Val dAcletta bis zur Alp Magriel P 1797 Nun steiler zur Htte beim Lag Serein P 2072 und weiter durch die Talmulde des Val dal Lag Serein bis an den Fuss des Brunnigrtli ca100 m westlich von P 2720 Brunnipass</desc>
+    <trkseg>
+      <trkpt lat="46.701559956155705" lon="8.83903660650779">
+      </trkpt>
+      <trkpt lat="46.701838050753175" lon="8.837994990156968">
+      </trkpt>
+      <trkpt lat="46.7022252797435" lon="8.837063442860384">
+      </trkpt>
+      <trkpt lat="46.70336444082657" lon="8.835396644536907">
+      </trkpt>
+      <trkpt lat="46.70419731033033" lon="8.833896907510802">
+      </trkpt>
+      <trkpt lat="46.70443457383497" lon="8.833426084844874">
+      </trkpt>
+      <trkpt lat="46.70547945452431" lon="8.831128914476235">
+      </trkpt>
+      <trkpt lat="46.705731155870524" lon="8.830537381951347">
+      </trkpt>
+      <trkpt lat="46.7059482375289" lon="8.829932950657215">
+      </trkpt>
+      <trkpt lat="46.706100534241095" lon="8.829380566447526">
+      </trkpt>
+      <trkpt lat="46.70621963290233" lon="8.82875499834954">
+      </trkpt>
+      <trkpt lat="46.706275998958496" lon="8.828604527114202">
+      </trkpt>
+      <trkpt lat="46.70637223945992" lon="8.828493222214897">
+      </trkpt>
+      <trkpt lat="46.70673199907968" lon="8.828248041965447">
+      </trkpt>
+      <trkpt lat="46.70694061852501" lon="8.828029881526641">
+      </trkpt>
+      <trkpt lat="46.70713697071922" lon="8.827759759518157">
+      </trkpt>
+      <trkpt lat="46.70730483192847" lon="8.82744965806819">
+      </trkpt>
+      <trkpt lat="46.70733872159913" lon="8.827388469944513">
+      </trkpt>
+      <trkpt lat="46.707576009977295" lon="8.827033723760362">
+      </trkpt>
+      <trkpt lat="46.70785975455571" lon="8.826666475729906">
+      </trkpt>
+      <trkpt lat="46.70821357613153" lon="8.826258290123803">
+      </trkpt>
+      <trkpt lat="46.70874828054713" lon="8.825716796632431">
+      </trkpt>
+      <trkpt lat="46.709422474134186" lon="8.825146095788327">
+      </trkpt>
+      <trkpt lat="46.7096143998287" lon="8.82495280933214">
+      </trkpt>
+      <trkpt lat="46.70974356913016" lon="8.824751386849114">
+      </trkpt>
+      <trkpt lat="46.70998099531159" lon="8.824185096240639">
+      </trkpt>
+      <trkpt lat="46.71011799737494" lon="8.823943258587647">
+      </trkpt>
+      <trkpt lat="46.710212924705495" lon="8.823835010233505">
+      </trkpt>
+      <trkpt lat="46.7105270595295" lon="8.823548179184744">
+      </trkpt>
+      <trkpt lat="46.71080460121026" lon="8.823244399011852">
+      </trkpt>
+      <trkpt lat="46.71120067507432" lon="8.822770189084014">
+      </trkpt>
+      <trkpt lat="46.71159078141206" lon="8.822241810002621">
+      </trkpt>
+      <trkpt lat="46.711878135616395" lon="8.821596933168792">
+      </trkpt>
+      <trkpt lat="46.71308508113853" lon="8.818161552148664">
+      </trkpt>
+      <trkpt lat="46.71359927964123" lon="8.817772413252433">
+      </trkpt>
+      <trkpt lat="46.71991239832923" lon="8.815927735012135">
+      </trkpt>
+      <trkpt lat="46.72211805250084" lon="8.81514443247152">
+      </trkpt>
+      <trkpt lat="46.724384502256655" lon="8.814159175774764">
+      </trkpt>
+      <trkpt lat="46.7261236690768" lon="8.813209481300955">
+      </trkpt>
+      <trkpt lat="46.72686663276251" lon="8.812679820642943">
+      </trkpt>
+      <trkpt lat="46.72844264894418" lon="8.811262958808866">
+      </trkpt>
+      <trkpt lat="46.73114571930169" lon="8.808411288446429">
+      </trkpt>
+      <trkpt lat="46.73229541291297" lon="8.806889165493192">
+      </trkpt>
+      <trkpt lat="46.73320532094722" lon="8.805238969792947">
+      </trkpt>
+      <trkpt lat="46.73369585444276" lon="8.804349305531783">
+      </trkpt>
+      <trkpt lat="46.733768012575574" lon="8.804218430703775">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

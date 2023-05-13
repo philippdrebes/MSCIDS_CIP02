@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Petite Dent de Morcles  couloir du Nant Rouge</name>
+    <desc>Rejoindre facilement la selle entre les deux Dents de Morcles Descendre encore dune vingtaine de mtres dans un large couloir en versant SW couloir du Nant Vert puis remonter une dalle de 25 m 2c qui nous ramne sur une terrasse 1 spit Prendre  droite et remonter encore un petit mur suivre une vire horizontale puis lgrement descendante Aprs quelques centaines de mtres quitter la vire et remonter des gradins faciles qui conduisent  une autre vire Rejoindre rapidement le couloir du Nant Rouge o lon trouve le sentier de la Grande Dent de Morcles et ses marques de peinture bleue</desc>
+    <trkseg>
+      <trkpt lat="46.201012388921775" lon="7.071245794365146">
+      </trkpt>
+      <trkpt lat="46.20079433099417" lon="7.0714105055517">
+      </trkpt>
+      <trkpt lat="46.20057176501855" lon="7.072124544861658">
+      </trkpt>
+      <trkpt lat="46.200599889328565" lon="7.072474144628273">
+      </trkpt>
+      <trkpt lat="46.20042998558078" lon="7.072786213525002">
+      </trkpt>
+      <trkpt lat="46.20028652064701" lon="7.072929686234158">
+      </trkpt>
+      <trkpt lat="46.20019749095777" lon="7.07321529750973">
+      </trkpt>
+      <trkpt lat="46.19997264581038" lon="7.073229765740089">
+      </trkpt>
+      <trkpt lat="46.200063062988185" lon="7.073371662718645">
+      </trkpt>
+      <trkpt lat="46.200036622653606" lon="7.073540256051413">
+      </trkpt>
+      <trkpt lat="46.19990223621661" lon="7.073709574717204">
+      </trkpt>
+      <trkpt lat="46.19971354086377" lon="7.073775617712367">
+      </trkpt>
+      <trkpt lat="46.199687938705424" lon="7.074203303178607">
+      </trkpt>
+      <trkpt lat="46.199543927051984" lon="7.074178359921022">
+      </trkpt>
+      <trkpt lat="46.199481168254735" lon="7.074243555689086">
+      </trkpt>
+      <trkpt lat="46.19934719969317" lon="7.074542416789865">
+      </trkpt>
+      <trkpt lat="46.199176285427406" lon="7.074543562860898">
+      </trkpt>
+      <trkpt lat="46.19905905085754" lon="7.074453665360763">
+      </trkpt>
+      <trkpt lat="46.19895144012222" lon="7.0745580253469456">
+      </trkpt>
+      <trkpt lat="46.19887039696503" lon="7.074532659243416">
+      </trkpt>
+      <trkpt lat="46.19875312049092" lon="7.074429807810458">
+      </trkpt>
+      <trkpt lat="46.19866383579568" lon="7.074637682035537">
+      </trkpt>
+      <trkpt lat="46.198619528155675" lon="7.074845254221637">
+      </trkpt>
+      <trkpt lat="46.1986117038973" lon="7.075208038115662">
+      </trkpt>
+      <trkpt lat="46.19852245955406" lon="7.075428864905695">
+      </trkpt>
+      <trkpt lat="46.19833422265439" lon="7.075637398113927">
+      </trkpt>
+      <trkpt lat="46.198289913177206" lon="7.07584496822943">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

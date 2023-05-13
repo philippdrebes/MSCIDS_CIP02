@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Frenalp  Wissberg</name>
+    <desc>Von der Bergstation der Frrenalpbahn ca 1840 m nordwrts durch die Frenbachmulde gegen den Rossboden hinauf ber die weite Sdwestflanke bis unter die Felsstufe und da nach links nordwestwrts zum unausgeprgten Sdwestgrat hinber ber die mit Felsabstzen gespickte Sdwestflanke teilweise sehr steil 40 auf 100 Hm auf den Gipfel des Wissbergs 2627 m</desc>
+    <trkseg>
+      <trkpt lat="46.80113333706071" lon="8.468175811396826">
+      </trkpt>
+      <trkpt lat="46.80191609102855" lon="8.470584653936195">
+      </trkpt>
+      <trkpt lat="46.80233292006495" lon="8.471335415402095">
+      </trkpt>
+      <trkpt lat="46.802382984712004" lon="8.471425589919285">
+      </trkpt>
+      <trkpt lat="46.8029887249783" lon="8.4719025677008">
+      </trkpt>
+      <trkpt lat="46.81003232688773" lon="8.473177254995667">
+      </trkpt>
+      <trkpt lat="46.81136442388968" lon="8.47286252810265">
+      </trkpt>
+      <trkpt lat="46.81154051439733" lon="8.473130643050524">
+      </trkpt>
+      <trkpt lat="46.8118448411317" lon="8.474559896486687">
+      </trkpt>
+      <trkpt lat="46.81211486317235" lon="8.475363295041323">
+      </trkpt>
+      <trkpt lat="46.81243440577673" lon="8.475901296711276">
+      </trkpt>
+      <trkpt lat="46.813350357555656" lon="8.476922003996549">
+      </trkpt>
+      <trkpt lat="46.81354594553079" lon="8.47713996668642">
+      </trkpt>
+      <trkpt lat="46.81369762613764" lon="8.477551481061683">
+      </trkpt>
+      <trkpt lat="46.813708088435185" lon="8.477829985445691">
+      </trkpt>
+      <trkpt lat="46.81371909260152" lon="8.478122923704849">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

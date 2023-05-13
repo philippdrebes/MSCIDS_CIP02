@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Terrihtte  bifurcation Val Canal</name>
+    <desc>From Terrihtte take the mountain hiking trail to the east and cross the new suspension bridge atl P 2193 Traverse Plaun da Greina southward on a mountain hiking trail Then turn left east to enter Val Canal on a faint path</desc>
+    <trkseg>
+      <trkpt lat="46.63430752238754" lon="9.005208532502282">
+      </trkpt>
+      <trkpt lat="46.63423352238644" lon="9.005577532500533">
+      </trkpt>
+      <trkpt lat="46.63408952238273" lon="9.005902532505544">
+      </trkpt>
+      <trkpt lat="46.63392352237651" lon="9.006930532496876">
+      </trkpt>
+      <trkpt lat="46.63360952237684" lon="9.00698853249463">
+      </trkpt>
+      <trkpt lat="46.633728522374774" lon="9.007244532492743">
+      </trkpt>
+      <trkpt lat="46.633640522373895" lon="9.007579532486673">
+      </trkpt>
+      <trkpt lat="46.63369052237828" lon="9.007738532487592">
+      </trkpt>
+      <trkpt lat="46.63364652237071" lon="9.007721532479918">
+      </trkpt>
+      <trkpt lat="46.63364552237588" lon="9.008070532489555">
+      </trkpt>
+      <trkpt lat="46.633719522375195" lon="9.008355532481291">
+      </trkpt>
+      <trkpt lat="46.63369852236786" lon="9.009182532476926">
+      </trkpt>
+      <trkpt lat="46.63373352236712" lon="9.009419532472478">
+      </trkpt>
+      <trkpt lat="46.63361852236709" lon="9.009651532475436">
+      </trkpt>
+      <trkpt lat="46.63365552236131" lon="9.009851532479454">
+      </trkpt>
+      <trkpt lat="46.633588522362636" lon="9.010116532470878">
+      </trkpt>
+      <trkpt lat="46.633671933317025" lon="9.010410835935234">
+      </trkpt>
+      <trkpt lat="46.63382652235451" lon="9.01151153246776">
+      </trkpt>
+      <trkpt lat="46.633885522346056" lon="9.012757532460745">
+      </trkpt>
+      <trkpt lat="46.63371652234613" lon="9.012947532457641">
+      </trkpt>
+      <trkpt lat="46.633598522348734" lon="9.013368532459811">
+      </trkpt>
+      <trkpt lat="46.63317652234174" lon="9.013918532452164">
+      </trkpt>
+      <trkpt lat="46.633026522338476" lon="9.013932532446862">
+      </trkpt>
+      <trkpt lat="46.63294452234014" lon="9.014071532450837">
+      </trkpt>
+      <trkpt lat="46.63278852234375" lon="9.014148532446573">
+      </trkpt>
+      <trkpt lat="46.632649522336" lon="9.014333532439105">
+      </trkpt>
+      <trkpt lat="46.63221852233781" lon="9.014524532431544">
+      </trkpt>
+      <trkpt lat="46.631909522335405" lon="9.014507532439042">
+      </trkpt>
+      <trkpt lat="46.63159752233471" lon="9.01430153243465">
+      </trkpt>
+      <trkpt lat="46.63102152233585" lon="9.014318532428117">
+      </trkpt>
+      <trkpt lat="46.63075452233442" lon="9.014431532422785">
+      </trkpt>
+      <trkpt lat="46.63058552233175" lon="9.014424532422687">
+      </trkpt>
+      <trkpt lat="46.62982452233178" lon="9.013963532415966">
+      </trkpt>
+      <trkpt lat="46.628883522335066" lon="9.013048532416176">
+      </trkpt>
+      <trkpt lat="46.62839752233784" lon="9.012824532410038">
+      </trkpt>
+      <trkpt lat="46.628129522332735" lon="9.012767532407544">
+      </trkpt>
+      <trkpt lat="46.627943522332764" lon="9.012598532411202">
+      </trkpt>
+      <trkpt lat="46.627941387403474" lon="9.012597209779456">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

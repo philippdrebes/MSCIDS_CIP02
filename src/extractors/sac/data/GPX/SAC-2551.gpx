@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Arolla  Pas de Chvre</name>
+    <desc>From Arolla 1968 m either ascend on the ski run or take the ski lift of Les Fontanesses 1 to the summit station ca 2470 m using the lift saves 1 h From here ascend westward across a plateau and in an increasingly steep bowl to Pas de Chvre 2854 m</desc>
+    <trkseg>
+      <trkpt lat="46.016326945552365" lon="7.455548148438163">
+      </trkpt>
+      <trkpt lat="46.01597858998993" lon="7.453295664368499">
+      </trkpt>
+      <trkpt lat="46.01588676348684" lon="7.451889336188108">
+      </trkpt>
+      <trkpt lat="46.01589396388393" lon="7.449950040695344">
+      </trkpt>
+      <trkpt lat="46.01546154516298" lon="7.444671167795342">
+      </trkpt>
+      <trkpt lat="46.01504205765812" lon="7.443099180157328">
+      </trkpt>
+      <trkpt lat="46.01400633172865" lon="7.441145649013889">
+      </trkpt>
+      <trkpt lat="46.01383730390005" lon="7.440468121248908">
+      </trkpt>
+      <trkpt lat="46.01377709363438" lon="7.439735324758837">
+      </trkpt>
+      <trkpt lat="46.01385591498614" lon="7.439008756581743">
+      </trkpt>
+      <trkpt lat="46.014076590590136" lon="7.438345769885832">
+      </trkpt>
+      <trkpt lat="46.015212260850134" lon="7.436347435762973">
+      </trkpt>
+      <trkpt lat="46.01579791799102" lon="7.434980250333257">
+      </trkpt>
+      <trkpt lat="46.0159768769035" lon="7.4340911843193">
+      </trkpt>
+      <trkpt lat="46.015929182515855" lon="7.432913879005488">
+      </trkpt>
+      <trkpt lat="46.01591825926352" lon="7.4326442940017765">
+      </trkpt>
+      <trkpt lat="46.016044055819066" lon="7.4322000354177575">
+      </trkpt>
+      <trkpt lat="46.016193748343134" lon="7.431671376734237">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

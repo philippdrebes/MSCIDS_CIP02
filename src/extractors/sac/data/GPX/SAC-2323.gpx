@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Station Violettes  Cabane des Violettes</name>
+    <desc>Just a hop skip and a jump</desc>
+    <trkseg>
+      <trkpt lat="46.34287952922366" lon="7.49813053776931">
+      </trkpt>
+      <trkpt lat="46.34287952922366" lon="7.49813053776931">
+      </trkpt>
+      <trkpt lat="46.34288552922331" lon="7.498202537769004">
+      </trkpt>
+      <trkpt lat="46.34292252922294" lon="7.498306537768818">
+      </trkpt>
+      <trkpt lat="46.342959529222725" lon="7.498362537768882">
+      </trkpt>
+      <trkpt lat="46.3430135292226" lon="7.498415537769123">
+      </trkpt>
+      <trkpt lat="46.34305252922248" lon="7.498466537769222">
+      </trkpt>
+      <trkpt lat="46.343083529222184" lon="7.498544537769106">
+      </trkpt>
+      <trkpt lat="46.34311252922181" lon="7.49863553776892">
+      </trkpt>
+      <trkpt lat="46.343156529221474" lon="7.498728537768855">
+      </trkpt>
+      <trkpt lat="46.34306952922096" lon="7.498774537767835">
+      </trkpt>
+      <trkpt lat="46.342952529220405" lon="7.498828537766504">
+      </trkpt>
+      <trkpt lat="46.342865529219786" lon="7.498889537765415">
+      </trkpt>
+      <trkpt lat="46.34280052921943" lon="7.498929537764628">
+      </trkpt>
+      <trkpt lat="46.34275552921905" lon="7.498974537763991">
+      </trkpt>
+      <trkpt lat="46.34267552921819" lon="7.499104537762609">
+      </trkpt>
+      <trkpt lat="46.342574529217096" lon="7.4992545377609465">
+      </trkpt>
+      <trkpt lat="46.34253952921673" lon="7.4993215377603">
+      </trkpt>
+      <trkpt lat="46.34255152921666" lon="7.499342537760311">
+      </trkpt>
+      <trkpt lat="46.34255152921666" lon="7.499342537760311">
+      </trkpt>
+      <trkpt lat="46.342368797189046" lon="7.500119811754156">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

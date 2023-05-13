@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>La Gouille  Cabane des Aiguilles Rouges</name>
+    <desc>Von La Gouille 1834 m an der Strasse von Les Haudres nach Arolla Richtung SW auf dem Weg nach Louch und zum Lac Bleu 2091 m aufsteigen Von hier Richtung WNW ber mehr oder weniger steile Hnge zwischen Felsvorsprngen hinauf zur Alp Remointse du Sex Blanc 2422 m Weiter in gleicher Richtung in der Mulde des Bachs Les Crosayes In diesem Tal ziemlich hoch aufsteigen um den Felskopf 2844 m zu umrunden und die Htte leicht abwrts von SE her zu erreichen Sie wird erst im letzten Augenblick sichtbar</desc>
+    <trkseg>
+      <trkpt lat="46.05381451681358" lon="7.490013778784569">
+      </trkpt>
+      <trkpt lat="46.053548314187466" lon="7.489543869330351">
+      </trkpt>
+      <trkpt lat="46.053089146701204" lon="7.489298065461009">
+      </trkpt>
+      <trkpt lat="46.05297934884937" lon="7.48898303156174">
+      </trkpt>
+      <trkpt lat="46.052922452044555" lon="7.4887537240671715">
+      </trkpt>
+      <trkpt lat="46.05281206701003" lon="7.488442964329091">
+      </trkpt>
+      <trkpt lat="46.052670144290666" lon="7.488174942721289">
+      </trkpt>
+      <trkpt lat="46.05245556152443" lon="7.487875867271331">
+      </trkpt>
+      <trkpt lat="46.05226121914406" lon="7.487653780526182">
+      </trkpt>
+      <trkpt lat="46.05210594189607" lon="7.487505776786191">
+      </trkpt>
+      <trkpt lat="46.051652126116394" lon="7.487172422614851">
+      </trkpt>
+      <trkpt lat="46.05122233078897" lon="7.486802935479285">
+      </trkpt>
+      <trkpt lat="46.051097976063495" lon="7.486676813190708">
+      </trkpt>
+      <trkpt lat="46.05101170825827" lon="7.486545960830294">
+      </trkpt>
+      <trkpt lat="46.05099458660882" lon="7.486456624392082">
+      </trkpt>
+      <trkpt lat="46.05103679318182" lon="7.486331761068102">
+      </trkpt>
+      <trkpt lat="46.051063870787395" lon="7.486307220346931">
+      </trkpt>
+      <trkpt lat="46.0514642535084" lon="7.486009507240212">
+      </trkpt>
+      <trkpt lat="46.05149604233511" lon="7.485962280699636">
+      </trkpt>
+      <trkpt lat="46.05150408308549" lon="7.485877825367842">
+      </trkpt>
+      <trkpt lat="46.05146016120645" lon="7.4857432947285005">
+      </trkpt>
+      <trkpt lat="46.05115031766237" lon="7.485205789542756">
+      </trkpt>
+      <trkpt lat="46.051071267976475" lon="7.485014675744708">
+      </trkpt>
+      <trkpt lat="46.05100921914634" lon="7.484797414556139">
+      </trkpt>
+      <trkpt lat="46.05096914850117" lon="7.4845352921702615">
+      </trkpt>
+      <trkpt lat="46.05091283549519" lon="7.483848503143191">
+      </trkpt>
+      <trkpt lat="46.0504554952704" lon="7.4821338318407">
+      </trkpt>
+      <trkpt lat="46.050382708996196" lon="7.480777935542715">
+      </trkpt>
+      <trkpt lat="46.050212676132496" lon="7.47992674586173">
+      </trkpt>
+      <trkpt lat="46.05003622700483" lon="7.478568847887066">
+      </trkpt>
+      <trkpt lat="46.05000816501427" lon="7.478323035794429">
+      </trkpt>
+      <trkpt lat="46.049949075676984" lon="7.477599643678703">
+      </trkpt>
+      <trkpt lat="46.04994135280979" lon="7.477158397346295">
+      </trkpt>
+      <trkpt lat="46.04996983461595" lon="7.476650204821054">
+      </trkpt>
+      <trkpt lat="46.05005767405095" lon="7.475998888901927">
+      </trkpt>
+      <trkpt lat="46.050191021037975" lon="7.475368740619957">
+      </trkpt>
+      <trkpt lat="46.05028757528678" lon="7.475075132816257">
+      </trkpt>
+      <trkpt lat="46.050521153553575" lon="7.474587737253338">
+      </trkpt>
+      <trkpt lat="46.05090631132099" lon="7.474098722872784">
+      </trkpt>
+      <trkpt lat="46.05188543363078" lon="7.473477983263685">
+      </trkpt>
+      <trkpt lat="46.052116132294884" lon="7.473182506358741">
+      </trkpt>
+      <trkpt lat="46.0527562194693" lon="7.4709546143106635">
+      </trkpt>
+      <trkpt lat="46.053924885479155" lon="7.469145891658874">
+      </trkpt>
+      <trkpt lat="46.0549344633087" lon="7.466818496030395">
+      </trkpt>
+      <trkpt lat="46.05648945832723" lon="7.464277165363377">
+      </trkpt>
+      <trkpt lat="46.05706468703016" lon="7.46319795470926">
+      </trkpt>
+      <trkpt lat="46.05793515792076" lon="7.461564746328568">
+      </trkpt>
+      <trkpt lat="46.05829911916541" lon="7.460419925568026">
+      </trkpt>
+      <trkpt lat="46.05868480010784" lon="7.456912736431358">
+      </trkpt>
+      <trkpt lat="46.05873632716013" lon="7.4567367420106905">
+      </trkpt>
+      <trkpt lat="46.05873918651619" lon="7.456726974366684">
+      </trkpt>
+      <trkpt lat="46.0588688862609" lon="7.456283975756963">
+      </trkpt>
+      <trkpt lat="46.058874070035266" lon="7.456274055012503">
+      </trkpt>
+      <trkpt lat="46.05941405060728" lon="7.455240616799208">
+      </trkpt>
+      <trkpt lat="46.05851816620843" lon="7.455357082833286">
+      </trkpt>
+      <trkpt lat="46.058445230341825" lon="7.455366564046717">
+      </trkpt>
+      <trkpt lat="46.05794363939849" lon="7.455618978542906">
+      </trkpt>
+      <trkpt lat="46.05731859156293" lon="7.456139496228717">
+      </trkpt>
+      <trkpt lat="46.05620598015852" lon="7.457415825837147">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

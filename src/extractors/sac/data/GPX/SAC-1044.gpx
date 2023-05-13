@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Klausenpass  Tierlpligrat  Iswndli</name>
+    <desc>From Klausenpass 1948 m follow tracks up towards Tierlpligrat then climb over large steps onto the ridge and up to the Iswndli at the foot of the glacier</desc>
+    <trkseg>
+      <trkpt lat="46.8679615237769" lon="8.854915535420265">
+      </trkpt>
+      <trkpt lat="46.86788152378175" lon="8.854700535430984">
+      </trkpt>
+      <trkpt lat="46.86788052377615" lon="8.854939535418923">
+      </trkpt>
+      <trkpt lat="46.867826523782064" lon="8.854715535422555">
+      </trkpt>
+      <trkpt lat="46.867824523774836" lon="8.85494453541696">
+      </trkpt>
+      <trkpt lat="46.8672582804561" lon="8.856210873160416">
+      </trkpt>
+      <trkpt lat="46.86593657800902" lon="8.8539265581767">
+      </trkpt>
+      <trkpt lat="46.86582356716026" lon="8.854292640849598">
+      </trkpt>
+      <trkpt lat="46.865510023511476" lon="8.854244211653166">
+      </trkpt>
+      <trkpt lat="46.86491758859582" lon="8.853477985420431">
+      </trkpt>
+      <trkpt lat="46.864739549048025" lon="8.85422897320824">
+      </trkpt>
+      <trkpt lat="46.86453209861337" lon="8.854434399162688">
+      </trkpt>
+      <trkpt lat="46.863731740673984" lon="8.853850992228672">
+      </trkpt>
+      <trkpt lat="46.86360885464908" lon="8.854041066892147">
+      </trkpt>
+      <trkpt lat="46.863348330788085" lon="8.853665175747745">
+      </trkpt>
+      <trkpt lat="46.86327212134277" lon="8.85397948967387">
+      </trkpt>
+      <trkpt lat="46.86278200507509" lon="8.853650283024834">
+      </trkpt>
+      <trkpt lat="46.86242713580334" lon="8.854080274850178">
+      </trkpt>
+      <trkpt lat="46.86203833417254" lon="8.853737004163252">
+      </trkpt>
+      <trkpt lat="46.861516274483" lon="8.852685648780861">
+      </trkpt>
+      <trkpt lat="46.86113546829699" lon="8.852289046470053">
+      </trkpt>
+      <trkpt lat="46.86092498073625" lon="8.852740400589079">
+      </trkpt>
+      <trkpt lat="46.860622440261764" lon="8.852837884314985">
+      </trkpt>
+      <trkpt lat="46.86036039217977" lon="8.852584985796383">
+      </trkpt>
+      <trkpt lat="46.860119587238984" lon="8.852461461939566">
+      </trkpt>
+      <trkpt lat="46.86005209965482" lon="8.852172725367504">
+      </trkpt>
+      <trkpt lat="46.85977634235339" lon="8.852052894335605">
+      </trkpt>
+      <trkpt lat="46.859639811391155" lon="8.852372759848015">
+      </trkpt>
+      <trkpt lat="46.85910086682176" lon="8.852066324532638">
+      </trkpt>
+      <trkpt lat="46.8589071806302" lon="8.852160223078608">
+      </trkpt>
+      <trkpt lat="46.85847774039004" lon="8.851797509967748">
+      </trkpt>
+      <trkpt lat="46.85821785992521" lon="8.851368967934983">
+      </trkpt>
+      <trkpt lat="46.857561930136654" lon="8.851087081426492">
+      </trkpt>
+      <trkpt lat="46.85723141604114" lon="8.85023608411859">
+      </trkpt>
+      <trkpt lat="46.85695504911738" lon="8.851142534565943">
+      </trkpt>
+      <trkpt lat="46.85657652399351" lon="8.851536732993257">
+      </trkpt>
+      <trkpt lat="46.856319245635504" lon="8.850897424396779">
+      </trkpt>
+      <trkpt lat="46.85569807938411" lon="8.849689057685813">
+      </trkpt>
+      <trkpt lat="46.85558332096652" lon="8.84899804764979">
+      </trkpt>
+      <trkpt lat="46.85535459689847" lon="8.848974482943788">
+      </trkpt>
+      <trkpt lat="46.85500545439538" lon="8.847963814689102">
+      </trkpt>
+      <trkpt lat="46.85466806801814" lon="8.847954979523298">
+      </trkpt>
+      <trkpt lat="46.8540494295475" lon="8.848272613041273">
+      </trkpt>
+      <trkpt lat="46.8536907585024" lon="8.848034807685213">
+      </trkpt>
+      <trkpt lat="46.85339925917386" lon="8.847236525133091">
+      </trkpt>
+      <trkpt lat="46.85292138858771" lon="8.846890191466814">
+      </trkpt>
+      <trkpt lat="46.85189945049232" lon="8.846574225002465">
+      </trkpt>
+      <trkpt lat="46.851666724249405" lon="8.846980348198791">
+      </trkpt>
+      <trkpt lat="46.851637432933174" lon="8.847401247240194">
+      </trkpt>
+      <trkpt lat="46.85123568709872" lon="8.847724547643274">
+      </trkpt>
+      <trkpt lat="46.85116678026198" lon="8.848425513462375">
+      </trkpt>
+      <trkpt lat="46.85084490743486" lon="8.848135976108562">
+      </trkpt>
+      <trkpt lat="46.85054558772816" lon="8.848267618765801">
+      </trkpt>
+      <trkpt lat="46.85029279422125" lon="8.847945827684446">
+      </trkpt>
+      <trkpt lat="46.849848693475735" lon="8.847793648651837">
+      </trkpt>
+      <trkpt lat="46.84943771102183" lon="8.847888300656397">
+      </trkpt>
+      <trkpt lat="46.84892253772079" lon="8.848612689548505">
+      </trkpt>
+      <trkpt lat="46.84868284659458" lon="8.848500999924312">
+      </trkpt>
+      <trkpt lat="46.84851948857038" lon="8.849041340846423">
+      </trkpt>
+      <trkpt lat="46.848136503198425" lon="8.848820486004772">
+      </trkpt>
+      <trkpt lat="46.848083106033975" lon="8.8492407248468">
+      </trkpt>
+      <trkpt lat="46.84792699317301" lon="8.849573774305261">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

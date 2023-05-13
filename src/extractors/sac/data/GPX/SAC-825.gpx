@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Leutschachhtte  Leidseepass</name>
+    <desc>The signpost before Leutschachhtte 2209 m shows the way to Leidseepass the deepest breach between Chapferplanggenstock and Jakobiger distinguishable from afar After a gentle ascent below the southeast pillar of Ruchen you reach the rocky promontories of Chapferplanggenstock at ca 2300 m Where the trail traverses precipitous granite slabs or gullies fixed ropes are physical and mental help to overcome the precarious passages The uppermost stretch of the trail leads up to the jagged ridge at about 2400 m around 250 m west of the deepest breach at P 2328 Through schrofen follow the ridge down to Leidseepass</desc>
+    <trkseg>
+      <trkpt lat="46.78375152484877" lon="8.601150536046392">
+      </trkpt>
+      <trkpt lat="46.78373952484938" lon="8.601022536046974">
+      </trkpt>
+      <trkpt lat="46.783877524851086" lon="8.60076353604962">
+      </trkpt>
+      <trkpt lat="46.78437452485351" lon="8.600547536055277">
+      </trkpt>
+      <trkpt lat="46.784419524853156" lon="8.600632536055222">
+      </trkpt>
+      <trkpt lat="46.784593524853896" lon="8.600598536056983">
+      </trkpt>
+      <trkpt lat="46.78469052485231" lon="8.600954536055946">
+      </trkpt>
+      <trkpt lat="46.78474452485267" lon="8.60090653605669">
+      </trkpt>
+      <trkpt lat="46.785105524853684" lon="8.600891536060027">
+      </trkpt>
+      <trkpt lat="46.785301524852876" lon="8.60116053606035">
+      </trkpt>
+      <trkpt lat="46.78581552485458" lon="8.601099536065332">
+      </trkpt>
+      <trkpt lat="46.78611552485396" lon="8.601377536066533">
+      </trkpt>
+      <trkpt lat="46.78631052485405" lon="8.601467536067814">
+      </trkpt>
+      <trkpt lat="46.78661952485468" lon="8.601492536070475">
+      </trkpt>
+      <trkpt lat="46.786717524854694" lon="8.60155453607103">
+      </trkpt>
+      <trkpt lat="46.78674352485513" lon="8.601485536071635">
+      </trkpt>
+      <trkpt lat="46.78683152485509" lon="8.60154553607211">
+      </trkpt>
+      <trkpt lat="46.786988524855644" lon="8.60151653607368">
+      </trkpt>
+      <trkpt lat="46.78728952485575" lon="8.601640536075733">
+      </trkpt>
+      <trkpt lat="46.7873895248567" lon="8.601516536077307">
+      </trkpt>
+      <trkpt lat="46.787558524856884" lon="8.601570536078544">
+      </trkpt>
+      <trkpt lat="46.78770552485689" lon="8.601636536079523">
+      </trkpt>
+      <trkpt lat="46.787884524856494" lon="8.601821536080143">
+      </trkpt>
+      <trkpt lat="46.7882735248566" lon="8.601997536082708">
+      </trkpt>
+      <trkpt lat="46.78868952485501" lon="8.602525536083613">
+      </trkpt>
+      <trkpt lat="46.7890615248544" lon="8.602857536085178">
+      </trkpt>
+      <trkpt lat="46.78917552485322" lon="8.603131536084739">
+      </trkpt>
+      <trkpt lat="46.7891555248525" lon="8.603269536083808">
+      </trkpt>
+      <trkpt lat="46.78927452485239" lon="8.603357536084413">
+      </trkpt>
+      <trkpt lat="46.789377524852775" lon="8.603332536085487">
+      </trkpt>
+      <trkpt lat="46.78949052485186" lon="8.603573536085195">
+      </trkpt>
+      <trkpt lat="46.789531524852165" lon="8.60352753608582">
+      </trkpt>
+      <trkpt lat="46.789593524852144" lon="8.60357053608615">
+      </trkpt>
+      <trkpt lat="46.789816524854" lon="8.603327536089475">
+      </trkpt>
+      <trkpt lat="46.78997152485388" lon="8.603431536090318">
+      </trkpt>
+      <trkpt lat="46.7900105248544" lon="8.603352536091098">
+      </trkpt>
+      <trkpt lat="46.790085524853886" lon="8.60347353609112">
+      </trkpt>
+      <trkpt lat="46.790068524853226" lon="8.603597536090295">
+      </trkpt>
+      <trkpt lat="46.790153524851796" lon="8.603925536089292">
+      </trkpt>
+      <trkpt lat="46.790762524850855" lon="8.604442536092012">
+      </trkpt>
+      <trkpt lat="46.790825524850476" lon="8.604547536092012">
+      </trkpt>
+      <trkpt lat="46.790837524849806" lon="8.60468353609139">
+      </trkpt>
+      <trkpt lat="46.79075552484845" lon="8.604902536089464">
+      </trkpt>
+      <trkpt lat="46.790769524846816" lon="8.605233536087795">
+      </trkpt>
+      <trkpt lat="46.79082552484608" lon="8.60541253608734">
+      </trkpt>
+      <trkpt lat="46.79121852484441" lon="8.60594553608802">
+      </trkpt>
+      <trkpt lat="46.79118152484343" lon="8.606115536086758">
+      </trkpt>
+      <trkpt lat="46.791203524840725" lon="8.606662536083999">
+      </trkpt>
+      <trkpt lat="46.791287524837706" lon="8.607295536081347">
+      </trkpt>
+      <trkpt lat="46.79145552483529" lon="8.60785153607986">
+      </trkpt>
+      <trkpt lat="46.79144152483428" lon="8.608050536078654">
+      </trkpt>
+      <trkpt lat="46.791485524833355" lon="8.608251536077972">
+      </trkpt>
+      <trkpt lat="46.79144052482868" lon="8.609142536072753">
+      </trkpt>
+      <trkpt lat="46.791518524827275" lon="8.609468536071695">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

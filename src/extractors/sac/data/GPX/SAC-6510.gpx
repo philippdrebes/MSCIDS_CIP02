@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Titlis Bergstation  Hinteres Titlisjoch</name>
+    <desc>Von der TitlisBergstation 3030 m zur Endstation der IceFlyerSesselbahn und von da nordwestwrts ber den Gletscher steil zum Hinteren Titlisjoch 2696 m hinunter</desc>
+    <trkseg>
+      <trkpt lat="46.770671991649984" lon="8.423555397902874">
+      </trkpt>
+      <trkpt lat="46.77071300871169" lon="8.423854637437865">
+      </trkpt>
+      <trkpt lat="46.77103997565385" lon="8.424645353367445">
+      </trkpt>
+      <trkpt lat="46.77120360783863" lon="8.425447962376703">
+      </trkpt>
+      <trkpt lat="46.771258982425415" lon="8.425811096184715">
+      </trkpt>
+      <trkpt lat="46.77173262120163" lon="8.42567296838255">
+      </trkpt>
+      <trkpt lat="46.77204381429349" lon="8.425389872329667">
+      </trkpt>
+      <trkpt lat="46.77315013284776" lon="8.422985579631625">
+      </trkpt>
+      <trkpt lat="46.77364850727478" lon="8.421207985402111">
+      </trkpt>
+      <trkpt lat="46.77379536630894" lon="8.420607823110906">
+      </trkpt>
+      <trkpt lat="46.77391966910999" lon="8.419884389182354">
+      </trkpt>
+      <trkpt lat="46.77403569726512" lon="8.418814319347169">
+      </trkpt>
+      <trkpt lat="46.77408252183519" lon="8.418381386655904">
+      </trkpt>
+      <trkpt lat="46.77428135368553" lon="8.417075823553382">
+      </trkpt>
+      <trkpt lat="46.77428550118475" lon="8.417048588607768">
+      </trkpt>
+      <trkpt lat="46.77427783430204" lon="8.416368789735166">
+      </trkpt>
+      <trkpt lat="46.77422258845364" lon="8.4157764768154">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

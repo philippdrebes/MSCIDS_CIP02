@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Frenalpbahn valley station  Herrenrti</name>
+    <desc>From the Herrenrtiboden car park Frenalp cable car  P 1083 follow the road to Herrenrti</desc>
+    <trkseg>
+      <trkpt lat="46.80194852567289" lon="8.44922253702819">
+      </trkpt>
+      <trkpt lat="46.80105252566157" lon="8.450968537010693">
+      </trkpt>
+      <trkpt lat="46.80056852565248" lon="8.45249853699812">
+      </trkpt>
+      <trkpt lat="46.799927525643845" lon="8.45385053698506">
+      </trkpt>
+      <trkpt lat="46.79958452563979" lon="8.454461536978663">
+      </trkpt>
+      <trkpt lat="46.798619525626684" lon="8.456506536958956">
+      </trkpt>
+      <trkpt lat="46.79833352562363" lon="8.456966536953887">
+      </trkpt>
+      <trkpt lat="46.798241525623126" lon="8.457014536952798">
+      </trkpt>
+      <trkpt lat="46.798012525619974" lon="8.457509536948072">
+      </trkpt>
+      <trkpt lat="46.79769652561793" lon="8.457753536943889">
+      </trkpt>
+      <trkpt lat="46.797302525614754" lon="8.458158536938148">
+      </trkpt>
+      <trkpt lat="46.79698652561165" lon="8.45859953693291">
+      </trkpt>
+      <trkpt lat="46.7967905256103" lon="8.458756536930292">
+      </trkpt>
+      <trkpt lat="46.796589525608084" lon="8.459093536926657">
+      </trkpt>
+      <trkpt lat="46.79625252560562" lon="8.459388536922017">
+      </trkpt>
+      <trkpt lat="46.79560283631077" lon="8.460663004188055">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

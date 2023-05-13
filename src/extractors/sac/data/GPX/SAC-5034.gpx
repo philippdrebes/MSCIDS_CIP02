@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Rifugio Oberto Maroli  Einstieg SEGrat</name>
+    <desc>Vom Rifugio Oberto Maroli ostwrts an der oberen Bahnstation vorbei zum Sattel nrdlich der Punta San Pietro Nun durch die mit grossen Blcken berste Flanke etwas hinab um die Sdabstrze des Joderhorns zu umgehen dann auf Wegspuren leicht ansteigend hinber Richtung SEGrat Zuletzt ber eine steilere Schrofenstufe zum Einstieg des SEGrats  der sich gut 100 Meter links des Sattels P 2801 Bocchetta di Staffa am Fuss des ersten Steilaufschwungs befindet und mit einer gut sichtbaren Stange markiert ist</desc>
+    <trkseg>
+      <trkpt lat="45.99663447032025" lon="7.978857678042119">
+      </trkpt>
+      <trkpt lat="45.997012948471586" lon="7.979734300491371">
+      </trkpt>
+      <trkpt lat="45.99685461680959" lon="7.980877900894174">
+      </trkpt>
+      <trkpt lat="45.99644179778744" lon="7.981970238001679">
+      </trkpt>
+      <trkpt lat="45.995735228862294" lon="7.984107320360355">
+      </trkpt>
+      <trkpt lat="45.995320841585254" lon="7.985516334579624">
+      </trkpt>
+      <trkpt lat="45.99445210420093" lon="7.986068029946359">
+      </trkpt>
+      <trkpt lat="45.993784880177174" lon="7.987084639009823">
+      </trkpt>
+      <trkpt lat="45.99426359666184" lon="7.989538378860212">
+      </trkpt>
+      <trkpt lat="45.99435655904445" lon="7.99083371324874">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

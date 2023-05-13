@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Muttseehtte SAC  Obersee</name>
+    <desc>Von der Muttseehtte SAC weglos nordwrts zu einem guten Pfad der westseitig etwas oberhalb des Muttsees durch die Schuttflanke zieht Am Seeende etwas absteigen ber den Bach und zu einem Rcken zwischen Obersee und P 2494</desc>
+    <trkseg>
+      <trkpt lat="46.85741059178567" lon="9.018825118476212">
+      </trkpt>
+      <trkpt lat="46.858462674292525" lon="9.018606807405897">
+      </trkpt>
+      <trkpt lat="46.85893085451512" lon="9.018648098658726">
+      </trkpt>
+      <trkpt lat="46.85955072939528" lon="9.018584978725983">
+      </trkpt>
+      <trkpt lat="46.86019049295522" lon="9.018384717167676">
+      </trkpt>
+      <trkpt lat="46.86161393778919" lon="9.01850783464579">
+      </trkpt>
+      <trkpt lat="46.862375549974125" lon="9.018995855447521">
+      </trkpt>
+      <trkpt lat="46.86343998784142" lon="9.019836463019871">
+      </trkpt>
+      <trkpt lat="46.86486196887857" lon="9.021106073107692">
+      </trkpt>
+      <trkpt lat="46.8661505159109" lon="9.022589582542476">
+      </trkpt>
+      <trkpt lat="46.86674442868248" lon="9.024270455802043">
+      </trkpt>
+      <trkpt lat="46.867073755931656" lon="9.0248521191284">
+      </trkpt>
+      <trkpt lat="46.86731769085182" lon="9.026140973699722">
+      </trkpt>
+      <trkpt lat="46.86767728277381" lon="9.027134155489879">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

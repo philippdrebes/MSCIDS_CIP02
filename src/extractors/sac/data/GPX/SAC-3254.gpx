@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Chppeliberg  Lidernenhtte SAC</name>
+    <desc>From the bus stop Riemenstalden Chppeliberg 1184 m cross the Riemenstaldner stream and follow the steep summer path through the dense Broholz forest up to the Alp of the same name 1596 m Continue south in open terrain to the hut Or take the cable car</desc>
+    <trkseg>
+      <trkpt lat="46.94649923880108" lon="8.685741916272686">
+      </trkpt>
+      <trkpt lat="46.94632211856902" lon="8.685586022157288">
+      </trkpt>
+      <trkpt lat="46.94591619291616" lon="8.685228745463945">
+      </trkpt>
+      <trkpt lat="46.94577769490291" lon="8.685215407952633">
+      </trkpt>
+      <trkpt lat="46.94561399252239" lon="8.685288081201064">
+      </trkpt>
+      <trkpt lat="46.94546331228632" lon="8.685233598865057">
+      </trkpt>
+      <trkpt lat="46.94519279105339" lon="8.684963971917458">
+      </trkpt>
+      <trkpt lat="46.94501662091538" lon="8.68511279209442">
+      </trkpt>
+      <trkpt lat="46.94501837786738" lon="8.685486643265955">
+      </trkpt>
+      <trkpt lat="46.94508900269293" lon="8.685947050860218">
+      </trkpt>
+      <trkpt lat="46.9453537598893" lon="8.687340087548616">
+      </trkpt>
+      <trkpt lat="46.94533556213244" lon="8.687774577366707">
+      </trkpt>
+      <trkpt lat="46.94531456978049" lon="8.687886733769856">
+      </trkpt>
+      <trkpt lat="46.94528390534658" lon="8.687944362070395">
+      </trkpt>
+      <trkpt lat="46.94522994441597" lon="8.687944865077261">
+      </trkpt>
+      <trkpt lat="46.94513635787505" lon="8.687899700463573">
+      </trkpt>
+      <trkpt lat="46.94479327695664" lon="8.687650673726935">
+      </trkpt>
+      <trkpt lat="46.943304923726274" lon="8.686378349100803">
+      </trkpt>
+      <trkpt lat="46.942786481353394" lon="8.686343864172827">
+      </trkpt>
+      <trkpt lat="46.94247003924156" lon="8.6859345975907">
+      </trkpt>
+      <trkpt lat="46.9423704482757" lon="8.686079339485293">
+      </trkpt>
+      <trkpt lat="46.94235809683997" lon="8.686465881850047">
+      </trkpt>
+      <trkpt lat="46.942345777068695" lon="8.68727660640695">
+      </trkpt>
+      <trkpt lat="46.94245268067473" lon="8.687610405117907">
+      </trkpt>
+      <trkpt lat="46.94239111997846" lon="8.687712861552875">
+      </trkpt>
+      <trkpt lat="46.942323674912394" lon="8.687875357976145">
+      </trkpt>
+      <trkpt lat="46.942297147238506" lon="8.687993673951969">
+      </trkpt>
+      <trkpt lat="46.94224595803271" lon="8.68837250534117">
+      </trkpt>
+      <trkpt lat="46.94227231695747" lon="8.688868054637117">
+      </trkpt>
+      <trkpt lat="46.942234897559146" lon="8.689114840477998">
+      </trkpt>
+      <trkpt lat="46.94218591636236" lon="8.689269012188511">
+      </trkpt>
+      <trkpt lat="46.942119189138495" lon="8.689408815287349">
+      </trkpt>
+      <trkpt lat="46.941917313395585" lon="8.689714459421479">
+      </trkpt>
+      <trkpt lat="46.94170229508798" lon="8.689957994006052">
+      </trkpt>
+      <trkpt lat="46.94144300341" lon="8.69017781976849">
+      </trkpt>
+      <trkpt lat="46.94048023521419" lon="8.690853138412784">
+      </trkpt>
+      <trkpt lat="46.939842848951145" lon="8.691336169552557">
+      </trkpt>
+      <trkpt lat="46.939662526039875" lon="8.69144470367255">
+      </trkpt>
+      <trkpt lat="46.93952297564298" lon="8.69152869666511">
+      </trkpt>
+      <trkpt lat="46.939483010818435" lon="8.691552750202012">
+      </trkpt>
+      <trkpt lat="46.939354065284725" lon="8.691695130357651">
+      </trkpt>
+      <trkpt lat="46.939018446475956" lon="8.692249033225222">
+      </trkpt>
+      <trkpt lat="46.938801899406656" lon="8.692447849355746">
+      </trkpt>
+      <trkpt lat="46.93863691283891" lon="8.692527405611688">
+      </trkpt>
+      <trkpt lat="46.93839233453753" lon="8.692594317918282">
+      </trkpt>
+      <trkpt lat="46.93816019022169" lon="8.692643215337847">
+      </trkpt>
+      <trkpt lat="46.93684294079908" lon="8.692899197238155">
+      </trkpt>
+      <trkpt lat="46.936052388985736" lon="8.692875840856692">
+      </trkpt>
+      <trkpt lat="46.93605221901261" lon="8.692875835576356">
+      </trkpt>
+      <trkpt lat="46.9359353798783" lon="8.692872383708268">
+      </trkpt>
+      <trkpt lat="46.935163700119524" lon="8.692672732133294">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

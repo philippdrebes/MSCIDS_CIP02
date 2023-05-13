@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Eggli  Sassauna</name>
+    <desc>Von der Bergstation zu P 1923 dort auf Wegspuren durch die steilen Weiden der SassaunaSdflanke T3 zum Gipfel Die markierten Bergwege ber den West oder Sdgrat sind lnger aber bequemer</desc>
+    <trkseg>
+      <trkpt lat="46.99955001936872" lon="9.689650019171818">
+      </trkpt>
+      <trkpt lat="46.99955601936354" lon="9.689830019171108">
+      </trkpt>
+      <trkpt lat="46.999733019363106" lon="9.69033401916931">
+      </trkpt>
+      <trkpt lat="46.99989901936357" lon="9.689929019176944">
+      </trkpt>
+      <trkpt lat="47.00024001936527" lon="9.689745019169605">
+      </trkpt>
+      <trkpt lat="47.00046701936501" lon="9.689433019174775">
+      </trkpt>
+      <trkpt lat="47.00059101936888" lon="9.689115019176812">
+      </trkpt>
+      <trkpt lat="47.00066601936281" lon="9.688750019172062">
+      </trkpt>
+      <trkpt lat="47.00065201936827" lon="9.688483019165076">
+      </trkpt>
+      <trkpt lat="47.00056401936883" lon="9.688132019173517">
+      </trkpt>
+      <trkpt lat="47.000596019367876" lon="9.687893019176155">
+      </trkpt>
+      <trkpt lat="47.00070601936995" lon="9.687757019175141">
+      </trkpt>
+      <trkpt lat="47.0011990193688" lon="9.68671001916541">
+      </trkpt>
+      <trkpt lat="47.00121701936692" lon="9.686426019165387">
+      </trkpt>
+      <trkpt lat="47.00105901936942" lon="9.68575901916844">
+      </trkpt>
+      <trkpt lat="47.001078019363916" lon="9.68551001916827">
+      </trkpt>
+      <trkpt lat="47.001435019364735" lon="9.684867019147918">
+      </trkpt>
+      <trkpt lat="47.00174401936438" lon="9.684736019154899">
+      </trkpt>
+      <trkpt lat="47.00199101937032" lon="9.68442501915379">
+      </trkpt>
+      <trkpt lat="47.00211101936478" lon="9.684450019154523">
+      </trkpt>
+      <trkpt lat="47.00332401936727" lon="9.686541019171825">
+      </trkpt>
+      <trkpt lat="47.003407019369874" lon="9.686785019173396">
+      </trkpt>
+      <trkpt lat="47.003412019369385" lon="9.686991019171657">
+      </trkpt>
+      <trkpt lat="47.00357701936982" lon="9.687478019168555">
+      </trkpt>
+      <trkpt lat="47.00377001936358" lon="9.687768019170097">
+      </trkpt>
+      <trkpt lat="47.00386901936935" lon="9.68832801916792">
+      </trkpt>
+      <trkpt lat="47.004089019363356" lon="9.68879401917032">
+      </trkpt>
+      <trkpt lat="47.00446101936699" lon="9.689267019165381">
+      </trkpt>
+      <trkpt lat="47.00492801936642" lon="9.689610019166363">
+      </trkpt>
+      <trkpt lat="47.005458019364966" lon="9.690240019165632">
+      </trkpt>
+      <trkpt lat="47.00572401936428" lon="9.69043701917136">
+      </trkpt>
+      <trkpt lat="47.006080019371524" lon="9.690937019174322">
+      </trkpt>
+      <trkpt lat="47.0061550193698" lon="9.691222019171455">
+      </trkpt>
+      <trkpt lat="47.00632101936935" lon="9.69148801917686">
+      </trkpt>
+      <trkpt lat="47.00667401937176" lon="9.69124201917895">
+      </trkpt>
+      <trkpt lat="47.00684101937108" lon="9.691298019179252">
+      </trkpt>
+      <trkpt lat="47.007062019365996" lon="9.691592019178865">
+      </trkpt>
+      <trkpt lat="47.00719001936413" lon="9.691621019167034">
+      </trkpt>
+      <trkpt lat="47.00731401936562" lon="9.691751019167157">
+      </trkpt>
+      <trkpt lat="47.00768501936985" lon="9.692425019176428">
+      </trkpt>
+      <trkpt lat="47.0077170193633" lon="9.692630019168616">
+      </trkpt>
+      <trkpt lat="47.008594303812785" lon="9.693358550665856">
+      </trkpt>
+      <trkpt lat="47.01063451699104" lon="9.694858592423314">
+      </trkpt>
+      <trkpt lat="47.012082300925584" lon="9.697941123083694">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

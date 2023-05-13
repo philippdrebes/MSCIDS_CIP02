@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Hospiz  Wasserfuhre  P 2516</name>
+    <desc>Direkt vom Hospiz oder vom Hotel Bellevue steigen wir zu Bergstation des stillgelegten Skiliftes In der Nhe steht ein gewaltiger Strommast der Hochspannungsleitung Durch eine kleine Mulde hindurch auf die gut erkennbare Wasserfuhre Wir folgen dieser bis sie steil unter dem Hbschhorn kurz aufsteigt und sich dann Richtung Chalti Wasser zieht Hier ist das Trassee  im Winter steil und kann bei harten Verhltnissen heikel sein
+Am Ende der Wasserfuhre in einem kleinen Graben wo sich die Wasserfassung der kleinen Suone befindet steigt der Weg nun stlich ber die Hnge hinauf bis wir zu einem alten Steinturm P 2293 kommen Dieser ist ein berrest der alten Seilbahn mit der Gletschereis fr die Hoteliers ins Tal transportiert wurde Wir steigen nun rechts davon in stlicher Richtung ber kupiertes Gelnde hoch bis wir auf knapp 2500 m unterhalb P 2516 m nach Norden drehen</desc>
+    <trkseg>
+      <trkpt lat="46.24658217893743" lon="8.02895090778517">
+      </trkpt>
+      <trkpt lat="46.246870637700006" lon="8.029227803995711">
+      </trkpt>
+      <trkpt lat="46.24689252142275" lon="8.030167893217312">
+      </trkpt>
+      <trkpt lat="46.24690807360237" lon="8.030836165239482">
+      </trkpt>
+      <trkpt lat="46.24705226722807" lon="8.035481025282364">
+      </trkpt>
+      <trkpt lat="46.247117415841394" lon="8.0364667616761">
+      </trkpt>
+      <trkpt lat="46.24712979163866" lon="8.036654029902582">
+      </trkpt>
+      <trkpt lat="46.24724360745934" lon="8.038376487657683">
+      </trkpt>
+      <trkpt lat="46.247892824280186" lon="8.039685245932308">
+      </trkpt>
+      <trkpt lat="46.247893077948284" lon="8.039685757024998">
+      </trkpt>
+      <trkpt lat="46.24789817175748" lon="8.03969602448867">
+      </trkpt>
+      <trkpt lat="46.2479053634232" lon="8.039710522790335">
+      </trkpt>
+      <trkpt lat="46.247956914632475" lon="8.039814446536584">
+      </trkpt>
+      <trkpt lat="46.24817950963563" lon="8.040263192622577">
+      </trkpt>
+      <trkpt lat="46.248418401401125" lon="8.041291213537214">
+      </trkpt>
+      <trkpt lat="46.248300873885555" lon="8.045369294567585">
+      </trkpt>
+      <trkpt lat="46.24780901830919" lon="8.047058656651064">
+      </trkpt>
+      <trkpt lat="46.24759455372294" lon="8.04975780807638">
+      </trkpt>
+      <trkpt lat="46.24760326304409" lon="8.05113374483022">
+      </trkpt>
+      <trkpt lat="46.24800500412749" lon="8.05305119442414">
+      </trkpt>
+      <trkpt lat="46.248188445646925" lon="8.054587447292086">
+      </trkpt>
+      <trkpt lat="46.248211466544824" lon="8.054853424020727">
+      </trkpt>
+      <trkpt lat="46.24823214111738" lon="8.055179597333462">
+      </trkpt>
+      <trkpt lat="46.24828568662039" lon="8.05732596124909">
+      </trkpt>
+      <trkpt lat="46.24814557264102" lon="8.060706922419277">
+      </trkpt>
+      <trkpt lat="46.24813830667588" lon="8.06088217342507">
+      </trkpt>
+      <trkpt lat="46.24813830361374" lon="8.060882239520591">
+      </trkpt>
+      <trkpt lat="46.24811285057834" lon="8.061496149080568">
+      </trkpt>
+      <trkpt lat="46.248143504307755" lon="8.061712152481045">
+      </trkpt>
+      <trkpt lat="46.24831990261352" lon="8.062955224870658">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

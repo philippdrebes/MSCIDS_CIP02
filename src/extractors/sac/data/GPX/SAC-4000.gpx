@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Passstrasse  Htte</name>
+    <desc>Vom Kulm ca 2000 m oder vom Hospiz 1997 m bis zur Bergstation des alten Skilifts ausser Betrieb Nun weiter schrg die angenehmen NWHnge Richtung E hinauf zu einem grossen auffllig schwarzen Felsblock Panettone ca 2380 m der deutlich vom NWGrat des Hbschhorns absteht Auf der Hhe des Felsens ein Auslufer des NWGrats weiter ostwrts zu einem Graben Eine kurz exponierte Querung leitet in die weiten Hnge von Chalti Wasser Den Hang bis P 2516 queren Eine kurze Querung nach NE fhrt in das markante Tal unterhalb der grossen Seitenmorne welche das Chaltwassertlli im SW begrenzt Man folgt diesem Tal bis auf den Kamm des Passes bei P 2786 Dem Kamm nach N folgend zuerst in Richtung Mderlicke aufsteigen dann wieder nach E leicht ansteigend durch eine breite Mulde zur Htte</desc>
+    <trkseg>
+      <trkpt lat="46.25058567994685" lon="8.034066948008208">
+      </trkpt>
+      <trkpt lat="46.24908123074507" lon="8.036096640834499">
+      </trkpt>
+      <trkpt lat="46.248096329087545" lon="8.037025630304985">
+      </trkpt>
+      <trkpt lat="46.24809590597338" lon="8.037026028922199">
+      </trkpt>
+      <trkpt lat="46.248085399481596" lon="8.037035938080493">
+      </trkpt>
+      <trkpt lat="46.24767820227919" lon="8.037420007282197">
+      </trkpt>
+      <trkpt lat="46.24724360745934" lon="8.038376487657683">
+      </trkpt>
+      <trkpt lat="46.24686179132265" lon="8.040021710051112">
+      </trkpt>
+      <trkpt lat="46.24676728874096" lon="8.04042889862633">
+      </trkpt>
+      <trkpt lat="46.24562788359596" lon="8.050586307613381">
+      </trkpt>
+      <trkpt lat="46.24528474593474" lon="8.052106890737395">
+      </trkpt>
+      <trkpt lat="46.24521310757302" lon="8.053796663189473">
+      </trkpt>
+      <trkpt lat="46.24524180783763" lon="8.054644257374017">
+      </trkpt>
+      <trkpt lat="46.245242577375215" lon="8.054666991698838">
+      </trkpt>
+      <trkpt lat="46.245257904133666" lon="8.055119708070867">
+      </trkpt>
+      <trkpt lat="46.24540516141418" lon="8.05636010703746">
+      </trkpt>
+      <trkpt lat="46.245678726683266" lon="8.057596810882346">
+      </trkpt>
+      <trkpt lat="46.24629826741691" lon="8.059466008937877">
+      </trkpt>
+      <trkpt lat="46.24690308502683" lon="8.06080485026252">
+      </trkpt>
+      <trkpt lat="46.24728211367965" lon="8.061493135739806">
+      </trkpt>
+      <trkpt lat="46.2475769387549" lon="8.062028526554236">
+      </trkpt>
+      <trkpt lat="46.24769965992377" lon="8.06225138475626">
+      </trkpt>
+      <trkpt lat="46.24831990261352" lon="8.062955224870658">
+      </trkpt>
+      <trkpt lat="46.24881432415235" lon="8.063823776093619">
+      </trkpt>
+      <trkpt lat="46.248827888396995" lon="8.063886587997745">
+      </trkpt>
+      <trkpt lat="46.24916372557465" lon="8.065441823042162">
+      </trkpt>
+      <trkpt lat="46.249522325087504" lon="8.066198478511216">
+      </trkpt>
+      <trkpt lat="46.25085064682742" lon="8.06696889290425">
+      </trkpt>
+      <trkpt lat="46.251439493382634" lon="8.06768997153989">
+      </trkpt>
+      <trkpt lat="46.2545010968868" lon="8.074970670409874">
+      </trkpt>
+      <trkpt lat="46.25477707170231" lon="8.075459901278826">
+      </trkpt>
+      <trkpt lat="46.25533779141084" lon="8.075980529205305">
+      </trkpt>
+      <trkpt lat="46.25588441584399" lon="8.076088388935354">
+      </trkpt>
+      <trkpt lat="46.25730586764089" lon="8.07532580350399">
+      </trkpt>
+      <trkpt lat="46.25868116865878" lon="8.0744223102617">
+      </trkpt>
+      <trkpt lat="46.2588301817045" lon="8.074635380029061">
+      </trkpt>
+      <trkpt lat="46.25922304105608" lon="8.07475320809826">
+      </trkpt>
+      <trkpt lat="46.25950580748096" lon="8.075260943981228">
+      </trkpt>
+      <trkpt lat="46.25985033906366" lon="8.07621207762645">
+      </trkpt>
+      <trkpt lat="46.26000037895229" lon="8.076618757285601">
+      </trkpt>
+      <trkpt lat="46.26011690340629" lon="8.077059361385418">
+      </trkpt>
+      <trkpt lat="46.26035503598306" lon="8.077810621533219">
+      </trkpt>
+      <trkpt lat="46.26046786006414" lon="8.078166567964603">
+      </trkpt>
+      <trkpt lat="46.260516104533686" lon="8.078550123156418">
+      </trkpt>
+      <trkpt lat="46.260677822691186" lon="8.079835920066413">
+      </trkpt>
+      <trkpt lat="46.26067800175661" lon="8.07983734106875">
+      </trkpt>
+      <trkpt lat="46.260739072379586" lon="8.080322933333706">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

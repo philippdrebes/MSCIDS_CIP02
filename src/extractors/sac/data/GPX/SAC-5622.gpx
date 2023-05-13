@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Cabane du Trient  Col S des Plines</name>
+    <desc>From Cabane du Trient drop down onto the edge of the Plateau du Trient From the wide saddle of the Col dOrny head first towards Aiguilles Dores then gradually bear left through SE to E along the broad glacial ridge and reach the southern Col des Plines which is located immediately south of the Roc des Plines To get to the col you must descend into the large wind bowl be it via a short firn ridge or one of its flanks</desc>
+    <trkseg>
+      <trkpt lat="45.999585010557375" lon="7.043734551247753">
+      </trkpt>
+      <trkpt lat="45.999444019913035" lon="7.043788014314764">
+      </trkpt>
+      <trkpt lat="45.99932901990633" lon="7.043828014314747">
+      </trkpt>
+      <trkpt lat="45.999256019913986" lon="7.0438550143184795">
+      </trkpt>
+      <trkpt lat="45.99914701990762" lon="7.04383801431036">
+      </trkpt>
+      <trkpt lat="45.999005019911046" lon="7.043909014321361">
+      </trkpt>
+      <trkpt lat="45.99894201991427" lon="7.043944014314812">
+      </trkpt>
+      <trkpt lat="45.998879019912536" lon="7.043952014309957">
+      </trkpt>
+      <trkpt lat="45.99875301991264" lon="7.044006014309826">
+      </trkpt>
+      <trkpt lat="45.99868701990611" lon="7.044071014321878">
+      </trkpt>
+      <trkpt lat="45.998621019908455" lon="7.044141014310188">
+      </trkpt>
+      <trkpt lat="45.99854801990957" lon="7.044211014317059">
+      </trkpt>
+      <trkpt lat="45.99850901990838" lon="7.044277014316804">
+      </trkpt>
+      <trkpt lat="45.99607998438765" lon="7.040935741002651">
+      </trkpt>
+      <trkpt lat="45.99451969122003" lon="7.039934000837778">
+      </trkpt>
+      <trkpt lat="45.99243241382224" lon="7.04002970157221">
+      </trkpt>
+      <trkpt lat="45.99108375882643" lon="7.04022024034162">
+      </trkpt>
+      <trkpt lat="45.98891028076422" lon="7.041191095490815">
+      </trkpt>
+      <trkpt lat="45.987942580718745" lon="7.04185629423787">
+      </trkpt>
+      <trkpt lat="45.98780175924151" lon="7.042914176785763">
+      </trkpt>
+      <trkpt lat="45.98791382528838" lon="7.04432131520831">
+      </trkpt>
+      <trkpt lat="45.98804224192254" lon="7.045030143233817">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

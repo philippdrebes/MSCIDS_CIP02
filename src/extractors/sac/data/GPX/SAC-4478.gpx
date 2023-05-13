@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Chironico  linizio sentiero estivo</name>
+    <desc>Dal Paese di Chironico 782 m seguire la stretta stradina per circa 2 km che porta in Val Chironico attenzione poche possibilit di parcheggio</desc>
+    <trkseg>
+      <trkpt lat="46.42329752233082" lon="8.844368531453137">
+      </trkpt>
+      <trkpt lat="46.423175522908565" lon="8.844395531958748">
+      </trkpt>
+      <trkpt lat="46.42258452234898" lon="8.844200531245635">
+      </trkpt>
+      <trkpt lat="46.422197329102815" lon="8.843748108341796">
+      </trkpt>
+      <trkpt lat="46.422121522797504" lon="8.843659531681135">
+      </trkpt>
+      <trkpt lat="46.42202252293848" lon="8.843721531328145">
+      </trkpt>
+      <trkpt lat="46.42194752286478" lon="8.84351853187876">
+      </trkpt>
+      <trkpt lat="46.42186852303663" lon="8.84259453205564">
+      </trkpt>
+      <trkpt lat="46.42186552308119" lon="8.841018530913987">
+      </trkpt>
+      <trkpt lat="46.42192652257859" lon="8.840236531665747">
+      </trkpt>
+      <trkpt lat="46.421899522980006" lon="8.839811531057912">
+      </trkpt>
+      <trkpt lat="46.42158452274412" lon="8.838935531749746">
+      </trkpt>
+      <trkpt lat="46.42085552290456" lon="8.837896531187598">
+      </trkpt>
+      <trkpt lat="46.42070252252746" lon="8.837526532098233">
+      </trkpt>
+      <trkpt lat="46.42054352223229" lon="8.836683531032829">
+      </trkpt>
+      <trkpt lat="46.420549522830136" lon="8.835002530940773">
+      </trkpt>
+      <trkpt lat="46.42009152293727" lon="8.833169531668501">
+      </trkpt>
+      <trkpt lat="46.41971052274474" lon="8.831983531242207">
+      </trkpt>
+      <trkpt lat="46.41958252300673" lon="8.83173253146479">
+      </trkpt>
+      <trkpt lat="46.419321523079766" lon="8.831476531220469">
+      </trkpt>
+      <trkpt lat="46.4190285229574" lon="8.831077530956463">
+      </trkpt>
+      <trkpt lat="46.4182305229563" lon="8.829490531491963">
+      </trkpt>
+      <trkpt lat="46.41796152256011" lon="8.829114531657563">
+      </trkpt>
+      <trkpt lat="46.41788252244861" lon="8.828701531647726">
+      </trkpt>
+      <trkpt lat="46.41747652281499" lon="8.827473530999752">
+      </trkpt>
+      <trkpt lat="46.41738752241895" lon="8.826834531678523">
+      </trkpt>
+      <trkpt lat="46.41713152266687" lon="8.826188531763203">
+      </trkpt>
+      <trkpt lat="46.416668522854195" lon="8.825314531110415">
+      </trkpt>
+      <trkpt lat="46.41633852260227" lon="8.824830531580613">
+      </trkpt>
+      <trkpt lat="46.41618652305936" lon="8.82442453191208">
+      </trkpt>
+      <trkpt lat="46.41595252299218" lon="8.824072530945394">
+      </trkpt>
+      <trkpt lat="46.41585352284231" lon="8.82378953181932">
+      </trkpt>
+      <trkpt lat="46.415727523063346" lon="8.823161531124594">
+      </trkpt>
+      <trkpt lat="46.41566252277357" lon="8.823091531224037">
+      </trkpt>
+      <trkpt lat="46.415274522981704" lon="8.82305053176193">
+      </trkpt>
+      <trkpt lat="46.41515752284819" lon="8.822912531616993">
+      </trkpt>
+      <trkpt lat="46.41465552285474" lon="8.822109531130058">
+      </trkpt>
+      <trkpt lat="46.41442352257151" lon="8.821383530932497">
+      </trkpt>
+      <trkpt lat="46.414170522769176" lon="8.82124253156325">
+      </trkpt>
+      <trkpt lat="46.41408852271865" lon="8.821069531578617">
+      </trkpt>
+      <trkpt lat="46.41402152306074" lon="8.820742532046516">
+      </trkpt>
+      <trkpt lat="46.4138605011929" lon="8.820498429904298">
+      </trkpt>
+      <trkpt lat="46.413676522991224" lon="8.820219531111508">
+      </trkpt>
+      <trkpt lat="46.41353179837028" lon="8.819977997213124">
+      </trkpt>
+      <trkpt lat="46.413442382372125" lon="8.819696944323159">
+      </trkpt>
+      <trkpt lat="46.413423541594625" lon="8.819484801366029">
+      </trkpt>
+      <trkpt lat="46.413521125976494" lon="8.819094933046939">
+      </trkpt>
+      <trkpt lat="46.41353191023152" lon="8.81890572214754">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

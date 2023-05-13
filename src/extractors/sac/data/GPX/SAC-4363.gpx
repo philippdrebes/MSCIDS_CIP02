@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Roseg  Chamanna Coaz CAS</name>
+    <desc>Von der RsslikutschenEndstation Roseg Hotelbetrieb in logischer Linie sdwrts ins Val Roseg Kleine Steilstufe bis zum berschneiten Laj da Vadret In der Mitte des Sees auf der Westseite langsam aufwrts traversieren und in weitem Rechtsbogen zur Chamanna Coaz</desc>
+    <trkseg>
+      <trkpt lat="46.437556952067325" lon="9.86627469710361">
+      </trkpt>
+      <trkpt lat="46.43696212200666" lon="9.866303565205206">
+      </trkpt>
+      <trkpt lat="46.43642045174151" lon="9.866093644966021">
+      </trkpt>
+      <trkpt lat="46.419325908992214" lon="9.856309284193014">
+      </trkpt>
+      <trkpt lat="46.41591473518482" lon="9.855052572392891">
+      </trkpt>
+      <trkpt lat="46.41192016576107" lon="9.853999584254042">
+      </trkpt>
+      <trkpt lat="46.41141256383745" lon="9.853629146826234">
+      </trkpt>
+      <trkpt lat="46.41089831057914" lon="9.852781776869547">
+      </trkpt>
+      <trkpt lat="46.41052613987889" lon="9.852558883856197">
+      </trkpt>
+      <trkpt lat="46.40662804241493" lon="9.851722108064823">
+      </trkpt>
+      <trkpt lat="46.405346964152564" lon="9.85099774839765">
+      </trkpt>
+      <trkpt lat="46.403844243273305" lon="9.849872771337527">
+      </trkpt>
+      <trkpt lat="46.400121604591575" lon="9.84650138818703">
+      </trkpt>
+      <trkpt lat="46.39803104683222" lon="9.844331510236714">
+      </trkpt>
+      <trkpt lat="46.39736904980947" lon="9.843261077369773">
+      </trkpt>
+      <trkpt lat="46.39699248626356" lon="9.842108958220434">
+      </trkpt>
+      <trkpt lat="46.39689217798635" lon="9.840981560104646">
+      </trkpt>
+      <trkpt lat="46.396983062133586" lon="9.839015021904096">
+      </trkpt>
+      <trkpt lat="46.39666666167431" lon="9.837771116667572">
+      </trkpt>
+      <trkpt lat="46.39614652317878" lon="9.836753761928094">
+      </trkpt>
+      <trkpt lat="46.39392287114908" lon="9.833302270896937">
+      </trkpt>
+      <trkpt lat="46.39351416048128" lon="9.832816865993646">
+      </trkpt>
+      <trkpt lat="46.393049370092264" lon="9.832490592090135">
+      </trkpt>
+      <trkpt lat="46.39238299936847" lon="9.832240756963317">
+      </trkpt>
+      <trkpt lat="46.38971290554191" lon="9.831806317836193">
+      </trkpt>
+      <trkpt lat="46.38626677866319" lon="9.831525143242338">
+      </trkpt>
+      <trkpt lat="46.386192992677906" lon="9.831519123264181">
+      </trkpt>
+      <trkpt lat="46.385994890760934" lon="9.83150296159087">
+      </trkpt>
+      <trkpt lat="46.385288164065074" lon="9.83157974158792">
+      </trkpt>
+      <trkpt lat="46.38453454343024" lon="9.831827239508016">
+      </trkpt>
+      <trkpt lat="46.38411239724597" lon="9.83229055657731">
+      </trkpt>
+      <trkpt lat="46.38409899165223" lon="9.83230526950483">
+      </trkpt>
+      <trkpt lat="46.38407508268259" lon="9.83233151099304">
+      </trkpt>
+      <trkpt lat="46.38407279959033" lon="9.832334016478882">
+      </trkpt>
+      <trkpt lat="46.38389684369498" lon="9.832744066526576">
+      </trkpt>
+      <trkpt lat="46.38378466917099" lon="9.833005477294197">
+      </trkpt>
+      <trkpt lat="46.38366168736738" lon="9.833972554590408">
+      </trkpt>
+      <trkpt lat="46.38370496409267" lon="9.835486737003926">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

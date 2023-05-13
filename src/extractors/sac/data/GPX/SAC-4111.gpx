@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Le Tour Talstation 1453 m  Refuge Albert 1er CAF</name>
+    <desc>Von Le Tour 1453 m geht man oberhalb der Siedlung in ERichtung unter zwei Skiliften durch zum Bach La Vormaine Man beachte den mchtigen Erosionstrichter dieses Bachs Nach der Brcke geht es steil und kompromisslos durch Couloirs und Grashnge hinauf zur alten bewachsenen Seitenmorne des Gletschers Diese erreicht man bei P 2020 private Seilbahn der EDF Nun steigt man auf dem Mornenkamm relativ direkt hoch trifft auf P 2498 und erreicht kurz darauf das Refuge Albert 1er 2702 m</desc>
+    <trkseg>
+      <trkpt lat="46.00373433890436" lon="6.947128600287644">
+      </trkpt>
+      <trkpt lat="46.00400575019791" lon="6.947481141978653">
+      </trkpt>
+      <trkpt lat="46.00420856710169" lon="6.947576130361642">
+      </trkpt>
+      <trkpt lat="46.004090367964054" lon="6.951417528029717">
+      </trkpt>
+      <trkpt lat="46.004182560030586" lon="6.951933052306626">
+      </trkpt>
+      <trkpt lat="46.004501866107134" lon="6.952962904182926">
+      </trkpt>
+      <trkpt lat="46.00441456400683" lon="6.953576847724784">
+      </trkpt>
+      <trkpt lat="46.00460017770522" lon="6.954898348261579">
+      </trkpt>
+      <trkpt lat="46.00453535321746" lon="6.955512090546465">
+      </trkpt>
+      <trkpt lat="46.004627942622605" lon="6.956124438269232">
+      </trkpt>
+      <trkpt lat="46.00460767223132" lon="6.956640969575336">
+      </trkpt>
+      <trkpt lat="46.00467610630381" lon="6.956866268835156">
+      </trkpt>
+      <trkpt lat="46.00467942698832" lon="6.957640768332765">
+      </trkpt>
+      <trkpt lat="46.004926382178155" lon="6.957541773135035">
+      </trkpt>
+      <trkpt lat="46.00492721168648" lon="6.957735398897868">
+      </trkpt>
+      <trkpt lat="46.005062140773504" lon="6.957734208773952">
+      </trkpt>
+      <trkpt lat="46.00492859345977" lon="6.958058108515551">
+      </trkpt>
+      <trkpt lat="46.004974398443316" lon="6.958251338011695">
+      </trkpt>
+      <trkpt lat="46.004907900198866" lon="6.958477829090637">
+      </trkpt>
+      <trkpt lat="46.004998128931454" lon="6.958541578907517">
+      </trkpt>
+      <trkpt lat="46.00459789032773" lon="6.959610078633031">
+      </trkpt>
+      <trkpt lat="46.00426166876653" lon="6.95987120690373">
+      </trkpt>
+      <trkpt lat="46.0044871009716" lon="6.9599983150016556">
+      </trkpt>
+      <trkpt lat="46.00408643671023" lon="6.960969982640057">
+      </trkpt>
+      <trkpt lat="46.00417735029364" lon="6.961195088245082">
+      </trkpt>
+      <trkpt lat="46.004335042035336" lon="6.961258250994167">
+      </trkpt>
+      <trkpt lat="46.00429116307153" lon="6.961516809548077">
+      </trkpt>
+      <trkpt lat="46.00444844323061" lon="6.961483161294371">
+      </trkpt>
+      <trkpt lat="46.0044494030435" lon="6.961709056110447">
+      </trkpt>
+      <trkpt lat="46.00456184397752" lon="6.961708072528311">
+      </trkpt>
+      <trkpt lat="46.00442869616235" lon="6.962128771618777">
+      </trkpt>
+      <trkpt lat="46.004631363759856" lon="6.962191544317852">
+      </trkpt>
+      <trkpt lat="46.004475452279586" lon="6.962547897697004">
+      </trkpt>
+      <trkpt lat="46.00447613637937" lon="6.962709251229191">
+      </trkpt>
+      <trkpt lat="46.00427428979662" lon="6.962840100312638">
+      </trkpt>
+      <trkpt lat="46.00425316873778" lon="6.963163002316826">
+      </trkpt>
+      <trkpt lat="46.00407312655938" lon="6.963132300776317">
+      </trkpt>
+      <trkpt lat="46.00418693379541" lon="6.963454025500607">
+      </trkpt>
+      <trkpt lat="46.003962051908076" lon="6.963455985460402">
+      </trkpt>
+      <trkpt lat="46.00380599994961" lon="6.963780060550927">
+      </trkpt>
+      <trkpt lat="46.00320127416439" lon="6.964366207960961">
+      </trkpt>
+      <trkpt lat="46.00313653417584" lon="6.965012193205636">
+      </trkpt>
+      <trkpt lat="46.00244456676946" lon="6.96624449050364">
+      </trkpt>
+      <trkpt lat="46.00226683258755" lon="6.966762359802154">
+      </trkpt>
+      <trkpt lat="46.00215493410059" lon="6.966892410323689">
+      </trkpt>
+      <trkpt lat="46.00202122495674" lon="6.967184001169335">
+      </trkpt>
+      <trkpt lat="46.00181910225656" lon="6.967250289543231">
+      </trkpt>
+      <trkpt lat="46.001730774760155" lon="6.967638296400819">
+      </trkpt>
+      <trkpt lat="46.00186881526686" lon="6.968379321916024">
+      </trkpt>
+      <trkpt lat="46.00173442672427" lon="6.968509562085178">
+      </trkpt>
+      <trkpt lat="46.00163437879986" lon="6.97147928352178">
+      </trkpt>
+      <trkpt lat="46.00145863148303" lon="6.9724811623130964">
+      </trkpt>
+      <trkpt lat="46.001398255544814" lon="6.974191991495015">
+      </trkpt>
+      <trkpt lat="46.00129181278948" lon="6.975645047751971">
+      </trkpt>
+      <trkpt lat="46.00091642126904" lon="6.9773262632457005">
+      </trkpt>
+      <trkpt lat="46.00042856360944" lon="6.979008403538979">
+      </trkpt>
+      <trkpt lat="45.999938968738455" lon="6.980271028871928">
+      </trkpt>
+      <trkpt lat="45.99884519778836" lon="6.98228087285614">
+      </trkpt>
+      <trkpt lat="45.99811107178727" lon="6.984255370985001">
+      </trkpt>
+      <trkpt lat="45.99770954652906" lon="6.985065413453849">
+      </trkpt>
+      <trkpt lat="45.99721663039727" lon="6.985521259766863">
+      </trkpt>
+      <trkpt lat="45.99694807396211" lon="6.985846165581497">
+      </trkpt>
+      <trkpt lat="45.99726538026182" lon="6.986456614568724">
+      </trkpt>
+      <trkpt lat="45.99674854135593" lon="6.986557702730493">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

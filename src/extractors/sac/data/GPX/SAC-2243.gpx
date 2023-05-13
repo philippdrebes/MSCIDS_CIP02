@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Grubenberghtte  Amelier</name>
+    <desc>Von der Grubenberghtte SAC auf einem Weg unter der Husegg durch und hinauf in den AmelierSattel ca 1945 m ohne Namen auf der LK Vom AmelierSattel gratwegs zum Amelier 2001 m ber eine ausgesetzte Passage erreicht man den Gipfel mit gutem Einblick in die SFlanke der Dent de Ruth Auf dem selben Weg zurck in den Sattel zwischen Amelier und Dent de Ruth</desc>
+    <trkseg>
+      <trkpt lat="46.549247531057866" lon="7.251984540879479">
+      </trkpt>
+      <trkpt lat="46.54952653106021" lon="7.251679540883566">
+      </trkpt>
+      <trkpt lat="46.54988453106185" lon="7.2515555408874794">
+      </trkpt>
+      <trkpt lat="46.550256531067134" lon="7.2507225408950315">
+      </trkpt>
+      <trkpt lat="46.55050953106988" lon="7.250327540899317">
+      </trkpt>
+      <trkpt lat="46.551044531074325" lon="7.249746540907129">
+      </trkpt>
+      <trkpt lat="46.55151353107889" lon="7.249107540914615">
+      </trkpt>
+      <trkpt lat="46.55193553108228" lon="7.248683540920607">
+      </trkpt>
+      <trkpt lat="46.5522955310859" lon="7.248173540926449">
+      </trkpt>
+      <trkpt lat="46.55253953108765" lon="7.247954540929788">
+      </trkpt>
+      <trkpt lat="46.55294453109007" lon="7.247711540934717">
+      </trkpt>
+      <trkpt lat="46.55298153109148" lon="7.247458540936317">
+      </trkpt>
+      <trkpt lat="46.55311053109324" lon="7.247176540938898">
+      </trkpt>
+      <trkpt lat="46.55311553109577" lon="7.246681540941394">
+      </trkpt>
+      <trkpt lat="46.55321753109946" lon="7.246014540945637">
+      </trkpt>
+      <trkpt lat="46.553232531102005" lon="7.245511540948258">
+      </trkpt>
+      <trkpt lat="46.55307953110408" lon="7.245017540949292">
+      </trkpt>
+      <trkpt lat="46.55308853110489" lon="7.244862540950139">
+      </trkpt>
+      <trkpt lat="46.553006531105545" lon="7.2446865409502506">
+      </trkpt>
+      <trkpt lat="46.552975531107556" lon="7.244278540951982">
+      </trkpt>
+      <trkpt lat="46.55226953111149" lon="7.2431015409512955">
+      </trkpt>
+      <trkpt lat="46.5521005311129" lon="7.242719540951622">
+      </trkpt>
+      <trkpt lat="46.55208101183209" lon="7.242587729061033">
+      </trkpt>
+      <trkpt lat="46.55183793326528" lon="7.242361995334111">
+      </trkpt>
+      <trkpt lat="46.55093708502969" lon="7.2429911845602435">
+      </trkpt>
+      <trkpt lat="46.550085996221085" lon="7.2438711907093865">
+      </trkpt>
+      <trkpt lat="46.54943948833061" lon="7.244522511435795">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
