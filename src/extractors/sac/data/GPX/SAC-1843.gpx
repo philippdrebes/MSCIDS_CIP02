@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>La Sauge  Mont Vully Nordfuss</name>
+    <desc>Von La Sauge auf dem Wanderweg auf dem sdlichen Ufer des Canal de la Broye bis man auf der Hhe der rund 3 km breiten NSeite des Mont Vully ist Vier Wege fhren direkt zu ihrem Waldrand hoch wir whlen nach 23 km Kanalwanderung den vierten der an einem Gebude vorbeikommt und bei P 431 die Veloroute kreuzt Wir folgen ihr ostwrts auf 300 m und zweigen rechts in den geteerten Weg zum Waldrand ca 465 m und Fuss der NFlanke Drei Mglichkeiten fr die Durchsteigung</desc>
+    <trkseg>
+      <trkpt lat="46.974234474396155" lon="7.054256121186711">
+      </trkpt>
+      <trkpt lat="46.97502603936852" lon="7.05527725941927">
+      </trkpt>
+      <trkpt lat="46.97470153326155" lon="7.055851545825824">
+      </trkpt>
+      <trkpt lat="46.97449153325836" lon="7.056357545821319">
+      </trkpt>
+      <trkpt lat="46.9743705332573" lon="7.056498545819468">
+      </trkpt>
+      <trkpt lat="46.97427053325487" lon="7.056913545816465">
+      </trkpt>
+      <trkpt lat="46.973556533242935" lon="7.058870545799966">
+      </trkpt>
+      <trkpt lat="46.972976533235155" lon="7.060063545788537">
+      </trkpt>
+      <trkpt lat="46.971808533223864" lon="7.061631545769689">
+      </trkpt>
+      <trkpt lat="46.97159853322246" lon="7.061803545766845">
+      </trkpt>
+      <trkpt lat="46.97058053321255" lon="7.063165545750439">
+      </trkpt>
+      <trkpt lat="46.969701533203136" lon="7.0645275457353485">
+      </trkpt>
+      <trkpt lat="46.96923253319746" lon="7.065398545726586">
+      </trkpt>
+      <trkpt lat="46.96878753319067" lon="7.066472545717024">
+      </trkpt>
+      <trkpt lat="46.968488533184605" lon="7.067484545709154">
+      </trkpt>
+      <trkpt lat="46.968318533179485" lon="7.06840454570297">
+      </trkpt>
+      <trkpt lat="46.968279533176855" lon="7.068905545700104">
+      </trkpt>
+      <trkpt lat="46.968279533172975" lon="7.0696635456963195">
+      </trkpt>
+      <trkpt lat="46.96850753316718" lon="7.070925545692186">
+      </trkpt>
+      <trkpt lat="46.968838533163556" lon="7.071812545690895">
+      </trkpt>
+      <trkpt lat="46.969575533156934" lon="7.073524545689323">
+      </trkpt>
+      <trkpt lat="46.969758533154526" lon="7.074096545688204">
+      </trkpt>
+      <trkpt lat="46.970099533148016" lon="7.07555654568415">
+      </trkpt>
+      <trkpt lat="46.97039753314451" lon="7.076404545682737">
+      </trkpt>
+      <trkpt lat="46.97076053314215" lon="7.077066545682867">
+      </trkpt>
+      <trkpt lat="46.973169533129806" lon="7.080817545686927">
+      </trkpt>
+      <trkpt lat="46.96898953310671" lon="7.083034545636381">
+      </trkpt>
+      <trkpt lat="46.96989953309037" lon="7.086740545626494">
+      </trkpt>
+      <trkpt lat="46.96710198542214" lon="7.088183121672168">
+      </trkpt>
+      <trkpt lat="46.967122611188216" lon="7.090067217059457">
+      </trkpt>
+      <trkpt lat="46.96716585194141" lon="7.091470974351456">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

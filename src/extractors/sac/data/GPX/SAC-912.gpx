@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Capanna Cristallina  Passo della Cima di Lago</name>
+    <desc>From Capanna Cristallina ca 2575 m on a faint path traverse southwestward to a small valley without gaining much height Follow the path up to Passo della Cima di Lago 2697 m</desc>
+    <trkseg>
+      <trkpt lat="46.47184747036851" lon="8.52617960558769">
+      </trkpt>
+      <trkpt lat="46.47181709994462" lon="8.525593044288494">
+      </trkpt>
+      <trkpt lat="46.47155752438711" lon="8.52521653364799">
+      </trkpt>
+      <trkpt lat="46.47138952438876" lon="8.524803533648688">
+      </trkpt>
+      <trkpt lat="46.47138952438939" lon="8.524677533649353">
+      </trkpt>
+      <trkpt lat="46.471483524390635" lon="8.524486533651203">
+      </trkpt>
+      <trkpt lat="46.47145952439122" lon="8.524356533651686">
+      </trkpt>
+      <trkpt lat="46.47125752439137" lon="8.524212533650642">
+      </trkpt>
+      <trkpt lat="46.471147524392286" lon="8.5239795336509">
+      </trkpt>
+      <trkpt lat="46.47106252439411" lon="8.52356553365234">
+      </trkpt>
+      <trkpt lat="46.47071452439582" lon="8.52304153365202">
+      </trkpt>
+      <trkpt lat="46.47072152439627" lon="8.522956533652525">
+      </trkpt>
+      <trkpt lat="46.470548524396094" lon="8.522907533651244">
+      </trkpt>
+      <trkpt lat="46.47035652439656" lon="8.522705533650605">
+      </trkpt>
+      <trkpt lat="46.47037352439757" lon="8.522515533651763">
+      </trkpt>
+      <trkpt lat="46.47025952439889" lon="8.522184533652506">
+      </trkpt>
+      <trkpt lat="46.47023952440116" lon="8.5217375336547">
+      </trkpt>
+      <trkpt lat="46.47039952440212" lon="8.521638533656654">
+      </trkpt>
+      <trkpt lat="46.47064552440532" lon="8.52114253366148">
+      </trkpt>
+      <trkpt lat="46.4708245244095" lon="8.520403533667004">
+      </trkpt>
+      <trkpt lat="46.47100252441168" lon="8.520070533670358">
+      </trkpt>
+      <trkpt lat="46.47103452441342" lon="8.519738533672411">
+      </trkpt>
+      <trkpt lat="46.471001524414135" lon="8.519584533672933">
+      </trkpt>
+      <trkpt lat="46.471166524414286" lon="8.519640533674101">
+      </trkpt>
+      <trkpt lat="46.47139052441837" lon="8.518959533679718">
+      </trkpt>
+      <trkpt lat="46.471650524419964" lon="8.518790533682935">
+      </trkpt>
+      <trkpt lat="46.47174352442249" lon="8.518333533686189">
+      </trkpt>
+      <trkpt lat="46.47175152442381" lon="8.518081533687601">
+      </trkpt>
+      <trkpt lat="46.47173920243754" lon="8.517988030343233">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

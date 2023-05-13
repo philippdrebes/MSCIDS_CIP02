@@ -1,8 +1,17 @@
 
+# This code is for scrapig data from the SAC Tour Portal.
+# We follow the below steps:
+# - open the page and login to the portal
+# - filter the desired hiking pages
+# - opening up all tours on the dynamic webpage
+# - collecting all target tour page links (saving it to SAC_page_links.csv)
+# - scraping the data from all tour page links
+# - saving the data in an output file: SAC_data_without_index.csv
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
+import re
 import pandas as pd
 
 
@@ -74,7 +83,7 @@ for c in destinations:
 print("Extracted numbers from the list : " + dest_num)
 
 #TO DO remove for TEST
-dest_num = 1
+#dest_num = 1
 
 # Click on "show more button" to open up all destination subpages
 for i in range(1,int(dest_num)):
@@ -133,7 +142,7 @@ df_tour_page_links = pd.DataFrame(link_data)
 print(df_tour_page_links.head(10))
 
 # Export the DataFrame to a CSV file
-df_tour_page_links.to_csv(f"data\SAC_page_links.csv",sep=';')
+df_tour_page_links.to_csv(f"data\SAC_page_links0.csv",sep=';')
 
 print("Now we will crawl the information from all of them.")
 
@@ -143,6 +152,11 @@ tour_data=[]
 i=0
 for tour_page in tour_link_list:
     driver.get(tour_page)
+    # Extract the tour ID from the tout page link:
+    try:
+        tour_id = re.search(r'(\d+)(?!.*\d)', tour_page).group(1)
+    except:
+        tour_id = "na"
     # Header from which we generate the title and subtitle data:
     try:
         header = driver.find_element(by=By.XPATH, value='/html/body/div[4]/div[5]/div[1]/div[2]/h2').text
@@ -189,6 +203,7 @@ for tour_page in tour_link_list:
     except:
         description = "na"
     tour_dict_item = {
+        'tour_id': tour_id,
         'title': title,
         'subtitle': subtitle,
         'difficulty': difficulty,
@@ -211,10 +226,10 @@ print(df.head(10))
 
 # Export the DataFrame to a CSV file, we create 2 files:
 # 1. saves the data in the same file / overwrites database (indexing is included)
-df.to_csv(f"data\SAC_data_with_index1.csv",sep=';')
+#df.to_csv(f"data\SAC_data_with_index0.csv",sep=';')
 
 # 2. saves the data in the same file / overwrites database (indexing is disabled) -> we can append it later
-df.to_csv(f"data\SAC_data_without_index1.csv",sep=';',index = False)
+df.to_csv(f"data\SAC_data_without_index0.csv",sep=';',index = False)
 
 # 3. appends an existing csv file with new data:
 #df.to_csv("SAC_data_without_index.cs",sep=';', mode ="a", header = False, index = False)

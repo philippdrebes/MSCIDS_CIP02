@@ -1,4 +1,12 @@
 
+# This code is to use the SAC GXP data and calculate the distance of the tours with uploading them to Schweizmobile, and scraping the information.
+# We follow below steps:
+#  - log in to Schweizmobile
+#  - go to the page import GPX data
+#  - upload all GPX files and scrape the distance, elevation, ascent & descent from all tours
+#  - save the scraped data into Distance_data_without_index.csv
+
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
@@ -66,8 +74,11 @@ except:
     # In case the waiting was not working, just try again.
     driver.find_element(by=By.XPATH, value='//*[@id="mytracks"]/app-tracks/div/div/app-user/app-user-welcome/div[3]/a').click()
 
+# get working directory path and define absolute path to the GPX files:
+basepath = os.getcwd() + "\\data\\GPX\\"
+
 files =[]
-basepath = 'data\\GPX\\'
+
 for entry in os.listdir(basepath):
     if os.path.isfile(os.path.join(basepath, entry)):
         files.append(entry)
@@ -98,7 +109,7 @@ for file in files:
 
     # Collect data from page
     try:
-        id = re.search(r'(\d+)', file).group(1)
+        tour_id = re.search(r'(\d+)', file).group(1)
         distance = driver.find_element(by=By.XPATH, value='//*[@id="mytracks"]/app-tracks/div/div[1]/app-track-facts/div/div[3]/span[2]').text
         elevation = driver.find_element(by=By.XPATH, value='//*[@id="mytracks"]/app-tracks/div/div[1]/app-track-facts/div/div[9]/span[2]').text
         up = elevation.split('/')[0]
@@ -116,7 +127,7 @@ for file in files:
         max = "na"
 
     distance_dict_item = {
-        'id': id, # get id from GPX file name
+        'id': tour_id, # get id from GPX file name
         'distance': distance,
         'up': up,
         'down': down,
@@ -143,10 +154,10 @@ print(df.head(10))
 
 # Export the DataFrame to a CSV file, we create 2 files:
 # 1. saves the data in the same file / overwrites database (indexing is included)
-df.to_csv("data\\Distance_data_with_index.csv",sep=';')
+#df.to_csv("data\\Distance_data_with_index0.csv",sep=';')
 
 # 2. saves the data in the same file / overwrites database (indexing is disabled) -> we can append it later
-df.to_csv("data\\Distance_data_without_index.csv",sep=';',index = False)
+df.to_csv("data\\Distance_data_without_index0.csv",sep=';',index = False)
 
 # 3. appends an existing csv file with new data:
 #df.to_csv("SAC_data_without_index.cs",sep=';', mode ="a", header = False, index = False)
@@ -155,5 +166,5 @@ df.to_csv("data\\Distance_data_without_index.csv",sep=';',index = False)
 driver.quit()    # the selenium-controlled chrome browser is terminated
 #driver.close()    # the you don't see the result
 
-print("end DistanceExtractor.py")
+print("end SacExtractorDistance.py")
 print("end")

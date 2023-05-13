@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>Pescim  Passo dei Sassi</name>
+    <desc>From the cableway station Pescim follow the alp road or go crosscountry towards Mottone di Comasn summit station of a ski lift At a small reservoir shortly before Mottone leave the small road hike straight on up the pasture to a small trail with faint markings and follow it to the foot of a shady rock wall Now a slabby passage needs to be overcome It is best to come from the left using a comfortable ledge T4 If old snow bars the access to the ledge you can ascend 70 metres further to the right through a grassy gully T5 A comfortable yet narrow and exposed little path winds its way up through steep terrain keeping to the left to Passo dei Sassi 2553 m</desc>
+    <trkseg>
+      <trkpt lat="46.514323524085206" lon="8.607785533590004">
+      </trkpt>
+      <trkpt lat="46.51417852408783" lon="8.607185533591913">
+      </trkpt>
+      <trkpt lat="46.512729433528165" lon="8.605816815050183">
+      </trkpt>
+      <trkpt lat="46.51158452409488" lon="8.604394533583665">
+      </trkpt>
+      <trkpt lat="46.51003085198723" lon="8.603029583014186">
+      </trkpt>
+      <trkpt lat="46.50872752410258" lon="8.601351533574409">
+      </trkpt>
+      <trkpt lat="46.50753820197295" lon="8.599492991255296">
+      </trkpt>
+      <trkpt lat="46.50671779178903" lon="8.597285095930113">
+      </trkpt>
+      <trkpt lat="46.50566852413267" lon="8.593775533587557">
+      </trkpt>
+      <trkpt lat="46.50487952413771" lon="8.592360533588062">
+      </trkpt>
+      <trkpt lat="46.50471952413936" lon="8.591940533588874">
+      </trkpt>
+      <trkpt lat="46.504540524137184" lon="8.592281533585458">
+      </trkpt>
+      <trkpt lat="46.504349524133346" lon="8.592933533580277">
+      </trkpt>
+      <trkpt lat="46.504140524132445" lon="8.59299753357807">
+      </trkpt>
+      <trkpt lat="46.50399152413282" lon="8.592848533577529">
+      </trkpt>
+      <trkpt lat="46.50393152413543" lon="8.592295533579946">
+      </trkpt>
+      <trkpt lat="46.503798524136" lon="8.592098533579811">
+      </trkpt>
+      <trkpt lat="46.50369852413558" lon="8.592140533578693">
+      </trkpt>
+      <trkpt lat="46.50349552413635" lon="8.59188253357826">
+      </trkpt>
+      <trkpt lat="46.50319152413611" lon="8.5917605335762">
+      </trkpt>
+      <trkpt lat="46.5029285241369" lon="8.59146853357541">
+      </trkpt>
+      <trkpt lat="46.502691524135436" lon="8.591628533572434">
+      </trkpt>
+      <trkpt lat="46.50241052413503" lon="8.591554533570326">
+      </trkpt>
+      <trkpt lat="46.5022955241341" lon="8.591679533568632">
+      </trkpt>
+      <trkpt lat="46.502068524135275" lon="8.591327533568483">
+      </trkpt>
+      <trkpt lat="46.50174352413389" lon="8.59142853356504">
+      </trkpt>
+      <trkpt lat="46.50158852413478" lon="8.591165533565063">
+      </trkpt>
+      <trkpt lat="46.50131452413306" lon="8.591354533561605">
+      </trkpt>
+      <trkpt lat="46.50106152413513" lon="8.590811533562247">
+      </trkpt>
+      <trkpt lat="46.50094452413043" lon="8.591670533556618">
+      </trkpt>
+      <trkpt lat="46.501018524129876" lon="8.59182553355645">
+      </trkpt>
+      <trkpt lat="46.50111652412557" lon="8.592722533552543">
+      </trkpt>
+      <trkpt lat="46.50126852412506" lon="8.592920533552842">
+      </trkpt>
+      <trkpt lat="46.501229524123744" lon="8.593150533551269">
+      </trkpt>
+      <trkpt lat="46.50096652412197" lon="8.593343533547888">
+      </trkpt>
+      <trkpt lat="46.50080652412161" lon="8.593335533546504">
+      </trkpt>
+      <trkpt lat="46.500775524120975" lon="8.593441533545661">
+      </trkpt>
+      <trkpt lat="46.500571524120524" lon="8.593429533543906">
+      </trkpt>
+      <trkpt lat="46.50056952411951" lon="8.593622533542858">
+      </trkpt>
+      <trkpt lat="46.50047752411918" lon="8.59364553354191">
+      </trkpt>
+      <trkpt lat="46.50037352411683" lon="8.59405253353881">
+      </trkpt>
+      <trkpt lat="46.50028952411687" lon="8.593988533538402">
+      </trkpt>
+      <trkpt lat="46.50020752411479" lon="8.594360533535687">
+      </trkpt>
+      <trkpt lat="46.500068524113566" lon="8.594537533533503">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
