@@ -3,6 +3,8 @@ import sys
 
 from extractors import SeleniumUtil
 from extractors.KomootExtractor import KomootExtractor
+from src.database.MariaDBProvider import MariaDBProvider
+from src.loaders.KomootLoader import KomootLoader
 from transformers.KomootTransformer import KomootTransformer
 
 
@@ -34,7 +36,11 @@ def main() -> None:
     # SeleniumUtil.close_driver(driver)
 
     komoot_transformer = KomootTransformer(stage1_path, gpx_download_path, stage2_path)
-    komoot_transformer.match_routes_to_gpx()
+    komoot_transformer.transform()
+
+    db = MariaDBProvider(stage2_path)
+    komoot_loader = KomootLoader(stage2_path, db)
+    komoot_loader.load()
 
 
 if __name__ == '__main__':
