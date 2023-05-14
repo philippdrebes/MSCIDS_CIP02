@@ -12,14 +12,14 @@ from src.extractors import SeleniumUtil
 
 def main():
     driver = webdriver.Chrome()
-    driver.implicitly_wait(15)
+    driver.implicitly_wait(30)
 
     routes = []
 
     # lokale routen
     driver.get('https://schweizmobil.ch/de/wanderland/lokale-routen')
 
-    for i in range(1, 100):
+    for i in range(1, 150):
         driver.execute_script(f"document.getElementById('main').scrollTop = {i * 500};")
         sleep(1)
 
@@ -52,6 +52,30 @@ def main():
             etappe_name = etappe.find_element(By.CSS_SELECTOR, 'p[data-cy="route-title"]').text
 
             routes.append({'url': etappe_url, 'name': f"{rr['name']} {etappe_name}"})
+
+    # nationale routen
+    driver.get('https://schweizmobil.ch/de/wanderland/nationale-routen')
+
+    for i in range(1, 5):
+        driver.execute_script(f"document.getElementById('main').scrollTop = {i * 500};")
+        sleep(1)
+
+    nationale_routen = []
+    box = driver.find_elements(By.CSS_SELECTOR, 'a[data-cy="route-card-it"]')
+    for b in box:
+        url = b.get_attribute('href')
+        name = b.find_element(By.CSS_SELECTOR, 'p[data-cy="route-title"]').text
+        nationale_routen.append({'url': url, 'name': name})
+
+    for nr in nationale_routen:
+        driver.get(nr['url'])
+
+        etappen = driver.find_elements(By.CSS_SELECTOR, 'a[data-cy="route-list-it"]')
+        for etappe in etappen:
+            etappe_url = etappe.get_attribute('href')
+            etappe_name = etappe.find_element(By.CSS_SELECTOR, 'p[data-cy="route-title"]').text
+
+            routes.append({'url': etappe_url, 'name': f"{nr['name']} {etappe_name}"})
 
     for route in routes:
         driver.get(route['url'])
