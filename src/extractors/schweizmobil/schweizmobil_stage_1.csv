@@ -1,0 +1,607 @@
+url,name,distance,altitude_up,altitude_down,duration,difficulty_level,fitness_level
+https://schweizmobil.ch/de/wanderland/route-101,Sentier du Rhône,20 km,460 m,480 m,5 h 24 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-102,Far West du canton de Genève,11 km,280 m,280 m,3 h,leicht (Wanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-103,Rive Droite,19 km,380 m,460 m,5 h,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-104,Au fil de la Versoix,10 km,120 m,200 m,2 h 25 min,leicht (Wanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-105,Entre Arve et Lac,18 km,240 m,190 m,4 h 24 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-107,Chemin des Gorges de Covatannaz,7 km,60 m,500 m,1 h 50 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-109,Tour de La Palette,8 km,560 m,420 m,2 h 49 min,mittel (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-113,Terrasses de Lavaux,11 km,440 m,420 m,3 h 15 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-114,Sentier des Toblerones,18 km,160 m,520 m,4 h 30 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-116,Chemin de La Dôle,15 km,880 m,700 m,5 h,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-117,Chemin de la Dent de Vaulion,10 km,440 m,440 m,3 h,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-120,Chemin des pyramides de Gypse,12 km,560 m,560 m,3 h 40 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-121,Tour de L’Argentine,13 km,1’050 m,1’050 m,5 h 15 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-123,Sentier du Mont d'Or,13 km,840 m,840 m,4 h 30 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-124,Sentier du patrimoine de Romainmôtier,13 km,400 m,400 m,3 h 40 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-125,Sentier du Noirmont,14 km,680 m,680 m,4 h 20 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-127,Tour du Lac de Joux,23 km,260 m,260 m,5 h 35 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-128,Chemin du Vallon de l'Aubonne,11 km,260 m,420 m,2 h 49 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-129,Tour du Vallon des Vaux,14 km,360 m,360 m,3 h 40 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-130,Au sommet du Jura,16 km,740 m,1’000 m,5 h,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-131,Chemin de la Sarine au Pays-d'Enhaut,14 km,340 m,440 m,3 h 45 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-132,Sentier du Sel,13 km,360 m,680 m,3 h 34 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-133,Chemin des Narcisses,6 km,380 m,380 m,2 h,leicht (Wanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-135,Sentier de la Jougnena,19 km,480 m,480 m,5 h,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-137,Sentier du Talent,9 km,260 m,170 m,2 h 30 min,leicht (Wanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-138,Sentier nature Grand Lausanne,19 km,660 m,660 m,5 h,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-144,Sentier du Salève,7 km,780 m,80 m,2 h 40 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-159,Höhenweg Almagelleralp,11 km,300 m,1’050 m,3 h 25 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-160,Sentier des Chamois,12 km,700 m,1’450 m,4 h 45 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-180,Zauberwasser-Weg Grächen,13 km,460 m,460 m,3 h 49 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-181,Suonenweg Brandalp–Eischoll,10 km,320 m,700 m,3 h,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-182,Fafleralp-Rundweg,11 km,680 m,680 m,3 h 49 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-183,Gemsweg Saas-Fee,8 km,180 m,720 m,2 h 19 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-184,Gommer Höhenweg,12 km,660 m,680 m,4 h,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-185,Turtmanntaler Aussichtsweg,13 km,860 m,860 m,4 h 39 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-186,5-Seenweg Zermatt,11 km,380 m,660 m,3 h 15 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-187,Über die Raspille,11 km,300 m,740 m,3 h 10 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-188,Walliser Steppen- und Föhrenweg,11 km,680 m,700 m,3 h 49 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-189,Riederfurka-Knebelbrückenweg,10 km,740 m,740 m,3 h 45 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-190,7-Seenwanderweg Bellwald,7 km,240 m,720 m,2 h 15 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-191,Moosalp Panoramaweg,6 km,260 m,260 m,1 h 54 min,leicht (Wanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-192,Binntal Schaplersee-Weg,8 km,740 m,860 m,3 h 34 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-193,Randa Hängebrückenweg,7 km,680 m,680 m,3 h 10 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-194,Simplon-Sirwoltusee-Weg,10 km,900 m,1’100 m,4 h 24 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-210,Les cols du Grand-St-Bernard,12 km,1’050 m,1’050 m,5 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-211,Sentier de Salanfe,13 km,720 m,720 m,4 h 20 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-212,Bisses de Lentine et de Mont d’Orge,8 km,30 m,380 m,2 h,leicht (Wanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-213,Grand Bisse d'Ayent,12 km,180 m,640 m,3 h 10 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-214,Chemin des villages d’Evolène,11 km,520 m,520 m,3 h 25 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-215,Chemin d’Ossona,8 km,360 m,540 m,2 h 34 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-216,Chemin du Lac de Taney,8 km,640 m,540 m,3 h,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-217,Chemin du Vallon de Réchy,15 km,720 m,720 m,4 h 45 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-218,Sentier du Balcon du Mont-Blanc,8 km,880 m,140 m,3 h 15 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-219,Chemin des villages et hameaux d'Entremont,14 km,420 m,900 m,4 h,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-220,Tour du Grand Chavalard,15 km,1’100 m,1’100 m,5 h 39 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-221,Tour du Lac de Moiry,14 km,840 m,840 m,4 h 45 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-223,Autour du Mont Gond,14 km,640 m,1’100 m,4 h 35 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-224,Sentier Panorama 4000,14 km,520 m,1’250 m,4 h 24 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-225,Sentier des alpages de Vionnaz,14 km,800 m,800 m,4 h 35 min,leicht,mittel
+https://schweizmobil.ch/de/wanderland/route-261,Sentier du Lac de la Gruyère,43 km,1’500 m,1’500 m,,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-262,Gastlosen Tour,11 km,780 m,780 m,4 h,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-263,Le Grand Tour des Vanils,13 km,820 m,700 m,4 h 30 min,mittel (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-265,Chemin de la Grande Cariçaie,13 km,240 m,240 m,3 h 25 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-266,Sentier panoramique des Paccots,13 km,720 m,720 m,4 h 9 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-267,Breccaschlund-Panoramaweg,14 km,480 m,900 m,4 h 9 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-268,Sentier historique du Vully,12 km,440 m,440 m,3 h 30 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-269,Gorges du Gottéron,9 km,320 m,320 m,2 h 40 min,leicht (Wanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-270,Sentier de la crête du Moléson,8 km,720 m,240 m,3 h,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-271,Sentier du Vitrail de Romont,16 km,500 m,500 m,4 h 24 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-272,La Berra par la Valsainte,14 km,820 m,820 m,4 h 35 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-273,L’Intyamon de Montbovon à la Brâ,10 km,780 m,780 m,4 h,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-274,Auf dem Rücken des Schwyberg,18 km,900 m,900 m,5 h 45 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-275,Circuit de Hauterive,10 km,300 m,300 m,2 h 45 min,leicht (Wanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-286,Sentier du Creux du Van,14 km,780 m,780 m,4 h 35 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-287,Sentier des Statues,12 km,680 m,620 m,3 h 49 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-288,La Vy aux Moines,15 km,400 m,700 m,4 h 9 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-306,Horneggli-Panoramaweg,6 km,200 m,440 m,1 h 54 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-307,Höhi-Wispile-Lauenensee-Weg,14 km,300 m,950 m,4 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-313,Höhenrundweg Gryden,7 km,320 m,320 m,2 h 15 min,mittel (Bergwanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-315,Iffigsee-Rundweg,11 km,880 m,880 m,4 h 24 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-316,Siebenbrunnen-Weg,8 km,820 m,340 m,3 h 19 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-319,Leiternweide-Hängebrückenweg,6 km,380 m,320 m,2 h,mittel (Bergwanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-320,Diemtigtaler Talwanderweg,16 km,680 m,130 m,4 h 30 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-321,Tschuggen-Alpwanderweg,10 km,720 m,400 m,3 h 19 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-322,Geopfad Wiriehorn,9 km,680 m,680 m,3 h 30 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-323,Bergweg Kraftort Grimmiwasser,10 km,660 m,660 m,3 h 34 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-324,Stockhorn-Panoramaweg,3 km,50 m,540 m,1 h 9 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-326,Sigriswiler Rothorn Panoramaweg,12 km,1’150 m,1’150 m,5 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-342,Niederhorn-Panoramaweg,11 km,380 m,1’100 m,3 h 30 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-345,Panoramaweg Schynige Platte,6 km,340 m,340 m,1 h 54 min,mittel (Bergwanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-351,Mountain View Trail,5 km,520 m,110 m,2 h,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-352,Lauberhorn Trail,6 km,820 m,260 m,2 h 49 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-353,Eiger Trail,6 km,90 m,800 m,1 h 54 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-360,Brienzersee Drei Wasserfälleweg,18 km,780 m,780 m,,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-361,Axalp-Schnitzlerweg,6 km,400 m,400 m,2 h 4 min,mittel (Bergwanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-375,Chaltenbrunnen-Hochmoorweg,14 km,880 m,1’100 m,5 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-379,Gantrisch-Panoramaweg,21 km,1’300 m,1’000 m,7 h,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-380,Gürbetaler Höhenweg,18 km,720 m,740 m,5 h 15 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-381,Schwarzwasser-Sense-Schluchtenweg,23 km,950 m,950 m,,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-382,Gürbe-Wildwasserweg,11 km,50 m,1’050 m,2 h 55 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-421,Chemin de Chasseral,13 km,540 m,540 m,3 h 49 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-422,Chemin de Mont-Soleil,13 km,580 m,640 m,4 h,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-423,Chemin de Moron,16 km,880 m,880 m,5 h,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-424,Chemin de Raimeux,11 km,700 m,740 m,3 h 49 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-425,Chemin de Bellelay,15 km,660 m,660 m,4 h 24 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-426,Chemin de Montoz,17 km,360 m,900 m,4 h 45 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-427,Chemin de la Combe Grède,13 km,720 m,660 m,4 h 9 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-451,Chemin Tiergart-Plain Fayen,12 km,560 m,480 m,3 h 34 min,leicht,mittel
+https://schweizmobil.ch/de/wanderland/route-453,Chemin du 100e du CAS Jura,17 km,1’000 m,900 m,5 h 45 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-454,Chemin du Val Terbi,11 km,700 m,700 m,3 h 49 min,mittel (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-456,Bonfol Km 0,18 km,280 m,280 m,4 h 20 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-457,Des Franches-Montagnes au Doubs,15 km,800 m,800 m,4 h 39 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-458,Chemin des Crêtes des Franches-Montagnes,10 km,220 m,260 m,2 h 34 min,leicht (Wanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-459,Chemin de la Courtine,14 km,680 m,240 m,4 h 9 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-469,Wildenstein – Rifenstein Weg,16 km,580 m,400 m,4 h 30 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-470,Wasserfallen-Rundweg,10 km,560 m,560 m,3 h 10 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-471,Baselbieter Chirsiweg,11 km,400 m,260 m,3 h,leicht (Wanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-478,Weissenstein-Passwang-Weg,32 km,1’850 m,1’350 m,,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-484,Wolfsschlucht-Weg,13 km,860 m,860 m,4 h 39 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-485,Tüfelsschlucht-Belchen-Weg,17 km,800 m,840 m,5 h,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-501,Oberdorf-Grenchen-Waldrandweg,12 km,200 m,420 m,3 h,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-502,Balmberg-Röti-Rundweg,8 km,440 m,440 m,2 h 34 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-528,Luzerner Kapellenweg,21 km,340 m,460 m,5 h 9 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-530,Köhlerweg Romoos,11 km,880 m,620 m,4 h,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-564,Kapellenweg Engelbergertal,18 km,1’000 m,1’000 m,6 h 9 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-565,Bärfallen-Panorama-Weg,7 km,150 m,600 m,2 h 4 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-566,Felsenweg Bürgenstock,5 km,180 m,180 m,1 h 24 min,leicht (Wanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-568,Wildbeobachtungspfad Emmetten,11 km,580 m,880 m,3 h 49 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-569,Benediktusweg,22 km,1’650 m,1’450 m,8 h 15 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-570,Nidwaldner Zentrumsweg,20 km,1’450 m,1’450 m,,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-571,Bruderklausenweg,21 km,820 m,800 m,6 h,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-573,Walenpfad,11 km,780 m,660 m,4 h,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-574,Vier-Seen-Wanderung,15 km,620 m,760 m,4 h 35 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-575,Schmetterlingspfad Lungern,14 km,380 m,1’250 m,4 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-576,Bärgmandlipfad Giswil,14 km,950 m,950 m,5 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-587,Wildheupfad,7 km,380 m,820 m,2 h 45 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-588,Clariden-Höhenweg,9 km,560 m,500 m,3 h 10 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-590,Höhenweg Maderanertal,16 km,840 m,1’400 m,5 h 39 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-593,Nordspitze Panoramaweg,14 km,440 m,440 m,3 h 45 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-595,Höhenweg Schächental,22 km,740 m,1’250 m,6 h 15 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-599,ViaUrschweiz,20 km,1’950 m,780 m,,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-608,Sentiero Caprino–Cantine di Gandria,4 km,200 m,200 m,1 h 20 min,mittel (Bergwanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-611,Giro della Valle del Salto,9 km,720 m,720 m,3 h 34 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-613,Sentiero del Monte Gambarogno,7 km,380 m,800 m,2 h 40 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-625,Giro delle Tre Valli,12 km,1’050 m,1’050 m,5 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-626,Giro del Castello di Serravalle,6 km,480 m,480 m,2 h 30 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-627,Claro e il suo Monastero,6 km,500 m,500 m,2 h 19 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-628,Giro del ponte tibetano,9 km,700 m,700 m,3 h 34 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-629,Sentiero etnografico Revöira,8 km,500 m,500 m,2 h 49 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-631,La Via del Mercato,12 km,720 m,950 m,4 h 20 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-632,Sentiero del Monte Bar,12 km,1’000 m,1’000 m,5 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-633,Giro del Monte Tamaro,10 km,720 m,720 m,3 h 40 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-634,Sentiero delle meraviglie,6 km,360 m,360 m,2 h,mittel (Bergwanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-635,Sentiero del Monte Generoso,9 km,660 m,660 m,3 h 30 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-636,Sentiero del Monte San Giorgio,13 km,740 m,740 m,4 h 20 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-637,Giro delle Rovine del Castelliere,6 km,460 m,440 m,2 h 19 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-638,Sentiero Salèi e Pizzo Zucchero,12 km,1’150 m,1’100 m,5 h 20 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-659,Senda Ruinaulta,10 km,360 m,360 m,2 h 45 min,mittel (Bergwanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-661,Flimspitz-Rundweg,8 km,600 m,600 m,3 h,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-662,Stammerjoch-Weg,11 km,880 m,880 m,4 h 20 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-667,Senda dils senns Val Plattas,6 km,440 m,440 m,2 h 15 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-675,Hexenplatte-Weg,12 km,860 m,860 m,4 h 24 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-676,Pazolastock-Rheinquelle-Weg,10 km,900 m,900 m,4 h 24 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-677,Lag Serein - Lag Crest Ault,11 km,560 m,1’200 m,4 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-678,Hochtal Val Frisal,12 km,600 m,950 m,4 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-680,Senda Desertina,13 km,540 m,540 m,,,
+https://schweizmobil.ch/de/wanderland/route-690,Erlebnisweg Glaspass,8 km,500 m,500 m,2 h 40 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-693,Via Capricorn,51 km,3’400 m,3’400 m,,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-699,Panyer Rundweg,16 km,1’100 m,1’100 m,5 h 45 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-701,Furner Rundweg,14 km,740 m,740 m,4 h 30 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-702,Schijenfluh Umrundung,12 km,880 m,880 m,4 h 35 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-712,Sentiero Alpino Calanca,45 km,3’400 m,4’500 m,,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-721,Senda Ils Lejins,6 km,420 m,420 m,2 h 15 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-724,Sentiero Val da Camp,5 km,340 m,340 m,1 h 54 min,mittel (Bergwanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-726,Sentiero Lagh dal Mat,12 km,860 m,860 m,4 h 30 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-735,Walserweg Safiental,34 km,2’500 m,1’700 m,,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-737,Via Calanca,21 km,1’250 m,500 m,,leicht (Wanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-738,Heidbüel-Tgantieni-Höhenweg,6 km,300 m,480 m,2 h,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-739,Dreibündenstein Panoramaweg,12 km,700 m,840 m,4 h 9 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-748,Senda Crap la Tretscha,7 km,200 m,200 m,1 h 54 min,leicht (Wanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-753,Walserweg Obersaxen,10 km,520 m,480 m,3 h,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-754,Pfad der Pioniere Parc Ela,9 km,460 m,460 m,2 h 49 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-757,Alte Averserstrasse,28 km,1’850 m,820 m,,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-759,Surettaseen-Weg,13 km,860 m,860 m,4 h 35 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-763,Heinzenberger-Gratweg,18 km,1’050 m,1’400 m,6 h 24 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-764,Trutg dil Flem – Flimser Wasserweg,14 km,360 m,1’400 m,4 h 30 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-766,Aroser-Weisshorn-Weg,10 km,700 m,860 m,3 h 45 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-767,Schiesshorn-Weg,13 km,1’000 m,1’000 m,5 h 15 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-768,Arosa-Ochsenalp Rundtour,15 km,640 m,640 m,4 h 20 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-787,Silvretta Gletscherlehrpfad,11 km,1’100 m,1’100 m,5 h 9 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-788,Jöriseen Rundweg,11 km,950 m,950 m,4 h 30 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-789,Alter Zügenweg,11 km,380 m,640 m,3 h 15 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-791,Alpenweg Davos,23 km,900 m,1’650 m,7 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-792,Flüela-Schwarzhorn-Weg,8 km,820 m,820 m,3 h 40 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-796,Via Panoramica Val Bregaglia,14 km,580 m,950 m,4 h 30 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-801,A la riva dal Rom,15 km,140 m,640 m,3 h 34 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-802,Senda Val Müstair,9 km,260 m,480 m,2 h 34 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-804,Senda Muottas da Schlarigna,8 km,560 m,560 m,2 h 55 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-806,Aussichtsweg Morteratschgletscher,6 km,240 m,240 m,1 h 50 min,mittel (Bergwanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-810,Braunwald-Oberblegisee-Weg,9 km,220 m,680 m,2 h 30 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-811,Senda Val Trupchun,14 km,620 m,620 m,4 h 15 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-812,Margunet,8 km,500 m,600 m,2 h 49 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-813,Kinderpfad Champlönch,6 km,300 m,340 m,1 h 54 min,mittel (Bergwanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-814,Hirzli-Rundweg,7 km,660 m,660 m,3 h 10 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-815,Glarus-Rundweg,10 km,400 m,400 m,2 h 55 min,leicht (Wanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-816,Braunwald Panoramaweg,9 km,480 m,480 m,2 h 49 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-817,Elm-Höhenweg,6 km,150 m,380 m,1 h 39 min,leicht (Wanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-818,Kärpfbrugg-Rundweg,7 km,400 m,400 m,2 h 25 min,mittel (Bergwanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-819,Weissenberge-Rundweg,4 km,180 m,180 m,1 h 5 min,leicht (Wanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-820,Kerenzerberg Römerweg,13 km,620 m,640 m,4 h,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-821,Holzflue-Rundweg,4 km,420 m,420 m,2 h,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-822,Schabziger Höhenweg,7 km,480 m,360 m,2 h 25 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-823,Ahornen-Rundweg,11 km,660 m,660 m,3 h 45 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-826,Urwaldweg Bödmeren,10 km,460 m,460 m,3 h,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-827,Gratweg Stoos,4 km,380 m,400 m,1 h 50 min,mittel (Bergwanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-828,Goldauer Bergsturzspur,8 km,620 m,620 m,3 h 15 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-829,Mythenweg,6 km,660 m,660 m,3 h,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-830,Ybriger 7-Egg-Weg,11 km,340 m,740 m,3 h,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-831,Rigi Scheidegg-Weg,8 km,1’250 m,50 m,3 h 45 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-832,Karstspur Silberen,14 km,1’050 m,1’050 m,5 h 24 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-835,Moorweg Rothenthurm,10 km,260 m,150 m,2 h 45 min,leicht (Wanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-836,Mäderenweg,6 km,400 m,150 m,2 h,leicht (Wanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-859,Zürcher Weinland Weg,15 km,280 m,260 m,3 h 49 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-860,Regensberg Weg,8 km,320 m,320 m,2 h 19 min,leicht (Wanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-864,Hüttchopf Weg,14 km,640 m,720 m,4 h 30 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-22/etappe-1,Kulturspur Appenzellerland Etappe 1: Degersheim – Stein AR,19 km,840 m,840 m,5 h 35 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-22/etappe-2,Kulturspur Appenzellerland Etappe 2: Stein AR – Trogen,16 km,820 m,720 m,5 h,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-22/etappe-3,Kulturspur Appenzellerland Etappe 3: Trogen – Rheineck,21 km,720 m,1’250 m,6 h,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-23/etappe-1,Senda Scuol–Samnaun Etappe 1: Scuol – Heidelberger Hütte DAV,25 km,1’700 m,720 m,8 h 10 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-23/etappe-2,Senda Scuol–Samnaun Etappe 2: Heidelberger Hütte DAV – Samnaun,12 km,600 m,1’050 m,4 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-24/etappe-1,"Thurweg Etappe 1: Wildhaus, Gamplüt – Nesslau",20 km,280 m,880 m,5 h 15 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-24/etappe-2,Thurweg Etappe 2: Nesslau – Wattwil,16 km,260 m,420 m,4 h 15 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-24/etappe-3,Thurweg Etappe 3: Wattwil – Schwarzenbach SG,26 km,660 m,740 m,6 h 50 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-24/etappe-4,Thurweg Etappe 4: Schwarzenbach SG – Bischofszell,19 km,130 m,160 m,4 h 30 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-24/etappe-5,Thurweg Etappe 5: Bischofszell – Weinfelden,18 km,130 m,200 m,4 h 24 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-24/etappe-6,Thurweg Etappe 6: Weinfelden – Frauenfeld,24 km,90 m,120 m,5 h 45 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-24/etappe-7,Thurweg Etappe 7: Frauenfeld – Andelfingen,24 km,220 m,220 m,6 h,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-24/etappe-8,Thurweg Etappe 8: Andelfingen – Rüdlingen,15 km,110 m,140 m,3 h 34 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-25/etappe-1,Senda Segantini Etappe 1: Savognin – Bivio,21 km,1’400 m,840 m,7 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-25/etappe-2,Senda Segantini Etappe 2: Bivio – Maloja,16 km,950 m,880 m,5 h 15 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-25/etappe-3,Senda Segantini Etappe 3: Maloja – St. Moritz,20 km,460 m,500 m,5 h 20 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-25/etappe-4,Senda Segantini Etappe 4: St. Moritz – Muottas Muragl,15 km,1’200 m,520 m,5 h 24 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-26/etappe-1,Panorama Rundweg Thunersee Etappe 1: Thun – Sigriswil,11 km,640 m,400 m,3 h 45 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-26/etappe-2,Panorama Rundweg Thunersee Etappe 2: Sigriswil – Interlaken,17 km,460 m,700 m,4 h 45 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-26/etappe-3,Panorama Rundweg Thunersee Etappe 3: Interlaken – Spiez,20 km,740 m,740 m,5 h 50 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-26/etappe-4,Panorama Rundweg Thunersee Etappe 4: Spiez – Thun,14 km,340 m,340 m,3 h 45 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-27/etappe-1,Swiss Tour Monte Rosa Etappe 1: Saas Fee – Grächen,20 km,1’250 m,1’450 m,7 h 9 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-27/etappe-2,Swiss Tour Monte Rosa Etappe 2: Grächen – Europahütte,17 km,1’750 m,1’100 m,7 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-27/etappe-3,Swiss Tour Monte Rosa Etappe 3: Europahütte – Zermatt,20 km,1’000 m,1’650 m,6 h 45 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-29/etappe-1,Pragelpass-Weg Etappe 1: Schwyz – Muotathal,14 km,320 m,220 m,3 h 30 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-29/etappe-2,Pragelpass-Weg Etappe 2: Muotathal – Hinter Klöntal,20 km,1’100 m,880 m,6 h 20 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-29/etappe-3,Pragelpass-Weg Etappe 3: Hinter Klöntal – Glarus,14 km,190 m,560 m,3 h 34 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-30/etappe-2,ViaValtellina Etappe 2: Gargellen (A) – Klosters (Schlappin),9 km,840 m,580 m,4 h,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-30/etappe-3,ViaValtellina Etappe 3: Klosters (Schlappin) – Davos,19 km,720 m,820 m,5 h 30 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-30/etappe-4,ViaValtellina Etappe 4: Davos – S-chanf,33 km,1’300 m,1’200 m,9 h 25 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-30/etappe-5,ViaValtellina Etappe 5: S-chanf – Pontresina,21 km,380 m,260 m,5 h 15 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-30/etappe-6,ViaValtellina Etappe 6: Pontresina – Ospizio Bernina,17 km,720 m,240 m,4 h 45 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-30/etappe-7,ViaValtellina Etappe 7: Ospizio Bernina – Poschiavo,14 km,120 m,1’350 m,4 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-30/etappe-8,ViaValtellina Etappe 8: Poschiavo – San Romerio,11 km,1’150 m,360 m,4 h 20 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-30/etappe-9,ViaValtellina Etappe 9: San Romerio – Tirano (I),12 km,190 m,1’550 m,3 h 45 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-31/etappe-1,Chemin du Jura Etappe 1: Delémont – Lucelle,18 km,900 m,660 m,5 h 39 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-31/etappe-2,Chemin du Jura Etappe 2: Lucelle – Porrentruy,19 km,440 m,660 m,5 h,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-31/etappe-3,Chemin du Jura Etappe 3: Porrentruy – St-Ursanne,17 km,600 m,600 m,4 h 45 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-31/etappe-4,Chemin du Jura Etappe 4: St-Ursanne – Glovelier,18 km,640 m,580 m,5 h,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-31/etappe-5,Chemin du Jura Etappe 5: Glovelier – Saignelégier,21 km,620 m,140 m,5 h 35 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-32/etappe-1,ViaSurprise Etappe 1: Dornach – Seewen,14 km,580 m,320 m,3 h 49 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-32/etappe-2,ViaSurprise Etappe 2: Seewen – Wasserfallen,12 km,660 m,280 m,3 h 40 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-32/etappe-3,ViaSurprise Etappe 3: Wasserfallen – Beinwil,17 km,740 m,1’100 m,5 h 9 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-32/etappe-4,ViaSurprise Etappe 4: Beinwil – Zwingen,16 km,520 m,760 m,4 h 39 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-32/etappe-5,ViaSurprise Etappe 5: Zwingen – Mariastein,11 km,540 m,380 m,3 h 25 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-32/etappe-6,ViaSurprise Etappe 6: Mariastein – Dornach,16 km,440 m,660 m,4 h 24 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-33/etappe-1,Via Albula/Bernina Etappe 1: Thusis – Tiefencastel,20 km,950 m,760 m,6 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-33/etappe-2,Via Albula/Bernina Etappe 2: Tiefencastel – Filisur,12 km,440 m,240 m,3 h 19 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-33/etappe-3,Via Albula/Bernina Etappe 3: Filisur – Bergün,10 km,620 m,320 m,3 h 10 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-33/etappe-4,Via Albula/Bernina Etappe 4: Bergün – Preda,7 km,520 m,110 m,2 h 19 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-33/etappe-5,Via Albula/Bernina Etappe 5: Preda – Spinas,12 km,820 m,780 m,4 h 20 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-33/etappe-6,Via Albula/Bernina Etappe 6: Spinas – St. Moritz,13 km,240 m,280 m,3 h 19 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-33/etappe-7,Via Albula/Bernina Etappe 7: St. Moritz – Ospizio Bernina,24 km,840 m,360 m,6 h 30 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-33/etappe-8,Via Albula/Bernina Etappe 8: Ospizio Bernina – Cavaglia,9 km,240 m,800 m,2 h 49 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-33/etappe-9,Via Albula/Bernina Etappe 9: Cavaglia – Le Prese,12 km,60 m,800 m,3 h,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-33/etappe-10,Via Albula/Bernina Etappe 10: Le Prese – Tirano (I),14 km,300 m,820 m,3 h 49 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-34/etappe-1,Klettgau-Rhein-Weg Etappe 1: Hallau – Siblinger Randenhaus,19 km,900 m,500 m,5 h 39 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-34/etappe-2,Klettgau-Rhein-Weg Etappe 2: Siblinger Randenhaus – Schaffhausen,27 km,540 m,950 m,7 h,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-35/etappe-1,Walserweg Etappe 1: San Bernardino – Hinterrhein,10 km,580 m,580 m,3 h 19 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-35/etappe-2,Walserweg Etappe 2: Hinterrhein – Vals,15 km,1’000 m,1’350 m,5 h 35 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-35/etappe-3,Walserweg Etappe 3: Vals – Safien Turrahus,13 km,1’200 m,760 m,5 h 9 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-35/etappe-4,Walserweg Etappe 4: Turrahus – Safien Platz,11 km,400 m,780 m,3 h 19 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-35/etappe-5,Walserweg Etappe 5: Safien Platz – Thusis,17 km,700 m,1’300 m,5 h 20 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-35/etappe-6,Walserweg Etappe 6: Thusis – Obermutten,11 km,1’450 m,280 m,5 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-35/etappe-7,Walserweg Etappe 7: Obermutten – Andeer,15 km,320 m,1’200 m,4 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-35/etappe-8,Walserweg Etappe 8: Andeer – Innerferrera,14 km,950 m,460 m,4 h 45 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-35/etappe-9,Walserweg Etappe 9: Innerferrera – Juf,19 km,1’150 m,540 m,6 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-35/etappe-10,Walserweg Etappe 10: Juf – Alp Flix,19 km,1’350 m,1’500 m,7 h 9 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-35/etappe-11,Walserweg Etappe 11: Alp Flix – Chamonas d’Ela CAS,17 km,1’450 m,1’150 m,6 h 45 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-35/etappe-12,Walserweg Etappe 12: Chamonas d’Ela CAS – Monstein,22 km,1’050 m,1’650 m,7 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-35/etappe-13,Walserweg Etappe 13: Monstein – Sertig Dörfli,12 km,1’000 m,780 m,4 h 45 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-35/etappe-14,Walserweg Etappe 14: Sertig Dörfli – Davos,16 km,820 m,1’150 m,5 h 35 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-35/etappe-15,Walserweg Etappe 15: Davos – Arosa,16 km,1’200 m,1’000 m,6 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-35/etappe-16,Walserweg Etappe 16: Arosa – Langwies,15 km,660 m,1’050 m,4 h 50 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-35/etappe-17,Walserweg Etappe 17: Langwies – Klosters,23 km,1’150 m,1’400 m,7 h 15 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-35/etappe-18,Walserweg Etappe 18: Klosters – St. Antönien,21 km,1’650 m,1’350 m,8 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-35/etappe-19,Walserweg Etappe 19: St. Antönien – Brand (A),31 km,1’550 m,1’950 m,10 h 10 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-36/etappe-1,Chemin du vignoble Etappe 1: Martigny – Saillon,12 km,480 m,420 m,3 h 30 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-36/etappe-2,Chemin du vignoble Etappe 2: Saillon – Sion,22 km,860 m,800 m,6 h 15 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-36/etappe-3,Chemin du vignoble Etappe 3: Sion – Venthône,19 km,720 m,480 m,5 h 15 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-36/etappe-4,Chemin du vignoble Etappe 4: Venthône – Leuk,13 km,400 m,580 m,3 h 34 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-38/etappe-1,ViaBerna Etappe 1: Bellelay – Tramelan,11 km,340 m,400 m,3 h,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-38/etappe-2,ViaBerna Etappe 2: Tramelan – St-Imier,19 km,620 m,720 m,5 h 20 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-38/etappe-3,ViaBerna Etappe 3: St-Imier – Nods,11 km,880 m,780 m,4 h,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-38/etappe-4,ViaBerna Etappe 4: Nods – Magglingen,17 km,780 m,780 m,5 h,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-38/etappe-5,ViaBerna Etappe 5: Magglingen – Biel/Bienne,13 km,100 m,540 m,3 h 15 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-38/etappe-6,ViaBerna Etappe 6: Biel/Bienne – Aarberg,20 km,320 m,300 m,5 h,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-38/etappe-7,ViaBerna Etappe 7: Aarberg – Frauenkappelen,24 km,660 m,500 m,6 h 35 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-38/etappe-8,"ViaBerna Etappe 8: Frauenkappelen – Bern, Bärenpark",15 km,200 m,280 m,3 h 49 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-38/etappe-9,"ViaBerna Etappe 9: Bern, Bärenpark – Münsingen, Schützenfahrbrügg",15 km,170 m,170 m,3 h 45 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-38/etappe-10,"ViaBerna Etappe 10: Münsingen, Schützenfahrbrügg – Thun",17 km,260 m,220 m,4 h 15 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-38/etappe-11,ViaBerna Etappe 11: Thun – Aeschi bei Spiez,20 km,680 m,380 m,5 h 24 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-38/etappe-12,ViaBerna Etappe 12: Aeschi bei Spiez – Saxeten,17 km,1’200 m,950 m,6 h 9 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-38/etappe-13,ViaBerna Etappe 13: Saxeten – Isenfluh,13 km,1’100 m,1’100 m,5 h 20 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-38/etappe-14,ViaBerna Etappe 14: Isenfluh – Schynige Platte,10 km,1’350 m,480 m,5 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-38/etappe-15,"ViaBerna Etappe 15: Schynige Platte – Grindelwald, First",17 km,1’100 m,900 m,5 h 50 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-38/etappe-16,"ViaBerna Etappe 16: Grindelwald, First – Rosenlaui",12 km,160 m,1’000 m,3 h 19 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-38/etappe-17,"ViaBerna Etappe 17: Rosenlaui – Hasliberg, Reuti",11 km,500 m,780 m,3 h 40 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-38/etappe-18,"ViaBerna Etappe 18: Hasliberg, Reuti – Engstlenalp",19 km,1’500 m,740 m,6 h 50 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-38/etappe-19,ViaBerna Etappe 19: Engstlenalp – Gadmen,12 km,600 m,1’250 m,4 h 15 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-38/etappe-20,ViaBerna Etappe 20: Gadmen – Sustenpass,10 km,1’150 m,130 m,4 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-39/etappe-1,"Aletsch Panoramaweg Etappe 1: Blatten, Belalp – Riederalp, Riederfurka",10 km,720 m,760 m,3 h 49 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-39/etappe-2,"Aletsch Panoramaweg Etappe 2: Riederalp, Riederfurka – Märjelensee",12 km,820 m,520 m,4 h,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-39/etappe-3,Aletsch Panoramaweg Etappe 3: Märjelensee – Bellwald,9 km,360 m,1’150 m,3 h 19 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-40/etappe-1,ViaSbrinz Etappe 1: Stansstad – Engelberg,26 km,700 m,140 m,7 h,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-40/etappe-2,ViaSbrinz Etappe 2: Engelberg – Engstlenalp,13 km,1’300 m,440 m,5 h 9 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-40/etappe-3,ViaSbrinz Etappe 3: Engstlenalp – Guttannen,23 km,680 m,1’450 m,6 h 39 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-40/etappe-4,ViaSbrinz Etappe 4: Guttannen – Obergesteln,24 km,1’450 m,1’200 m,8 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-40/etappe-5,ViaSbrinz Etappe 5: Obergesteln – Ponte (I),27 km,1’450 m,1’500 m,9 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-42/etappe-1,Aargauer Weg Etappe 1: Frick – Wittnau,12 km,440 m,400 m,3 h 19 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-42/etappe-2,Aargauer Weg Etappe 2: Wittnau – Aarau,19 km,880 m,900 m,5 h 50 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-42/etappe-3,Aargauer Weg Etappe 3: Aarau – Brugg,22 km,440 m,480 m,5 h 45 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-42/etappe-4,Aargauer Weg Etappe 4: Brugg – Mellingen,22 km,560 m,560 m,6 h,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-42/etappe-5,Aargauer Weg Etappe 5: Mellingen – Bremgarten AG,14 km,200 m,170 m,3 h 40 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-42/etappe-6,Aargauer Weg Etappe 6: Bremgarten (AG) – Muri (AG),14 km,200 m,140 m,3 h 34 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-43/etappe-1,Jakobsweg Graubünden Etappe 1: Müstair – Lü,17 km,820 m,160 m,5 h,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-43/etappe-2,Jakobsweg Graubünden Etappe 2: Lü – S-charl,14 km,460 m,560 m,3 h 49 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-43/etappe-3,Jakobsweg Graubünden Etappe 3: S-charl – Scuol,13 km,260 m,780 m,3 h 34 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-43/etappe-4,Jakobsweg Graubünden Etappe 4: Scuol – Guarda,15 km,740 m,380 m,4 h 20 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-43/etappe-5,Jakobsweg Graubünden Etappe 5: Guarda – Zernez,16 km,480 m,660 m,4 h 24 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-43/etappe-6,Jakobsweg Graubünden Etappe 6: Zernez – S-chanf (Cinous-chel),10 km,320 m,190 m,2 h 34 min,mittel (Bergwanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-43/etappe-7,Jakobsweg Graubünden Etappe 7: S-chanf (Cinous-chel) – Dürrboden,18 km,1’050 m,660 m,5 h 45 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-43/etappe-8,Jakobsweg Graubünden Etappe 8: Dürrboden – Davos Dorf,13 km,80 m,520 m,3 h,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-43/etappe-9,Jakobsweg Graubünden Etappe 9: Davos Dorf – Langwies,14 km,860 m,1’050 m,5 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-43/etappe-10,Jakobsweg Graubünden Etappe 10: Langwies – Tschiertschen,12 km,660 m,700 m,4 h,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-43/etappe-11,Jakobsweg Graubünden Etappe 11: Tschiertschen – Chur,11 km,280 m,1’000 m,3 h 19 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-43/etappe-12,Jakobsweg Graubünden Etappe 12: Chur – Tamins,13 km,380 m,300 m,3 h 25 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-43/etappe-13,Jakobsweg Graubünden Etappe 13: Tamins – Trin Digg,5 km,260 m,100 m,1 h 24 min,leicht (Wanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-43/etappe-14,Jakobsweg Graubünden Etappe 14: Trin Digg – Laax (Falera),17 km,950 m,540 m,5 h 15 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-43/etappe-15,Jakobsweg Graubünden Etappe 15: Laax (Falera) – Brigels (Andiast),21 km,820 m,840 m,6 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-43/etappe-16,Jakobsweg Graubünden Etappe 16: Brigels (Andiast) – Trun,16 km,640 m,950 m,4 h 45 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-43/etappe-17,Jakobsweg Graubünden Etappe 17: Trun – Disentis,13 km,580 m,320 m,3 h 34 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-44/etappe-1,Appenzeller Weg Etappe 1: Rankweil (A) – Appenzell,28 km,740 m,420 m,7 h 24 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-44/etappe-2,Appenzeller Weg Etappe 2: Appenzell – Urnäsch,13 km,420 m,360 m,3 h 34 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-44/etappe-3,Appenzeller Weg Etappe 3: Urnäsch – St. Peterzell,11 km,400 m,540 m,3 h 10 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-45/etappe-1,"Nationalpark-Panoramaweg Etappe 1: Sent, Sur En – Sesvennahütte",13 km,1’250 m,110 m,4 h 39 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-45/etappe-2,Nationalpark-Panoramaweg Etappe 2: Sesvennahütte – S-charl,11 km,640 m,1’100 m,4 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-45/etappe-3,"Nationalpark-Panoramaweg Etappe 3: S-charl – Val Müstair, Süsom Givè",18 km,860 m,520 m,5 h 20 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-45/etappe-4,"Nationalpark-Panoramaweg Etappe 4: Val Müstair, Süsom Givè – Il Fuorn",15 km,740 m,1’100 m,5 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-45/etappe-5,Nationalpark-Panoramaweg Etappe 5: Il Fuorn – Chamanna Cluozza,14 km,1’300 m,1’200 m,6 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-45/etappe-6,Nationalpark-Panoramaweg Etappe 6: Chamanna Cluozza – Zernez,8 km,380 m,780 m,2 h 49 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-45/etappe-7,Nationalpark-Panoramaweg Etappe 7: Zernez – Lavin,21 km,1’550 m,1’600 m,7 h 45 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-46/etappe-1,Tour des Alpes Vaudoises Etappe 1: Aigle – Leysin,7 km,1’000 m,10 m,3 h 10 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-46/etappe-2,Tour des Alpes Vaudoises Etappe 2: Leysin – Les Mosses,17 km,900 m,860 m,5 h 20 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-46/etappe-3,Tour des Alpes Vaudoises Etappe 3: Les Mosses – Château-d’Oex,15 km,400 m,880 m,4 h 15 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-46/etappe-4,Tour des Alpes Vaudoises Etappe 4: Château-d'Oex – L'Etivaz,14 km,1’200 m,1’000 m,5 h 30 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-46/etappe-5,Tour des Alpes Vaudoises Etappe 5: L’Etivaz – Les Diablerets,22 km,1’250 m,1’250 m,7 h 20 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-46/etappe-6,Tour des Alpes Vaudoises Etappe 6: Les Diablerets – Villars-sur-Ollon,18 km,1’100 m,1’000 m,6 h 9 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-46/etappe-7,Tour des Alpes Vaudoises Etappe 7: Villars-sur-Ollon – Gryon,22 km,1’000 m,1’150 m,6 h 45 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-46/etappe-8,Tour des Alpes Vaudoises Etappe 8: Gryon – Aigle,17 km,580 m,1’300 m,5 h 9 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-47/etappe-1,Zürich-Zugerland-Panoramaweg Etappe 1: Zürich (Triemli) – Albis Passhöhe,13 km,700 m,380 m,4 h,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-47/etappe-2,Zürich-Zugerland-Panoramaweg Etappe 2: Albis Passhöhe – Zug,21 km,380 m,740 m,5 h 24 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-48/etappe-1,Toggenburger Höhenweg Etappe 1: Wildhaus – Selunalp,14 km,900 m,400 m,4 h 30 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-48/etappe-2,Toggenburger Höhenweg Etappe 2: Selunalp – Oberchäseren,16 km,950 m,900 m,5 h 24 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-48/etappe-3,Toggenburger Höhenweg Etappe 3: Oberchäseren – Tanzboden,8 km,460 m,680 m,2 h 55 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-48/etappe-4,Toggenburger Höhenweg Etappe 4: Tanzboden – Chrüzegg,16 km,900 m,1’050 m,5 h 30 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-48/etappe-5,Toggenburger Höhenweg Etappe 5: Chrüzegg – Hulftegg,11 km,440 m,760 m,3 h 34 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-48/etappe-6,Toggenburger Höhenweg Etappe 6: Hulftegg – Wil SG,22 km,660 m,1’050 m,6 h,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-49/etappe-1,"Vier-Quellen-Weg Etappe 1: Andermatt, Oberalppass – Vermigelhütte",13 km,820 m,820 m,4 h 35 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-49/etappe-2,Vier-Quellen-Weg Etappe 2: Vermigelhütte – Gotthardpass,12 km,840 m,780 m,4 h 24 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-49/etappe-3,Vier-Quellen-Weg Etappe 3: Gotthardpass – Capanna Piansecco CAS,20 km,860 m,950 m,6 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-49/etappe-4,Vier-Quellen-Weg Etappe 4: Capanna Piansecco CAS – Obergesteln,19 km,820 m,1’450 m,6 h 15 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-49/etappe-5,"Vier-Quellen-Weg Etappe 5: Obergesteln – Furkapass, Belvédère",17 km,1’350 m,420 m,6 h 9 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-50/etappe-1,ViaSpluga Etappe 1: Thusis – Andeer,17 km,1’000 m,740 m,5 h 45 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-50/etappe-2,ViaSpluga Etappe 2: Andeer – Splügen,14 km,950 m,460 m,4 h 50 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-50/etappe-3,ViaSpluga Etappe 3: Splügen – Isola (I),17 km,1’000 m,1’200 m,6 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-50/etappe-4,ViaSpluga Etappe 4: Isola (I) – Chiavenna (I),19 km,360 m,1’250 m,5 h 15 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-51/etappe-1,Furka-Höhenweg Etappe 1: Oberwald – Furkapass,11 km,1’200 m,140 m,4 h 30 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-51/etappe-2,Furka-Höhenweg Etappe 2: Furkapass – Andermatt,23 km,900 m,1’900 m,7 h 30 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-52/etappe-1,Sentiero Lago di Lugano Etappe 1: Lugano (Magliaso) – Miglieglia,11 km,780 m,380 m,3 h 40 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-52/etappe-2,Sentiero Lago di Lugano Etappe 2: Miglieglia – Cap. Tamaro,15 km,1’850 m,680 m,6 h 50 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-52/etappe-3,Sentiero Lago di Lugano Etappe 3: Cap. Tamaro – Medeglia,21 km,900 m,2’100 m,7 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-52/etappe-4,Sentiero Lago di Lugano Etappe 4: Medeglia – Cap. M. Bar,11 km,1’100 m,200 m,4 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-52/etappe-5,Sentiero Lago di Lugano Etappe 5: Cap. M. Bar – Cap. Pairolo,17 km,1’300 m,1’550 m,6 h 50 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-52/etappe-6,Sentiero Lago di Lugano Etappe 6: Cap. Pairolo – Lugano (M. Brè),11 km,800 m,1’250 m,4 h 30 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-52/etappe-7,Sentiero Lago di Lugano Etappe 7: Lugano (Paradiso) – Morcote,12 km,840 m,880 m,4 h 30 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-52/etappe-8,Sentiero Lago di Lugano Etappe 8: Morcote – Riva S. Vitale (Capolago),12 km,820 m,820 m,4 h 30 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-52/etappe-9,Sentiero Lago di Lugano Etappe 9: Riva S. Vitale (M. Generoso) – Mendrisio,20 km,560 m,1’850 m,6 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-53/etappe-1,Bernina-Tour Etappe 1: Poschiavo – Privilasco–Alp Grüm – Ospizio Bernina,15 km,1’350 m,120 m,5 h 20 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-53/etappe-2,Bernina-Tour Etappe 2: Ospizio Bernina – Lej d'Arlas–Lej da Diavolezza – Diavolezza Bergstation,9 km,900 m,200 m,3 h 30 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-53/etappe-3,Bernina-Tour Etappe 3: Diavolezza Bergstation – Val da Fain–Fuorcla Pischa–Alp Languard – Pontresina,14 km,880 m,1’150 m,5 h 9 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-53/etappe-4,"Bernina-Tour Etappe 4: Pontresina – Val Roseg–Fuorcla Surlej – Silvaplana, Mittelstation Murtèl",14 km,1’100 m,190 m,4 h 45 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-53/etappe-5,"Bernina-Tour Etappe 5: Silvaplana, Mittelstation Murtèl – Sils Maria–Sils Baselgia–Grevasalvas – Maloja",17 km,420 m,1’300 m,5 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-54/etappe-1,Mittelbünden-Panoramaweg Etappe 1: Lenzerheide – Arosa,21 km,1’600 m,1’300 m,7 h 50 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-54/etappe-2,Mittelbünden-Panoramaweg Etappe 2: Arosa – Davos,20 km,1’050 m,1’200 m,6 h 24 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-55/etappe-1,ViaSuworow Etappe 1: Airolo – Gotthardpass,7 km,950 m,20 m,3 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-55/etappe-2,ViaSuworow Etappe 2: Gotthardpass – Andermatt,13 km,120 m,780 m,3 h 19 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-55/etappe-3,ViaSuworow Etappe 3: Andermatt – Wassen,10 km,160 m,680 m,2 h 45 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-55/etappe-4,ViaSuworow Etappe 4: Wassen – Altdorf,28 km,620 m,1’050 m,7 h 24 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-55/etappe-5,ViaSuworow Etappe 5: Altdorf – Biel-Chinzig,10 km,1’300 m,150 m,4 h 30 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-55/etappe-6,ViaSuworow Etappe 6: Biel-Chinzig – Muotathal,15 km,500 m,1’500 m,4 h 45 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-55/etappe-7,ViaSuworow Etappe 7: Muotathal – Hinter Klöntal,19 km,1’100 m,880 m,6 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-55/etappe-8,ViaSuworow Etappe 8: Hinter Klöntal – Glarus,14 km,190 m,560 m,3 h 34 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-55/etappe-9,ViaSuworow Etappe 9: Glarus – Elm,21 km,660 m,170 m,5 h 39 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-55/etappe-10,ViaSuworow Etappe 10: Elm – Pigniu,23 km,1’650 m,1’300 m,8 h 10 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-55/etappe-11,ViaSuworow Etappe 11: Pigniu – Ilanz,12 km,380 m,950 m,3 h 34 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-56/etappe-1,Lötschberg-Panoramaweg Etappe 1: Kiental – Kandersteg,20 km,1’150 m,900 m,6 h 30 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-56/etappe-2,Lötschberg-Panoramaweg Etappe 2: Kandersteg – Selden,11 km,460 m,90 m,3 h,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-56/etappe-3,Lötschberg-Panoramaweg Etappe 3: Selden – Lauchernalp,11 km,1’250 m,700 m,5 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-56/etappe-4,Lötschberg-Panoramaweg Etappe 4: Lauchernalp – Fafleralp,9 km,220 m,560 m,2 h 34 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-57/etappe-1,Obwaldner Höhenweg Etappe 1: Alpnachstad (Pilatus) – Langis,22 km,1’000 m,1’650 m,7 h 9 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-57/etappe-2,Obwaldner Höhenweg Etappe 2: Langis – Schönbüel (OW),20 km,1’250 m,700 m,6 h 35 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-57/etappe-3,Obwaldner Höhenweg Etappe 3: Schönbüel (OW) – Brünigpass,8 km,100 m,1’100 m,2 h 30 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-57/etappe-4,Obwaldner Höhenweg Etappe 4: Brünigpass – Melchsee-Frutt,23 km,1’900 m,1’000 m,8 h 40 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-57/etappe-5,Obwaldner Höhenweg Etappe 5: Melchsee-Frutt – Storeggpass,13 km,780 m,950 m,4 h 30 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-57/etappe-6,Obwaldner Höhenweg Etappe 6: Storeggpass – Stanserhorn,13 km,1’250 m,1’150 m,5 h 39 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-58/etappe-1,Chemin des Bisses Etappe 1: Martigny (Col des Planches) – La Tzoumaz,13 km,720 m,420 m,4 h,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-58/etappe-2,Chemin des Bisses Etappe 2: La Tzoumaz – Nendaz,14 km,320 m,600 m,3 h 49 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-58/etappe-3,Chemin des Bisses Etappe 3: Nendaz – Veysonnaz,13 km,300 m,380 m,3 h 25 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-58/etappe-4,Chemin des Bisses Etappe 4: Veysonnaz – St-Martin,17 km,860 m,800 m,5 h 24 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-58/etappe-5,Chemin des Bisses Etappe 5: St-Martin – Nax,16 km,740 m,880 m,4 h 50 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-58/etappe-6,Chemin des Bisses Etappe 6: Nax – Vercorin,16 km,760 m,700 m,5 h,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-58/etappe-7,Chemin des Bisses Etappe 7: Vercorin – Grimentz,17 km,900 m,680 m,5 h 24 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-59/etappe-1,Sentiero Cristallina Etappe 1: Bignasco – S. Carlo (Val Bavona),13 km,840 m,340 m,4 h 15 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-59/etappe-2,Sentiero Cristallina Etappe 2: S. Carlo (Val Bavona) – Cap. Cristallina,13 km,1’750 m,130 m,5 h 50 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-59/etappe-3,Sentiero Cristallina Etappe 3: Cap. Cristallina – Airolo,17 km,300 m,1’750 m,5 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-60/etappe-1,ViaRhenana Etappe 1: Kreuzlingen – Steckborn,19 km,320 m,320 m,4 h 45 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-60/etappe-2,ViaRhenana Etappe 2: Steckborn – Stein am Rhein,16 km,540 m,520 m,4 h 20 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-60/etappe-3,ViaRhenana Etappe 3: Stein am Rhein – Schaffhausen,22 km,240 m,240 m,5 h 30 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-60/etappe-4,ViaRhenana Etappe 4: Schaffhausen – Rheinau,14 km,300 m,320 m,3 h 49 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-60/etappe-5,ViaRhenana Etappe 5: Rheinau – Eglisau,20 km,360 m,340 m,5 h 9 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-60/etappe-6,ViaRhenana Etappe 6: Eglisau – Bad Zurzach,21 km,400 m,440 m,5 h 35 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-60/etappe-7,ViaRhenana Etappe 7: Bad Zurzach – Laufenburg,32 km,380 m,400 m,8 h,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-60/etappe-8,ViaRhenana Etappe 8: Laufenburg – Bad Säckingen,11 km,100 m,110 m,2 h 45 min,leicht (Wanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-60/etappe-9,ViaRhenana Etappe 9: Bad Säckingen – Rheinfelden,20 km,200 m,220 m,5 h,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-60/etappe-10,ViaRhenana Etappe 10: Rheinfelden – Basel,19 km,240 m,280 m,4 h 45 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-61/etappe-1,Walliser Sonnenweg Etappe 1: Crans-Montana – Leukerbad,24 km,1’150 m,1’250 m,7 h 39 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-61/etappe-2,Walliser Sonnenweg Etappe 2: Leukerbad – Gampel,24 km,1’000 m,1’750 m,7 h 30 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-61/etappe-3,Walliser Sonnenweg Etappe 3: Gampel – Ausserberg,12 km,640 m,260 m,3 h 40 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-61/etappe-4,Walliser Sonnenweg Etappe 4: Ausserberg – Brig,17 km,560 m,900 m,5 h,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-63/etappe-1,Schwyzer Höhenweg Etappe 1: Küssnacht a.R. – Rigi,9 km,1’200 m,50 m,3 h 49 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-63/etappe-2,Schwyzer Höhenweg Etappe 2: Rigi – Goldau,9 km,20 m,1’100 m,2 h 30 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-63/etappe-3,Schwyzer Höhenweg Etappe 3: Goldau – Sattel,14 km,1’200 m,950 m,5 h 35 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-63/etappe-4,Schwyzer Höhenweg Etappe 4: Sattel – Holzegg,13 km,900 m,300 m,4 h 9 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-63/etappe-5,Schwyzer Höhenweg Etappe 5: Holzegg – Einsiedeln,19 km,860 m,1’400 m,6 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-64/etappe-1,ViaSett Etappe 1: Chur – Lenzerheide,20 km,1’300 m,400 m,6 h 24 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-64/etappe-2,ViaSett Etappe 2: Lenzerheide – Tiefencastel,13 km,120 m,740 m,3 h 15 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-64/etappe-3,ViaSett Etappe 3: Tiefencastel – Savognin,12 km,780 m,420 m,4 h,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-64/etappe-4,ViaSett Etappe 4: Savognin – Bivio,21 km,1’400 m,840 m,7 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-64/etappe-5,ViaSett Etappe 5: Bivio – Vicosoprano,20 km,620 m,1’300 m,5 h 50 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-64/etappe-6,ViaSett Etappe 6: Vicosoprano – Chiavenna (I),25 km,580 m,1’300 m,6 h 45 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-65/etappe-1,Grenzpfad Napfbergland Etappe 1: Langenthal – Huttwil,25 km,680 m,520 m,6 h 35 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-65/etappe-2,Grenzpfad Napfbergland Etappe 2: Huttwil – Napf,20 km,1’300 m,520 m,6 h 35 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-65/etappe-3,Grenzpfad Napfbergland Etappe 3: Napf – Trubschachen,18 km,520 m,1’200 m,5 h 9 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-65/etappe-4,Grenzpfad Napfbergland Etappe 4: Trubschachen – Marbach,15 km,860 m,720 m,4 h 50 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-65/etappe-5,Grenzpfad Napfbergland Etappe 5: Marbach – Brienzer Rothorn,25 km,2’300 m,860 m,9 h 30 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-65/etappe-6,Grenzpfad Napfbergland Etappe 6: Brienzer Rothorn – Brünigpass,13 km,360 m,1’600 m,4 h 20 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-66/etappe-1,Liechtensteiner Panoramaweg Etappe 1: Malbun (FL) – Sücka (FL),15 km,950 m,1’150 m,5 h 20 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-66/etappe-2,Liechtensteiner Panoramaweg Etappe 2: Sücka (FL) – Gafadura Hütte (FL),12 km,1’100 m,1’050 m,5 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-66/etappe-3,Liechtensteiner Panoramaweg Etappe 3: Gafadura Hütte (FL) – Ruggell (FL),19 km,440 m,1’450 m,5 h 39 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-67/etappe-1,"Dreiland-Wanderweg Etappe 1: Basel, Schifflände – Riehen, Hörnli",16 km,190 m,200 m,4 h,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-67/etappe-2,"Dreiland-Wanderweg Etappe 2: Riehen, Hörnli – Haltingen (D)",19 km,620 m,640 m,5 h 15 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-67/etappe-3,"Dreiland-Wanderweg Etappe 3: Haltingen (D) – Basel, Schifflände",9 km,100 m,80 m,2 h 10 min,leicht (Wanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-68/etappe-1,WALSA-Weg Etappe 1: Bad Ragaz – Garschlu,10 km,700 m,80 m,3 h,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-68/etappe-2,WALSA-Weg Etappe 2: Garschlu – Flumserberg,24 km,1’050 m,1’200 m,7 h 15 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-68/etappe-3,WALSA-Weg Etappe 3: Flumserberg – Murg,10 km,190 m,720 m,2 h 49 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-68/etappe-4,WALSA-Weg Etappe 4: Murg – Amden,9 km,820 m,340 m,3 h 30 min,mittel (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-69/etappe-1,Züri Oberland-Höhenweg Etappe 1: Winterthur – Girenbad,19 km,680 m,400 m,5 h 15 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-69/etappe-2,Züri Oberland-Höhenweg Etappe 2: Girenbad – Hulftegg,21 km,900 m,680 m,6 h,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-69/etappe-3,Züri Oberland-Höhenweg Etappe 3: Hulftegg – Chrüzegg,11 km,760 m,440 m,4 h,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-69/etappe-4,Züri Oberland-Höhenweg Etappe 4: Chrüzegg – Rapperswil,25 km,520 m,1’400 m,6 h 50 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-70/etappe-1,ViaFrancigena Etappe 1: Canterbury (GB) – Ste-Croix,7 km,200 m,180 m,,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-70/etappe-2,ViaFrancigena Etappe 2: Ste-Croix – Orbe,21 km,320 m,900 m,5 h 20 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-70/etappe-3,ViaFrancigena Etappe 3: Orbe – Cossonay,26 km,640 m,560 m,6 h 45 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-70/etappe-4,ViaFrancigena Etappe 4: Cossonay – Lausanne,26 km,280 m,460 m,6 h 20 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-70/etappe-5,ViaFrancigena Etappe 5: Lausanne – Vevey,20 km,440 m,420 m,5 h 15 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-70/etappe-6,ViaFrancigena Etappe 6: Vevey – Aigle,27 km,280 m,260 m,6 h 39 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-70/etappe-7,ViaFrancigena Etappe 7: Aigle – St-Maurice,19 km,500 m,480 m,5 h,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-70/etappe-8,ViaFrancigena Etappe 8: St-Maurice – Martigny,17 km,300 m,260 m,4 h 9 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-70/etappe-9,ViaFrancigena Etappe 9: Martigny – Orsières,20 km,900 m,500 m,6 h,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-70/etappe-10,ViaFrancigena Etappe 10: Orsières – Bourg-St-Pierre,14 km,950 m,180 m,4 h 24 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-70/etappe-11,ViaFrancigena Etappe 11: Bourg-St-Pierre – Col du Gd St-Bernard,12 km,1’050 m,220 m,4 h 15 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-70/etappe-12,ViaFrancigena Etappe 12: Col du Grand St-Bernard – Rom (I),1 km,20 m,0 m,,mittel ( Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-71/etappe-1,Chemin des Trois-Lacs Etappe 1: Yverdon-les-Bains – Estavayer-le-Lac,22 km,240 m,240 m,5 h 35 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-71/etappe-2,Chemin des Trois-Lacs Etappe 2: Estavayer-le-Lac – Portalban,12 km,80 m,80 m,3 h,leicht (Wanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-71/etappe-3,Chemin des Trois-Lacs Etappe 3: Portalban – Murten,26 km,440 m,440 m,6 h 45 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-72/etappe-1,Prättigauer Höhenweg Etappe 1: Landquart – Schesaplanahütte,28 km,2’100 m,720 m,9 h 34 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-72/etappe-2,Prättigauer Höhenweg Etappe 2: Schesaplanahütte – Carschinahütte,16 km,950 m,640 m,5 h 15 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-72/etappe-3,Prättigauer Höhenweg Etappe 3: Carschinahütte – St. Antönien,10 km,140 m,950 m,2 h 49 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-72/etappe-4,Prättigauer Höhenweg Etappe 4: St. Antönien – Klosters,23 km,1’400 m,1’600 m,8 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-73/etappe-1,Sardona-Welterbe-Weg Etappe 1: Filzbach – Murgsee,16 km,1’650 m,560 m,6 h 24 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-73/etappe-2,Sardona-Welterbe-Weg Etappe 2: Murgsee – Spitzmeilenhütte,13 km,1’000 m,720 m,4 h 45 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-73/etappe-3,Sardona-Welterbe-Weg Etappe 3: Spitzmeilenhütte – Weisstannen,16 km,660 m,1’750 m,5 h 39 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-73/etappe-4,Sardona-Welterbe-Weg Etappe 4: Weisstannen – Sardonahütte,16 km,1’900 m,760 m,7 h 9 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-73/etappe-5,Sardona-Welterbe-Weg Etappe 5: Sardonahütte – Elm,20 km,1’000 m,2’200 m,7 h 9 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-73/etappe-6,Sardona-Welterbe-Weg Etappe 6: Elm – Flims,21 km,1’900 m,1’750 m,9 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-74/etappe-1,Sentiero Verzasca Etappe 1: Sonogno – Lavertezzo,14 km,260 m,640 m,3 h 34 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-74/etappe-2,Sentiero Verzasca Etappe 2: Lavertezzo – Locarno,21 km,1’150 m,1’500 m,7 h 9 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-75/etappe-1,"Schanfigger Höhenweg Etappe 1: Arosa – Langwies, Heimeli",11 km,660 m,560 m,3 h 40 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-75/etappe-2,"Schanfigger Höhenweg Etappe 2: Langwies, Heimeli – Langwies, Strassberg",13 km,860 m,780 m,4 h 39 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-75/etappe-3,"Schanfigger Höhenweg Etappe 3: Langwies, Strassberg – St. Peter, Skihaus Hochwang",9 km,480 m,440 m,2 h 55 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-75/etappe-4,"Schanfigger Höhenweg Etappe 4: St. Peter, Skihaus Hochwang – Maladers, alte Post",13 km,440 m,1’450 m,4 h 24 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-76/etappe-1,Seeland-Solothurn-Weg Etappe 1: Erlach – Biel,21 km,280 m,280 m,5 h 15 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-76/etappe-2,Seeland-Solothurn-Weg Etappe 2: Biel – Büren a. A.,14 km,80 m,60 m,3 h 15 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-76/etappe-3,Seeland-Solothurn-Weg Etappe 3: Büren a. A. – Bätterkinden,16 km,340 m,300 m,4 h,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-76/etappe-4,Seeland-Solothurn-Weg Etappe 4: Bätterkinden – Solothurn,18 km,140 m,180 m,4 h 15 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-78/etappe-1,Freiburger Voralpenweg Etappe 1: Fribourg – Plaffeien,20 km,780 m,560 m,5 h 35 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-78/etappe-2,Freiburger Voralpenweg Etappe 2: Plaffeien – Schwarzsee,10 km,340 m,140 m,2 h 45 min,leicht (Wanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-78/etappe-3,Freiburger Voralpenweg Etappe 3: Schwarzsee – Jaun,12 km,720 m,760 m,4 h 9 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-78/etappe-4,Freiburger Voralpenweg Etappe 4: Jaun – Soldatenhaus,6 km,800 m,70 m,2 h 40 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-78/etappe-5,Freiburger Voralpenweg Etappe 5: Soldatenhaus – Château-d'Oex,24 km,1’050 m,1’850 m,7 h 50 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-79/etappe-1,Thurgauer Panoramaweg Etappe 1: Amriswil – Bischofszell,16 km,440 m,360 m,4 h 20 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-79/etappe-2,Thurgauer Panoramaweg Etappe 2: Bischofszell – Wil SG,21 km,520 m,460 m,5 h 20 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-80/etappe-1,ViaJura Etappe 1: Basel – Aesch (BL),14 km,130 m,100 m,3 h 19 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-80/etappe-2,ViaJura Etappe 2: Aesch (BL) – Laufen,17 km,520 m,480 m,4 h 35 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-80/etappe-3,ViaJura Etappe 3: Laufen – Delémont,21 km,700 m,640 m,5 h 45 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-80/etappe-4,ViaJura Etappe 4: Delémont – Moutier,26 km,1’100 m,1’000 m,7 h 50 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-80/etappe-5,ViaJura Etappe 5: Moutier – Sornetan,23 km,1’100 m,740 m,6 h 50 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-80/etappe-6,ViaJura Etappe 6: Sornetan – Sonceboz,15 km,400 m,620 m,4 h,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-80/etappe-7,ViaJura Etappe 7: Sonceboz – Biel,14 km,300 m,500 m,3 h 45 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-81/etappe-1,Fribourg en diagonale Etappe 1: Gruyères – Bulle,10 km,240 m,220 m,2 h 34 min,leicht (Wanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-81/etappe-2,Fribourg en diagonale Etappe 2: Bulle – Fribourg,35 km,1’000 m,1’150 m,9 h 25 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-81/etappe-3,Fribourg en diagonale Etappe 3: Fribourg – Murten,23 km,420 m,580 m,5 h 45 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-82/etappe-1,Sanetsch-Muveran-Weg Etappe 1: Gsteig – Hôtel du Sanetsch,13 km,1’150 m,280 m,4 h 45 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-82/etappe-2,Sanetsch-Muveran-Weg Etappe 2: Hôtel du Sanetsch – Derborence,12 km,580 m,1’150 m,4 h 9 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-82/etappe-3,Sanetsch-Muveran-Weg Etappe 3: Derborence – Ovronnaz,17 km,1’350 m,1’500 m,7 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-83/etappe-1,Emmenuferweg Etappe 1: Brienzer Rothorn – Sörenberg,10 km,100 m,1’250 m,3 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-83/etappe-2,Emmenuferweg Etappe 2: Sörenberg – Schüpfheim,19 km,360 m,780 m,5 h,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-83/etappe-3,Emmenuferweg Etappe 3: Schüpfheim – Wolhusen,17 km,240 m,400 m,4 h 15 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-83/etappe-4,Emmenuferweg Etappe 4: Wolhusen – Emmenbrücke,20 km,190 m,320 m,4 h 45 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-84/etappe-1,"Zürichsee-Rundweg Etappe 1: Zürich, Bürkliplatz – Adliswil",9 km,130 m,90 m,2 h 15 min,leicht (Wanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-84/etappe-2,Zürichsee-Rundweg Etappe 2: Adliswil – Horgen,12 km,260 m,300 m,3 h 15 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-84/etappe-3,Zürichsee-Rundweg Etappe 3: Horgen – Richterswil,13 km,120 m,120 m,3 h,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-84/etappe-4,Zürichsee-Rundweg Etappe 4: Richterswil – Pfäffikon SZ,17 km,780 m,760 m,5 h 9 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-84/etappe-5,Zürichsee-Rundweg Etappe 5: Pfäffikon SZ – Schmerikon,23 km,400 m,400 m,5 h 50 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-84/etappe-6,Zürichsee-Rundweg Etappe 6: Schmerikon – Rapperswil SG,11 km,70 m,70 m,2 h 40 min,leicht (Wanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-84/etappe-7,Zürichsee-Rundweg Etappe 7: Rapperswil SG – Stäfa,14 km,380 m,320 m,3 h 40 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-84/etappe-8,Zürichsee-Rundweg Etappe 8: Stäfa – Meilen,12 km,340 m,380 m,3 h 10 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-84/etappe-9,Zürichsee-Rundweg Etappe 9: Meilen – Küsnacht ZH,8 km,240 m,140 m,2 h 10 min,leicht (Wanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-84/etappe-10,"Zürichsee-Rundweg Etappe 10: Küsnacht ZH – Zürich, Bürkliplatz",11 km,170 m,300 m,2 h 49 min,leicht (Wanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-85/etappe-1,Senda Sursilvana Etappe 1: Andermatt – Sedrun,29 km,1’800 m,1’800 m,10 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-85/etappe-2,Senda Sursilvana Etappe 2: Sedrun – Sumvitg,18 km,420 m,840 m,4 h 45 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-85/etappe-3,Senda Sursilvana Etappe 3: Sumvitg – Breil/Brigels,14 km,880 m,640 m,4 h 39 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-85/etappe-4,Senda Sursilvana Etappe 4: Breil/Brigels – Laax,32 km,1’150 m,1’300 m,9 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-85/etappe-5,Senda Sursilvana Etappe 5: Laax – Chur,25 km,440 m,950 m,6 h 24 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-86/etappe-1,Rheintaler Höhenweg Etappe 1: Rorschach – Berneck,19 km,780 m,760 m,5 h 39 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-86/etappe-2,Rheintaler Höhenweg Etappe 2: Berneck – Altstätten,13 km,600 m,560 m,4 h,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-86/etappe-3,Rheintaler Höhenweg Etappe 3: Altstätten – Sennwald,22 km,1’000 m,1’000 m,6 h 30 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-86/etappe-4,Rheintaler Höhenweg Etappe 4: Sennwald – Wildhaus,19 km,1’200 m,560 m,6 h,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-86/etappe-5,Rheintaler Höhenweg Etappe 5: Wildhaus – Malbun (SG),15 km,950 m,660 m,5 h,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-86/etappe-6,Rheintaler Höhenweg Etappe 6: Malbun (SG) – Sargans,19 km,500 m,1’400 m,5 h 20 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-87/etappe-1,Via Engiadina Etappe 1: Maloja – Grevasalvas–Sils – Silvaplana,13 km,640 m,640 m,4 h,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-87/etappe-2,"Via Engiadina Etappe 2: Silvaplana – Alp Suvretta–Corviglia–Marguns – Celerina, Marguns",14 km,1’000 m,540 m,4 h 50 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-87/etappe-3,"Via Engiadina Etappe 3: Celerina, Marguns – Alp Muntatsch–Samedan – Bever",10 km,280 m,840 m,3 h,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-87/etappe-4,Via Engiadina Etappe 4: Bever – La Punt–Pizzet – Zuoz,11 km,580 m,580 m,3 h 30 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-87/etappe-5,Via Engiadina Etappe 5: Zuoz – Chapella–Brail – Zernez,19 km,680 m,900 m,5 h 24 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-87/etappe-6,Via Engiadina Etappe 6: Zernez – Clüs–Susch–Prasüra Gronda – Lavin,12 km,440 m,480 m,3 h 25 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-87/etappe-7,Via Engiadina Etappe 7: Lavin – Alp d'Immez–Alp Belvair – Guarda,13 km,1’100 m,840 m,5 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-87/etappe-8,Via Engiadina Etappe 8: Guarda – Alp Suot–Murtera Dadoura–Chöglias – Ardez,14 km,720 m,950 m,4 h 35 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-87/etappe-9,"Via Engiadina Etappe 9: Ardez – Alp Valmala–Alp Laret, Natèas – Ftan, Prui",13 km,1’000 m,380 m,4 h 39 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-87/etappe-10,"Via Engiadina Etappe 10: Ftan, Prui – Motta Naluns–Vastur–Tuffaloras – Sent",13 km,300 m,950 m,3 h 34 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-87/etappe-11,Via Engiadina Etappe 11: Sent – Val Sinestra–Vnà–Val Ruinains – Tschlin,16 km,700 m,640 m,4 h 50 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-87/etappe-12,Via Engiadina Etappe 12: Tschlin – Mundaditschas–Vadrain–Pra da la Zipla – Vinadi,12 km,400 m,800 m,3 h 30 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-88/etappe-1,Nidwaldner Höhenweg Etappe 1: Stanserhorn – Storeggpass,13 km,1’150 m,1’250 m,5 h 30 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-88/etappe-2,Nidwaldner Höhenweg Etappe 2: Storeggpass – Melchsee-Frutt,13 km,950 m,780 m,4 h 39 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-88/etappe-3,Nidwaldner Höhenweg Etappe 3: Melchsee-Frutt – Engelberg,21 km,640 m,1’550 m,6 h 20 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-88/etappe-4,Nidwaldner Höhenweg Etappe 4: Engelberg – Oberrickenbach,22 km,1’500 m,1’600 m,8 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-88/etappe-5,Nidwaldner Höhenweg Etappe 5: Oberrickenbach – Brisenhaus,13 km,1’250 m,400 m,5 h,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-88/etappe-6,"Nidwaldner Höhenweg Etappe 6: Brisenhaus – Emmetten, Stn. Niederbauen",12 km,680 m,860 m,4 h,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-90/etappe-1,ViaStockalper Etappe 1: Brig – Simplonpass,12 km,1’600 m,260 m,5 h 20 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-90/etappe-2,ViaStockalper Etappe 2: Simplonpass – Simplon Dorf,9 km,90 m,620 m,2 h 19 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-90/etappe-3,ViaStockalper Etappe 3: Simplon Dorf – Gondo,9 km,130 m,760 m,2 h 30 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-91/etappe-1,Chemin du Jura bernois Etappe 1: Moutier – Sornetan,17 km,880 m,540 m,5 h 9 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-91/etappe-2,Chemin du Jura bernois Etappe 2: Sornetan – Tramelan,14 km,500 m,440 m,4 h,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-91/etappe-3,Chemin du Jura bernois Etappe 3: Tramelan – St-Imier,15 km,580 m,320 m,4 h 15 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-91/etappe-4,Chemin du Jura bernois Etappe 4: St-Imier – La Chaux-de-Fonds,18 km,280 m,480 m,4 h 24 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-95/etappe-1,Au fil du Doubs Etappe 1: Les Brenets – Maison Monsieur,19 km,520 m,780 m,5 h 15 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-95/etappe-2,Au fil du Doubs Etappe 2: Maison Monsieur – Goumois,21 km,600 m,720 m,5 h 39 min,leicht (Wanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-95/etappe-3,Au fil du Doubs Etappe 3: Goumois – Soubey,13 km,200 m,220 m,3 h 19 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-95/etappe-4,Au fil du Doubs Etappe 4: Soubey – St-Ursanne,15 km,220 m,260 m,3 h 45 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-98/etappe-1,Waldstätterweg Etappe 1: Brunnen – Vitznau,15 km,760 m,740 m,5 h,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-98/etappe-2,Waldstätterweg Etappe 2: Vitznau – Küssnacht,18 km,780 m,760 m,5 h 30 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-98/etappe-3,Waldstätterweg Etappe 3: Küssnacht – Luzern,17 km,440 m,460 m,4 h 30 min,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-98/etappe-4,Waldstätterweg Etappe 4: Luzern – Alpnachstad,21 km,1’000 m,1’000 m,6 h 45 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-98/etappe-5,Waldstätterweg Etappe 5: Alpnachstad – Bürgenstock,16 km,900 m,480 m,5 h 15 min,mittel (Bergwanderweg),schwer
+https://schweizmobil.ch/de/wanderland/route-98/etappe-6,Waldstätterweg Etappe 6: Bürgenstock – Beckenried,13 km,300 m,740 m,3 h 45 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-98/etappe-7,Waldstätterweg Etappe 7: Beckenried – Rütli,13 km,660 m,660 m,4 h 9 min,mittel (Bergwanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-99/etappe-1,Weg der Schweiz Etappe 1: Seelisberg (Rütli) – Bauen,9 km,520 m,520 m,3 h,leicht (Wanderweg),mittel
+https://schweizmobil.ch/de/wanderland/route-99/etappe-2,Weg der Schweiz Etappe 2: Bauen – Flüelen,10 km,90 m,90 m,2 h 25 min,leicht (Wanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-99/etappe-3,Weg der Schweiz Etappe 3: Flüelen – Sisikon,7 km,300 m,300 m,2 h 15 min,leicht (Wanderweg),leicht
+https://schweizmobil.ch/de/wanderland/route-99/etappe-4,Weg der Schweiz Etappe 4: Sisikon – Brunnen,8 km,480 m,480 m,2 h 40 min,leicht (Wanderweg),mittel
