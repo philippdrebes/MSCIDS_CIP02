@@ -17,3 +17,18 @@ create table komoot
         primary key (id)
 );
 
+
+create table schweizmobil
+(
+    id               int auto_increment,
+    url              nvarchar(512)  null,
+    name             nvarchar(512)  null,
+    distance         decimal(10, 2) null,
+    altitude_up      decimal(10, 2) null,
+    altitude_down    decimal(10, 2) null,
+    duration         decimal(10, 2) null,
+    difficulty_level nvarchar(50)   null,
+    fitness_level    nvarchar(50)   null,
+    constraint schweizmobil_pk
+        primary key (id)
+);

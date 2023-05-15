@@ -1,16 +1,12 @@
 from time import sleep
 
 import pandas as pd
-from bs4 import BeautifulSoup
+import mariadb
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium.webdriver.common.by import By
 
-from src.extractors import SeleniumUtil
 
-
-def main():
+def extract():
     driver = webdriver.Chrome()
     driver.implicitly_wait(30)
 
@@ -109,5 +105,71 @@ def main():
     df.to_csv('schweizmobil_stage_1.csv', index=False)
 
 
+def transform():
+    df = pd.read_csv('schweizmobil_stage_1.csv')
+    df['distance'] = df.apply(lambda row: row.distance.replace(' km', ''), axis=1)
+    df['altitude_up'] = df.apply(lambda row: row.altitude_up.replace(' m', '').replace('’', ''), axis=1)
+    df['altitude_down'] = df.apply(lambda row: row.altitude_down.replace(' m', '').replace('’', ''), axis=1)
+    df['difficulty_level'] = df.apply(
+        lambda row: row.difficulty_level.replace(' (Wanderweg)', '').replace(' (Bergwanderweg)', ''), axis=1)
+
+    df['duration'] = df.apply(lambda row: clean_duration(row), axis=1)
+
+    df.to_csv('schweizmobil_stage_3.csv', index=False)
+
+
+def clean_duration(row):
+    if type(row.duration) is not str:
+        return None
+
+    # 2 h 49 min
+    values = row.duration.split(' ')
+
+    # ['2', 'h', '49', 'min']
+    hours = values[0]
+
+    if len(values) > 2:
+        minutes = values[2]
+        return int(hours) * 60 + int(minutes)
+    else:
+        return int(hours) * 60
+
+
+def load():
+    df = pd.read_csv('schweizmobil_stage_3.csv')
+
+    # connection parameters
+    conn_params = {
+        "user": "root",
+        "password": "my-secret-pw",
+        "host": "127.0.0.1",
+        "database": "cip"
+    }
+
+    # Establish a connection
+    connection = mariadb.connect(**conn_params)
+    cursor = connection.cursor()
+
+    sql = "INSERT INTO schweizmobil (url,name,distance,altitude_up,altitude_down,duration,difficulty_level,fitness_level) " \
+          "VALUES (?,?,?,?,?,?,?,?)"
+    data = []
+
+    for index, row in df.iterrows():
+        data.append(
+            (row['url'], row['name'], row['distance'], row['altitude_up'], row['altitude_down'], row['duration'],
+             row['difficulty_level'], row['fitness_level'])
+        )
+
+    # insert data
+    cursor.executemany(sql, data)
+    connection.commit()
+
+    # free resources
+    cursor.close()
+    connection.close()
+
+
 if __name__ == '__main__':
-    main()
+    extract()
+    transform()
+    load()
