@@ -41,7 +41,7 @@ create table routes
     distance       decimal(10, 2) null,
     elevation_up   decimal(10, 2) null,
     elevation_down decimal(10, 2) null,
-    duration       decimal(10, 2) null,
+    duration       time           null,
     difficulty     nvarchar(50)   null,
     link           nvarchar(512)  null,
 

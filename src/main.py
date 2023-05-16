@@ -39,11 +39,12 @@ def main() -> None:
     # komoot_transformer = KomootTransformer(stage1_path, gpx_download_path, stage3_path)
     # komoot_transformer.transform()
 
-    # db = MariaDBProvider(stage2_path)
+    db = MariaDBProvider()
     # komoot_loader = KomootLoader(stage2_path, db)
     # komoot_loader.load()
 
-    merger = MergeTransformer('output/komoot_stage_3.csv', 'output/sac_stage3.csv', 'output/schweizmobil_stage_3.csv')
+    merger = MergeTransformer('output/komoot_stage_3.csv', 'output/sac_stage3.csv', 'output/schweizmobil_stage_3.csv',
+                              db)
     merger.merge_sources()
 
 
