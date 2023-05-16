@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 <meta name="generator" content="pdoc 0.10.0" />
-<title>model.Komoot.Route API documentation</title>
+<title>extractors.sac.SacExtractorGPX API documentation</title>
 <meta name="description" content="" />
 <link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
 <link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
@@ -19,39 +19,96 @@
 <main>
 <article id="content">
 <header>
-<h1 class="title">Module <code>model.Komoot.Route</code></h1>
+<h1 class="title">Module <code>extractors.sac.SacExtractorGPX</code></h1>
 </header>
 <section id="section-intro">
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
-<pre><code class="python">class KomootRoute:
+<pre><code class="python"># Source of the below code: https://github.com/wirhabenzeit/sac-cas-gpx#readme
+# Licence of code and usage: https://github.com/wirhabenzeit/sac-cas-gpx/blob/main/LICENSE
 
-    def __init__(self, link: str, title: str, difficulty: str, distance: str, elevation_up: str, elevation_down: str,
-                 duration: str, speed: str, gpx_file: str | None = None):
-        self.link = link
-        self.title = title
-        self.difficulty = difficulty
-        self.distance = distance
-        self.elevation_up = elevation_up
-        self.elevation_down = elevation_down
-        self.duration = duration
-        self.speed = speed
-        self.gpx_file = gpx_file
+# Additional code for scraping SAC Tour Portal GPX Tour data
+# Reason: we expect to use this data to calculate / extract the distance of the individual SAC tours,
+# This data was missing on the tour webpages which we have scraped, but will be needed for comparison for our later calculations
 
-    def as_dict(self):
-        return {
-            &#39;link&#39;: self.link,
-            &#39;title&#39;: self.title,
-            &#39;difficulty&#39;: self.difficulty,
-            &#39;distance&#39;: self.distance,
-            &#39;elevation_up&#39;: self.elevation_up,
-            &#39;elevation_down&#39;: self.elevation_down,
-            &#39;duration&#39;: self.duration,
-            &#39;speed&#39;: self.speed,
-            &#39;gpx_file&#39;: self.gpx_file
-        }</code></pre>
+# We follow the below steps:
+# - open the SAC_data_without_index.csv, extract tour IDs
+# - we use IDs to open the GXP page information
+# - we download the GPX information of the first track in a GPX file, which we will use calculating the distance of the tour
+#  - we collect each start and end point coordinates in a separate GPX_start_end.csv, which we will use find duplicates with comparison of tours from other websites
+
+from pyproj import Transformer
+import gpxpy
+import gpxpy.gpx
+import json
+import requests
+import argparse
+import browser_cookie3
+import re
+import pandas as pd
+
+if __name__ == &#34;__main__&#34;:
+    parser = argparse.ArgumentParser(description=&#39;Converts SAC routes to GPX files&#39;)
+    parser.add_argument(&#39;id&#39;, metavar=&#39;route_id&#39;, type=int, help=&#39;SAC ID of the route (last part of the URL)&#39;)
+
+    args_lang = &#34;en&#34;
+    tour_coord = [] #we create this list - outside of the for loop to save all start and end coordinates, after saving the gxp files
+
+    # Opening the SAC_data file and extracting the tour id column, which we use below
+    df_sac_id = pd.read_csv(f&#34;data\SAC_data_without_index0.csv&#34; , sep=&#39;;&#39;, usecols = [&#39;tour_id&#39;], index_col= False)
+    print(df_sac_id)
+
+    # we iterate trough all tour id rows to access the GXP information of the tours, write the first section in a separate GXP file
+    for index, id in df_sac_id.iterrows():
+        args_id = id[&#39;tour_id&#39;]
+        print(args_id)
+        # Access the GXP data
+        cj = browser_cookie3.chrome()
+        with requests.get(f&#34;https://www.sac-cas.ch/en/?type=1567765346410&amp;tx_usersaccas2020_sac2020%5BrouteId%5D={args_id}&amp;output_lang={args_lang}&#34;, cookies=cj) as url:
+            data = json.loads(url.content)
+        gpx = gpxpy.gpx.GPX()
+        transformer = Transformer.from_crs(&#39;epsg:2056&#39;, &#39;epsg:4326&#39;)
+
+        # We write the GXP data of the first version of the tour in a GXP file
+        # Remark: we only take the first track, even if multiple track versions are available
+        # Reason: we only scraped the information only about the first tour version previously - keep consistency
+        for seg in data[&#39;segments&#39;]:
+            try:
+                gpx_track = gpxpy.gpx.GPXTrack(name=re.sub(r&#39;[^A-Za-z0-9\s]+&#39;, &#39;&#39;, seg[&#39;title&#39;]),description=re.sub(r&#39;[^A-Za-z0-9\s]+&#39;, &#39;&#39;, seg[&#39;description&#39;]))
+            except:
+                gpx_track = gpxpy.gpx.GPXTrack(name=&#39;notitle&#39;,description=&#39;nodescription&#39;)
+            gpx.tracks.append(gpx_track)
+            gpx_segment = gpxpy.gpx.GPXTrackSegment()
+            gpx_track.segments.append(gpx_segment)
+
+            if &#39;geom&#39; in seg and seg[&#39;geom&#39;]:
+                for x,y in map(lambda xy: transformer.transform(*xy),seg[&#39;geom&#39;][&#39;coordinates&#39;]):
+                    gpx_segment.points.append(gpxpy.gpx.GPXTrackPoint(x,y))
+            break # Stop, after the first track.
+        # Write the data in a GXP file and save it:
+        with open(f&#39;data\GPX\SAC-{args_id}.gpx&#39;,&#39;w&#39;, encoding=&#34;utf-8&#34;) as f:
+            f.write(gpx.to_xml())
+
+        # We save the start and end coordinates of each tour in a separate output csv
+        try:
+            startpoint = str(gpx_segment.points[0].latitude)+&#34;;&#34;+str(gpx_segment.points[0].longitude)
+            endpoint = str(gpx_segment.points[-1].latitude)+&#34;;&#34;+str(gpx_segment.points[-1].longitude)
+        except:
+            startpoint = &#34;na&#34;
+            endpoint = &#34;na&#34;
+        tour_coord_dict = {
+            &#39;tour_id&#39;: args_id,
+            &#39;start&#39;: startpoint,
+            &#39;end&#39;: endpoint}
+        tour_coord.append(tour_coord_dict)
+        df_coord = pd.DataFrame(tour_coord)
+        print(df_coord.head(10))
+        df_coord.to_csv(f&#34;data\GPX_start_end.csv&#34;, sep=&#39;;&#39;, index=False)
+
+    print(&#34;end SacExtractorGPX.py&#34;)
+    print(&#34;end&#34;)</code></pre>
 </details>
 </section>
 <section>
@@ -61,73 +118,6 @@
 <section>
 </section>
 <section>
-<h2 class="section-title" id="header-classes">Classes</h2>
-<dl>
-<dt id="model.Komoot.Route.KomootRoute"><code class="flex name class">
-<span>class <span class="ident">KomootRoute</span></span>
-<span>(</span><span>link: str, title: str, difficulty: str, distance: str, elevation_up: str, elevation_down: str, duration: str, speed: str, gpx_file: str | None = None)</span>
-</code></dt>
-<dd>
-<div class="desc"></div>
-<details class="source">
-<summary>
-<span>Expand source code</span>
-</summary>
-<pre><code class="python">class KomootRoute:
-
-    def __init__(self, link: str, title: str, difficulty: str, distance: str, elevation_up: str, elevation_down: str,
-                 duration: str, speed: str, gpx_file: str | None = None):
-        self.link = link
-        self.title = title
-        self.difficulty = difficulty
-        self.distance = distance
-        self.elevation_up = elevation_up
-        self.elevation_down = elevation_down
-        self.duration = duration
-        self.speed = speed
-        self.gpx_file = gpx_file
-
-    def as_dict(self):
-        return {
-            &#39;link&#39;: self.link,
-            &#39;title&#39;: self.title,
-            &#39;difficulty&#39;: self.difficulty,
-            &#39;distance&#39;: self.distance,
-            &#39;elevation_up&#39;: self.elevation_up,
-            &#39;elevation_down&#39;: self.elevation_down,
-            &#39;duration&#39;: self.duration,
-            &#39;speed&#39;: self.speed,
-            &#39;gpx_file&#39;: self.gpx_file
-        }</code></pre>
-</details>
-<h3>Methods</h3>
-<dl>
-<dt id="model.Komoot.Route.KomootRoute.as_dict"><code class="name flex">
-<span>def <span class="ident">as_dict</span></span>(<span>self)</span>
-</code></dt>
-<dd>
-<div class="desc"></div>
-<details class="source">
-<summary>
-<span>Expand source code</span>
-</summary>
-<pre><code class="python">def as_dict(self):
-    return {
-        &#39;link&#39;: self.link,
-        &#39;title&#39;: self.title,
-        &#39;difficulty&#39;: self.difficulty,
-        &#39;distance&#39;: self.distance,
-        &#39;elevation_up&#39;: self.elevation_up,
-        &#39;elevation_down&#39;: self.elevation_down,
-        &#39;duration&#39;: self.duration,
-        &#39;speed&#39;: self.speed,
-        &#39;gpx_file&#39;: self.gpx_file
-    }</code></pre>
-</details>
-</dd>
-</dl>
-</dd>
-</dl>
 </section>
 </article>
 <nav id="sidebar">
@@ -138,17 +128,7 @@
 <ul id="index">
 <li><h3>Super-module</h3>
 <ul>
-<li><code><a title="model.Komoot" href="index.html">model.Komoot</a></code></li>
-</ul>
-</li>
-<li><h3><a href="#header-classes">Classes</a></h3>
-<ul>
-<li>
-<h4><code><a title="model.Komoot.Route.KomootRoute" href="#model.Komoot.Route.KomootRoute">KomootRoute</a></code></h4>
-<ul class="">
-<li><code><a title="model.Komoot.Route.KomootRoute.as_dict" href="#model.Komoot.Route.KomootRoute.as_dict">as_dict</a></code></li>
-</ul>
-</li>
+<li><code><a title="extractors.sac" href="index.html">extractors.sac</a></code></li>
 </ul>
 </li>
 </ul>

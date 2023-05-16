@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.10.0" />
+<title>extractors.sac.SacTransformer API documentation</title>
+<meta name="description" content="" />
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
+<link rel="stylesheet preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/github.min.css" crossorigin>
+<style>:root{--highlight-color:#fe9}.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}h1:target,h2:target,h3:target,h4:target,h5:target,h6:target{background:var(--highlight-color);padding:.2em 0}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}dt:target .name{background:var(--highlight-color)}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}td{padding:0 .5em}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%;height:100vh;overflow:auto;position:sticky;top:0}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js" integrity="sha256-Uv3H6lx7dJmRfRvH8TH6kJD1TSK1aFcwgx+mdg3epi8=" crossorigin></script>
+<script>window.addEventListener('DOMContentLoaded', () => hljs.initHighlighting())</script>
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>extractors.sac.SacTransformer</code></h1>
+</header>
+<section id="section-intro">
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">#
+# # we have scraped Data from the SAC Tour Portal page -&gt; SAC_data_without_index.csv
+# # we have scraped all gpx tour data, the individual files are in the GPX folder and we have collected all start and end points of the tours -&gt; GXP_start_end.csv
+# # the gpx files we have uploaded into the Schweizmobile tour creator page  - where we scraped the distance of all tours- &gt; Distance_data_without_index.csv
+#
+# # Now from these 3 files we create first our stage1 than our stage3 file:
+# # - SAC_data_without_index.csv
+# # - Distance_data_without_index.csv
+# # - GXP_start_end.csv
+#
+# import pandas as pd
+# import random
+# import datetime
+#
+# print(&#34;1. We will create our stage1 document for SAC part:&#34;)
+# ####################################################################################
+# print(80*&#34;*&#34;)
+# # 1. We load and join all data in one dataframe, the key is the tour id which is given in all 3 files:
+#
+# #open and load all 3 csv documents into the dataframes:
+# df_sac_data = pd.read_csv(f&#34;data\SAC_data_without_index0.csv&#34;, sep=&#39;;&#39;, index_col=False)
+# df_sac_GPX = pd.read_csv(f&#34;data\GPX_start_end.csv&#34;, sep=&#39;;&#39;, index_col=False)
+# df_sac_distance = pd.read_csv(f&#34;data\Distance_data_without_index0.csv&#34;, sep=&#39;;&#39;, index_col=False)
+#
+# # join GPX_start_end with Distance_data
+# df_sac_stage1 = df_sac_GPX.join(df_sac_distance.set_index(&#39;id&#39;), on=&#39;tour_id&#39;, how = &#34;outer&#34;)
+#
+# # join stage1_joined with SAC_data
+# df_sac_stage1 = df_sac_stage1.join(df_sac_data.set_index(&#39;tour_id&#39;), on=&#39;tour_id&#39;, how = &#34;outer&#34;)
+#
+# print(df_sac_stage1)
+# df_sac_stage1.to_csv(&#34;data\\Sac_stage1.csv&#34;,sep=&#39;,&#39;,index = False, encoding=&#34;utf-8&#34;)
+#
+# # Remark:
+# # We have decided to join the csv documents in this order, in order the longer text input are towards the eind of the table
+# # which creates a better overview at the first sight.
+#
+# print(&#34; 2. Transformation - creating our artificial stage2 file:&#34;)
+# ###################################################################################
+# print(80*&#34;*&#34;)
+#
+# # The below natural impurities were available in the stage1 file:
+# # - NaN values: there were some dead tour page links, we have some NaN data -&gt; we need to remove those rows
+# # - wrong inputs/clean format: difficulty: clean values containing only T1-T6 (no other values, or no + or -)
+# # - multiple inputs: time ascent and descent: keep only the longer input if there is a range e.g.: 09:00-09:15 - remove h and transform to time
+# # - number format: min, max, up, down: remove &#39; and metric (m or km) transform to integer.
+# # - start and end: remove &#34;&#34;
+#
+# # Injecting artificial impurities  in stage2:
+# # - outliers: min, max outliers
+#
+# def myrandom(seed):
+#     random.seed(seed)
+#     x = [random.randint(1,1100) for i in range(1,11)]
+#     return x
+#
+# df_sac_stage2 = df_sac_stage1
+# for number in myrandom(9001):
+#     #df_sac_stage2[&#39;min&#39;][ number] = &#34;99&#34;+df_sac_stage2[&#39;min&#39;][ number]
+#     df_sac_stage2[&#39;min&#39;] = df_sac_stage2[&#39;min&#39;].replace(df_sac_stage2[&#39;min&#39;][number],&#34;99&#34; + df_sac_stage2[&#39;min&#39;][number])
+# for number in myrandom(9003):
+#     df_sac_stage2[&#39;max&#39;] = df_sac_stage2[&#39;max&#39;].replace(df_sac_stage2[&#39;max&#39;][number], &#34;-&#34; + df_sac_stage2[&#39;max&#39;][number])
+# df_sac_stage2.to_csv(&#34;data\\Sac_stage2.csv&#34; ,sep=&#39;,&#39;,index = False, encoding=&#34;utf-8&#34;)
+#
+# print(&#34;3. Filtering and removing missing values and not mountain hiking tours:&#34;)
+# # ###############################################################################################
+# print(80*&#34;*&#34;)
+#
+# print(&#34;\n check duplicates: \n&#34;)
+# print(df_sac_stage2[df_sac_stage2.duplicated(keep=False)])
+# # -&gt; We do not have duplicate rows
+#
+# #Removing na-s not relevant tours:
+# df_sac_stage2.info()
+# # We see that all columns contain 1373 values except map and description.
+# # We assume these rows are the tours, where dead link or no information could be scraped.
+# # We look at missing map values more closely:
+# def get_null_value(df,column):
+#     df_null_value = df[df[column].isnull()]
+#     #df_null_value.to_csv(&#34;data\\&#34;+column +&#34;_null.csv&#34; ,sep=&#39;,&#39;,index = False) -&gt; makes easier inspecting the files.
+#     print(df_null_value)
+#     return df_null_value
+#
+# def get_specific_value(df,column,value,boolean):
+#     df_specific_value = df[df[column].str.contains(value) == boolean]
+#     #df_specific_value.to_csv(&#34;data\\&#34;+column + &#34;_&#34; + value + &#34;_&#34; + str(boolean) +&#34;.csv&#34; ,sep=&#39;,&#39;,index = False)  -&gt; makes easier inspecting the files.
+#     print(df_specific_value)
+#     return df_specific_value
+#
+# print(&#34;3.1 NAN values in map&#34;)
+# get_null_value(df_sac_stage2,&#39;map&#39;)
+# # If we look at the page link we can see they are all snowshoeing tours NOT hiking tours, so we can drop them from our database.
+# df_sac_stage2v1 = df_sac_stage2[df_sac_stage2.map.notnull()]
+# # our new dataframe is stage2 version 1:
+# df_sac_stage2v1.info()
+#
+# print(&#34;3.2 NaN values in description&#34;)
+# get_null_value(df_sac_stage2v1,&#39;description&#39;)
+# # here we have 2 mountain hiking tours and 6 via ferrata rows -&gt; we need further investigation on tour types:
+#
+# print(80*&#34;*&#34;)
+# print(&#34;We are filtering out all NON-mountain-hiking tours:&#34;)
+# df_sac_stage2_NoMountainHiking = get_specific_value(df_sac_stage2v1, &#39;link&#39;,&#39;mountain-hiking&#39;, False)
+# # we check the unique values of tour type:
+# print(&#34;\n In Non-hikig-tour list are below tour types:\n &#34;)
+# print(df_sac_stage2_NoMountainHiking.link.str.extract(r&#39;^(?:[^\/]*\/){7}\s*([\w-]+)&#39;)[0].unique())
+# # we see there is no mountain hiking, so we can drop all this values
+#
+# print(80*&#34;*&#34;)
+# print(&#34;We filter all tours containing mountain hiking values and store in our stage2v2 dataframe:&#34;)
+# df_sac_stage2v2 = get_specific_value(df_sac_stage2v1, &#39;link&#39;,&#39;mountain-hiking&#39;, True)
+# df_sac_stage2v2.info()
+#
+# # we have still missing values in description column:
+# get_null_value(df_sac_stage2v2,&#39;description&#39;)
+# # Missing description is ok, we decide to keep those tours.
+#
+# print(&#34;4. Inspecting, cleaning na values&#34;)
+# ###############################################################################################
+# print(80*&#34;*&#34;)
+#
+# # 4.1 Checking &#34;na&#34; values in start and end coordinates:
+# get_specific_value(df_sac_stage2v2, &#39;start&#39;,&#39;na&#39;, True) # -&gt; We have 10 rows
+# # Given we do not have the GPX coordinates, we do not have distance and start and end dates,
+# # we will not be able to join them in the overall database (stage3 merge) and calculating of fitness level wil not be possible
+# # so we exclude them from our dataframe.
+#
+# # Our new dataframe going forward is:
+# df_sac_stage2v3 = get_specific_value(df_sac_stage2v2, &#39;start&#39;,&#39;na&#39;, False)
+#
+# # 4.2 Inspecting rows where we have added &#34;na&#34; values while the scraping process:
+#
+# # We filter rows which are NOT connected to elevation, ascent and descent and any values are &#34;na&#34;
+# # This is an empty list -&gt; no more na values in these columns.
+# df_sac_stage2v3.query(&#39;tour_id ==&#34;na&#34; | start ==&#34;na&#34; | end ==&#34;na&#34; | distance ==&#34;na&#34; | title ==&#34;na&#34; | subtitle ==&#34;na&#34; | difficulty ==&#34;na&#34; | link ==&#34;na&#34; | map ==&#34;na&#34; | description ==&#34;na&#34;&#39;)#.to_csv(&#34;data\\query1.csv&#34; ,sep=&#39;;&#39;,index = False)
+#
+# # We filter rows which are connected to elevation:
+# df_sac_stage2v3.query(&#39;time_ascent ==&#34;na&#34; | ascent ==&#34;na&#34; | time_descent ==&#34;na&#34; | descent ==&#34;na&#34; | up ==&#34;na&#34; | down ==&#34;na&#34; | min ==&#34;na&#34; | max ==&#34;na&#34;&#39;)#.to_csv(&#34;data\\query2.csv&#34; ,sep=&#39;,&#39;,index = False)
+# # We keep all the remaining &#34;na&#34; values in the data frame, given there are often either ascent or descent data available.
+#
+# print(&#34;5 Removing metrics &amp; outliers&#34;)
+# ###############################################################################################
+#
+# # 5.1 Remove metric &amp; time units: m, km and h and format numbers
+# def remove_metrics(df, column, metrics, dtype):
+#     return df.join( df[column].str.replace(metrics, &#34;&#34;, regex=True).astype(dtype=dtype, errors=&#34;ignore&#34;), rsuffix=&#39;_clean&#39;)
+#
+# # Align time format
+# def convert_time(value):
+#     if len(value) == 1:
+#         value = &#34;0&#34;+value + &#34;:00&#34;
+#     elif value == &#34;na&#34;:
+#         value = &#34;00:00&#34;
+#     return value
+#
+# df_sac_stage2v4 = df_sac_stage2v3
+# df_sac_stage2v4 = remove_metrics(df_sac_stage2v4,&#39;distance&#39;,&#39;km&#39;,float) #remove metrics km and format number to float
+# df_sac_stage2v4 = remove_metrics(df_sac_stage2v4,&#39;up&#39;,&#39;[^\\d]&#39;,int) #remove metrics m and format number to integer
+# df_sac_stage2v4 = remove_metrics(df_sac_stage2v4,&#39;down&#39;,&#39;[^\\d]&#39;,int) #remove metrics m and format number to integer
+# df_sac_stage2v4 = remove_metrics(df_sac_stage2v4,&#39;min&#39;,&#39;[^\\d]&#39;,int) #remove metrics m and format number to integer, outliers negative values already corrected
+# df_sac_stage2v4 = remove_metrics(df_sac_stage2v4,&#39;max&#39;,&#39;[^\\d]&#39;,int) #remove metrics m and format number to integer, outliers negative values already corrected
+# df_sac_stage2v4 = remove_metrics(df_sac_stage2v4,&#39;ascent&#39;,&#39;m&#39;,int) #remove metrics m and format number to integer
+# df_sac_stage2v4 = remove_metrics(df_sac_stage2v4,&#39;descent&#39;,&#39;m&#39;,int) #remove metrics m and format number to integer
+# df_sac_stage2v4 = remove_metrics(df_sac_stage2v4,&#39;difficulty&#39;,&#39;[^T\\d]&#39;,str) #remove + or - in string
+# df_sac_stage2v4 = remove_metrics(df_sac_stage2v4,&#39;time_ascent&#39;,&#39;(?!(\w)|\d*\:?\d+).*&#39;,str) #remove h and take the last duration if multiple available
+# df_sac_stage2v4 = remove_metrics(df_sac_stage2v4,&#39;time_descent&#39;,&#39;(?!(\w)|\d*\:?\d+).*&#39;,str) #remove h and take the last duration if multiple available
+#
+# # Convert the string column to a time column
+# df_sac_stage2v4[&#39;time_ascent_clean&#39;] = df_sac_stage2v4[&#39;time_ascent_clean&#39;].apply(convert_time)
+# df_sac_stage2v4[&#39;time_ascent_clean&#39;] = pd.to_datetime(df_sac_stage2v4[&#39;time_ascent_clean&#39;], format=&#39;%H:%M&#39;).dt.time
+#
+# df_sac_stage2v4[&#39;time_descent_clean&#39;] = df_sac_stage2v4[&#39;time_descent_clean&#39;].apply(convert_time)
+# df_sac_stage2v4[&#39;time_descent_clean&#39;] = pd.to_datetime(df_sac_stage2v4[&#39;time_descent_clean&#39;], format=&#39;%H:%M&#39;).dt.time
+#
+# #Optional to inspect csv document:
+# #df_sac_stage2v4.to_csv(&#34;data\\clean.csv&#34; ,sep=&#39;,&#39;,index = False, encoding=&#34;utf-8&#34;)
+#
+# # 5.2. Checking further outliers
+# # We take as borders the highest and lowers point of Switzerland
+# # - Dufourspitze is with 4.634 m
+# # - Lago Maggiore is with 193 m
+# # For Ascent and descent we take the difference as maximum ascent (as it is a trail running, if someone is climbing more than this elevation in a tour / one day).
+# # For diestance we take as upper limit 50km as it is longer as marathon distance and very demanding distance for hiking tours for 1 day.
+#
+# def outliers_CH(df, column,min_value, max_value):
+#     print(80 * &#34;*&#34;)
+#     print(&#34;Outliers &#34;+ column)
+#     print(df[(df[column] &lt; min_value) | (df[column] &gt; max_value )][column])
+#     return df[(df[column] &lt; min_value) | (df[column] &gt; max_value )]
+#
+# print(outliers_CH(df_sac_stage2v4, &#39;min_clean&#39;, 193, 4634))
+# print(outliers_CH(df_sac_stage2v4, &#39;max_clean&#39;, 193, 4634))
+# print(outliers_CH(df_sac_stage2v4, &#39;distance_clean&#39;, 0, 50))
+# print(outliers_CH(df_sac_stage2v4, &#39;up_clean&#39;, 0, 4634-193))
+# print(outliers_CH(df_sac_stage2v4, &#39;down_clean&#39;, 0, 4634-193))
+#
+# # We can see we do only have outliers in min_clean column -&gt; where we have the lowest points of the tours.
+# # We see a pattern that all outliers begin with a pattern of 99 - so we decide to remove this 2 digits in front of the numbers:
+#
+# def clean_99(value):
+#     if str(value).startswith(&#34;99&#34;) and value &gt; 9000: # min high is over 100m, a dirty value must be over 9000
+#         value_str = str(value)[2:]
+#         value = int(value_str)
+#     return value
+#
+# df_sac_stage2v5 = df_sac_stage2v4
+# df_sac_stage2v5[&#39;min_clean&#39;] = df_sac_stage2v5[&#39;min_clean&#39;].apply(clean_99)
+#
+# #Optional to inspect csv document:
+# #df_sac_stage2v5.to_csv(&#34;data\\clean2.csv&#34; ,sep=&#39;,&#39;,index = False, encoding=&#34;utf-8&#34;)
+#
+# print(&#34;6. Calculated fields&#34;)
+# ###############################################################################################
+# print(80*&#34;*&#34;)
+#
+# # We will calculate below fields with conditions:
+# #  - difficulty: easy(T1), medium(T2+T3), difficult(T4+T5+T6)
+# #  - fitness level:
+# #    easy: distance ≤ 12 km ,elevation difference ≤ 400 hm, total time: ≤ 3 h
+# #    medium: distance ≤ 20 km ,elevation difference ≤ 900 hm, total time: ≤ 5 h
+# #    difficult: distance &gt; 20 km ,elevation difference &gt; 900 hm, total time: &gt; 5 h
+#
+# print(&#34;6.1 Difficulty levels -&gt; calculated column 1&#34;)
+#
+# def difficulty(value):
+#     if value == &#34;T1&#34;:
+#         value = &#34;easy&#34;
+#     elif value == &#34;T2&#34; or value == &#34;T3&#34;:
+#         value = &#34;medium&#34;
+#     else:
+#         value = &#34;difficult&#34;
+#     return value
+#
+# df_sac_stage2v5[&#39;difficulty_calc1&#39;] = df_sac_stage2v5[&#39;difficulty_clean&#39;].apply(difficulty)
+# print(df_sac_stage2v5[&#39;difficulty_calc1&#39;])
+#
+# print(&#34; 6.2 Fitness level -&gt; calculated column 2&#34;)
+#
+# def fitness(distance,ascent,time_ascent, time_descent):
+#     try:
+#         if distance&lt;= 12 and int(ascent) &lt;= 400 and (time_ascent &lt;= datetime.time(3, 0) or time_descent &lt;= datetime.time(3, 0)):
+#             value = &#34;easy&#34;
+#         elif distance &lt;= 20 and int(ascent) &lt;= 900 and (time_ascent &lt;= datetime.time(5, 0) or time_descent &lt;= datetime.time(5, 0)):
+#             value = &#34;medium&#34;
+#         else:
+#             value = &#34;difficult&#34;
+#     except:
+#         value = &#34;na&#34;
+#     return value
+#
+# df_sac_stage2v5[&#39;fitness_calc2&#39;] = df_sac_stage2v5.apply(lambda x: fitness(x[&#39;distance_clean&#39;],x[&#39;ascent_clean&#39;], x[&#39;time_ascent_clean&#39;], x[&#39;time_descent_clean&#39;]), axis=1)
+# print(df_sac_stage2v5[&#39;fitness_calc2&#39;])
+#
+# print(&#34;6.3  &#39;leistungskilometer&#39; -&gt; calculated column 3&#34;)
+# # Calculation: Distance + total ascent / 100m
+#
+# def leistungskm(distance, ascent):
+#     try:
+#         value = round(distance + int(ascent)/100)
+#     except:
+#         value = round(distance)
+#     return value
+#
+# df_sac_stage2v5[&#39;leistungskm_calc3&#39;] = df_sac_stage2v5.apply(lambda x: leistungskm(x[&#39;distance_clean&#39;],x[&#39;ascent_clean&#39;]), axis=1)
+# print(df_sac_stage2v5[&#39;leistungskm_calc3&#39;])
+#
+# print(&#34;7. Remove unwanted columns and print stage3 csv&#34;)
+# ###############################################################################################
+# print(80*&#34;*&#34;)
+#
+# # Drop the original string column
+# df_sac_stage3 = df_sac_stage2v5.drop([&#39;distance&#39;,&#39;up&#39;,&#39;down&#39;,&#39;min&#39;,&#39;max&#39;,&#39;time_ascent&#39;,&#39;ascent&#39;,&#39;time_descent&#39;,&#39;descent&#39;,&#39;difficulty_clean&#39;, &#39;up_clean&#39;,&#39;down_clean&#39;,], axis=1)
+# df_sac_stage3 = df_sac_stage3.loc[:,[&#39;tour_id&#39;,&#39;start&#39;,&#39;end&#39;,&#39;distance_clean&#39;,&#39;ascent_clean&#39;,&#39;descent_clean&#39;,&#39;time_ascent_clean&#39;,&#39;time_descent_clean&#39;,&#39;difficulty&#39;,&#39;difficulty_calc1&#39;,&#39;fitness_calc2&#39;,&#39;leistungskm_calc3&#39;,&#39;min_clean&#39;,&#39;max_clean&#39;,&#39;title&#39;,&#39;subtitle&#39;, &#39;link&#39;,&#39;map&#39;,&#39;description&#39;]]
+# df_sac_stage3.to_csv(&#34;data\\Sac_stage3.csv&#34; ,sep=&#39;,&#39;,index = False, encoding=&#34;utf-8&#34;)
+#
+# print(&#34;end SacTransformer.py&#34;)
+# print(&#34;end&#34;)</code></pre>
+</details>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+</section>
+</article>
+<nav id="sidebar">
+<h1>Index</h1>
+<div class="toc">
+<ul></ul>
+</div>
+<ul id="index">
+<li><h3>Super-module</h3>
+<ul>
+<li><code><a title="extractors.sac" href="index.html">extractors.sac</a></code></li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p>Generated by <a href="https://pdoc3.github.io/pdoc" title="pdoc: Python API documentation generator"><cite>pdoc</cite> 0.10.0</a>.</p>
+</footer>
+</body>
+</html>
