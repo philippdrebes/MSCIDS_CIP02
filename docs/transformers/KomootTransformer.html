@@ -28,8 +28,10 @@
 </summary>
 <pre><code class="python">import logging
 import os
+import re
 from typing import Dict, List
 
+import gpxpy
 from rapidfuzz import process, fuzz, utils
 import pandas as pd
 
@@ -58,27 +60,195 @@ class KomootTransformer:
         The logger for this class.
     &#34;&#34;&#34;
 
+    routes: pd.DataFrame
+    emoji_pattern = re.compile(r&#34;[\U00010000-\U0010FFFF]&#34;)
+
     def __init__(self, routes_file: str, gpx_folder: str, output_path: str) -&gt; None:
         self.routes_file = routes_file
         self.gpx_folder = gpx_folder
         self.output_path = output_path
         self.logger = logging.getLogger(__name__)
 
+    def transform(self) -&gt; None:
+        &#34;&#34;&#34;Transform the data.
+
+        Returns
+        -------
+        None
+        &#34;&#34;&#34;
+
+        self.routes = pd.read_csv(self.routes_file)
+
+        self.routes = self.routes.drop_duplicates()
+
+        self.routes[&#39;distance&#39;].fillna(&#39;&#39;, inplace=True)
+        self.routes[&#39;elevation_up&#39;].fillna(&#39;&#39;, inplace=True)
+        self.routes[&#39;elevation_down&#39;].fillna(&#39;&#39;, inplace=True)
+
+        self.clean_titles()
+        self.convert_units()
+        self.match_routes_to_gpx()
+        self.load_data_from_gpx()
+
+        self.logger.info(f&#39;Writing output to {self.output_path}&#39;)
+        self.routes.to_csv(self.output_path, index=False)
+
+    def clean_titles(self) -&gt; None:
+        self.routes[&#39;title&#39;] = self.routes.apply(lambda row: self.strip_emojis(row.title), axis=1)
+
+    def load_data_from_gpx(self):
+        self.logger.info(&#39;Loading data from gpx files&#39;)
+        self.routes[&#39;distance_gpx&#39;] = self.routes.apply(
+            lambda row: self.read_distance_from_gpx(os.path.join(self.gpx_folder, row.gpx_file)), axis=1)
+
+    def convert_units(self):
+        &#34;&#34;&#34;Convert the units of the routes.
+
+        Returns
+        -------
+        None
+        &#34;&#34;&#34;
+        self.logger.info(&#39;Converting units&#39;)
+        self.routes[&#39;distance&#39;] = self.routes.apply(lambda row: self.convert_distance(row.distance), axis=1)
+        self.routes[&#39;elevation_up&#39;] = self.routes.apply(lambda row: self.convert_elevation(row.elevation_up), axis=1)
+        self.routes[&#39;elevation_down&#39;] = self.routes.apply(lambda row: self.convert_elevation(row.elevation_down),
+                                                          axis=1)
+        self.routes[&#39;duration&#39;] = self.routes.apply(lambda row: self.convert_duration(row.duration), axis=1)
+        self.routes[&#39;speed&#39;] = self.routes.apply(lambda row: self.convert_speed(row.speed), axis=1)
+
+    def convert_duration(self, duration: str) -&gt; int | None:
+        &#34;&#34;&#34;Converts the duration to minutes.
+
+        Parameters
+        ----------
+        duration : str
+            The duration in hours e.g. 02:35
+
+        Returns
+        -------
+        int
+            The duration in minutes..
+        &#34;&#34;&#34;
+
+        if duration is None or duration == &#39;&#39;:
+            return None
+
+        hours, minutes = duration.split(&#39;:&#39;)
+        return int(hours) * 60 + int(minutes)
+
+    def convert_speed(self, speed: str) -&gt; float | None:
+        &#34;&#34;&#34;Convert the speed from mph to kmh.
+
+        Parameters
+        ----------
+        speed : str
+            The speed in mph.
+
+        Returns
+        -------
+        str
+            The speed in kmh.
+        &#34;&#34;&#34;
+
+        if speed is None or speed == &#39;&#39;:
+            return None
+
+        miles = float(speed.replace(&#39;mph&#39;, &#39;&#39;).strip())
+        return round(self.convert_mi_to_km(miles), 2)
+
+    def convert_distance(self, distance: str) -&gt; float | None:
+        &#34;&#34;&#34;Convert the distance from miles to kilometers.
+
+        Parameters
+        ----------
+        distance : str
+            The distance in miles.
+
+        Returns
+        -------
+        str
+            The distance in kilometers.
+        &#34;&#34;&#34;
+
+        if distance is None or distance == &#39;&#39;:
+            return None
+
+        miles = float(distance.replace(&#39;mi&#39;, &#39;&#39;).replace(&#39;,&#39;, &#39;&#39;).strip())
+        return round(self.convert_mi_to_km(miles), 2)
+
+    def convert_elevation(self, elevation: str) -&gt; float | None:
+        &#34;&#34;&#34;Convert the distance from feet to meters.
+
+        Parameters
+        ----------
+        elevation : str
+            The elevation in feet.
+
+        Returns
+        -------
+        str
+            The elevation in meters.
+        &#34;&#34;&#34;
+
+        if elevation is None or elevation == &#39;&#39;:
+            return None
+
+        feet = float(elevation.replace(&#39;ft&#39;, &#39;&#39;).replace(&#39;,&#39;, &#39;&#39;).strip())
+        return round(self.convert_ft_to_m(feet), 2)
+
     def match_routes_to_gpx(self) -&gt; None:
         &#34;&#34;&#34;Match routes to gpx files based on their title.&#34;&#34;&#34;
 
-        # rename gpx files and add them to the output file
-        routes = pd.read_csv(self.routes_file)
         gpx_files = [x for x in os.listdir(self.gpx_folder) if x.endswith(&#39;.gpx&#39;)]
 
         self.logger.info(f&#39;Found {len(gpx_files)} gpx files&#39;)
-        self.logger.info(f&#39;Found {len(routes)} routes&#39;)
+        self.logger.info(f&#39;Found {len(self.routes)} routes&#39;)
+
+        self.logger.info(f&#39;Cleaning gpx file names&#39;)
+        for gpx_file in gpx_files:
+            old_filepath = os.path.join(self.gpx_folder, gpx_file)
+            new_filepath = os.path.join(self.gpx_folder, self.strip_emojis(gpx_file))
+            os.rename(old_filepath, new_filepath)
+
+        # reload the gpx files after renaming
+        gpx_files = [x for x in os.listdir(self.gpx_folder) if x.endswith(&#39;.gpx&#39;)]
+
         self.logger.info(f&#39;Matching gpx files to routes&#39;)
+        self.routes[&#39;gpx_file&#39;] = self.routes.apply(lambda row: self.find_gpx_file(row, gpx_files), axis=1)
 
-        routes[&#39;gpx_file&#39;] = routes.apply(lambda row: self.find_gpx_file(row, gpx_files), axis=1)
+    def strip_emojis(self, text: str) -&gt; str:
+        &#34;&#34;&#34;Strips all emojis from text.
 
-        self.logger.info(f&#39;Writing output to {self.output_path}&#39;)
-        routes.to_csv(self.output_path, index=False)
+        Parameters
+        ----------
+        text : str
+            The text to strip the emojis from.
+
+        Returns
+        -------
+        str
+            The text without emojis.
+        &#34;&#34;&#34;
+        return self.emoji_pattern.sub(r&#39;&#39;, text)
+
+    @staticmethod
+    def read_distance_from_gpx(gpx_path: str) -&gt; float | None:
+        &#34;&#34;&#34;Read the distance from the gpx file.
+
+        Parameters
+        ----------
+        gpx_path : str
+            The path to the gpx file.
+
+        Returns
+        -------
+        float
+            The distance in km.
+        &#34;&#34;&#34;
+        gpx = gpxpy.parse(open(gpx_path, &#39;r&#39;))
+        length_m = gpx.length_2d()
+        length_km = round(length_m / 1000, 2)
+        return length_km
 
     @staticmethod
     def find_gpx_file(row, files: List[str]) -&gt; str | None:
@@ -110,7 +280,29 @@ class KomootTransformer:
         # pop the file from the list, so it can&#39;t be matched again
         files.pop(idx)
 
-        return best_match</code></pre>
+        return best_match
+
+    @staticmethod
+    def convert_mi_to_km(mi: float) -&gt; float:
+        &#34;&#34;&#34;Convert miles to kilometers
+
+        Parameters
+        ----------
+        mi : float
+            The distance in miles.
+        &#34;&#34;&#34;
+        return mi * 1.609344
+
+    @staticmethod
+    def convert_ft_to_m(ft: float) -&gt; float:
+        &#34;&#34;&#34;Convert feet to meters
+
+        Parameters
+        ----------
+        ft : float
+            The distance in feet.
+        &#34;&#34;&#34;
+        return ft * 0.3048</code></pre>
 </details>
 </section>
 <section>
@@ -176,27 +368,195 @@ class KomootTransformer:
         The logger for this class.
     &#34;&#34;&#34;
 
+    routes: pd.DataFrame
+    emoji_pattern = re.compile(r&#34;[\U00010000-\U0010FFFF]&#34;)
+
     def __init__(self, routes_file: str, gpx_folder: str, output_path: str) -&gt; None:
         self.routes_file = routes_file
         self.gpx_folder = gpx_folder
         self.output_path = output_path
         self.logger = logging.getLogger(__name__)
 
+    def transform(self) -&gt; None:
+        &#34;&#34;&#34;Transform the data.
+
+        Returns
+        -------
+        None
+        &#34;&#34;&#34;
+
+        self.routes = pd.read_csv(self.routes_file)
+
+        self.routes = self.routes.drop_duplicates()
+
+        self.routes[&#39;distance&#39;].fillna(&#39;&#39;, inplace=True)
+        self.routes[&#39;elevation_up&#39;].fillna(&#39;&#39;, inplace=True)
+        self.routes[&#39;elevation_down&#39;].fillna(&#39;&#39;, inplace=True)
+
+        self.clean_titles()
+        self.convert_units()
+        self.match_routes_to_gpx()
+        self.load_data_from_gpx()
+
+        self.logger.info(f&#39;Writing output to {self.output_path}&#39;)
+        self.routes.to_csv(self.output_path, index=False)
+
+    def clean_titles(self) -&gt; None:
+        self.routes[&#39;title&#39;] = self.routes.apply(lambda row: self.strip_emojis(row.title), axis=1)
+
+    def load_data_from_gpx(self):
+        self.logger.info(&#39;Loading data from gpx files&#39;)
+        self.routes[&#39;distance_gpx&#39;] = self.routes.apply(
+            lambda row: self.read_distance_from_gpx(os.path.join(self.gpx_folder, row.gpx_file)), axis=1)
+
+    def convert_units(self):
+        &#34;&#34;&#34;Convert the units of the routes.
+
+        Returns
+        -------
+        None
+        &#34;&#34;&#34;
+        self.logger.info(&#39;Converting units&#39;)
+        self.routes[&#39;distance&#39;] = self.routes.apply(lambda row: self.convert_distance(row.distance), axis=1)
+        self.routes[&#39;elevation_up&#39;] = self.routes.apply(lambda row: self.convert_elevation(row.elevation_up), axis=1)
+        self.routes[&#39;elevation_down&#39;] = self.routes.apply(lambda row: self.convert_elevation(row.elevation_down),
+                                                          axis=1)
+        self.routes[&#39;duration&#39;] = self.routes.apply(lambda row: self.convert_duration(row.duration), axis=1)
+        self.routes[&#39;speed&#39;] = self.routes.apply(lambda row: self.convert_speed(row.speed), axis=1)
+
+    def convert_duration(self, duration: str) -&gt; int | None:
+        &#34;&#34;&#34;Converts the duration to minutes.
+
+        Parameters
+        ----------
+        duration : str
+            The duration in hours e.g. 02:35
+
+        Returns
+        -------
+        int
+            The duration in minutes..
+        &#34;&#34;&#34;
+
+        if duration is None or duration == &#39;&#39;:
+            return None
+
+        hours, minutes = duration.split(&#39;:&#39;)
+        return int(hours) * 60 + int(minutes)
+
+    def convert_speed(self, speed: str) -&gt; float | None:
+        &#34;&#34;&#34;Convert the speed from mph to kmh.
+
+        Parameters
+        ----------
+        speed : str
+            The speed in mph.
+
+        Returns
+        -------
+        str
+            The speed in kmh.
+        &#34;&#34;&#34;
+
+        if speed is None or speed == &#39;&#39;:
+            return None
+
+        miles = float(speed.replace(&#39;mph&#39;, &#39;&#39;).strip())
+        return round(self.convert_mi_to_km(miles), 2)
+
+    def convert_distance(self, distance: str) -&gt; float | None:
+        &#34;&#34;&#34;Convert the distance from miles to kilometers.
+
+        Parameters
+        ----------
+        distance : str
+            The distance in miles.
+
+        Returns
+        -------
+        str
+            The distance in kilometers.
+        &#34;&#34;&#34;
+
+        if distance is None or distance == &#39;&#39;:
+            return None
+
+        miles = float(distance.replace(&#39;mi&#39;, &#39;&#39;).replace(&#39;,&#39;, &#39;&#39;).strip())
+        return round(self.convert_mi_to_km(miles), 2)
+
+    def convert_elevation(self, elevation: str) -&gt; float | None:
+        &#34;&#34;&#34;Convert the distance from feet to meters.
+
+        Parameters
+        ----------
+        elevation : str
+            The elevation in feet.
+
+        Returns
+        -------
+        str
+            The elevation in meters.
+        &#34;&#34;&#34;
+
+        if elevation is None or elevation == &#39;&#39;:
+            return None
+
+        feet = float(elevation.replace(&#39;ft&#39;, &#39;&#39;).replace(&#39;,&#39;, &#39;&#39;).strip())
+        return round(self.convert_ft_to_m(feet), 2)
+
     def match_routes_to_gpx(self) -&gt; None:
         &#34;&#34;&#34;Match routes to gpx files based on their title.&#34;&#34;&#34;
 
-        # rename gpx files and add them to the output file
-        routes = pd.read_csv(self.routes_file)
         gpx_files = [x for x in os.listdir(self.gpx_folder) if x.endswith(&#39;.gpx&#39;)]
 
         self.logger.info(f&#39;Found {len(gpx_files)} gpx files&#39;)
-        self.logger.info(f&#39;Found {len(routes)} routes&#39;)
+        self.logger.info(f&#39;Found {len(self.routes)} routes&#39;)
+
+        self.logger.info(f&#39;Cleaning gpx file names&#39;)
+        for gpx_file in gpx_files:
+            old_filepath = os.path.join(self.gpx_folder, gpx_file)
+            new_filepath = os.path.join(self.gpx_folder, self.strip_emojis(gpx_file))
+            os.rename(old_filepath, new_filepath)
+
+        # reload the gpx files after renaming
+        gpx_files = [x for x in os.listdir(self.gpx_folder) if x.endswith(&#39;.gpx&#39;)]
+
         self.logger.info(f&#39;Matching gpx files to routes&#39;)
+        self.routes[&#39;gpx_file&#39;] = self.routes.apply(lambda row: self.find_gpx_file(row, gpx_files), axis=1)
 
-        routes[&#39;gpx_file&#39;] = routes.apply(lambda row: self.find_gpx_file(row, gpx_files), axis=1)
+    def strip_emojis(self, text: str) -&gt; str:
+        &#34;&#34;&#34;Strips all emojis from text.
 
-        self.logger.info(f&#39;Writing output to {self.output_path}&#39;)
-        routes.to_csv(self.output_path, index=False)
+        Parameters
+        ----------
+        text : str
+            The text to strip the emojis from.
+
+        Returns
+        -------
+        str
+            The text without emojis.
+        &#34;&#34;&#34;
+        return self.emoji_pattern.sub(r&#39;&#39;, text)
+
+    @staticmethod
+    def read_distance_from_gpx(gpx_path: str) -&gt; float | None:
+        &#34;&#34;&#34;Read the distance from the gpx file.
+
+        Parameters
+        ----------
+        gpx_path : str
+            The path to the gpx file.
+
+        Returns
+        -------
+        float
+            The distance in km.
+        &#34;&#34;&#34;
+        gpx = gpxpy.parse(open(gpx_path, &#39;r&#39;))
+        length_m = gpx.length_2d()
+        length_km = round(length_m / 1000, 2)
+        return length_km
 
     @staticmethod
     def find_gpx_file(row, files: List[str]) -&gt; str | None:
@@ -228,10 +588,95 @@ class KomootTransformer:
         # pop the file from the list, so it can&#39;t be matched again
         files.pop(idx)
 
-        return best_match</code></pre>
+        return best_match
+
+    @staticmethod
+    def convert_mi_to_km(mi: float) -&gt; float:
+        &#34;&#34;&#34;Convert miles to kilometers
+
+        Parameters
+        ----------
+        mi : float
+            The distance in miles.
+        &#34;&#34;&#34;
+        return mi * 1.609344
+
+    @staticmethod
+    def convert_ft_to_m(ft: float) -&gt; float:
+        &#34;&#34;&#34;Convert feet to meters
+
+        Parameters
+        ----------
+        ft : float
+            The distance in feet.
+        &#34;&#34;&#34;
+        return ft * 0.3048</code></pre>
 </details>
+<h3>Class variables</h3>
+<dl>
+<dt id="transformers.KomootTransformer.KomootTransformer.emoji_pattern"><code class="name">var <span class="ident">emoji_pattern</span></code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+<dt id="transformers.KomootTransformer.KomootTransformer.routes"><code class="name">var <span class="ident">routes</span> : pandas.core.frame.DataFrame</code></dt>
+<dd>
+<div class="desc"></div>
+</dd>
+</dl>
 <h3>Static methods</h3>
 <dl>
+<dt id="transformers.KomootTransformer.KomootTransformer.convert_ft_to_m"><code class="name flex">
+<span>def <span class="ident">convert_ft_to_m</span></span>(<span>ft: float) ‑> float</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Convert feet to meters</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>ft</code></strong> :&ensp;<code>float</code></dt>
+<dd>The distance in feet.</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">@staticmethod
+def convert_ft_to_m(ft: float) -&gt; float:
+    &#34;&#34;&#34;Convert feet to meters
+
+    Parameters
+    ----------
+    ft : float
+        The distance in feet.
+    &#34;&#34;&#34;
+    return ft * 0.3048</code></pre>
+</details>
+</dd>
+<dt id="transformers.KomootTransformer.KomootTransformer.convert_mi_to_km"><code class="name flex">
+<span>def <span class="ident">convert_mi_to_km</span></span>(<span>mi: float) ‑> float</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Convert miles to kilometers</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>mi</code></strong> :&ensp;<code>float</code></dt>
+<dd>The distance in miles.</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">@staticmethod
+def convert_mi_to_km(mi: float) -&gt; float:
+    &#34;&#34;&#34;Convert miles to kilometers
+
+    Parameters
+    ----------
+    mi : float
+        The distance in miles.
+    &#34;&#34;&#34;
+    return mi * 1.609344</code></pre>
+</details>
+</dd>
 <dt id="transformers.KomootTransformer.KomootTransformer.find_gpx_file"><code class="name flex">
 <span>def <span class="ident">find_gpx_file</span></span>(<span>row, files: List[str]) ‑> str | None</span>
 </code></dt>
@@ -287,9 +732,266 @@ def find_gpx_file(row, files: List[str]) -&gt; str | None:
     return best_match</code></pre>
 </details>
 </dd>
+<dt id="transformers.KomootTransformer.KomootTransformer.read_distance_from_gpx"><code class="name flex">
+<span>def <span class="ident">read_distance_from_gpx</span></span>(<span>gpx_path: str) ‑> float | None</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Read the distance from the gpx file.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>gpx_path</code></strong> :&ensp;<code>str</code></dt>
+<dd>The path to the gpx file.</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>float</code></dt>
+<dd>The distance in km.</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">@staticmethod
+def read_distance_from_gpx(gpx_path: str) -&gt; float | None:
+    &#34;&#34;&#34;Read the distance from the gpx file.
+
+    Parameters
+    ----------
+    gpx_path : str
+        The path to the gpx file.
+
+    Returns
+    -------
+    float
+        The distance in km.
+    &#34;&#34;&#34;
+    gpx = gpxpy.parse(open(gpx_path, &#39;r&#39;))
+    length_m = gpx.length_2d()
+    length_km = round(length_m / 1000, 2)
+    return length_km</code></pre>
+</details>
+</dd>
 </dl>
 <h3>Methods</h3>
 <dl>
+<dt id="transformers.KomootTransformer.KomootTransformer.clean_titles"><code class="name flex">
+<span>def <span class="ident">clean_titles</span></span>(<span>self) ‑> None</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def clean_titles(self) -&gt; None:
+    self.routes[&#39;title&#39;] = self.routes.apply(lambda row: self.strip_emojis(row.title), axis=1)</code></pre>
+</details>
+</dd>
+<dt id="transformers.KomootTransformer.KomootTransformer.convert_distance"><code class="name flex">
+<span>def <span class="ident">convert_distance</span></span>(<span>self, distance: str) ‑> float | None</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Convert the distance from miles to kilometers.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>distance</code></strong> :&ensp;<code>str</code></dt>
+<dd>The distance in miles.</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>str</code></dt>
+<dd>The distance in kilometers.</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def convert_distance(self, distance: str) -&gt; float | None:
+    &#34;&#34;&#34;Convert the distance from miles to kilometers.
+
+    Parameters
+    ----------
+    distance : str
+        The distance in miles.
+
+    Returns
+    -------
+    str
+        The distance in kilometers.
+    &#34;&#34;&#34;
+
+    if distance is None or distance == &#39;&#39;:
+        return None
+
+    miles = float(distance.replace(&#39;mi&#39;, &#39;&#39;).replace(&#39;,&#39;, &#39;&#39;).strip())
+    return round(self.convert_mi_to_km(miles), 2)</code></pre>
+</details>
+</dd>
+<dt id="transformers.KomootTransformer.KomootTransformer.convert_duration"><code class="name flex">
+<span>def <span class="ident">convert_duration</span></span>(<span>self, duration: str) ‑> int | None</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Converts the duration to minutes.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>duration</code></strong> :&ensp;<code>str</code></dt>
+<dd>The duration in hours e.g. 02:35</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>int</code></dt>
+<dd>The duration in minutes..</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def convert_duration(self, duration: str) -&gt; int | None:
+    &#34;&#34;&#34;Converts the duration to minutes.
+
+    Parameters
+    ----------
+    duration : str
+        The duration in hours e.g. 02:35
+
+    Returns
+    -------
+    int
+        The duration in minutes..
+    &#34;&#34;&#34;
+
+    if duration is None or duration == &#39;&#39;:
+        return None
+
+    hours, minutes = duration.split(&#39;:&#39;)
+    return int(hours) * 60 + int(minutes)</code></pre>
+</details>
+</dd>
+<dt id="transformers.KomootTransformer.KomootTransformer.convert_elevation"><code class="name flex">
+<span>def <span class="ident">convert_elevation</span></span>(<span>self, elevation: str) ‑> float | None</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Convert the distance from feet to meters.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>elevation</code></strong> :&ensp;<code>str</code></dt>
+<dd>The elevation in feet.</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>str</code></dt>
+<dd>The elevation in meters.</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def convert_elevation(self, elevation: str) -&gt; float | None:
+    &#34;&#34;&#34;Convert the distance from feet to meters.
+
+    Parameters
+    ----------
+    elevation : str
+        The elevation in feet.
+
+    Returns
+    -------
+    str
+        The elevation in meters.
+    &#34;&#34;&#34;
+
+    if elevation is None or elevation == &#39;&#39;:
+        return None
+
+    feet = float(elevation.replace(&#39;ft&#39;, &#39;&#39;).replace(&#39;,&#39;, &#39;&#39;).strip())
+    return round(self.convert_ft_to_m(feet), 2)</code></pre>
+</details>
+</dd>
+<dt id="transformers.KomootTransformer.KomootTransformer.convert_speed"><code class="name flex">
+<span>def <span class="ident">convert_speed</span></span>(<span>self, speed: str) ‑> float | None</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Convert the speed from mph to kmh.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>speed</code></strong> :&ensp;<code>str</code></dt>
+<dd>The speed in mph.</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>str</code></dt>
+<dd>The speed in kmh.</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def convert_speed(self, speed: str) -&gt; float | None:
+    &#34;&#34;&#34;Convert the speed from mph to kmh.
+
+    Parameters
+    ----------
+    speed : str
+        The speed in mph.
+
+    Returns
+    -------
+    str
+        The speed in kmh.
+    &#34;&#34;&#34;
+
+    if speed is None or speed == &#39;&#39;:
+        return None
+
+    miles = float(speed.replace(&#39;mph&#39;, &#39;&#39;).strip())
+    return round(self.convert_mi_to_km(miles), 2)</code></pre>
+</details>
+</dd>
+<dt id="transformers.KomootTransformer.KomootTransformer.convert_units"><code class="name flex">
+<span>def <span class="ident">convert_units</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Convert the units of the routes.</p>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>None</code></dt>
+<dd>&nbsp;</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def convert_units(self):
+    &#34;&#34;&#34;Convert the units of the routes.
+
+    Returns
+    -------
+    None
+    &#34;&#34;&#34;
+    self.logger.info(&#39;Converting units&#39;)
+    self.routes[&#39;distance&#39;] = self.routes.apply(lambda row: self.convert_distance(row.distance), axis=1)
+    self.routes[&#39;elevation_up&#39;] = self.routes.apply(lambda row: self.convert_elevation(row.elevation_up), axis=1)
+    self.routes[&#39;elevation_down&#39;] = self.routes.apply(lambda row: self.convert_elevation(row.elevation_down),
+                                                      axis=1)
+    self.routes[&#39;duration&#39;] = self.routes.apply(lambda row: self.convert_duration(row.duration), axis=1)
+    self.routes[&#39;speed&#39;] = self.routes.apply(lambda row: self.convert_speed(row.speed), axis=1)</code></pre>
+</details>
+</dd>
+<dt id="transformers.KomootTransformer.KomootTransformer.load_data_from_gpx"><code class="name flex">
+<span>def <span class="ident">load_data_from_gpx</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def load_data_from_gpx(self):
+    self.logger.info(&#39;Loading data from gpx files&#39;)
+    self.routes[&#39;distance_gpx&#39;] = self.routes.apply(
+        lambda row: self.read_distance_from_gpx(os.path.join(self.gpx_folder, row.gpx_file)), axis=1)</code></pre>
+</details>
+</dd>
 <dt id="transformers.KomootTransformer.KomootTransformer.match_routes_to_gpx"><code class="name flex">
 <span>def <span class="ident">match_routes_to_gpx</span></span>(<span>self) ‑> None</span>
 </code></dt>
@@ -302,18 +1004,96 @@ def find_gpx_file(row, files: List[str]) -&gt; str | None:
 <pre><code class="python">def match_routes_to_gpx(self) -&gt; None:
     &#34;&#34;&#34;Match routes to gpx files based on their title.&#34;&#34;&#34;
 
-    # rename gpx files and add them to the output file
-    routes = pd.read_csv(self.routes_file)
     gpx_files = [x for x in os.listdir(self.gpx_folder) if x.endswith(&#39;.gpx&#39;)]
 
     self.logger.info(f&#39;Found {len(gpx_files)} gpx files&#39;)
-    self.logger.info(f&#39;Found {len(routes)} routes&#39;)
-    self.logger.info(f&#39;Matching gpx files to routes&#39;)
+    self.logger.info(f&#39;Found {len(self.routes)} routes&#39;)
 
-    routes[&#39;gpx_file&#39;] = routes.apply(lambda row: self.find_gpx_file(row, gpx_files), axis=1)
+    self.logger.info(f&#39;Cleaning gpx file names&#39;)
+    for gpx_file in gpx_files:
+        old_filepath = os.path.join(self.gpx_folder, gpx_file)
+        new_filepath = os.path.join(self.gpx_folder, self.strip_emojis(gpx_file))
+        os.rename(old_filepath, new_filepath)
+
+    # reload the gpx files after renaming
+    gpx_files = [x for x in os.listdir(self.gpx_folder) if x.endswith(&#39;.gpx&#39;)]
+
+    self.logger.info(f&#39;Matching gpx files to routes&#39;)
+    self.routes[&#39;gpx_file&#39;] = self.routes.apply(lambda row: self.find_gpx_file(row, gpx_files), axis=1)</code></pre>
+</details>
+</dd>
+<dt id="transformers.KomootTransformer.KomootTransformer.strip_emojis"><code class="name flex">
+<span>def <span class="ident">strip_emojis</span></span>(<span>self, text: str) ‑> str</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Strips all emojis from text.</p>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>text</code></strong> :&ensp;<code>str</code></dt>
+<dd>The text to strip the emojis from.</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>str</code></dt>
+<dd>The text without emojis.</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def strip_emojis(self, text: str) -&gt; str:
+    &#34;&#34;&#34;Strips all emojis from text.
+
+    Parameters
+    ----------
+    text : str
+        The text to strip the emojis from.
+
+    Returns
+    -------
+    str
+        The text without emojis.
+    &#34;&#34;&#34;
+    return self.emoji_pattern.sub(r&#39;&#39;, text)</code></pre>
+</details>
+</dd>
+<dt id="transformers.KomootTransformer.KomootTransformer.transform"><code class="name flex">
+<span>def <span class="ident">transform</span></span>(<span>self) ‑> None</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Transform the data.</p>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>None</code></dt>
+<dd>&nbsp;</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def transform(self) -&gt; None:
+    &#34;&#34;&#34;Transform the data.
+
+    Returns
+    -------
+    None
+    &#34;&#34;&#34;
+
+    self.routes = pd.read_csv(self.routes_file)
+
+    self.routes = self.routes.drop_duplicates()
+
+    self.routes[&#39;distance&#39;].fillna(&#39;&#39;, inplace=True)
+    self.routes[&#39;elevation_up&#39;].fillna(&#39;&#39;, inplace=True)
+    self.routes[&#39;elevation_down&#39;].fillna(&#39;&#39;, inplace=True)
+
+    self.clean_titles()
+    self.convert_units()
+    self.match_routes_to_gpx()
+    self.load_data_from_gpx()
 
     self.logger.info(f&#39;Writing output to {self.output_path}&#39;)
-    routes.to_csv(self.output_path, index=False)</code></pre>
+    self.routes.to_csv(self.output_path, index=False)</code></pre>
 </details>
 </dd>
 </dl>
@@ -337,8 +1117,22 @@ def find_gpx_file(row, files: List[str]) -&gt; str | None:
 <li>
 <h4><code><a title="transformers.KomootTransformer.KomootTransformer" href="#transformers.KomootTransformer.KomootTransformer">KomootTransformer</a></code></h4>
 <ul class="">
+<li><code><a title="transformers.KomootTransformer.KomootTransformer.clean_titles" href="#transformers.KomootTransformer.KomootTransformer.clean_titles">clean_titles</a></code></li>
+<li><code><a title="transformers.KomootTransformer.KomootTransformer.convert_distance" href="#transformers.KomootTransformer.KomootTransformer.convert_distance">convert_distance</a></code></li>
+<li><code><a title="transformers.KomootTransformer.KomootTransformer.convert_duration" href="#transformers.KomootTransformer.KomootTransformer.convert_duration">convert_duration</a></code></li>
+<li><code><a title="transformers.KomootTransformer.KomootTransformer.convert_elevation" href="#transformers.KomootTransformer.KomootTransformer.convert_elevation">convert_elevation</a></code></li>
+<li><code><a title="transformers.KomootTransformer.KomootTransformer.convert_ft_to_m" href="#transformers.KomootTransformer.KomootTransformer.convert_ft_to_m">convert_ft_to_m</a></code></li>
+<li><code><a title="transformers.KomootTransformer.KomootTransformer.convert_mi_to_km" href="#transformers.KomootTransformer.KomootTransformer.convert_mi_to_km">convert_mi_to_km</a></code></li>
+<li><code><a title="transformers.KomootTransformer.KomootTransformer.convert_speed" href="#transformers.KomootTransformer.KomootTransformer.convert_speed">convert_speed</a></code></li>
+<li><code><a title="transformers.KomootTransformer.KomootTransformer.convert_units" href="#transformers.KomootTransformer.KomootTransformer.convert_units">convert_units</a></code></li>
+<li><code><a title="transformers.KomootTransformer.KomootTransformer.emoji_pattern" href="#transformers.KomootTransformer.KomootTransformer.emoji_pattern">emoji_pattern</a></code></li>
 <li><code><a title="transformers.KomootTransformer.KomootTransformer.find_gpx_file" href="#transformers.KomootTransformer.KomootTransformer.find_gpx_file">find_gpx_file</a></code></li>
+<li><code><a title="transformers.KomootTransformer.KomootTransformer.load_data_from_gpx" href="#transformers.KomootTransformer.KomootTransformer.load_data_from_gpx">load_data_from_gpx</a></code></li>
 <li><code><a title="transformers.KomootTransformer.KomootTransformer.match_routes_to_gpx" href="#transformers.KomootTransformer.KomootTransformer.match_routes_to_gpx">match_routes_to_gpx</a></code></li>
+<li><code><a title="transformers.KomootTransformer.KomootTransformer.read_distance_from_gpx" href="#transformers.KomootTransformer.KomootTransformer.read_distance_from_gpx">read_distance_from_gpx</a></code></li>
+<li><code><a title="transformers.KomootTransformer.KomootTransformer.routes" href="#transformers.KomootTransformer.KomootTransformer.routes">routes</a></code></li>
+<li><code><a title="transformers.KomootTransformer.KomootTransformer.strip_emojis" href="#transformers.KomootTransformer.KomootTransformer.strip_emojis">strip_emojis</a></code></li>
+<li><code><a title="transformers.KomootTransformer.KomootTransformer.transform" href="#transformers.KomootTransformer.KomootTransformer.transform">transform</a></code></li>
 </ul>
 </li>
 </ul>
