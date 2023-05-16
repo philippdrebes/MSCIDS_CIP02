@@ -247,3 +247,8 @@ fabric.properties
 .idea/**/azureSettings.xml
 
 # End of https://www.toptal.com/developers/gitignore/api/jetbrains
+
+.idea/dataSources.xml
+
+src/output/komoot_gpx/
+src/output/sac_gpx/

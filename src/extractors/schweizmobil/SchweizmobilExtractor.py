@@ -111,7 +111,10 @@ def transform():
     df['altitude_up'] = df.apply(lambda row: row.altitude_up.replace(' m', '').replace('’', ''), axis=1)
     df['altitude_down'] = df.apply(lambda row: row.altitude_down.replace(' m', '').replace('’', ''), axis=1)
     df['difficulty_level'] = df.apply(
-        lambda row: row.difficulty_level.replace(' (Wanderweg)', '').replace(' (Bergwanderweg)', ''), axis=1)
+        lambda row: row.difficulty_level.replace(' (Wanderweg)', '')
+        .replace(' (Bergwanderweg)', '')
+        .replace(' ( Bergwanderweg)', '')
+        .replace(' (Wanderweg; Lägerengrat: Bergwanderweg)', ''), axis=1)
 
     df['duration'] = df.apply(lambda row: clean_duration(row), axis=1)
 
