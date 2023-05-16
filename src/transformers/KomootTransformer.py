@@ -51,6 +51,12 @@ class KomootTransformer:
 
         self.routes = pd.read_csv(self.routes_file)
 
+        self.routes = self.routes.drop_duplicates()
+
+        self.routes['distance'].fillna('', inplace=True)
+        self.routes['elevation_up'].fillna('', inplace=True)
+        self.routes['elevation_down'].fillna('', inplace=True)
+
         self.clean_titles()
         self.convert_units()
         self.match_routes_to_gpx()
