@@ -4,6 +4,7 @@ import pandas as pd
 
 from src.database.MariaDBProvider import MariaDBProvider
 from src.database.Schema import Route
+from rapidfuzz import process, fuzz, utils
 
 
 class MergeTransformer:
@@ -63,6 +64,10 @@ class MergeTransformer:
 
         # Merge the data from the different sources
         merged_df = pd.concat([self.komoot, self.sac, self.schweizmobil], ignore_index=True)
+
+        merged_df['dups'] = merged_df.apply(
+            lambda row: process.extract(row.title, merged_df['title'], scorer=fuzz.WRatio,
+                                        processor=utils.default_process, score_cutoff=95), axis=1)
 
         # Write the output to a csv file
         merged_df.to_csv('output/merged.csv', index=False)
