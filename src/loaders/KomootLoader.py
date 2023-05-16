@@ -30,4 +30,4 @@ class KomootLoader:
 
         for route in routes:
             self.logger.debug(f'Adding route {route.title} to MariaDB')
-            self.db.addKomoot(route)
+            self.db.add_komoot(route)

@@ -2,6 +2,9 @@ import logging
 
 import pandas as pd
 
+from src.database.MariaDBProvider import MariaDBProvider
+from src.database.Schema import Route
+
 
 class MergeTransformer:
     """Merge the data from the different sources.
@@ -38,11 +41,12 @@ class MergeTransformer:
         'link',
     ]
 
-    def __init__(self, komoot: str, sac: str, schweizmobil: str):
+    def __init__(self, komoot: str, sac: str, schweizmobil: str, db: MariaDBProvider):
         self.logger = logging.getLogger(__name__)
         self.komoot = pd.read_csv(komoot)
         self.sac = pd.read_csv(sac)
         self.schweizmobil = pd.read_csv(schweizmobil)
+        self.db = db
 
     def merge_sources(self):
         """Merge the data from the different sources.
@@ -62,6 +66,7 @@ class MergeTransformer:
 
         # Write the output to a csv file
         merged_df.to_csv('output/merged.csv', index=False)
+        self.load(merged_df)
 
     def prepare_komoot(self) -> None:
         """Prepare the data from komoot.
@@ -110,7 +115,15 @@ class MergeTransformer:
                                             'descent_clean': 'elevation_down', 'difficulty_calc1': 'difficulty'})
 
         # Calculate the duration
-        self.sac['duration'] = self.sac['time_ascent_clean'] + self.sac['time_descent_clean']
+        # Parse the time_ascent_clean column to a datetime object
+        self.sac['time_ascent_clean'] = pd.to_datetime(self.sac['time_ascent_clean'], format='%H:%M:%S')
+        # Parse the time_descent_clean column to a timedelta object
+        self.sac['time_descent_delta'] = pd.to_timedelta(self.sac['time_descent_clean'])
+        # Add the time_ascent_clean and time_descent_delta columns together (datetime + timedelta = datetime)
+        self.sac['duration_delta'] = self.sac['time_ascent_clean'] + self.sac['time_descent_delta']
+
+        # Convert the duration_delta column to a time object
+        self.sac['duration'] = pd.to_datetime(self.sac['duration_delta']).dt.time
 
         # Replace the 'na' values with 0 and convert the columns to the correct type
         self.sac['elevation_up'].replace('na', '0', inplace=True)
@@ -156,6 +169,34 @@ class MergeTransformer:
         self.schweizmobil['distance'] = self.schweizmobil['distance'].astype('float')
         self.schweizmobil['elevation_up'] = self.schweizmobil['elevation_up'].astype('float')
         self.schweizmobil['elevation_down'] = self.schweizmobil['elevation_down'].astype('float')
+        self.schweizmobil['duration'].replace(pd.NaT, None, inplace=True)
 
         # Select the columns that are needed
         self.schweizmobil = self.schweizmobil[self.columns]
+
+    def load(self, data: pd.DataFrame) -> None:
+        """Load the data into the database.
+
+        Parameters
+        ----------
+        data : pd.DataFrame
+            The data to load into the database.
+
+        Returns
+        -------
+        None
+        """
+
+        self.logger.info('Loading routes into MariaDB')
+        routes = [(Route(
+            title=row.title,
+            source=row.source,
+            distance=row.distance,
+            elevation_up=row.elevation_up,
+            elevation_down=row.elevation_down,
+            duration=row.duration,
+            difficulty=row.difficulty,
+            link=row.link
+        )) for index, row in data.iterrows()]
+
+        self.db.add_routes(routes)
