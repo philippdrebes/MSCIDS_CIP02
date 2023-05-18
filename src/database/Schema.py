@@ -9,6 +9,7 @@ class Komoot(Base):  # type: ignore
     id = sqlalchemy.Column(sqlalchemy.Integer, primary_key=True)
     title = sqlalchemy.Column(sqlalchemy.String(length=512))
     difficulty = sqlalchemy.Column(sqlalchemy.String(length=50))
+    fitness = sqlalchemy.Column(sqlalchemy.String(length=50))
     distance = sqlalchemy.Column(sqlalchemy.DECIMAL(10, 2))  # type: ignore
     elevation_up = sqlalchemy.Column(sqlalchemy.DECIMAL(10, 2))  # type: ignore
     elevation_down = sqlalchemy.Column(sqlalchemy.DECIMAL(10, 2))  # type: ignore
@@ -28,4 +29,5 @@ class Route(Base):  # type: ignore
     elevation_down = sqlalchemy.Column(sqlalchemy.DECIMAL(10, 2))  # type: ignore
     duration = sqlalchemy.Column(sqlalchemy.TIME())  # type: ignore
     difficulty = sqlalchemy.Column(sqlalchemy.String(length=50))  # type: ignore
+    fitness = sqlalchemy.Column(sqlalchemy.String(length=50))  # type: ignore
     link = sqlalchemy.Column(sqlalchemy.String(length=512))

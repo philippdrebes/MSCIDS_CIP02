@@ -16,3 +16,4 @@ pyproj
 SQLAlchemy
 scipy
 statsmodels
+Jinja2

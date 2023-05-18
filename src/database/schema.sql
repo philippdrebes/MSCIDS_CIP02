@@ -6,6 +6,7 @@ create table komoot
     id             int auto_increment,
     title          nvarchar(512)  null,
     difficulty     nvarchar(50)   null,
+    fitness        nvarchar(50)   null,
     distance       decimal(10, 2) null,
     elevation_up   decimal(10, 2) null,
     elevation_down decimal(10, 2) null,
@@ -43,6 +44,7 @@ create table routes
     elevation_down decimal(10, 2) null,
     duration       time           null,
     difficulty     nvarchar(50)   null,
+    fitness        nvarchar(50)   null,
     link           nvarchar(512)  null,
 
     constraint routes_pk

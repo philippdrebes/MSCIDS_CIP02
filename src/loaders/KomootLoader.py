@@ -20,6 +20,7 @@ class KomootLoader:
             row.link,
             row.title,
             row.difficulty,
+            row.fitness,
             row.distance_gpx,
             row.elevation_up,
             row.elevation_down,
