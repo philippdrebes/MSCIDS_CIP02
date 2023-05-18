@@ -1,10 +1,13 @@
 import logging
 
 import pandas as pd
+from scipy.stats import ttest_ind
 
 from src.database.MariaDBProvider import MariaDBProvider
 from src.database.Schema import Route
 from rapidfuzz import process, fuzz, utils
+from scipy import stats
+import statsmodels.stats.multicomp as mc
 
 
 class MergeTransformer:
@@ -87,6 +90,7 @@ class MergeTransformer:
         """
 
         data = pd.read_csv('output/merged.csv')
+        data.dropna(inplace=True)
 
         print(
             'What are the top 10 most frequently mentioned hiking destinations in Switzerland based on web data collected from three different sources?')
@@ -100,14 +104,29 @@ class MergeTransformer:
         print(
             'Is there a correlation between the difficulty of the trails and the required fitness level of the tours listed in our data set?')
 
+
         print('--------------------------------------------------')
 
         print('Is there a significant difference in the tour duration between tours with different difficulty levels?')
         data['duration_minutes'] = pd.to_timedelta(data['duration']).dt.total_seconds() / 60
+        data['duration_minutes'] = data['duration_minutes'].astype('int')
+
+        comp1 = mc.MultiComparison(data['duration_minutes'], data['difficulty'])
+        tbl, a1, a2 = comp1.allpairtest(stats.ttest_ind, method="bonf")
+
+        print('p-values', a1[0])
+        print('t-statistic', a1[1])
+        print('significance', a1[2])
+
         print(data.groupby(['difficulty'])['duration_minutes'].mean())
+
         print('--------------------------------------------------')
 
         print('Does the elevation gain of a tour impact the tour duration?')
+        res = ttest_ind(data['elevation_up'], data['duration_minutes'], equal_var=False)
+        print(res)
+        print(
+            'Since the p-value is less than .05, we reject the null hypothesis of Welch’s t-test and conclude\nthat there is sufficient evidence to say that more elevation gain leads to more difficult routes.')
 
         print('--------------------------------------------------')
 
