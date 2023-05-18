@@ -1,6 +1,7 @@
 import logging
 
 import pandas as pd
+import spacy
 from scipy.stats import ttest_ind
 
 from src.database.MariaDBProvider import MariaDBProvider
@@ -95,6 +96,24 @@ class MergeTransformer:
 
         print(
             'What are the top 10 most frequently mentioned hiking destinations in Switzerland based on web data collected from three different sources?')
+        # titles = data['title'].str.lower()
+        # nlp = spacy.load('en_core_web_lg')
+        #
+        # gpe = []  # countries, cities, states
+        # loc = []  # non gpe locations, mountain ranges, bodies of water
+        #
+        # doc = nlp(titles.to_string())
+        # for ent in doc.ents:
+        #     if (ent.label_ == 'GPE'):
+        #         gpe.append(ent.text)
+        #     elif (ent.label_ == 'LOC'):
+        #         loc.append(ent.text)
+        #
+        # gpe = pd.DataFrame(gpe, columns=['gpe'])
+        # loc = pd.DataFrame(loc, columns=['loc'])
+        #
+        # print(gpe['gpe'].value_counts().head(10))
+        # print(loc['loc'].value_counts().head(10))
 
         print('--------------------------------------------------')
 
@@ -106,7 +125,7 @@ class MergeTransformer:
             'Is there a correlation between the difficulty of the trails and the required fitness level of the tours listed in our data set?')
 
         df = data[['difficulty', 'fitness']]
-        corr = df.apply(lambda x : pd.factorize(x)[0]).corr(method='pearson', min_periods=1).round(3)
+        corr = df.apply(lambda x: pd.factorize(x)[0]).corr(method='pearson', min_periods=1).round(3)
         print(corr)
 
         print('--------------------------------------------------')
@@ -131,11 +150,6 @@ class MergeTransformer:
         print(res)
         print(
             'Since the p-value is less than .05, we reject the null hypothesis of Welch’s t-test and conclude\nthat there is sufficient evidence to say that more elevation gain leads to more difficult routes.')
-
-        print('--------------------------------------------------')
-
-        print('Is there a relationship between the tour distance and the popularity of a tour?')
-
         print('--------------------------------------------------')
 
     def prepare_komoot(self) -> None:

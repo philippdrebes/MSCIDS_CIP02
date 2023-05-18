@@ -1,6 +1,6 @@
 class KomootRoute:
 
-    def __init__(self, link: str, title: str, difficulty: str, fitness: str, distance: str, elevation_up: str,
+    def __init__(self, link: str, title: str, difficulty: str, fitness: str | None, distance: str, elevation_up: str,
                  elevation_down: str, duration: str, speed: str, gpx_file: str | None = None):
         self.link = link
         self.title = title
