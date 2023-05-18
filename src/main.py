@@ -45,7 +45,9 @@ def main() -> None:
 
     merger = MergeTransformer('output/komoot_stage_3.csv', 'output/sac_stage3.csv', 'output/schweizmobil_stage_3.csv',
                               db)
-    merger.merge_sources()
+    # merger.merge_sources()
+    merger.analyze()
+
 
 
 if __name__ == '__main__':
