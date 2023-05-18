@@ -116,6 +116,10 @@ def transform():
         .replace(' ( Bergwanderweg)', '')
         .replace(' (Wanderweg; Lägerengrat: Bergwanderweg)', ''), axis=1)
 
+    df['fitness_level'] = df.apply(
+            lambda row: row.difficulty_level.replace(' (Ohne Aufstieg nach Braunwald: mittel)', ''), axis=1)
+
+
     df['duration'] = df.apply(lambda row: clean_duration(row), axis=1)
 
     df.to_csv('schweizmobil_stage_3.csv', index=False)

@@ -42,6 +42,7 @@ class MergeTransformer:
         'elevation_down',
         'duration',
         'difficulty',
+        'fitness',
         'link',
     ]
 
@@ -104,6 +105,9 @@ class MergeTransformer:
         print(
             'Is there a correlation between the difficulty of the trails and the required fitness level of the tours listed in our data set?')
 
+        df = data[['difficulty', 'fitness']]
+        corr = df.apply(lambda x : pd.factorize(x)[0]).corr(method='pearson', min_periods=1).round(3)
+        print(corr)
 
         print('--------------------------------------------------')
 
@@ -157,7 +161,7 @@ class MergeTransformer:
         self.komoot['duration'] = pd.to_datetime(self.komoot['duration'], unit='m').dt.time
 
         # Convert the distance, elevation_up and elevation_down to floats
-        self.komoot['distance'] = self.komoot['distance'].astype('float')
+        self.komoot['distance'] = self.komoot['distance_gpx'].astype('float')
         self.komoot['elevation_up'] = self.komoot['elevation_up'].astype('float')
         self.komoot['elevation_down'] = self.komoot['elevation_down'].astype('float')
 
@@ -178,7 +182,8 @@ class MergeTransformer:
         # Drop the columns that are not needed and rename the columns to match the other sources
         self.sac.drop(columns=['difficulty'], inplace=True)
         self.sac = self.sac.rename(columns={'distance_clean': 'distance', 'ascent_clean': 'elevation_up',
-                                            'descent_clean': 'elevation_down', 'difficulty_calc1': 'difficulty'})
+                                            'descent_clean': 'elevation_down', 'difficulty_calc1': 'difficulty',
+                                            'fitness_calc2': 'fitness'})
 
         # Calculate the duration
         # Parse the time_ascent_clean column to a datetime object
@@ -217,7 +222,7 @@ class MergeTransformer:
         # Rename the columns to match the other sources
         self.schweizmobil = self.schweizmobil.rename(
             columns={'url': 'link', 'name': 'title', 'altitude_up': 'elevation_up',
-                     'altitude_down': 'elevation_down', 'difficulty_level': 'difficulty'})
+                     'altitude_down': 'elevation_down', 'difficulty_level': 'difficulty', 'fitness_level': 'fitness'})
 
         # Calculate the duration
         self.schweizmobil['duration'] = pd.to_datetime(self.schweizmobil['duration'], unit='m').dt.time
@@ -227,9 +232,11 @@ class MergeTransformer:
             'leicht': 'easy',
             'mittel': 'medium',
             'difficult': 'difficult',
+            'schwer': 'difficult',
         }
         self.schweizmobil['difficulty'] = self.schweizmobil.apply(lambda row: difficulty_mapping[row.difficulty],
                                                                   axis=1)
+        self.schweizmobil['fitness'] = self.schweizmobil.apply(lambda row: difficulty_mapping[row.fitness], axis=1)
 
         # Convert the columns to the correct type
         self.schweizmobil['distance'] = self.schweizmobil['distance'].astype('float')
@@ -262,6 +269,7 @@ class MergeTransformer:
             elevation_down=row.elevation_down,
             duration=row.duration,
             difficulty=row.difficulty,
+            fitness=row.fitness,
             link=row.link
         )) for index, row in data.iterrows()]
 

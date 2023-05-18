@@ -61,9 +61,25 @@ class KomootTransformer:
         self.convert_units()
         self.match_routes_to_gpx()
         self.load_data_from_gpx()
+        self.calculate_fitness()
 
         self.logger.info(f'Writing output to {self.output_path}')
         self.routes.to_csv(self.output_path, index=False)
+
+    def calculate_fitness(self) -> None:
+        # easy: distance ≤ 12 km ,elevation difference ≤ 400 hm, total time: ≤ 3 h
+        # medium: distance ≤ 20 km ,elevation difference ≤ 900 hm, total time: ≤ 5 h
+        # difficult: distance > 20 km ,elevation difference > 900 hm, total time: > 5 h
+
+        def calculate_fitness_value(row) -> str:
+            if row.distance_gpx <= 12 and row.elevation_up <= 400 and row.duration <= 3:
+                return 'easy'
+            elif row.distance_gpx <= 20 and row.elevation_up <= 900 and row.duration <= 5:
+                return 'medium'
+            else:
+                return 'difficult'
+
+        self.routes['fitness'] = self.routes.apply(lambda row: calculate_fitness_value(row), axis=1)
 
     def clean_titles(self) -> None:
         self.routes['title'] = self.routes.apply(lambda row: self.strip_emojis(row.title), axis=1)
