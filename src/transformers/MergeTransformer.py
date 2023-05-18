@@ -49,12 +49,13 @@ class MergeTransformer:
         self.schweizmobil = pd.read_csv(schweizmobil)
         self.db = db
 
-    def merge_sources(self):
+    def merge_sources(self) -> pd.DataFrame:
         """Merge the data from the different sources.
 
         Returns
         -------
-        None
+        pd.DataFrame
+            The dataframe containing the merged data.
         """
 
         # Prepare the data from the different sources, so that they can be merged
@@ -71,7 +72,48 @@ class MergeTransformer:
 
         # Write the output to a csv file
         merged_df.to_csv('output/merged.csv', index=False)
+
+        # Load the data into the database
         self.load(merged_df)
+
+        return merged_df
+
+    def analyze(self) -> None:
+        """Analyze the data from the different sources.
+
+        Returns
+        -------
+        None
+        """
+
+        data = pd.read_csv('output/merged.csv')
+
+        print(
+            'What are the top 10 most frequently mentioned hiking destinations in Switzerland based on web data collected from three different sources?')
+
+        print('--------------------------------------------------')
+
+        print('Is the average difficulty level of the tours on the different websites significantly different?')
+        print(data.groupby(['source', 'difficulty'])['difficulty'].count())
+        print('--------------------------------------------------')
+
+        print(
+            'Is there a correlation between the difficulty of the trails and the required fitness level of the tours listed in our data set?')
+
+        print('--------------------------------------------------')
+
+        print('Is there a significant difference in the tour duration between tours with different difficulty levels?')
+        data['duration_minutes'] = pd.to_timedelta(data['duration']).dt.total_seconds() / 60
+        print(data.groupby(['difficulty'])['duration_minutes'].mean())
+        print('--------------------------------------------------')
+
+        print('Does the elevation gain of a tour impact the tour duration?')
+
+        print('--------------------------------------------------')
+
+        print('Is there a relationship between the tour distance and the popularity of a tour?')
+
+        print('--------------------------------------------------')
 
     def prepare_komoot(self) -> None:
         """Prepare the data from komoot.
