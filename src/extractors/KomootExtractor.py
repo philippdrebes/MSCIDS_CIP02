@@ -29,13 +29,16 @@ class KomootExtractor:
         A combination of the base_url and the discover url
     region_url : str
         A combination of the base_url and the regions url
-    tours_url : str
-        A combination of the base_url and the tours url
-
-    Methods
-    -------
-    extract()
-        Extracts all relevant data from the Komoot website.
+    route_url : str
+        A combination of the base_url and the route url
+    login_url : str
+        The login url
+    max_retries : int
+        The maximum number of retries for a failed request
+    retry_wait_seconds : int
+        The number of seconds to wait between retries
+    page_objects : Dict[str, Dict[str, str]]
+        A dictionary containing all relevant page objects for the different pages of the website
     """
 
     base_url = 'https://www.komoot.com'
@@ -152,7 +155,7 @@ class KomootExtractor:
                 sleep(120)
 
     def extract_ch_regions(self) -> Dict[str, str]:
-        """Extracts all regions from the Komoot discover page. """
+        """Extracts all Swiss regions from the Komoot discover page. """
 
         self.logger.info('Extracting all regions in Switzerland...')
 
@@ -169,7 +172,7 @@ class KomootExtractor:
 
         # Get all regions
         while True:
-            regions = regions | self.extract_region_page()
+            regions = regions | self.extract_region_page() # Merge dictionaries
 
             # Check if there is a next page button
             try:
@@ -377,6 +380,7 @@ class KomootExtractor:
             row.link,
             row.title,
             row.difficulty,
+            None,
             row.distance,
             row.elevation_up,
             row.elevation_down,

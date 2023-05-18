@@ -16,4 +16,5 @@ pyproj
 SQLAlchemy
 scipy
 statsmodels
-Jinja2
+spacy
+transformers
