@@ -25,16 +25,16 @@ def main() -> None:
     logger = logging.getLogger(__name__)
     logger.info('Starting main.py')
 
-    # driver = SeleniumUtil.initialize_new_instance()
+    driver = SeleniumUtil.initialize_new_instance()
 
     stage1_path = 'output/komoot_stage_1.csv'
     stage3_path = 'output/komoot_stage_3.csv'
     gpx_download_path = 'output/komoot_gpx'
 
-    # komoot_ext = KomootExtractor(driver, stage1_path, gpx_download_path)
-    # komoot_ext.extract()
-    # komoot_ext.extract_gpx()
-    # SeleniumUtil.close_driver(driver)
+    komoot_ext = KomootExtractor(driver, stage1_path, gpx_download_path)
+    komoot_ext.extract()
+    komoot_ext.extract_gpx()
+    SeleniumUtil.close_driver(driver)
 
     komoot_transformer = KomootTransformer(stage1_path, gpx_download_path, stage3_path)
     komoot_transformer.transform()
