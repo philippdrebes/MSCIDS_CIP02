@@ -9,6 +9,7 @@ To run the project, you need to have Python 3 installed on your machine, as well
 - beautifulsoup4
 - pandas
 - mariadb
+- plus a few others... (see `requirements.txt`)
 
 We recommend using virtualenv to manage dependencies.
 
@@ -18,11 +19,7 @@ We recommend using virtualenv to manage dependencies.
 2. Create a virtual environment using virtualenv.
 3. Activate the virtual environment.
 4. Install the dependencies using `pip install -r requirements.txt`.
-5. Configure the database connection in `main.py`.
-
-## Usage
-
-To scrape the data, run `main.py`. This script will call the extractors for each website and save the data to a MariaDB instance. You can configure the output location and format in the `main.py` script.
+5. Run the code.
 
 ## Repository Structure
 
@@ -30,11 +27,16 @@ The repository is organized as follows:
 
 - `docs`: documentation files
 - `src`: source code files
+  - `database`: database-related code
   - `extractors`: website-specific extraction code
     - `KomootExtractor.py`: extractor for Komoot website
-    - `SacExtractor.py`: extractor for SAC website
-    - `SchweizmobilExtractor.py`: extractor for Schweizmobil website
+    - `sac`: extractor for SAC website
+    - `schweizmobil`: extractor for Schweizmobil website
     - `SeleniumUtil.py`: utility functions for Selenium web driver
+  - `loaders`: code to load data into database
+  - `models`: data models
+  - `output`: output files
+  - `transformers`: code to transform data
   - `main.py`: main script to run the data extraction process
 - `Makefile`: makefile with common tasks
 - `requirements.txt`: list of required packages
