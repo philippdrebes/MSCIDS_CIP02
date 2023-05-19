@@ -250,5 +250,6 @@ fabric.properties
 
 .idea/dataSources.xml
 
+src/output/
 src/output/komoot_gpx/
 src/output/sac_gpx/
