@@ -96,6 +96,8 @@ class MergeTransformer:
 
         print(
             'What are the top 10 most frequently mentioned hiking destinations in Switzerland based on web data collected from three different sources?')
+
+        # Unfortunately does not work with the current data set
         # titles = data['title'].str.lower()
         # nlp = spacy.load('en_core_web_lg')
         #

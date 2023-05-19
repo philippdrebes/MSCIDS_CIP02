@@ -4,7 +4,7 @@ pandas-stubs
 selenium
 requests
 browser_cookie3
-bs4
+beautifulsoup4
 types-beautifulsoup4
 lxml
 pdoc3
@@ -17,4 +17,3 @@ SQLAlchemy
 scipy
 statsmodels
 spacy
-transformers

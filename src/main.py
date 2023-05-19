@@ -36,16 +36,16 @@ def main() -> None:
     # komoot_ext.extract_gpx()
     # SeleniumUtil.close_driver(driver)
 
-    # komoot_transformer = KomootTransformer(stage1_path, gpx_download_path, stage3_path)
-    # komoot_transformer.transform()
+    komoot_transformer = KomootTransformer(stage1_path, gpx_download_path, stage3_path)
+    komoot_transformer.transform()
 
     db = MariaDBProvider()
-    # komoot_loader = KomootLoader(stage2_path, db)
-    # komoot_loader.load()
+    komoot_loader = KomootLoader(stage3_path, db)
+    komoot_loader.load()
 
     merger = MergeTransformer('output/komoot_stage_3.csv', 'output/sac_stage3.csv', 'output/schweizmobil_stage_3.csv',
                               db)
-    # merger.merge_sources()
+    merger.merge_sources()
     merger.analyze()
 
 

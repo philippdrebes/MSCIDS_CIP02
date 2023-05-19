@@ -172,7 +172,7 @@ class KomootExtractor:
 
         # Get all regions
         while True:
-            regions = regions | self.extract_region_page() # Merge dictionaries
+            regions = regions | self.extract_region_page()  # Merge dictionaries
 
             # Check if there is a next page button
             try:
@@ -210,6 +210,7 @@ class KomootExtractor:
 
         # Wait for the regions to appear
         el = self.driver.find_element(By.XPATH, self.page_objects['discover']['first_region_div'])
+        sleep(2)
 
         page_source = self.driver.page_source
         soup = BeautifulSoup(page_source, 'lxml')
@@ -308,7 +309,7 @@ class KomootExtractor:
 
             self.logger.info('Extracted data from tour: {} -> {}'.format(title, url))
 
-            return KomootRoute(url, title, difficulty, distance, elevation_up, elevation_down, duration, speed)
+            return KomootRoute(url, title, difficulty, None, distance, elevation_up, elevation_down, duration, speed)
         except Exception as e:
             self.logger.error('Could not extract data from tour: {}'.format(url))
             self.logger.error(e)
@@ -376,6 +377,16 @@ class KomootExtractor:
         self.logger.info('Saved {} routes to csv file.'.format(len(routes)))
 
     def read_existing_data(self) -> List[KomootRoute]:
+        """Reads the existing data from the output file.
+
+        Returns
+        -------
+        List[KomootRoute]
+            The existing routes
+        """
+        if not os.path.exists(self.output_path):
+            return []
+
         return [(KomootRoute(
             row.link,
             row.title,
